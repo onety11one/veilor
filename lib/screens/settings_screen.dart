@@ -21,6 +21,7 @@ import 'package:karing/app/utils/accessibility_utils.dart';
 import 'package:karing/app/utils/cloudflare_warp_api.dart';
 import 'package:karing/app/utils/device_utils.dart';
 import 'package:karing/app/utils/file_utils.dart';
+import 'package:karing/app/utils/linux_startup.dart';
 import 'package:karing/app/utils/path_utils.dart';
 import 'package:karing/app/utils/platform_utils.dart';
 import 'package:karing/app/utils/proxy_conf_utils.dart';
@@ -822,7 +823,7 @@ class _SettingScreenState extends LasyRenderingState<SettingsScreen> {
       groupOptions.add(
         GroupItem(
           options: [
-            if (Platform.isWindows) ...[
+            if (Platform.isWindows || Platform.isLinux) ...[
               GroupItemOptions(
                 switchOptions: GroupItemSwitchOptions(
                   name: tcontext.SettingsScreen.hideAfterLaunch,
@@ -901,18 +902,23 @@ class _SettingScreenState extends LasyRenderingState<SettingsScreen> {
         ),
       );
     }
-    if (Platform.isWindows) {
+    if (Platform.isWindows || Platform.isLinux) {
       groupOptions.add(
         GroupItem(
           options: [
             GroupItemOptions(
               switchOptions: GroupItemSwitchOptions(
                 name: tcontext.SettingsScreen.launchAtStartup,
-                switchValue: await VPNService.getLaunchAtStartup(),
+                switchValue: Platform.isLinux
+                    ? await LinuxStartup.isEnabled()
+                    : await VPNService.getLaunchAtStartup(),
                 onSwitch: (bool value) async {
-                  ReturnResultError? err = await VPNService.setLaunchAtStartup(
-                    value,
-                  );
+                  ReturnResultError? err;
+                  if (Platform.isLinux) {
+                    err = await LinuxStartup.setEnabled(value);
+                  } else {
+                    err = await VPNService.setLaunchAtStartup(value);
+                  }
                   if (err != null) {
                     DialogUtils.showAlertDialog(
                       context,
