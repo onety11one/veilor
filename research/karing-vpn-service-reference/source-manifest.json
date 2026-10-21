@@ -1,0 +1,270 @@
+{
+  "referenceCommit": "e3c19f1eb1225dbd48a4862f0983b82d0af8de69",
+  "referenceCommitDate": "2025-05-07 22:00:23 +0800",
+  "deletionCommit": "3c00ed6480b10eb3a9e7b702669dd917a4c9c65e",
+  "scope": "Historical source reference only. Extracted under work, not restored into the active app. This does not resolve vpn-service or prove compatibility with 2026 releases.",
+  "currentlyMissingCount": 66,
+  "recoveredCount": 48,
+  "recovered": [
+    {
+      "path": "lib/app/utils/log.dart",
+      "bytes": 3587,
+      "sha256": "2d9b32487e6070da2e2057794d522bb3b7aca5d924bb72e6be80ad4a3932ec4d"
+    },
+    {
+      "path": "lib/app/local_services/vpn_service.dart",
+      "bytes": 36552,
+      "sha256": "54cb28c34ed07f4a3201c9304da4bed3f2c7da835001e9a3d7cf19588f0f1275"
+    },
+    {
+      "path": "lib/app/utils/app_lifecycle_state_notify.dart",
+      "bytes": 3165,
+      "sha256": "9cca75a3747f0d6c221d53d9cf0d3f7cbcae8789a481abae002b9ca39dd1d7bf"
+    },
+    {
+      "path": "lib/app/utils/app_utils.dart",
+      "bytes": 1360,
+      "sha256": "c1081481524b950f63e3b41e95f0f6e1cec88f9a1ab08db488d4d89245cfc693"
+    },
+    {
+      "path": "lib/app/utils/download_utils.dart",
+      "bytes": 1860,
+      "sha256": "9b25948518ad5d110fe08d3c9f70de33fc8cce42d57a93e2914aa5d9dad50992"
+    },
+    {
+      "path": "lib/app/utils/file_utils.dart",
+      "bytes": 7964,
+      "sha256": "58a15e916d64e872f23eeb978c5de3f92e2dd186abb6f33616b8c11b628fe421"
+    },
+    {
+      "path": "lib/app/utils/install_referrer_utils.dart",
+      "bytes": 2495,
+      "sha256": "39d88c08e50cd25561b203ccde7841e4d4ebfe3ae3dadc0981c0f7efbd8bee15"
+    },
+    {
+      "path": "lib/app/utils/path_utils.dart",
+      "bytes": 10924,
+      "sha256": "ea475d7aa6900f22c3c768959b6a02b2fe553dec58b10c54d2e1dc85bad8768d"
+    },
+    {
+      "path": "lib/app/utils/platform_utils.dart",
+      "bytes": 366,
+      "sha256": "b8f6fe9d7f10c5786811fcac733e8ec44364eaafec9776668061d7cae1ca0e13"
+    },
+    {
+      "path": "lib/app/utils/version_compare_utils.dart",
+      "bytes": 452,
+      "sha256": "f0bdcad067cc6ca256ebd272bf40bd25af0376365ecbd7d8aee64768ecaad51d"
+    },
+    {
+      "path": "lib/app/utils/main_channel_utils.dart",
+      "bytes": 1536,
+      "sha256": "5d0ca7137a7e85b5c62b27f3185ee4dbfdfe1c21a8923397705b7b764864aa9a"
+    },
+    {
+      "path": "lib/app/utils/did.dart",
+      "bytes": 1805,
+      "sha256": "88584e59ccbd36abf376e449977edbcc6f22dff0576b2148206a5dd30c3b747a"
+    },
+    {
+      "path": "lib/app/utils/http_utils.dart",
+      "bytes": 21068,
+      "sha256": "d3e75c828e353fda856e311abe568e31e4a96def465e18f1b2613436244cfe73"
+    },
+    {
+      "path": "lib/app/utils/karing_utils.dart",
+      "bytes": 7867,
+      "sha256": "9199c9d6d7acd1651fc46ebd0d133ed72b793be9cbdc6602c6b40cc13144ef67"
+    },
+    {
+      "path": "lib/app/utils/network_utils.dart",
+      "bytes": 9220,
+      "sha256": "0f1b8a05e88909602b4d61731469f019fb0dcbe3b95ed322124201e361790054"
+    },
+    {
+      "path": "lib/app/utils/proxy_conf_utils.dart",
+      "bytes": 34360,
+      "sha256": "59476df8034dc346e7c451a0838e06223d5423f460292a4b7d7b502cad299cb4"
+    },
+    {
+      "path": "lib/app/utils/singbox_config_builder.dart",
+      "bytes": 67253,
+      "sha256": "63849671a8887d15334136d1893d8fdf6fd263cf7bdc6d7e6a87cd3794c82e8b"
+    },
+    {
+      "path": "lib/app/utils/convert_utils.dart",
+      "bytes": 2971,
+      "sha256": "44e43a77bdaf2ff07c5c5ff0f02444eb12dd386d160a333ef585e7d072f99a7f"
+    },
+    {
+      "path": "lib/app/utils/auto_conf_utils.dart",
+      "bytes": 20697,
+      "sha256": "805f2e8587fd5dbc5111a4f3a1e5a30fa7e41f2a1b100868b27da0a3e90ac0d4"
+    },
+    {
+      "path": "lib/app/utils/backup_and_sync_utils.dart",
+      "bytes": 2078,
+      "sha256": "9d1ef6e3fc602c8006f25ff9054393a7929c8a7cea7d7e1a4a9dcc4f9a10c541"
+    },
+    {
+      "path": "lib/app/utils/clash_api.dart",
+      "bytes": 11689,
+      "sha256": "66ec1537913727eb25d80f2b9902af7fece7e78745fbb92a524ad61bb7f9066f"
+    },
+    {
+      "path": "lib/app/utils/ruleset_codes_utils.dart",
+      "bytes": 2231,
+      "sha256": "c3a8b11fa4dab926657487c6b6d237e082944e2aba722b2f205a40d1cbba5d7a"
+    },
+    {
+      "path": "lib/app/utils/sentry_utils.dart",
+      "bytes": 2464,
+      "sha256": "a4c84fb1226a29d3f09d2f90b51e8a5d8ba9664151b4db3a472352b44fa1325d"
+    },
+    {
+      "path": "lib/app/utils/tag_gen.dart",
+      "bytes": 523,
+      "sha256": "121f94fd783b1cccc5f17fbdab0f2a645e4284151a3647255f1cba51948a299d"
+    },
+    {
+      "path": "lib/app/utils/zip_utils.dart",
+      "bytes": 3255,
+      "sha256": "986aadb96470be96c1c66a6f8cbbd622181283c244b73c1b80739c0f189d225e"
+    },
+    {
+      "path": "lib/app/utils/cloudflare_warp_api.dart",
+      "bytes": 11123,
+      "sha256": "faf1ea7ef617f27b5b2e35a5447ec7faaf9a1964c0fb8cc2851262c0006e3b03"
+    },
+    {
+      "path": "lib/app/utils/app_args.dart",
+      "bytes": 69,
+      "sha256": "4735ae3abaa346ffada98636bb75d38385347668ee9f73ee90375308308d964b"
+    },
+    {
+      "path": "lib/app/utils/geoip_subnet_utils.dart",
+      "bytes": 4273,
+      "sha256": "cc60a81124e39024fed759ce4707610ae6d6ea5586c2268712613719c6d7f4b1"
+    },
+    {
+      "path": "lib/app/utils/system_scheme_utils.dart",
+      "bytes": 1736,
+      "sha256": "17917b2e1838948173d72a4c5b3a66ab451059aec08148391e103c437ec3e63c"
+    },
+    {
+      "path": "lib/app/utils/windows_version_helper.dart",
+      "bytes": 1677,
+      "sha256": "2d8d0b011c8a881dcb17b999f2362376d226bb8c88170c19625bb27b2d51b327"
+    },
+    {
+      "path": "lib/app/utils/singbox_json_utils.dart",
+      "bytes": 8807,
+      "sha256": "eaefec4de2bf5eecde9b6bcb4665defbddf0f685520fb861c2654619a4ac0dd4"
+    },
+    {
+      "path": "lib/app/utils/url_launcher_utils.dart",
+      "bytes": 1993,
+      "sha256": "120a97c4139c5ce4ad92f8ff887e957421e846eb07d88c4ef73e755bc97b626a"
+    },
+    {
+      "path": "lib/app/utils/uri_utils.dart",
+      "bytes": 701,
+      "sha256": "c705676d1e4d072e7d2a6a6e244eec2d2e07920066674121569a1fb84aec0d8c"
+    },
+    {
+      "path": "lib/app/utils/qrcode_utils.dart",
+      "bytes": 3502,
+      "sha256": "2b4993850e92a37ee0ca386025dbc8921859aa45b19403dbf96aa0dab32dcc77"
+    },
+    {
+      "path": "lib/app/utils/icloud_utils.dart",
+      "bytes": 3223,
+      "sha256": "f498c1600e9734ae878974d2aa0a8a393e1590749bbf4f99fba802eb8b54115d"
+    },
+    {
+      "path": "lib/app/utils/app_scheme_actions.dart",
+      "bytes": 872,
+      "sha256": "424117ac4250eb6e8b1368fc828cbcbff9f91a786a346cea230c741bce301090"
+    },
+    {
+      "path": "lib/app/utils/cloudflare_warp_utils.dart",
+      "bytes": 9019,
+      "sha256": "a61cf0ac8697ce46bc13942356c9f1cb68149c5602977e759eba44514952637c"
+    },
+    {
+      "path": "lib/app/utils/windows_tun_fix_utils.dart",
+      "bytes": 1088,
+      "sha256": "42ef2f6986508eb0c712af0ea7996b54bf217117314da59abd49e8a52dfd0c22"
+    },
+    {
+      "path": "lib/app/utils/diversion_custom_utils.dart",
+      "bytes": 12627,
+      "sha256": "048eda265fd71b232ef0ef911d012315a58a3afdec52f4580c92b99dc2038663"
+    },
+    {
+      "path": "lib/app/utils/error_reporter_utils.dart",
+      "bytes": 717,
+      "sha256": "cb2ae0f67f0031e6e1d7315d65597694951d21f53f1e99e355a5eb099c088054"
+    },
+    {
+      "path": "lib/app/utils/parallel_task_queue.dart",
+      "bytes": 3344,
+      "sha256": "4ceb27b680ef4a08e6c51ebbbe327a3e54e0913df6171f875e993c63450baa7b"
+    },
+    {
+      "path": "lib/app/utils/emoji_utils.dart",
+      "bytes": 2497,
+      "sha256": "423f96fcd082d273dbea1a4bd1fc7c18fd8cadda96b63cccbf908ab77e8e12a4"
+    },
+    {
+      "path": "lib/app/utils/local_notifications_utils.dart",
+      "bytes": 3842,
+      "sha256": "01b4e9e3258fab9800a20a3188e9f46900506475c2b4a1f61245a1423a692f41"
+    },
+    {
+      "path": "lib/app/utils/local_storage.dart",
+      "bytes": 1441,
+      "sha256": "59528e51d4a01d73c73bc4240f39217342ed3a21df7f30be88ac2eb959f54eab"
+    },
+    {
+      "path": "lib/app/utils/stacktrace_utils.dart",
+      "bytes": 365,
+      "sha256": "723150268c641f50ba45028258a3d601e8e9513ac65d3837da20da753cc652bb"
+    },
+    {
+      "path": "lib/app/utils/websocket.dart",
+      "bytes": 1952,
+      "sha256": "3e95a7d38a48fb4f1a6cecb9d584ff81463974486b7ceab5156c4eda48f0fbeb"
+    },
+    {
+      "path": "lib/app/utils/assets_utils.dart",
+      "bytes": 768,
+      "sha256": "537c59b989afe7a1c96a6d5f8686cdcaa08be32897596af8e78123120feb579e"
+    },
+    {
+      "path": "lib/app/utils/uwp_utils.dart",
+      "bytes": 3730,
+      "sha256": "8bb12dd30d58cdc63fbe12955f0faff490aca434b01cc5338d962cdd945bab90"
+    }
+  ],
+  "notPresent": [
+    "lib/app/utils/auto_update_utils.dart",
+    "lib/app/utils/crypto_utils.dart",
+    "lib/app/private/app_url_utils_private.dart",
+    "lib/app/utils/notice_utils.dart",
+    "lib/app/utils/singbox_dns.dart",
+    "lib/app/utils/accessibility_utils.dart",
+    "lib/app/utils/singbox_outbound.dart",
+    "lib/app/utils/device_utils.dart",
+    "lib/app/utils/http_overrides_utils.dart",
+    "lib/app/utils/move_to_background_utils.dart",
+    "lib/app/utils/vpn_action_handler.dart",
+    "lib/app/private/sentry_utils_private.dart",
+    "lib/app/utils/webdav_client_utils.dart",
+    "lib/app/utils/package_manager_android.dart",
+    "lib/screens/statistics_records_screen.dart",
+    "lib/app/utils/system_utils.dart",
+    "lib/app/utils/icon_utils.dart",
+    "lib/app/utils/process_utils_macos.dart"
+  ]
+}
