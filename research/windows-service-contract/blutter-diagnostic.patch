@@ -1,0 +1,43 @@
+diff --git a/blutter/src/DartApp.cpp b/blutter/src/DartApp.cpp
+index 74e2993..0cd69be 100644
+--- a/blutter/src/DartApp.cpp
++++ b/blutter/src/DartApp.cpp
+@@ -11,7 +11,8 @@ PRAGMA_WARNING(pop)
+ 
+ DartApp::DartApp(const char* path) : ppool(NULL), nativeLib(0xdeadead), throwStubAddr(0)
+ {
+-	auto libInfo = ElfHelper::MapLibAppSo(path);
++	fprintf(stderr, "stage: map ELF\n");
++auto libInfo = ElfHelper::MapLibAppSo(path);
+ 	if (libInfo.lib == nullptr) {
+ 		throw std::runtime_error("Failed to map libapp");
+ 	}
+@@ -811,3 +812,4 @@ void DartApp::loadFromObjectPool()
+ 		}
+ 	}
+ }
++
+diff --git a/blutter/src/DartLoader.cpp b/blutter/src/DartLoader.cpp
+index b938219..c884598 100644
+--- a/blutter/src/DartLoader.cpp
++++ b/blutter/src/DartLoader.cpp
+@@ -68,9 +68,12 @@ static Dart_Isolate load_isolate(const uint8_t* isolate_snapshot_data, const uin
+ 
+ Dart_Isolate DartLoader::Load(LibAppInfo& libInfo)
+ {
+-	init_vm_flags();
++	fprintf(stderr, "stage: vm flags\n");
++init_vm_flags();
+ 
+-	init_dart(libInfo.vm_snapshot_data, libInfo.vm_snapshot_instructions);
++	fprintf(stderr, "stage: Dart_Initialize\n");
++init_dart(libInfo.vm_snapshot_data, libInfo.vm_snapshot_instructions);
++fprintf(stderr, "stage: Dart_CreateIsolateGroup\n");
+ 
+ 	auto isolate = load_isolate(libInfo.isolate_snapshot_data, libInfo.isolate_snapshot_instructions);
+ 
+@@ -87,3 +90,4 @@ void DartLoader::Unload()
+ 	}
+ 	ignore_result(Dart_Cleanup());
+ }
++

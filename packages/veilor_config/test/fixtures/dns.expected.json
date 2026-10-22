@@ -1,0 +1,13 @@
+{
+  "final": "dns_proxy_out",
+  "servers": [
+    {"tag": "dns_resolver_out", "type": "udp", "server": "192.0.2.53", "server_port": 53},
+    {"tag": "dns_outbound_out", "type": "udp", "server": "192.0.2.54", "server_port": 53, "domain_resolver": {"server": "dns_resolver_out", "strategy": "prefer_ipv4"}},
+    {"tag": "dns_direct_out", "type": "tls", "server": "dns-direct.example.invalid", "server_port": 853, "domain_resolver": {"server": "dns_resolver_out", "strategy": "prefer_ipv4"}},
+    {"tag": "dns_proxy_out", "type": "https", "server": "dns.example.invalid", "server_port": 443, "path": "/dns-query", "detour": "test-vless", "domain_resolver": {"server": "dns_resolver_out", "strategy": "prefer_ipv4"}}
+  ],
+  "rules": [],
+  "strategy": "prefer_ipv4",
+  "independent_cache": true,
+  "cache_capacity": 1024
+}

@@ -1,0 +1,1014 @@
+{
+  "scope": "Existing parser AST inventory (comments excluded); no missing-package resolution. Binary strings and vtable pointers are static evidence, not executed commands.",
+  "baseCommit": "1f52c28e062fe55d7c3ccc254f1a90d53fd8c103",
+  "historicalCommit": "e3c19f1eb1225dbd48a4862f0983b82d0af8de69",
+  "calls": {
+    "historical": {
+      "calls": [
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 56,
+          "target": "FlutterVpnService",
+          "method": "isRunAsAdmin",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 57,
+          "target": "FlutterVpnService",
+          "method": "firewallAddApp",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 59,
+          "target": "FlutterVpnService",
+          "method": "firewallAddApp",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 72,
+          "target": "FlutterVpnService",
+          "method": "getABIs",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 75,
+          "target": "FlutterVpnService",
+          "method": "onStateChanged",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 79,
+          "target": "FlutterVpnService",
+          "method": "getSystemProxyEnable",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 82,
+          "target": "FlutterVpnService",
+          "method": "cleanSystemProxy",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 195,
+          "target": "FlutterVpnService",
+          "method": "prepareConfig",
+          "positionalCount": 0,
+          "named": [
+            "config",
+            "tunnelServicePath",
+            "configFilePath",
+            "systemExtension",
+            "bundleIdentifier",
+            "uiServerAddress",
+            "uiLocalizedDescription",
+            "excludePorts"
+          ]
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 254,
+          "target": "FlutterVpnService",
+          "method": "installService",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 262,
+          "target": "FlutterVpnService",
+          "method": "uninstallService",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 283,
+          "target": "FlutterVpnService",
+          "method": "firewallAddPorts",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 291,
+          "target": "FlutterVpnService",
+          "method": "setAlwaysOn",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 294,
+          "target": "FlutterVpnService",
+          "method": "restart",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 330,
+          "target": "FlutterVpnService",
+          "method": "setAlwaysOn",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 345,
+          "target": "FlutterVpnService",
+          "method": "firewallAddPorts",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 352,
+          "target": "FlutterVpnService",
+          "method": "start",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 389,
+          "target": "FlutterVpnService",
+          "method": "setAlwaysOn",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 403,
+          "target": "FlutterVpnService",
+          "method": "setAlwaysOn",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 406,
+          "target": "FlutterVpnService",
+          "method": "stop",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 421,
+          "target": "FlutterVpnService",
+          "method": "setSystemProxy",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 423,
+          "target": "FlutterVpnService",
+          "method": "getSystemProxyEnable",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 425,
+          "target": "FlutterVpnService",
+          "method": "cleanSystemProxy",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 436,
+          "target": "FlutterVpnService",
+          "method": "getSystemProxyEnable",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 1034,
+          "target": "FlutterVpnService",
+          "method": "autoStartCreate",
+          "positionalCount": 2,
+          "named": [
+            "processArgs",
+            "runElevated"
+          ]
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 1040,
+          "target": "FlutterVpnService",
+          "method": "autoStartDelete",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 1054,
+          "target": "FlutterVpnService",
+          "method": "autoStartIsActive",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/utils/path_utils.dart",
+          "line": 89,
+          "target": "FlutterVpnService",
+          "method": "getAppGroupDirectory",
+          "positionalCount": 1,
+          "named": []
+        }
+      ],
+      "properties": [
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 458,
+          "target": "FlutterVpnService",
+          "member": "currentState"
+        },
+        {
+          "file": "work/karing-feasibility/historical-reference/lib/app/local_services/vpn_service.dart",
+          "line": 462,
+          "target": "FlutterVpnService",
+          "member": "currentState"
+        }
+      ]
+    },
+    "current": {
+      "calls": [
+        {
+          "file": "outputs/veilor/lib/app/modules/proxy_cluster.dart",
+          "line": 189,
+          "target": "FlutterVpnService",
+          "method": "firewallAddPorts",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/main.dart",
+          "line": 212,
+          "target": "FlutterVpnService",
+          "method": "getSystemVersion",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/main.dart",
+          "line": 577,
+          "target": "FlutterVpnService",
+          "method": "hideDockIcon",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/backup_and_sync_lan_sync_screen.dart",
+          "line": 117,
+          "target": "FlutterVpnService",
+          "method": "firewallAddPorts",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/dialog_utils.dart",
+          "line": 81,
+          "target": "FlutterVpnService",
+          "method": "getSystemVersion",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen.dart",
+          "line": 735,
+          "target": "FlutterVpnService",
+          "method": "clashiApiConnections",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen.dart",
+          "line": 912,
+          "target": "FlutterVpnService",
+          "method": "setExcludeFromRecents",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen.dart",
+          "line": 2239,
+          "target": "FlutterVpnService",
+          "method": "isServiceAuthorized",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen.dart",
+          "line": 2245,
+          "target": "FlutterVpnService",
+          "method": "authorizeService",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen.dart",
+          "line": 2325,
+          "target": "FlutterVpnService",
+          "method": "getAppGroupDirectory",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen_widgets.dart",
+          "line": 1017,
+          "target": "FlutterVpnService",
+          "method": "isServiceAuthorized",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/home_screen_widgets.dart",
+          "line": 1024,
+          "target": "FlutterVpnService",
+          "method": "authorizeService",
+          "positionalCount": 2,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/inapp_webview_screen.dart",
+          "line": 75,
+          "target": "FlutterVpnService",
+          "method": "getSystemVersion",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/settings_screen.dart",
+          "line": 978,
+          "target": "FlutterVpnService",
+          "method": "setAlwaysOn",
+          "positionalCount": 1,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/settings_screen.dart",
+          "line": 1050,
+          "target": "FlutterVpnService",
+          "method": "getSystemVersion",
+          "positionalCount": 0,
+          "named": []
+        },
+        {
+          "file": "outputs/veilor/lib/screens/settings_screen.dart",
+          "line": 1190,
+          "target": "FlutterVpnService",
+          "method": "setExcludeFromRecents",
+          "positionalCount": 1,
+          "named": []
+        }
+      ],
+      "properties": []
+    }
+  },
+  "publicHistoricalMethods": {
+    "init": {
+      "returnType": null,
+      "static": true,
+      "getter": false,
+      "line": 53,
+      "parameters": []
+    },
+    "uninit": {
+      "returnType": "Future<void>",
+      "static": true,
+      "getter": false,
+      "line": 102,
+      "parameters": []
+    },
+    "getABIs": {
+      "returnType": "List<String>",
+      "static": true,
+      "getter": false,
+      "line": 109,
+      "parameters": []
+    },
+    "setCurrent": {
+      "returnType": "void",
+      "static": true,
+      "getter": false,
+      "line": 113,
+      "parameters": [
+        {
+          "name": "currentServer",
+          "named": false,
+          "required": true,
+          "source": "ProxyConfig currentServer"
+        }
+      ]
+    },
+    "getCurrent": {
+      "returnType": "ProxyConfig",
+      "static": true,
+      "getter": false,
+      "line": 117,
+      "parameters": []
+    },
+    "convertErr": {
+      "returnType": "ReturnResultError?",
+      "static": true,
+      "getter": false,
+      "line": 121,
+      "parameters": [
+        {
+          "name": "err",
+          "named": false,
+          "required": true,
+          "source": "VpnServiceResultError? err"
+        }
+      ]
+    },
+    "durationToString": {
+      "returnType": "String",
+      "static": true,
+      "getter": false,
+      "line": 128,
+      "parameters": [
+        {
+          "name": "duration",
+          "named": false,
+          "required": true,
+          "source": "Duration? duration"
+        }
+      ]
+    },
+    "_prepareConfig": {
+      "returnType": "Future<bool>",
+      "static": true,
+      "getter": false,
+      "line": 162,
+      "parameters": []
+    },
+    "getTimeoutByOutboundCount": {
+      "returnType": "Duration",
+      "static": true,
+      "getter": false,
+      "line": 241,
+      "parameters": [
+        {
+          "name": "count",
+          "named": false,
+          "required": true,
+          "source": "int count"
+        },
+        {
+          "name": "tunMode",
+          "named": false,
+          "required": true,
+          "source": "bool tunMode"
+        }
+      ]
+    },
+    "install": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 253,
+      "parameters": []
+    },
+    "uninstall": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 261,
+      "parameters": []
+    },
+    "restart": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 269,
+      "parameters": [
+        {
+          "name": "timeout",
+          "named": false,
+          "required": true,
+          "source": "Duration timeout"
+        }
+      ]
+    },
+    "start": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 337,
+      "parameters": [
+        {
+          "name": "timeout",
+          "named": false,
+          "required": true,
+          "source": "Duration timeout"
+        }
+      ]
+    },
+    "stop": {
+      "returnType": "Future<void>",
+      "static": true,
+      "getter": false,
+      "line": 401,
+      "parameters": []
+    },
+    "getSupportSystemProxy": {
+      "returnType": "bool",
+      "static": true,
+      "getter": false,
+      "line": 413,
+      "parameters": []
+    },
+    "setSystemProxy": {
+      "returnType": "Future<void>",
+      "static": true,
+      "getter": false,
+      "line": 417,
+      "parameters": [
+        {
+          "name": "enable",
+          "named": false,
+          "required": true,
+          "source": "bool enable"
+        }
+      ]
+    },
+    "getSystemProxy": {
+      "returnType": "Future<bool>",
+      "static": true,
+      "getter": false,
+      "line": 434,
+      "parameters": []
+    },
+    "isRunAsAdmin": {
+      "returnType": "bool",
+      "static": true,
+      "getter": false,
+      "line": 443,
+      "parameters": []
+    },
+    "getTunMode": {
+      "returnType": "Future<bool>",
+      "static": true,
+      "getter": false,
+      "line": 447,
+      "parameters": []
+    },
+    "getState": {
+      "returnType": "Future<FlutterVpnServiceState>",
+      "static": true,
+      "getter": false,
+      "line": 457,
+      "parameters": []
+    },
+    "getStarted": {
+      "returnType": "Future<bool>",
+      "static": true,
+      "getter": false,
+      "line": 461,
+      "parameters": []
+    },
+    "getPortsBySetting": {
+      "returnType": "Future<List<int?>>",
+      "static": true,
+      "getter": false,
+      "line": 470,
+      "parameters": [
+        {
+          "name": "proxyStrategy",
+          "named": false,
+          "required": true,
+          "source": "ProxyStrategy proxyStrategy"
+        }
+      ]
+    },
+    "getPortsByPrefer": {
+      "returnType": "Future<List<int?>>",
+      "static": true,
+      "getter": false,
+      "line": 495,
+      "parameters": [
+        {
+          "name": "preferForward",
+          "named": false,
+          "required": true,
+          "source": "bool preferForward"
+        }
+      ]
+    },
+    "getPort": {
+      "returnType": "Future<int?>",
+      "static": true,
+      "getter": false,
+      "line": 507,
+      "parameters": []
+    },
+    "reload": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 513,
+      "parameters": [
+        {
+          "name": "timeout",
+          "named": false,
+          "required": true,
+          "source": "Duration timeout"
+        }
+      ]
+    },
+    "getUrltests": {
+      "returnType": "List<SingboxOutboundUrltest>",
+      "static": true,
+      "getter": false,
+      "line": 527,
+      "parameters": [
+        {
+          "name": "allOutboundsTags",
+          "named": false,
+          "required": true,
+          "source": "Set<String> allOutboundsTags"
+        },
+        {
+          "name": "uniTag",
+          "named": true,
+          "required": false,
+          "source": "bool uniTag = true"
+        },
+        {
+          "name": "includeEmpty",
+          "named": true,
+          "required": false,
+          "source": "bool includeEmpty = true"
+        }
+      ]
+    },
+    "getOutboundsForUrltest": {
+      "returnType": "Set<String>",
+      "static": true,
+      "getter": false,
+      "line": 569,
+      "parameters": [
+        {
+          "name": "allOutboundsTags",
+          "named": false,
+          "required": true,
+          "source": "Set<String> allOutboundsTags"
+        },
+        {
+          "name": "allOutboundProxys",
+          "named": false,
+          "required": true,
+          "source": "List<ProxyConfig> allOutboundProxys"
+        }
+      ]
+    },
+    "getOutboundsWithoutUrltest": {
+      "returnType": "void",
+      "static": true,
+      "getter": false,
+      "line": 627,
+      "parameters": [
+        {
+          "name": "allOutboundsTags",
+          "named": false,
+          "required": true,
+          "source": "Set<String> allOutboundsTags"
+        },
+        {
+          "name": "allOutbounds",
+          "named": false,
+          "required": true,
+          "source": "Tuple2<List<ProxyConfig>, List<dynamic>>? allOutbounds"
+        },
+        {
+          "name": "urltestGroupTags",
+          "named": false,
+          "required": true,
+          "source": "Map<String, List<String>>? urltestGroupTags"
+        },
+        {
+          "name": "sortByLatency",
+          "named": true,
+          "required": false,
+          "source": "bool sortByLatency = false"
+        }
+      ]
+    },
+    "setServer": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 696,
+      "parameters": [
+        {
+          "name": "currentServer",
+          "named": false,
+          "required": true,
+          "source": "ProxyConfig currentServer"
+        },
+        {
+          "name": "options",
+          "named": false,
+          "required": true,
+          "source": "VPNServiceSetServerOptions options"
+        },
+        {
+          "name": "exportType",
+          "named": false,
+          "required": true,
+          "source": "SingboxExportType exportType"
+        },
+        {
+          "name": "hostAddress",
+          "named": false,
+          "required": true,
+          "source": "String? hostAddress"
+        },
+        {
+          "name": "secret",
+          "named": false,
+          "required": true,
+          "source": "String secret"
+        },
+        {
+          "name": "savePath",
+          "named": false,
+          "required": true,
+          "source": "String savePath"
+        }
+      ]
+    },
+    "setOutbound": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 802,
+      "parameters": [
+        {
+          "name": "selectOutbound",
+          "named": false,
+          "required": true,
+          "source": "dynamic selectOutbound"
+        },
+        {
+          "name": "selectOutboundTags",
+          "named": false,
+          "required": true,
+          "source": "Set<String> selectOutboundTags"
+        },
+        {
+          "name": "testGroupTags",
+          "named": false,
+          "required": true,
+          "source": "Map<String, List<String>> testGroupTags"
+        },
+        {
+          "name": "allOutboundProxys",
+          "named": false,
+          "required": true,
+          "source": "List<ProxyConfig> allOutboundProxys"
+        },
+        {
+          "name": "outbounds",
+          "named": false,
+          "required": true,
+          "source": "List<dynamic> outbounds"
+        },
+        {
+          "name": "allOutboundsTags",
+          "named": false,
+          "required": true,
+          "source": "Set<String> allOutboundsTags"
+        },
+        {
+          "name": "urltestCustomGroupTags",
+          "named": false,
+          "required": true,
+          "source": "Set<String> urltestCustomGroupTags"
+        },
+        {
+          "name": "diversionGroups",
+          "named": false,
+          "required": true,
+          "source": "List<Tuple2<DiversionRulesGroup, ProxyConfig>> diversionGroups"
+        },
+        {
+          "name": "exportType",
+          "named": false,
+          "required": true,
+          "source": "SingboxExportType exportType"
+        },
+        {
+          "name": "hostAddress",
+          "named": false,
+          "required": true,
+          "source": "String? hostAddress"
+        },
+        {
+          "name": "secret",
+          "named": false,
+          "required": true,
+          "source": "String secret"
+        },
+        {
+          "name": "savePath",
+          "named": false,
+          "required": true,
+          "source": "String savePath"
+        }
+      ]
+    },
+    "getLaunchAtStartupTaskName": {
+      "returnType": "String",
+      "static": true,
+      "getter": false,
+      "line": 1024,
+      "parameters": []
+    },
+    "setLaunchAtStartup": {
+      "returnType": "Future<ReturnResultError?>",
+      "static": true,
+      "getter": false,
+      "line": 1028,
+      "parameters": [
+        {
+          "name": "enable",
+          "named": false,
+          "required": true,
+          "source": "bool enable"
+        }
+      ]
+    },
+    "getLaunchAtStartup": {
+      "returnType": "Future<bool>",
+      "static": true,
+      "getter": false,
+      "line": 1050,
+      "parameters": []
+    },
+    "getSystemProxyOptions": {
+      "returnType": "Future<ProxyOption>",
+      "static": true,
+      "getter": false,
+      "line": 1067,
+      "parameters": []
+    },
+    "setDefaultOutbound": {
+      "returnType": "Future<void>",
+      "static": true,
+      "getter": false,
+      "line": 1083,
+      "parameters": []
+    },
+    "getBundleId": {
+      "returnType": "String",
+      "static": true,
+      "getter": false,
+      "line": 1106,
+      "parameters": []
+    }
+  },
+  "historicalServiceConfigAssignments": [
+    "control_port",
+    "base_dir",
+    "work_dir",
+    "cache_dir",
+    "core_path",
+    "log_path",
+    "err_path",
+    "id",
+    "version",
+    "name",
+    "secret",
+    "install_refer",
+    "expired_time",
+    "time_connect",
+    "time_disconnect",
+    "sentry_minversion"
+  ],
+  "native": {
+    "sha256": "901a53d40fafc0e39ae340a09bb9ca5f8479d69f03760102079843b4054325ea",
+    "channel": "vpn_service_plugin",
+    "methodCallbackVtable": "0x180012c68",
+    "pointers": [
+      {
+        "slot": 0,
+        "address": "0x1800061e0"
+      },
+      {
+        "slot": 1,
+        "address": "0x1800061e0"
+      },
+      {
+        "slot": 2,
+        "address": "0x1800062c0"
+      },
+      {
+        "slot": 3,
+        "address": "0x180006420"
+      },
+      {
+        "slot": 4,
+        "address": "0x180006260"
+      },
+      {
+        "slot": 5,
+        "address": "0x180006380"
+      }
+    ],
+    "selectedExactStrings": [
+      {
+        "offset": 71856,
+        "text": "bypassDomains"
+      },
+      {
+        "offset": 71896,
+        "text": "isRunAsAdmin"
+      },
+      {
+        "offset": 71912,
+        "text": "cleanSystemProxy"
+      },
+      {
+        "offset": 71936,
+        "text": "setSystemProxy"
+      },
+      {
+        "offset": 71952,
+        "text": "getSystemProxyEnable"
+      },
+      {
+        "offset": 71976,
+        "text": "firewallAddApp"
+      },
+      {
+        "offset": 71992,
+        "text": "appPath"
+      },
+      {
+        "offset": 72000,
+        "text": "appName"
+      },
+      {
+        "offset": 72008,
+        "text": "firewallAddPorts"
+      },
+      {
+        "offset": 72028,
+        "text": "ports"
+      },
+      {
+        "offset": 72040,
+        "text": "autoStartCreate"
+      },
+      {
+        "offset": 72056,
+        "text": "taskName"
+      },
+      {
+        "offset": 72072,
+        "text": "processPath"
+      },
+      {
+        "offset": 72088,
+        "text": "processArgs"
+      },
+      {
+        "offset": 72104,
+        "text": "runElevated"
+      },
+      {
+        "offset": 72120,
+        "text": "autoStartDelete"
+      },
+      {
+        "offset": 72136,
+        "text": "autoStartIsActive"
+      }
+    ]
+  },
+  "limitations": [
+    "Method call arity is observed at callers; missing callee declarations are not recovered.",
+    "Current call sites include multiple platforms; platform branch conditions must be checked before Windows implementation.",
+    "No service CLI, RPC endpoint or numeric native state enum is inferred from these strings."
+  ]
+}

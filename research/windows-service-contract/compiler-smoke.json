@@ -1,0 +1,7 @@
+{
+  "x64": true,
+  "cxx20Format": true,
+  "windowsSdkHeaderAndLink": true,
+  "executedBinary": "own synthetic compiler test only",
+  "result": "MSVC-SDK-OK 2a"
+}

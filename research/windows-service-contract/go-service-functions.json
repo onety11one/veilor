@@ -1,0 +1,927 @@
+{
+  "scope": "Static pclntab names/entry PCs, not recovered function behavior",
+  "sha256": "023ed74fa5015aacf09d83ac7d4a80f9d48dbc0459018e8d75303d7d80d6a9ea",
+  "pclntabFileOffset": 33290144,
+  "functionCount": 66932,
+  "headerTextStart": 0,
+  "moduledataFileOffset": 54435392,
+  "textStart": "0x1400013e0",
+  "textBasis": "runtime moduledata.text, cross-checked against minpc/etext and PE .text",
+  "functions": [
+    {
+      "name": "main.init",
+      "address": "0x1415f4ce0",
+      "size": 1248
+    },
+    {
+      "name": "main.init.MinimumNArgs.func47",
+      "address": "0x1415f51c0",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func46",
+      "address": "0x1415f52a0",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func45",
+      "address": "0x1415f5380",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func44",
+      "address": "0x1415f5460",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func43",
+      "address": "0x1415f5540",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func42",
+      "address": "0x1415f5620",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func41",
+      "address": "0x1415f5700",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func40",
+      "address": "0x1415f57e0",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func39",
+      "address": "0x1415f58c0",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func38",
+      "address": "0x1415f59a0",
+      "size": 224
+    },
+    {
+      "name": "main.init.RangeArgs.func37",
+      "address": "0x1415f5a80",
+      "size": 256
+    },
+    {
+      "name": "main.init.ExactArgs.func36",
+      "address": "0x1415f5b80",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func35",
+      "address": "0x1415f5c60",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func34",
+      "address": "0x1415f5d40",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func33",
+      "address": "0x1415f5e20",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func32",
+      "address": "0x1415f5f00",
+      "size": 224
+    },
+    {
+      "name": "main.init.ExactArgs.func31",
+      "address": "0x1415f5fe0",
+      "size": 224
+    },
+    {
+      "name": "main.init.func1",
+      "address": "0x1415f60c0",
+      "size": 160
+    },
+    {
+      "name": "main.init.func2",
+      "address": "0x1415f6160",
+      "size": 160
+    },
+    {
+      "name": "main.init.func3",
+      "address": "0x1415f6200",
+      "size": 224
+    },
+    {
+      "name": "main.init.func4",
+      "address": "0x1415f62e0",
+      "size": 160
+    },
+    {
+      "name": "main.init.func5",
+      "address": "0x1415f6380",
+      "size": 256
+    },
+    {
+      "name": "main.init.func6",
+      "address": "0x1415f6480",
+      "size": 256
+    },
+    {
+      "name": "main.init.func7",
+      "address": "0x1415f6580",
+      "size": 160
+    },
+    {
+      "name": "main.init.func8",
+      "address": "0x1415f6620",
+      "size": 160
+    },
+    {
+      "name": "main.init.func9",
+      "address": "0x1415f66c0",
+      "size": 160
+    },
+    {
+      "name": "main.init.func10",
+      "address": "0x1415f6760",
+      "size": 160
+    },
+    {
+      "name": "main.init.func11",
+      "address": "0x1415f6800",
+      "size": 256
+    },
+    {
+      "name": "main.init.func12",
+      "address": "0x1415f6900",
+      "size": 160
+    },
+    {
+      "name": "main.init.func13",
+      "address": "0x1415f69a0",
+      "size": 256
+    },
+    {
+      "name": "main.init.func14",
+      "address": "0x1415f6aa0",
+      "size": 160
+    },
+    {
+      "name": "main.init.func15",
+      "address": "0x1415f6b40",
+      "size": 256
+    },
+    {
+      "name": "main.init.func16",
+      "address": "0x1415f6c40",
+      "size": 160
+    },
+    {
+      "name": "main.init.func17",
+      "address": "0x1415f6ce0",
+      "size": 288
+    },
+    {
+      "name": "main.init.func18",
+      "address": "0x1415f6e00",
+      "size": 256
+    },
+    {
+      "name": "main.init.func19",
+      "address": "0x1415f6f00",
+      "size": 256
+    },
+    {
+      "name": "main.init.func20",
+      "address": "0x1415f7000",
+      "size": 256
+    },
+    {
+      "name": "main.init.func21",
+      "address": "0x1415f7100",
+      "size": 256
+    },
+    {
+      "name": "main.init.func22",
+      "address": "0x1415f7200",
+      "size": 256
+    },
+    {
+      "name": "main.init.func23",
+      "address": "0x1415f7300",
+      "size": 288
+    },
+    {
+      "name": "main.init.func24",
+      "address": "0x1415f7420",
+      "size": 256
+    },
+    {
+      "name": "main.init.func25",
+      "address": "0x1415f7520",
+      "size": 256
+    },
+    {
+      "name": "main.init.func26",
+      "address": "0x1415f7620",
+      "size": 160
+    },
+    {
+      "name": "main.init.func27",
+      "address": "0x1415f76c0",
+      "size": 160
+    },
+    {
+      "name": "main.init.func28",
+      "address": "0x1415f7760",
+      "size": 256
+    },
+    {
+      "name": "main.init.func29",
+      "address": "0x1415f7860",
+      "size": 224
+    },
+    {
+      "name": "main.init.func30",
+      "address": "0x1415f7940",
+      "size": 160
+    },
+    {
+      "name": "main.init.0",
+      "address": "0x1415f79e0",
+      "size": 96
+    },
+    {
+      "name": "main.check",
+      "address": "0x1415f7a40",
+      "size": 576
+    },
+    {
+      "name": "main.init.1",
+      "address": "0x1415f7c80",
+      "size": 512
+    },
+    {
+      "name": "main.preRun",
+      "address": "0x1415f7e80",
+      "size": 1440
+    },
+    {
+      "name": "main.setUpDir",
+      "address": "0x1415f8420",
+      "size": 1216
+    },
+    {
+      "name": "main.init.2",
+      "address": "0x1415f88e0",
+      "size": 160
+    },
+    {
+      "name": "main.format",
+      "address": "0x1415f8980",
+      "size": 2176
+    },
+    {
+      "name": "main.init.3",
+      "address": "0x1415f9200",
+      "size": 192
+    },
+    {
+      "name": "main.init.4",
+      "address": "0x1415f92c0",
+      "size": 160
+    },
+    {
+      "name": "main.generateRandom",
+      "address": "0x1415f9360",
+      "size": 704
+    },
+    {
+      "name": "main.generateUUID",
+      "address": "0x1415f9620",
+      "size": 192
+    },
+    {
+      "name": "main.init.5",
+      "address": "0x1415f96e0",
+      "size": 96
+    },
+    {
+      "name": "main.generateECHKeyPair",
+      "address": "0x1415f9740",
+      "size": 224
+    },
+    {
+      "name": "main.init.6",
+      "address": "0x1415f9820",
+      "size": 160
+    },
+    {
+      "name": "main.generateTLSKeyPair",
+      "address": "0x1415f98c0",
+      "size": 352
+    },
+    {
+      "name": "main.init.7",
+      "address": "0x1415f9a20",
+      "size": 96
+    },
+    {
+      "name": "main.generateVAPIDKeyPair",
+      "address": "0x1415f9a80",
+      "size": 768
+    },
+    {
+      "name": "main.init.8",
+      "address": "0x1415f9d80",
+      "size": 128
+    },
+    {
+      "name": "main.generateWireGuardKey",
+      "address": "0x1415f9e00",
+      "size": 544
+    },
+    {
+      "name": "main.generateRealityKey",
+      "address": "0x1415fa020",
+      "size": 512
+    },
+    {
+      "name": "main.init.9",
+      "address": "0x1415fa220",
+      "size": 192
+    },
+    {
+      "name": "main.geoipPreRun",
+      "address": "0x1415fa2e0",
+      "size": 352
+    },
+    {
+      "name": "main.init.10",
+      "address": "0x1415fa440",
+      "size": 192
+    },
+    {
+      "name": "main.geoipExport",
+      "address": "0x1415fa500",
+      "size": 2112
+    },
+    {
+      "name": "main.geoipExport.deferwrap2",
+      "address": "0x1415fad40",
+      "size": 64
+    },
+    {
+      "name": "main.geoipExport.deferwrap1",
+      "address": "0x1415fad80",
+      "size": 64
+    },
+    {
+      "name": "main.init.11",
+      "address": "0x1415fadc0",
+      "size": 96
+    },
+    {
+      "name": "main.listGeoip",
+      "address": "0x1415fae20",
+      "size": 192
+    },
+    {
+      "name": "main.init.12",
+      "address": "0x1415faee0",
+      "size": 96
+    },
+    {
+      "name": "main.geoipLookup",
+      "address": "0x1415faf40",
+      "size": 704
+    },
+    {
+      "name": "main.init.13",
+      "address": "0x1415fb200",
+      "size": 192
+    },
+    {
+      "name": "main.geositePreRun",
+      "address": "0x1415fb2c0",
+      "size": 320
+    },
+    {
+      "name": "main.init.14",
+      "address": "0x1415fb400",
+      "size": 192
+    },
+    {
+      "name": "main.geositeExport",
+      "address": "0x1415fb4c0",
+      "size": 1568
+    },
+    {
+      "name": "main.geositeExport.deferwrap2",
+      "address": "0x1415fbae0",
+      "size": 64
+    },
+    {
+      "name": "main.geositeExport.deferwrap1",
+      "address": "0x1415fbb20",
+      "size": 64
+    },
+    {
+      "name": "main.init.15",
+      "address": "0x1415fbb60",
+      "size": 96
+    },
+    {
+      "name": "main.geositeList",
+      "address": "0x1415fbbc0",
+      "size": 736
+    },
+    {
+      "name": "main.geositeList.func1",
+      "address": "0x1415fbea0",
+      "size": 64
+    },
+    {
+      "name": "main.init.16",
+      "address": "0x1415fbee0",
+      "size": 96
+    },
+    {
+      "name": "main.geositeLookup",
+      "address": "0x1415fbf40",
+      "size": 1696
+    },
+    {
+      "name": "main.geositeLookup.func1",
+      "address": "0x1415fc5e0",
+      "size": 128
+    },
+    {
+      "name": "main.newSearchGeositeMatcher",
+      "address": "0x1415fc660",
+      "size": 576
+    },
+    {
+      "name": "main.(*searchGeositeMatcher).Match",
+      "address": "0x1415fc8a0",
+      "size": 864
+    },
+    {
+      "name": "main.init.17",
+      "address": "0x1415fcc00",
+      "size": 96
+    },
+    {
+      "name": "main.merge",
+      "address": "0x1415fcc60",
+      "size": 1120
+    },
+    {
+      "name": "main.mergePathResources",
+      "address": "0x1415fd0c0",
+      "size": 768
+    },
+    {
+      "name": "main.mergeTLSInboundOptions",
+      "address": "0x1415fd3c0",
+      "size": 1856
+    },
+    {
+      "name": "main.mergeTLSOutboundOptions",
+      "address": "0x1415fdb00",
+      "size": 1248
+    },
+    {
+      "name": "main.mergeSSHOutboundOptions",
+      "address": "0x1415fdfe0",
+      "size": 640
+    },
+    {
+      "name": "main.init.18",
+      "address": "0x1415fe260",
+      "size": 96
+    },
+    {
+      "name": "main.init.19",
+      "address": "0x1415fe2c0",
+      "size": 192
+    },
+    {
+      "name": "main.compileRuleSet",
+      "address": "0x1415fe380",
+      "size": 832
+    },
+    {
+      "name": "main.downgradeRuleSetVersion",
+      "address": "0x1415fe6c0",
+      "size": 224
+    },
+    {
+      "name": "main.init.20",
+      "address": "0x1415fe7a0",
+      "size": 256
+    },
+    {
+      "name": "main.convertRuleSet",
+      "address": "0x1415fe8a0",
+      "size": 1376
+    },
+    {
+      "name": "main.convertRuleSet.deferwrap1",
+      "address": "0x1415fee00",
+      "size": 64
+    },
+    {
+      "name": "main.init.21",
+      "address": "0x1415fee40",
+      "size": 192
+    },
+    {
+      "name": "main.decompileRuleSet",
+      "address": "0x1415fef00",
+      "size": 896
+    },
+    {
+      "name": "main.hasRule",
+      "address": "0x1415ff280",
+      "size": 608
+    },
+    {
+      "name": "main.init.22",
+      "address": "0x1415ff4e0",
+      "size": 160
+    },
+    {
+      "name": "main.formatRuleSet",
+      "address": "0x1415ff580",
+      "size": 1792
+    },
+    {
+      "name": "main.init.23",
+      "address": "0x1415ffc80",
+      "size": 192
+    },
+    {
+      "name": "main.ruleSetMatch",
+      "address": "0x1415ffd40",
+      "size": 2976
+    },
+    {
+      "name": "main.init.24",
+      "address": "0x1416008e0",
+      "size": 256
+    },
+    {
+      "name": "main.readRuleSetAt",
+      "address": "0x1416009e0",
+      "size": 1120
+    },
+    {
+      "name": "main.readRuleSet",
+      "address": "0x141600e40",
+      "size": 1312
+    },
+    {
+      "name": "main.readRuleSet.func1",
+      "address": "0x141601360",
+      "size": 128
+    },
+    {
+      "name": "main.readRuleSetAndMerge",
+      "address": "0x1416013e0",
+      "size": 1376
+    },
+    {
+      "name": "main.mergeRuleSet",
+      "address": "0x141601940",
+      "size": 1024
+    },
+    {
+      "name": "main.init.25",
+      "address": "0x141601d40",
+      "size": 160
+    },
+    {
+      "name": "main.upgradeRuleSet",
+      "address": "0x141601de0",
+      "size": 2016
+    },
+    {
+      "name": "main.init.26",
+      "address": "0x1416025c0",
+      "size": 96
+    },
+    {
+      "name": "main.readConfigAt",
+      "address": "0x141602620",
+      "size": 1184
+    },
+    {
+      "name": "main.readConfig",
+      "address": "0x141602ac0",
+      "size": 1312
+    },
+    {
+      "name": "main.readConfig.func1",
+      "address": "0x141602fe0",
+      "size": 128
+    },
+    {
+      "name": "main.readConfigAndMerge",
+      "address": "0x141603060",
+      "size": 1056
+    },
+    {
+      "name": "main.create",
+      "address": "0x141603480",
+      "size": 1856
+    },
+    {
+      "name": "main.create.func2",
+      "address": "0x141603bc0",
+      "size": 128
+    },
+    {
+      "name": "main.create.func1",
+      "address": "0x141603c40",
+      "size": 64
+    },
+    {
+      "name": "main.run",
+      "address": "0x141603c80",
+      "size": 1280
+    },
+    {
+      "name": "main.run.gowrap2",
+      "address": "0x141604180",
+      "size": 64
+    },
+    {
+      "name": "main.run.deferwrap1",
+      "address": "0x1416041c0",
+      "size": 64
+    },
+    {
+      "name": "main.closeMonitor",
+      "address": "0x141604200",
+      "size": 192
+    },
+    {
+      "name": "main.init.27",
+      "address": "0x1416042c0",
+      "size": 96
+    },
+    {
+      "name": "main.createHttpServer",
+      "address": "0x141604320",
+      "size": 608
+    },
+    {
+      "name": "main.restartService",
+      "address": "0x141604580",
+      "size": 544
+    },
+    {
+      "name": "main.createService",
+      "address": "0x1416047a0",
+      "size": 992
+    },
+    {
+      "name": "main.createService.func1",
+      "address": "0x141604b80",
+      "size": 512
+    },
+    {
+      "name": "main.runService",
+      "address": "0x141604d80",
+      "size": 96
+    },
+    {
+      "name": "main.destroyAll",
+      "address": "0x141604de0",
+      "size": 224
+    },
+    {
+      "name": "main.init.28",
+      "address": "0x141604ec0",
+      "size": 160
+    },
+    {
+      "name": "main.createPreStartedClient",
+      "address": "0x141604f60",
+      "size": 1120
+    },
+    {
+      "name": "main.createDialer",
+      "address": "0x1416053c0",
+      "size": 512
+    },
+    {
+      "name": "main.init.29",
+      "address": "0x1416055c0",
+      "size": 192
+    },
+    {
+      "name": "main.connect",
+      "address": "0x141605680",
+      "size": 2144
+    },
+    {
+      "name": "main.connect.func3",
+      "address": "0x141605ee0",
+      "size": 64
+    },
+    {
+      "name": "main.connect.func2",
+      "address": "0x141605f20",
+      "size": 192
+    },
+    {
+      "name": "main.connect.func1",
+      "address": "0x141605fe0",
+      "size": 192
+    },
+    {
+      "name": "main.connect.deferwrap1",
+      "address": "0x1416060a0",
+      "size": 64
+    },
+    {
+      "name": "main.init.30",
+      "address": "0x1416060e0",
+      "size": 96
+    },
+    {
+      "name": "main.fetch",
+      "address": "0x141606140",
+      "size": 1344
+    },
+    {
+      "name": "main.fetch.deferwrap3",
+      "address": "0x141606680",
+      "size": 64
+    },
+    {
+      "name": "main.fetch.deferwrap2",
+      "address": "0x1416066c0",
+      "size": 64
+    },
+    {
+      "name": "main.fetch.func1",
+      "address": "0x141606700",
+      "size": 384
+    },
+    {
+      "name": "main.fetch.deferwrap1",
+      "address": "0x141606880",
+      "size": 64
+    },
+    {
+      "name": "main.fetchHTTP",
+      "address": "0x1416068c0",
+      "size": 832
+    },
+    {
+      "name": "main.fetchHTTP.deferwrap1",
+      "address": "0x141606c00",
+      "size": 64
+    },
+    {
+      "name": "main.initializeHTTP3Client",
+      "address": "0x141606c40",
+      "size": 288
+    },
+    {
+      "name": "main.initializeHTTP3Client.func1",
+      "address": "0x141606d60",
+      "size": 576
+    },
+    {
+      "name": "main.init.31",
+      "address": "0x141606fa0",
+      "size": 320
+    },
+    {
+      "name": "main.syncTime",
+      "address": "0x1416070e0",
+      "size": 1056
+    },
+    {
+      "name": "main.syncTime.deferwrap1",
+      "address": "0x141607500",
+      "size": 64
+    },
+    {
+      "name": "main.init.32",
+      "address": "0x141607540",
+      "size": 160
+    },
+    {
+      "name": "main.printVersion",
+      "address": "0x1416075e0",
+      "size": 864
+    },
+    {
+      "name": "main.terminateCurrentProcess",
+      "address": "0x141607940",
+      "size": 64
+    },
+    {
+      "name": "main.makeProcessSingleton",
+      "address": "0x141607980",
+      "size": 832
+    },
+    {
+      "name": "main.makeProcessSingleton.deferwrap1",
+      "address": "0x141607cc0",
+      "size": 64
+    },
+    {
+      "name": "main.getResolvedExePath",
+      "address": "0x141607d00",
+      "size": 160
+    },
+    {
+      "name": "main.terminateProcess",
+      "address": "0x141607da0",
+      "size": 512
+    },
+    {
+      "name": "main.main",
+      "address": "0x141607fa0",
+      "size": 192
+    },
+    {
+      "name": "main.destroyAll.func1",
+      "address": "0x141608060",
+      "size": 256
+    },
+    {
+      "name": "main.restartService.func1",
+      "address": "0x141608160",
+      "size": 96
+    },
+    {
+      "name": "main.createHttpServer.func1",
+      "address": "0x1416081c0",
+      "size": 96
+    },
+    {
+      "name": "main.createHttpServer.func1.1",
+      "address": "0x141608220",
+      "size": 544
+    },
+    {
+      "name": "main.createHttpServer.func1.1.1",
+      "address": "0x141608440",
+      "size": 64
+    },
+    {
+      "name": "main.createHttpServer.func2",
+      "address": "0x141608480",
+      "size": 96
+    },
+    {
+      "name": "main.createHttpServer.func2.1",
+      "address": "0x1416084e0",
+      "size": 224
+    },
+    {
+      "name": "main.createHttpServer.func3",
+      "address": "0x1416085c0",
+      "size": 96
+    },
+    {
+      "name": "main.createHttpServer.func3.1",
+      "address": "0x141608620",
+      "size": 448
+    },
+    {
+      "name": "main.createHttpServer.func4",
+      "address": "0x1416087e0",
+      "size": 416
+    },
+    {
+      "name": "main.downgradeRuleSetVersion.func1",
+      "address": "0x141608980",
+      "size": 128
+    },
+    {
+      "name": "main.downgradeRuleSetVersion.func2",
+      "address": "0x141608a00",
+      "size": 64
+    },
+    {
+      "name": "main.decompileRuleSet.func1",
+      "address": "0x141608a40",
+      "size": 32
+    },
+    {
+      "name": "main.createHttpServer.NewMux.func5",
+      "address": "0x141608a60",
+      "size": 64
+    }
+  ]
+}

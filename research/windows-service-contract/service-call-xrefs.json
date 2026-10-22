@@ -1,0 +1,27 @@
+[
+  {
+    "owner": "main.init.func27",
+    "pc": "0x1415f76d2",
+    "target": "main.runService"
+  },
+  {
+    "owner": "main.restartService",
+    "pc": "0x141604705",
+    "target": "main.createService"
+  },
+  {
+    "owner": "main.runService",
+    "pc": "0x141604d8e",
+    "target": "main.createService"
+  },
+  {
+    "owner": "main.runService",
+    "pc": "0x141604d98",
+    "target": "main.createHttpServer"
+  },
+  {
+    "owner": "main.runService",
+    "pc": "0x141604db9",
+    "target": "main.destroyAll"
+  }
+]

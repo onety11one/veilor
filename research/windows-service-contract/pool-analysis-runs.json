@@ -1,0 +1,26 @@
+[
+  {
+    "run": "aot-pool-run",
+    "returnCode": 3221225477,
+    "analyzerSha256": "b0f823a438d91923429f401bced57799ad8297271ae062258daa5f94c0c5c663",
+    "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+    "outputFileCount": 1,
+    "installedExecutablesStarted": false
+  },
+  {
+    "run": "aot-pool-diagnostic",
+    "returnCode": 0,
+    "analyzerSha256": "fcf8a4c63c544c571c7ccdc58dc49e670d68af88956b1c2e190a2350487ee9fc",
+    "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+    "outputFileCount": 2174,
+    "installedExecutablesStarted": false
+  },
+  {
+    "run": "aot-pool-repeat",
+    "returnCode": 0,
+    "analyzerSha256": "fcf8a4c63c544c571c7ccdc58dc49e670d68af88956b1c2e190a2350487ee9fc",
+    "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+    "outputFileCount": 2174,
+    "installedExecutablesStarted": false
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "scope": "Observed types and confirmed readers, not a complete SDK schema; defaults unresolved",
+  "fields": [
+    {
+      "field": "control_port",
+      "observedType": "Int64",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "base_dir",
+      "observedType": "String",
+      "confirmedReaders": [
+        "main.setUpDir"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "work_dir",
+      "observedType": "String",
+      "confirmedReaders": [
+        "main.setUpDir"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "cache_dir",
+      "observedType": "String",
+      "confirmedReaders": [
+        "main.setUpDir"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "core_path",
+      "observedType": "String",
+      "confirmedReaders": [
+        "main.setUpDir",
+        "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate"
+      ],
+      "requirement": "nonempty string checked by setUpDir",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "log_path",
+      "observedType": "String",
+      "confirmedReaders": [
+        "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "err_path",
+      "observedType": "String",
+      "confirmedReaders": [
+        "main.setUpDir"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "id",
+      "observedType": "String",
+      "confirmedReaders": [
+        "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "version",
+      "observedType": "String",
+      "confirmedReaders": [
+        "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    },
+    {
+      "field": "name",
+      "observedType": "String",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "secret",
+      "observedType": "String",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "install_refer",
+      "observedType": "String",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "prepare",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "wake_lock",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "auto_connect_at_boot",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "allowed_sender_packages",
+      "observedType": "Object[]",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "include_all_networks",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "exclude_local_networks",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "exclude_cellular_services",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "exclude_apns",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "exclude_device_communication",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "enforce_routes",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "auto_route_use_sub_ranges_by_default",
+      "observedType": "Boolean",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "disconnect_after_sleep_seconds",
+      "observedType": "Int64",
+      "confirmedReaders": [],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": true
+    },
+    {
+      "field": "sentry_minversion",
+      "observedType": "String",
+      "confirmedReaders": [
+        "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate"
+      ],
+      "requirement": "not established",
+      "absenceOfReaderIsNotProofOfUnused": false
+    }
+  ],
+  "checksPassed": [
+    "Subject SHA-256",
+    "Private callback function value",
+    "Callback assignment matches wrapper read",
+    "Wrapper uses callback",
+    "Private reads service file",
+    "Private parses JSON",
+    "Private JSON key core_path",
+    "Private JSON key log_path",
+    "Private JSON key id",
+    "Private JSON key version",
+    "Private JSON key sentry_minversion",
+    "Minimum version comparison exists",
+    "SDK telemetry initialization exists",
+    "Cronet locates DLL",
+    "Cronet dynamic LoadLibrary",
+    "Cronet DLL basename",
+    "Cronet checks filesystem",
+    "25 observed fields retained",
+    "Nine fields have confirmed reader"
+  ],
+  "liveCoreExecution": false
+}

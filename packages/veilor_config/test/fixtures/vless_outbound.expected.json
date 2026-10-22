@@ -1,0 +1,17 @@
+{
+  "type": "vless",
+  "tag": "test-vless",
+  "server": "vpn.example.invalid",
+  "server_port": 443,
+  "uuid": "00000000-0000-4000-8000-000000000001",
+  "tls": {
+    "enabled": true,
+    "server_name": "vpn.example.invalid",
+    "alpn": ["h2", "http/1.1"]
+  },
+  "transport": {
+    "type": "ws",
+    "path": "/synthetic-test",
+    "headers": {"Host": "vpn.example.invalid"}
+  }
+}

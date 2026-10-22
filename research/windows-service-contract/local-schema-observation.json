@@ -1,0 +1,121 @@
+{
+  "observedDate": "2026-10-22",
+  "scope": "Read-only names/types only; no configuration values, command lines or SCM mutations",
+  "serviceConfigSchema": [
+    {
+      "field": "control_port",
+      "type": "Int64"
+    },
+    {
+      "field": "base_dir",
+      "type": "String"
+    },
+    {
+      "field": "work_dir",
+      "type": "String"
+    },
+    {
+      "field": "cache_dir",
+      "type": "String"
+    },
+    {
+      "field": "core_path",
+      "type": "String"
+    },
+    {
+      "field": "log_path",
+      "type": "String"
+    },
+    {
+      "field": "err_path",
+      "type": "String"
+    },
+    {
+      "field": "id",
+      "type": "String"
+    },
+    {
+      "field": "version",
+      "type": "String"
+    },
+    {
+      "field": "name",
+      "type": "String"
+    },
+    {
+      "field": "secret",
+      "type": "String"
+    },
+    {
+      "field": "install_refer",
+      "type": "String"
+    },
+    {
+      "field": "prepare",
+      "type": "Boolean"
+    },
+    {
+      "field": "wake_lock",
+      "type": "Boolean"
+    },
+    {
+      "field": "auto_connect_at_boot",
+      "type": "Boolean"
+    },
+    {
+      "field": "allowed_sender_packages",
+      "type": "Object[]"
+    },
+    {
+      "field": "include_all_networks",
+      "type": "Boolean"
+    },
+    {
+      "field": "exclude_local_networks",
+      "type": "Boolean"
+    },
+    {
+      "field": "exclude_cellular_services",
+      "type": "Boolean"
+    },
+    {
+      "field": "exclude_apns",
+      "type": "Boolean"
+    },
+    {
+      "field": "exclude_device_communication",
+      "type": "Boolean"
+    },
+    {
+      "field": "enforce_routes",
+      "type": "Boolean"
+    },
+    {
+      "field": "auto_route_use_sub_ranges_by_default",
+      "type": "Boolean"
+    },
+    {
+      "field": "disconnect_after_sleep_seconds",
+      "type": "Int64"
+    },
+    {
+      "field": "sentry_minversion",
+      "type": "String"
+    }
+  ],
+  "matchingScmServices": [],
+  "matchingProcesses": [
+    {
+      "ProcessName": "karing",
+      "Id": 26128
+    },
+    {
+      "ProcessName": "karingService",
+      "Id": 21252
+    }
+  ],
+  "limitations": [
+    "SCM search only matched names/display names containing karing or veilor; another service name is not excluded.",
+    "Optional JSON fields may be absent; absence does not prove removal from schema."
+  ]
+}

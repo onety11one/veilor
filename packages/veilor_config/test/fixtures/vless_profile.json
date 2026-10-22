@@ -1,0 +1,23 @@
+{
+  "type": "vless",
+  "tag": "outdated-tag",
+  "server": "vpn.example.invalid",
+  "server_port": 443,
+  "uuid": "00000000-0000-4000-8000-000000000001",
+  "tls": {
+    "enabled": true,
+    "server_name": "vpn.example.invalid",
+    "alpn": ["h2", "http/1.1"]
+  },
+  "transport": {
+    "type": "ws",
+    "path": "/synthetic-test",
+    "headers": {"Host": "vpn.example.invalid"}
+  },
+  "groupid": "test-subscription",
+  "ip": "192.0.2.1",
+  "attach": "test-note",
+  "latency": "42",
+  "outlet_ip": "198.51.100.1",
+  "outlet_region": "TEST"
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Static map assignments in Karing 1.2.25+2802; no HTTP execution",
+  "subjectSha256": "023ed74fa5015aacf09d83ac7d4a80f9d48dbc0459018e8d75303d7d80d6a9ea",
+  "reloadSuccess": {
+    "err": null,
+    "extra": null
+  },
+  "stopReply": {
+    "err": null
+  },
+  "reloadError": {
+    "err": "error.Error() string",
+    "extra": "returned auxiliary value; schema unresolved"
+  },
+  "reloadErrorDelayedAction": {
+    "sleepNanoseconds": 1000000000,
+    "channel": "same as stop handler"
+  },
+  "checksPassed": [
+    "Subject hash",
+    "Reload invokes restart",
+    "0x141608246 test rbx, rbx",
+    "0x141608249 je 0x14160835d",
+    "0x141608296 literal err",
+    "0x14160829d mov edi, 3",
+    "Error converted to string",
+    "0x1416082e7 literal extra",
+    "0x1416082ee mov edi, 5",
+    "0x14160836d literal err",
+    "0x141608385 mov qword ptr [rax], 0",
+    "0x1416083a1 mov qword ptr [rax + 8], 0",
+    "0x1416083b5 literal extra",
+    "0x1416083c6 mov qword ptr [rax], 0",
+    "0x1416083e2 mov qword ptr [rax + 8], 0",
+    "0x14160852d literal err",
+    "0x141608545 mov qword ptr [rax], 0",
+    "0x141608561 mov qword ptr [rax + 8], 0",
+    "Both reload branches and stop render JSON",
+    "Reload failure schedules goroutine",
+    "Goroutine function value resolves to delayed handler",
+    "0x14160844e mov eax, 0x3b9aca00",
+    "Delayed handler sleeps",
+    "Delayed handler sends channel event",
+    "Same channel as stop"
+  ],
+  "runtimeStatusCodeAndDeliveryVerified": false
+}

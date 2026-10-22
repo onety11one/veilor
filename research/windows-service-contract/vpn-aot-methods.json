@@ -1,0 +1,312 @@
+{
+  "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "metadataMatchesTwoRuns": true,
+  "classSize": {
+    "VpnServiceConfig": 208
+  },
+  "methods": [
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "FlutterVpnWait",
+      "signature": "static _ waitTimeout(/* No info */) async",
+      "address": "0xc49028",
+      "size": 116
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "FlutterVpnWait",
+      "signature": "static _ wait(/* No info */) async",
+      "address": "0xc490a8",
+      "size": 120
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "FlutterVpnWait",
+      "signature": "static _ waitProcessExit(/* No info */) async",
+      "address": "0xc4ac50",
+      "size": 192
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "VpnServiceConfig",
+      "signature": "_ VpnServiceConfig(/* No info */)",
+      "address": "0xd8652c",
+      "size": 232,
+      "codeSha256": "e4c811b4f641ea82b47a5cabeb75c91a290d8477b09766adf579ec972e076db4"
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "VpnServiceConfig",
+      "signature": "Map<String, dynamic> toJson(VpnServiceConfig)",
+      "address": "0xd8662a",
+      "size": 60,
+      "codeSha256": "7d0e0700fcf304ed6f90870462de7b4289f6dfcfdec5d59c1975edb9efa4253c"
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "VpnServiceConfig",
+      "signature": "Map<String, dynamic> toJson(VpnServiceConfig)",
+      "address": "0xd86650",
+      "size": 1248,
+      "codeSha256": "1d55f4d77d5ff96305907a2cb3754598c8b72f0f7109e8c6aa77e0aec221450b"
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "FlutterVpnServicePlatform",
+      "signature": "static FlutterVpnServicePlatform _instance()",
+      "address": "0xa84c34",
+      "size": 144
+    },
+    {
+      "file": "vpn_service_platform_interface.dart",
+      "class": "VpnServiceWaitType",
+      "signature": "_ _enumToString(/* No info */)",
+      "address": "0x13b87d4",
+      "size": 88
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ getAppGroupDirectory(/* No info */) async",
+      "address": "0xa7fbf4",
+      "size": 80
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ uninstallService(/* No info */) async",
+      "address": "0xc48a14",
+      "size": 64
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ stop(/* No info */) async",
+      "address": "0xc48b44",
+      "size": 600
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "get _ _currentState(/* No info */) async",
+      "address": "0xc48d9c",
+      "size": 100
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "[closure] static Future<VpnServiceWaitResult> _stop(dynamic, Duration)",
+      "address": "0xc491c8",
+      "size": 40
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ _stop(/* No info */) async",
+      "address": "0xc491f0",
+      "size": 608
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ _killProcesses(/* No info */)",
+      "address": "0xc49450",
+      "size": 452
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static Future<void> cleanSystemProxy() async",
+      "address": "0xc6aafc",
+      "size": 124
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ getSystemProxyEnable(/* No info */) async",
+      "address": "0xc6c0f8",
+      "size": 276
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ setSystemProxy(/* No info */) async",
+      "address": "0xc6c3fc",
+      "size": 340
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "get _ currentState(/* No info */) async",
+      "address": "0xca97fc",
+      "size": 108
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ start(/* No info */) async",
+      "address": "0xd84a10",
+      "size": 692
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ _start(/* No info */) async",
+      "address": "0xd84cc4",
+      "size": 4516
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ waitConnect(/* No info */) async",
+      "address": "0xd85ebc",
+      "size": 208
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "[closure] static Null <anonymous closure>(dynamic, int)",
+      "address": "0xd86264",
+      "size": 320
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "[closure] static Future<void> <anonymous closure>(dynamic, String) async",
+      "address": "0xd863a4",
+      "size": 336
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static VpnServiceConfig _config()",
+      "address": "0xd864f4",
+      "size": 56
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "[closure] static Future<void> <anonymous closure>(dynamic, Socket) async",
+      "address": "0xd86b5c",
+      "size": 96
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ _stopWithoutUpdateState(/* No info */) async",
+      "address": "0xd86bbc",
+      "size": 216
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ firewallAddPorts(/* No info */) async",
+      "address": "0xd870e4",
+      "size": 380
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ firewallAddApp(/* No info */) async",
+      "address": "0xd873e0",
+      "size": 284
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ clashiApiConnections(/* No info */) async",
+      "address": "0x10a1e6c",
+      "size": 448
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ onStateChanged(/* No info */)",
+      "address": "0x10c0ea4",
+      "size": 80
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "[closure] static Future<void> _methodCallHandler(dynamic, MethodCall)",
+      "address": "0x10c0ef4",
+      "size": 40
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ _methodCallHandler(/* No info */) async",
+      "address": "0x10c0f1c",
+      "size": 128
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ isRunAsAdmin(/* No info */) async",
+      "address": "0x10c1204",
+      "size": 180
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ restart(/* No info */) async",
+      "address": "0x115a868",
+      "size": 692
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "[closure] static Future<VpnServiceWaitResult> _restart(dynamic, Duration)",
+      "address": "0x115ab1c",
+      "size": 40
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ _restart(/* No info */) async",
+      "address": "0x115ab44",
+      "size": 1396
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ autoStartIsActive(/* No info */) async",
+      "address": "0x130f644",
+      "size": 252
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ autoStartDelete(/* No info */) async",
+      "address": "0x1314860",
+      "size": 252
+    },
+    {
+      "file": "vpn_service_method_channel_pc.dart",
+      "class": "MethodChannelFlutterVpnServicePC",
+      "signature": "static _ autoStartCreate(/* No info */) async",
+      "address": "0x1314a70",
+      "size": 336
+    },
+    {
+      "file": "proxy_manager.dart",
+      "class": "ProxyManager",
+      "signature": "_ getProxyUrlWindows(/* No info */)",
+      "address": "0xc6c20c",
+      "size": 140
+    },
+    {
+      "file": "state.dart",
+      "class": "FlutterVpnServiceState",
+      "signature": "_ _enumToString(/* No info */)",
+      "address": "0x13b877c",
+      "size": 88
+    }
+  ],
+  "limitations": [
+    "No Dart source recovery",
+    "No field/default interpretation yet",
+    "No standalone fromJson method observed in selected class; tree shaking/inlining not ruled out",
+    "Initial analyzer run crashed with 0xC0000005; subsequent diagnostic build completed twice; root cause not established"
+  ]
+}

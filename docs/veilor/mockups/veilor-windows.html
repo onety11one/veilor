@@ -1,0 +1,268 @@
+<div id="veilor-preview"><div class="vl-stage"><div class="vl-window"><div class="vl-titlebar"><span>Veilor</span><span aria-hidden="true">−　□　×</span></div><div class="vl-app" data-layout="compact" data-actions="text" data-design="ribbon" aria-label="Veilor для Windows"></div></div></div></div>
+<style>
+#veilor-preview {color-scheme:light dark}
+#veilor-preview .vl-stage {padding:24px 12px 36px;min-height:680px;box-sizing:border-box;display:flex;justify-content:center;align-items:flex-start}
+#veilor-preview .vl-app {--vl-bg:light-dark(#f7f8fb,#11151d);--vl-fg:light-dark(#202b3d,#edf1fa);--vl-sub:light-dark(#5b677b,#aab7ce);--vl-line:light-dark(#e0e5ee,#303b4d);--vl-surface:light-dark(#ffffff,#1a2230);--vl-accent:light-dark(#344fbe,#aebdff);--vl-on:light-dark(#ffffff,#17224d);--vl-ok:light-dark(#17684e,#80dab8);--vl-err:light-dark(#a53b35,#ffb4a9);background:var(--vl-bg);color:var(--vl-fg);font:400 15px/1.5 system-ui,sans-serif;width:390px;max-width:100%;min-height:594px;border:1px solid var(--vl-line);border-radius:28px;box-shadow:0 16px 50px light-dark(#20304b12,#00000035);padding:24px;box-sizing:border-box;position:relative}
+#veilor-preview .vl-app * {box-sizing:border-box}
+#veilor-preview .vl-head {display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+#veilor-preview .vl-word {font-size:23px;letter-spacing:-1px;font-weight:600}
+#veilor-preview .vl-app button {font:inherit;color:inherit;cursor:pointer}
+#veilor-preview .vl-icon {border:0;background:transparent;padding:9px;min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:12px}
+#veilor-preview .vl-icon:hover {background:var(--vl-surface)}
+#veilor-preview .vl-app svg {width:21px;height:21px}
+#veilor-preview .vl-kicker {color:var(--vl-sub);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+#veilor-preview .vl-center {text-align:center;padding:35px 0 30px}
+#veilor-preview .vl-title {font-size:25px;letter-spacing:-.7px;line-height:1.25;font-weight:500;margin:12px 0}
+#veilor-preview .vl-desc {color:var(--vl-sub);margin:0 auto;max-width:290px;font-size:14px;min-height:42px}
+#veilor-preview .vl-power {width:138px;height:138px;border-radius:50%;border:9px solid var(--vl-surface);outline:1px solid var(--vl-line);background:var(--vl-accent);color:var(--vl-on);display:flex;align-items:center;justify-content:center;margin:28px auto 18px;box-shadow:0 8px 24px light-dark(#344fbe20,#00000020)}
+#veilor-preview .vl-power svg {width:40px;height:40px}
+#veilor-preview .vl-power:disabled {opacity:.6;cursor:wait}
+#veilor-preview .vl-action-label {font-weight:500}
+#veilor-preview .vl-server {width:100%;padding:18px;border:1px solid var(--vl-line);border-radius:18px;background:var(--vl-surface);display:flex;align-items:center;gap:12px;text-align:left}
+#veilor-preview .vl-server .vl-servertext {flex:1;min-width:0;overflow-wrap:anywhere}
+#veilor-preview .vl-small {font-size:12px;color:var(--vl-sub)}
+#veilor-preview .vl-footer {text-align:center;color:var(--vl-sub);font-size:12px;margin:20px 0 0}
+#veilor-preview .vl-list {display:grid;gap:8px;margin-top:20px}
+#veilor-preview .vl-row {padding:14px 0;display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:0;border-bottom:1px solid var(--vl-line);background:transparent;min-height:52px}
+#veilor-preview .vl-row span {flex:1}
+#veilor-preview .vl-back {display:inline-flex;gap:8px;align-items:center;background:transparent;border:0;padding:8px 0;min-height:44px}
+#veilor-preview .vl-primary {width:100%;padding:15px;border:0;border-radius:14px;background:var(--vl-accent);color:var(--vl-on);margin-top:18px;font-weight:500}
+#veilor-preview .vl-detail {background:transparent;border:0;color:var(--vl-accent);padding:10px;min-height:44px}
+#veilor-preview .vl-badge {color:var(--vl-ok);font-size:13px}
+#veilor-preview .vl-mode {display:flex;gap:4px;background:var(--vl-surface);padding:5px;border-radius:14px;margin-top:16px}
+#veilor-preview .vl-mode button {flex:1;border:0;border-radius:10px;padding:10px;background:transparent;min-height:44px}
+#veilor-preview .vl-mode button[aria-pressed="true"] {background:var(--vl-accent);color:var(--vl-on)}
+#veilor-preview .vl-time {color:var(--vl-sub);font-size:13px;margin-top:12px;font-variant-numeric:tabular-nums}
+#veilor-preview .vl-app .vl-profile {margin-top:16px}
+#veilor-preview .vl-refresh {display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:44px;padding:10px;margin-top:8px;background:transparent;border:1px solid var(--vl-line);border-radius:12px;color:var(--vl-accent)}
+#veilor-preview .vl-refresh:disabled {opacity:.65;cursor:wait}
+#veilor-preview .vl-refresh-note {min-height:18px;margin:5px 0 0;text-align:center;font-size:12px;color:var(--vl-sub)}
+#veilor-preview .vl-pay {width:100%;min-height:48px;display:flex;align-items:center;justify-content:center;gap:8px;margin-top:16px;padding:12px;border:1px solid var(--vl-accent);background:var(--vl-surface);color:var(--vl-accent);border-radius:14px;font-weight:500}
+#veilor-preview .vl-pay:disabled {background:var(--vl-surface);border-color:var(--vl-line);color:var(--vl-sub);cursor:default}
+#veilor-preview .vl-payment-note {font-size:12px;color:var(--vl-sub);text-align:center;margin:8px 0 0}
+#veilor-preview .vl-refresh[aria-busy="true"] svg {animation:vl-spin 1s linear infinite}
+@keyframes vl-spin {to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){#veilor-preview .vl-refresh[aria-busy="true"] svg{animation:none}}
+#veilor-preview .vl-app[data-layout="compact"] .vl-center {text-align:left;padding:24px 0}
+#veilor-preview .vl-app[data-layout="compact"] .vl-power {width:100%;height:56px;border:0;outline:0;border-radius:14px;gap:10px;margin-top:24px;box-shadow:none}
+#veilor-preview .vl-app[data-layout="compact"] .vl-power svg {width:22px;height:22px}
+#veilor-preview .vl-app[data-layout="compact"] .vl-action-label {display:none}
+#veilor-preview .vl-app[data-layout="compact"] .vl-desc {margin:0}
+#veilor-preview .vl-app[data-layout="compact"] .vl-center {margin-top:35px}
+#veilor-preview .vl-app {--vl-bg:light-dark(#f3f6fc,#0c1020);--vl-fg:light-dark(#18233d,#f5f7ff);--vl-sub:light-dark(#586780,#a5afc6);--vl-line:light-dark(#dae2f1,#293348);--vl-surface:light-dark(#ffffff,#151d30);--vl-accent:light-dark(#485bd3,#a3baff);--vl-on:light-dark(#ffffff,#111b37);background:radial-gradient(ellipse at 100% 0%,light-dark(#21c4e410,#16bed516),transparent 60%),var(--vl-bg);border-radius:22px;box-shadow:0 18px 50px light-dark(#1c2c4b18,#05081150)}
+#veilor-preview .vl-word {font-weight:700;letter-spacing:-.7px}
+#veilor-preview .vl-word>span {color:light-dark(#16a6c9,#29c6ee)!important}
+#veilor-preview .vl-email {font-weight:500;overflow-wrap:anywhere}
+#veilor-preview .vl-app[data-layout="compact"] .vl-power {background:linear-gradient(110deg,#6654ec,#1485d5 65%,#0a91b1);color:#ffffff;border-radius:10px;box-shadow:0 7px 24px light-dark(#6654ec20,#6654ec30)}
+#veilor-preview .vl-server {border-radius:12px}
+#veilor-preview .vl-mode {border:1px solid var(--vl-line);border-radius:12px}
+#veilor-preview .vl-mode button[aria-pressed="true"] {background:light-dark(#e8ecff,#293455);color:light-dark(#3547ab,#dbe4ff)}
+#veilor-preview .vl-pay {border-radius:10px;border-color:light-dark(#b6c6ea,#3c4a69)}
+#veilor-preview .vl-refresh {border-radius:10px}
+#veilor-preview .vl-head a {text-decoration:none;color:var(--vl-fg)}
+#veilor-preview .vl-head-actions {display:flex;align-items:center;gap:4px}
+#veilor-preview .vl-app .vl-toggle {position:relative;display:block;width:228px;height:118px;padding:8px;margin:12px auto 20px;border:1px solid var(--vl-line);border-radius:60px;background:light-dark(#dce3f0,#303a51);box-shadow:inset 0 2px 5px light-dark(#18233d10,#00000020)}
+#veilor-preview .vl-app .vl-toggle[aria-checked="true"] {background:linear-gradient(110deg,#6654ec,#1485d5 65%,#0a91b1);border-color:transparent}
+#veilor-preview .vl-toggle-thumb {display:flex;align-items:center;justify-content:center;width:100px;height:100px;border-radius:50%;background:light-dark(#ffffff,#edf2ff);color:#53617e;box-shadow:0 3px 8px #00000020;transition:transform .2s ease}
+#veilor-preview .vl-toggle[aria-checked="true"] .vl-toggle-thumb {transform:translateX(110px);color:#425bdd}
+#veilor-preview .vl-toggle:disabled {opacity:.65;cursor:wait}
+#veilor-preview .vl-toggle-caption {text-align:center;color:var(--vl-sub);font-size:14px;min-height:21px}
+#veilor-preview .vl-app[data-layout="compact"] .vl-center {padding:24px 0;margin-top:16px}
+@media(prefers-reduced-motion:reduce){#veilor-preview .vl-toggle-thumb{transition:none}}
+#veilor-preview .vl-emptyicon {color:var(--vl-sub);padding:24px 0 8px}
+#veilor-preview .vl-emptyicon svg {width:46px;height:46px}
+@media(max-width:400px){#veilor-preview .vl-stage{padding:14px 0 26px}#veilor-preview .vl-app{padding:20px 16px;border-radius:20px} }
+#veilor-preview .vl-mode {max-width:228px;margin:0 auto 26px;padding:4px;gap:4px;border-radius:60px}
+#veilor-preview .vl-mode button {border-radius:60px;padding:8px 12px;min-height:36px;font-size:13px}
+#veilor-preview .vl-app .vl-toggle {margin:12px auto 16px}
+#veilor-preview .vl-toggle-thumb svg {width:30px;height:30px}
+#veilor-preview .vl-app[data-layout="compact"] .vl-center {padding:14px 0 20px;margin-top:8px}
+@media(pointer:coarse){#veilor-preview .vl-mode button{min-height:44px}}
+#veilor-preview .vl-stats {display:flex;align-items:center;justify-content:space-between;gap:8px;width:228px;max-width:100%;margin:0 auto 20px;color:var(--vl-sub);font-size:12px;font-variant-numeric:tabular-nums}
+#veilor-preview .vl-stat {display:flex;align-items:center;gap:4px;white-space:nowrap;min-width:0}
+#veilor-preview .vl-stats svg {width:16px;height:16px;flex-shrink:0}
+#veilor-preview .vl-app .vl-connections {display:flex;align-items:center;justify-content:center;gap:6px;min-width:44px;min-height:44px;padding:8px;background:transparent;border:0;border-radius:10px;color:var(--vl-sub)}
+#veilor-preview .vl-app .vl-connections[data-status="connected"] {color:light-dark(#14814f,#69d6a3)}
+#veilor-preview .vl-app .vl-connections[data-status="error"] {color:light-dark(#be3939,#ff9696)}
+#veilor-preview .vl-connections:hover {background:var(--vl-surface)}
+#veilor-preview .vl-mode {margin-bottom:10px}
+#veilor-preview .vl-actions {display:flex;align-items:center;justify-content:center;gap:10px;margin-top:12px;min-height:64px}
+#veilor-preview .vl-app .vl-actions .vl-refresh,#veilor-preview .vl-app .vl-speed {display:flex;align-items:center;justify-content:center;gap:7px;width:auto;min-height:40px;margin:0;padding:8px 13px;font-size:13px;border:1px solid var(--vl-line);border-radius:10px;background:var(--vl-surface);color:var(--vl-sub);text-decoration:none;font-weight:400}
+#veilor-preview .vl-actions svg {width:18px;height:18px}
+#veilor-preview .vl-app[data-actions="icons"] .vl-tool-label {display:none}
+#veilor-preview .vl-app[data-actions="icons"] .vl-actions .vl-refresh,#veilor-preview .vl-app[data-actions="icons"] .vl-speed {width:44px;min-height:44px;padding:10px}
+#veilor-preview .vl-app[data-actions="stacked"] .vl-actions {gap:28px}
+#veilor-preview .vl-app[data-actions="stacked"] .vl-actions .vl-refresh,#veilor-preview .vl-app[data-actions="stacked"] .vl-speed {flex-direction:column;gap:6px;border:0;background:transparent;padding:7px;font-size:12px;min-width:66px}
+#veilor-preview .vl-app[data-actions="stacked"] .vl-actions svg {width:22px;height:22px}
+#veilor-preview .vl-stage {min-height:740px}
+@media(pointer:coarse){#veilor-preview .vl-app .vl-actions .vl-refresh,#veilor-preview .vl-app .vl-speed{min-height:44px}}
+#veilor-preview .vl-app[data-actions="text"] .vl-toggle {width:204px;height:106px}
+#veilor-preview .vl-app[data-actions="text"] .vl-toggle-thumb {width:88px;height:88px}
+#veilor-preview .vl-app[data-actions="text"] .vl-toggle[aria-checked="true"] .vl-toggle-thumb {transform:translateX(98px)}
+#veilor-preview .vl-app[data-actions="text"] .vl-stats {margin-bottom:6px}
+#veilor-preview .vl-ip {display:flex;align-items:center;justify-content:center;gap:10px;width:228px;max-width:100%;margin:0 auto 20px;padding:9px 12px;border-radius:12px;border:1px solid light-dark(#e6b4bd,#713641);background:light-dark(#fff0f2,#2b1a26);color:light-dark(#bd2943,#ff627f);font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}
+#veilor-preview .vl-ip[data-online="true"] {border-color:light-dark(#a1d9c1,#225c49);background:light-dark(#edf9f2,#112c27);color:light-dark(#087b4c,#35e69a)}
+#veilor-preview .vl-flag {display:inline-block;width:30px;height:21px;flex-shrink:0;border-radius:4px;box-shadow:0 0 0 1px #00000012;overflow:hidden}
+#veilor-preview .vl-flag[data-country="ru"] {background:linear-gradient(to bottom,#fff 0 33.333%,#1749a6 33.333% 66.666%,#dc3343 66.666% 100%)}
+#veilor-preview .vl-flag[data-country="be"] {background:linear-gradient(to right,#161616 0 33.333%,#f7d431 33.333% 66.666%,#ef3340 66.666% 100%)}
+#veilor-preview .vl-stage {min-height:800px}
+#veilor-preview .vl-app {min-height:720px;padding:26px 24px}
+#veilor-preview .vl-app[data-page="home"] {display:flex;flex-direction:column}
+#veilor-preview .vl-app[data-page="home"] main {display:contents}
+#veilor-preview .vl-app .vl-refresh-note:empty {min-height:0;margin:0}
+#veilor-preview .vl-app button:focus-visible,#veilor-preview .vl-app a:focus-visible {outline:3px solid var(--vl-accent);outline-offset:3px}
+#veilor-preview .vl-app .vl-mode button,#veilor-preview .vl-app .vl-actions .vl-refresh,#veilor-preview .vl-app .vl-speed {min-height:44px}
+/* Balance: central connection, account and billing separated by space. */
+#veilor-preview .vl-app[data-design="balance"] {--vl-bg:light-dark(#f8fafb,#101a23);--vl-surface:light-dark(#ffffff,#1b2934);--vl-accent:light-dark(#236f83,#9ed2e1);background:var(--vl-bg);border-radius:32px;box-shadow:0 20px 54px light-dark(#233b4912,#00000035)}
+#veilor-preview .vl-app[data-design="balance"] .vl-head {order:0}
+#veilor-preview .vl-app[data-design="balance"] .vl-profile {order:1;border:0;background:transparent;justify-content:center;text-align:center;padding:0 0 12px;margin:0}
+#veilor-preview .vl-app[data-design="balance"] .vl-profile>svg {display:none}
+#veilor-preview .vl-app[data-design="balance"] .vl-center {order:2;margin:0;padding:30px 0 22px}
+#veilor-preview .vl-app[data-design="balance"] .vl-toggle {background:light-dark(#dce6e9,#344954);border:0;box-shadow:none}
+#veilor-preview .vl-app[data-design="balance"] .vl-toggle[aria-checked="true"] {background:linear-gradient(110deg,#276c91,#2391a3)}
+#veilor-preview .vl-app[data-design="balance"] .vl-toggle-thumb {box-shadow:0 3px 8px #102f3e18}
+#veilor-preview .vl-app[data-design="balance"] .vl-mode {order:3;background:transparent;border:0}
+#veilor-preview .vl-app[data-design="balance"] .vl-mode button[aria-pressed="true"] {background:light-dark(#e0edf0,#2b424d);color:var(--vl-fg)}
+#veilor-preview .vl-app[data-design="balance"] .vl-stats {order:4}
+#veilor-preview .vl-app[data-design="balance"] .vl-ip {order:5;border:0;background:transparent;margin-bottom:26px}
+#veilor-preview .vl-app[data-design="balance"] button[data-go="servers"] {order:6;border-radius:18px;padding:16px}
+#veilor-preview .vl-app[data-design="balance"] .vl-pay {order:7;margin-top:28px;border:0;background:light-dark(#e6eef1,#253945)}
+#veilor-preview .vl-app[data-design="balance"] .vl-payment-note {order:8}
+#veilor-preview .vl-app[data-design="balance"] .vl-actions {order:9;min-height:48px;margin-top:8px}
+#veilor-preview .vl-app[data-design="balance"] .vl-refresh-note {order:10}
+#veilor-preview .vl-app[data-design="balance"] .vl-actions .vl-refresh,#veilor-preview .vl-app[data-design="balance"] .vl-speed {border:0;background:transparent;color:var(--vl-sub)}
+/* Ribbon: stacked functional bands; account/billing at top, tools last. */
+#veilor-preview .vl-app[data-design="ribbon"] {--vl-bg:light-dark(#ffffff,#131822);--vl-surface:light-dark(#f3f5fa,#202938);background:var(--vl-bg);border-radius:18px;box-shadow:none;border-color:var(--vl-line)}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-head {order:0;margin-bottom:22px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-profile {order:1;margin:0;border:0;background:transparent;padding:8px 0 16px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-pay {order:2;margin:0;border-radius:8px;border:0;background:var(--vl-surface);min-height:44px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-payment-note {order:3}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-center {order:4;margin:24px 0 0;padding:26px 0;background:var(--vl-surface);border-radius:16px 16px 0 0}
+#veilor-preview .vl-app[data-design="ribbon"] {--vl-control-width:228px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-toggle {width:var(--vl-control-width);height:116px;padding:8px;background:light-dark(#d2daeb,#3d4b63);box-shadow:none}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-toggle-thumb {width:98px;height:98px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-toggle[aria-checked="true"] .vl-toggle-thumb {transform:translateX(112px)}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-toggle[aria-checked="true"] {background:linear-gradient(110deg,#5b5cd7,#268cae)}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-mode {order:5;background:var(--vl-surface);border:0;border-radius:0;max-width:none;width:100%;margin:0;padding:0 38px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-mode button {border-radius:8px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-stats {order:6;background:var(--vl-surface);margin:0;width:100%;padding:8px 0 0;justify-content:center}
+#veilor-preview .vl-stats-inner {display:flex;align-items:center;justify-content:space-between;gap:8px;width:var(--vl-control-width,228px);flex:none;margin-inline:auto}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-ip {order:7;width:100%;margin:0 0 20px;border:0;border-radius:0 0 16px 16px;background:var(--vl-surface);padding:8px 12px 20px}
+#veilor-preview .vl-app[data-design="ribbon"] button[data-go="servers"] {order:8;background:transparent;border:0;border-bottom:1px solid var(--vl-line);border-radius:0;padding:14px 0}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-actions {order:9;justify-content:space-between;gap:12px;min-height:48px;margin-top:20px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-actions .vl-refresh,#veilor-preview .vl-app[data-design="ribbon"] .vl-speed {flex:1;background:var(--vl-surface);color:var(--vl-fg);border:0;border-radius:8px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-speed {order:0}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-actions .vl-refresh {order:1}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-refresh-note {order:10}
+/* Console: connection and server dominate, thin utilitarian controls below. */
+#veilor-preview .vl-app[data-design="console"] {--vl-bg:light-dark(#eef1f7,#10151f);--vl-surface:light-dark(#ffffff,#1b2331);background:var(--vl-bg);border-radius:24px;box-shadow:0 12px 40px light-dark(#17274410,#00000030)}
+#veilor-preview .vl-app[data-design="console"] .vl-head {order:0;margin-bottom:16px}
+#veilor-preview .vl-app[data-design="console"] button[data-go="servers"] {order:1;border:0;background:transparent;padding:12px 0;border-radius:0}
+#veilor-preview .vl-app[data-design="console"] .vl-center {order:2;margin:0;padding:28px 0 18px}
+#veilor-preview .vl-app[data-design="console"] .vl-toggle {border-radius:24px;box-shadow:none;background:light-dark(#d4ddeb,#344159)}
+#veilor-preview .vl-app[data-design="console"] .vl-toggle-thumb {border-radius:17px;box-shadow:0 2px 7px #00000015}
+#veilor-preview .vl-app[data-design="console"] .vl-toggle[aria-checked="true"] {background:linear-gradient(100deg,#4a65d1,#208bba)}
+#veilor-preview .vl-app[data-design="console"] .vl-mode {order:3;border-radius:10px;background:var(--vl-surface);padding:4px}
+#veilor-preview .vl-app[data-design="console"] .vl-mode button {border-radius:7px}
+#veilor-preview .vl-app[data-design="console"] .vl-stats {order:4}
+#veilor-preview .vl-app[data-design="console"] .vl-ip {order:5;border-radius:8px;margin-bottom:30px}
+#veilor-preview .vl-app[data-design="console"] .vl-profile {order:6;background:var(--vl-surface);border:0;border-radius:16px 16px 0 0;margin:0;padding:16px 18px 12px}
+#veilor-preview .vl-app[data-design="console"] .vl-pay {order:7;background:var(--vl-surface);border:0;border-top:1px solid var(--vl-line);border-radius:0 0 16px 16px;margin:0;font-size:14px;min-height:46px}
+#veilor-preview .vl-app[data-design="console"] .vl-payment-note {order:8}
+#veilor-preview .vl-app[data-design="console"] .vl-actions {order:9;margin-top:16px;min-height:48px;justify-content:space-evenly}
+#veilor-preview .vl-app[data-design="console"] .vl-actions .vl-refresh,#veilor-preview .vl-app[data-design="console"] .vl-speed {border:0;background:transparent;color:var(--vl-sub)}
+#veilor-preview .vl-app[data-design="console"] .vl-refresh-note {order:10}
+@media(max-width:400px){#veilor-preview .vl-app{padding:24px 16px}}
+#veilor-preview .vl-window {width:460px;max-width:100%;border:1px solid light-dark(#cbd3e1,#344052);border-radius:10px;overflow:hidden;background:light-dark(#fff,#131822);box-shadow:0 18px 55px light-dark(#18273f1c,#00000035)}
+#veilor-preview .vl-titlebar {height:36px;display:flex;justify-content:space-between;align-items:center;padding:0 12px;font:12px 'Segoe UI',sans-serif;color:light-dark(#586780,#a5afc6);border-bottom:1px solid light-dark(#e1e6ef,#293348)}
+#veilor-preview .vl-window .vl-app {width:100%;max-width:none;border:0;border-radius:0;min-height:700px;font-family:'Segoe UI',system-ui,sans-serif;box-shadow:none}
+#veilor-preview .vl-window .vl-app>* {flex-shrink:0}
+#veilor-preview .vl-window .vl-head,#veilor-preview .vl-window .vl-profile,#veilor-preview .vl-window .vl-pay,#veilor-preview .vl-window .vl-actions,#veilor-preview .vl-window button[data-go="servers"] {width:100%;max-width:364px;align-self:center}
+#veilor-preview .vl-progress-label {text-align:center;color:var(--vl-sub);font-size:13px;margin:4px 0}
+#veilor-preview .vl-check {display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:54px;padding:12px 0;border-bottom:1px solid var(--vl-line)}
+#veilor-preview .vl-check input {width:18px;height:18px;accent-color:var(--vl-accent)}
+#veilor-preview .vl-app .vl-refresh-note {color:var(--vl-sub);padding:0 4px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-center {text-align:center;padding:26px 20px}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-center .vl-title {text-align:center;overflow-wrap:anywhere}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-center .vl-desc {text-align:center;margin-inline:auto;min-height:0}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-center .vl-primary {display:flex;align-items:center;justify-content:center;width:var(--vl-control-width);max-width:100%;margin:18px auto 0;color:var(--vl-on)}
+#veilor-preview .vl-app[data-design="ribbon"] .vl-center .vl-detail {display:flex;align-items:center;justify-content:center;min-width:140px;max-width:100%;margin:16px auto 0;padding:10px 20px;border:1px solid var(--vl-line);border-radius:8px;background:var(--vl-bg);color:var(--vl-fg)}
+#veilor-preview .vl-app .vl-title,#veilor-preview .vl-app .vl-row span {overflow-wrap:anywhere}
+#veilor-preview .vl-app .vl-row svg {flex-shrink:0}
+</style>
+<script>
+(() => {
+const root=document.getElementById('veilor-preview');
+const modes={ready:['Не подключено','Выберите сервер и подключитесь','Подключить'],connecting:['Подключение…','Устанавливаем соединение с сервером','Подключение…'],connected:['Подключено','Соединение установлено','Отключить'],disconnecting:['Отключение…','Завершаем соединение','Отключение…'],expired:['Подписка закончилась','Продлите подписку, затем обновите подключение','Оплатить'],error:['Не удалось подключиться','Сервер не ответил. Попробуйте ещё раз.','Повторить'],empty:['Добавьте подключение','Импортируйте ссылку, QR-код или файл','Добавить подключение']};
+const settings=[['Подключения','folder','profiles'],['Автоподключение','zap','auto'],['Оформление и доступность','palette','appearance'],['Резервные копии и синхронизация','cloud','backup'],['Расширенные настройки','sliders-horizontal','advanced'],['О приложении и помощь','info','about']];
+const categories=[['Сеть и VPN','network'],['Маршрутизация','route'],['DNS','globe'],['Серверы и профили','server'],['Протоколы','layers'],['Диагностика','activity'],['Инструменты и интеграции','wrench'],['Система и обслуживание','settings'],['Прежний главный экран','layout-dashboard']];
+const detailGroups={"Сеть и VPN":["TUN","Системный прокси","Исключения системного прокси","Порты","Доступ из локальной сети","Сетевые интерфейсы","IPv6 и стратегия IP","Исключения UWP","Брандмауэр Windows"],"Маршрутизация":["Наборы правил","Пользовательские правила","Группы маршрутизации","Проверка правил"],"DNS":["DNS-серверы","Автоматическая настройка","Стратегии DNS"],"Серверы и профили":["Редактор профиля","Объединение профилей","Порядок профилей","Автовыбор сервера","Фильтры серверов","Группы проверки задержки"],"Протоколы":["TLS","Мультиплексирование","WARP","NTP","Прочие параметры протоколов"],"Диагностика":["Соединения","Журналы","Проверка сети","Статистика трафика","Проверки утечек","Параметры тестирования"],"Инструменты и интеграции":["Веб-панель","User-Agent","QR-инструменты","Обработка ссылок","Провайдер","Apple TV"],"Система и обслуживание":["Поведение при выходе и сне","Портативный режим","Очистка кеша","Сброс настроек"],"Прежний главный экран":["Панель виджетов","Добавление и порядок виджетов","Фон и прозрачность","Импорт и экспорт виджетов"]};
+function icon(name){return '<i data-lucide="'+name+'" aria-hidden="true"></i>'}
+root.querySelectorAll('.vl-app').forEach(app=>{
+ const state={mode:'ready',server:'Автоматически',page:'home',detail:'',routing:'rules',since:null,refreshing:false,refreshed:false,autopay:app.dataset.autopay==='true',paymentNotice:false,connectionColor:null,launch:false,autoconnect:false,refreshOutcome:'success'};
+ const compact=app.dataset.layout==='compact';
+ function row(name,ico,action){return '<button class="vl-row" data-go="'+action+'">'+icon(ico)+'<span>'+name+'</span>'+icon('chevron-right')+'</button>'}
+ function render(){
+  let markup=''; const m=modes[state.mode];
+  if(state.page==='home'){
+   markup='<header class="vl-head"><a class="vl-word" href="https://sigmagate.link/" target="_blank" rel="noopener noreferrer" aria-label="Veilor — открыть сайт">veilor<span style="color:var(--vl-accent)">.</span></a><div class="vl-head-actions"><a class="vl-icon" href="https://sigmagate.link/" target="_blank" rel="noopener noreferrer" aria-label="Поделиться — открыть сайт">'+icon('share-2')+'</a><button class="vl-icon" data-go="settings" aria-label="Настройки">'+icon('settings')+'</button></div></header>';
+   if(state.mode!=='empty')markup+='<div class="vl-server vl-profile">'+icon('user')+'<span class="vl-servertext"><span class="vl-email">user@example.com</span><br><span class="vl-small">'+(state.mode==='expired'?'Подписка закончилась':'Действует до 16.12.2026')+'</span></span></div>'+('<button class="vl-pay" data-go="pay" '+(state.autopay?'disabled':'')+'>'+icon(state.autopay?'calendar-check':'credit-card')+'<span>'+(state.autopay?'Автоплатёж · 16.12.2026':'Оплатить')+'</span></button>'+(state.paymentNotice?'<p class="vl-payment-note" role="status">В приложении откроется страница оплаты. Это макет.</p>':''))+'<div class="vl-actions"><button class="vl-refresh" data-go="refresh" aria-label="Обновить подключение" data-tooltip="Обновить подключение" aria-busy="'+state.refreshing+'" '+(state.refreshing?'disabled':'')+'>'+icon('refresh-cw')+'<span class="vl-tool-label">'+(state.refreshing?'Обновление…':'Обновить')+'</span></button><a class="vl-speed" href="https://www.speedtest.net/" target="_blank" rel="noopener noreferrer" aria-label="Замер скорости — открыть Speedtest" data-tooltip="Замер скорости">'+icon('gauge')+'<span class="vl-tool-label">Скорость</span></a></div><p class="vl-refresh-note" role="status">'+(state.refreshed?(state.refreshOutcome==='success'?'Подключение обновлено':state.refreshOutcome==='partial'?'Конфигурация обновлена. Данные подписки недоступны.':'Не удалось обновить. Повторите попытку.') : '')+'</p>';
+   markup+='<main><div class="vl-center">';
+   if(state.mode==='empty') markup+='<div class="vl-emptyicon">'+icon('link')+'</div>';
+   if(state.mode==='empty'||state.mode==='error'||state.mode==='expired')markup+='<h1 class="vl-title" aria-live="polite">'+m[0]+'</h1><p class="vl-desc">'+m[1]+'</p>';
+   if(state.mode==='expired')markup+='<button class="vl-primary" data-go="pay">Оплатить</button>';
+   else if(state.mode==='empty') markup+='<button class="vl-primary" data-go="import">Добавить подключение</button>';
+   else markup+='<button class="vl-toggle" role="switch" aria-checked="'+(state.mode==='connected')+'" data-go="power" aria-label="Переключить подключение VPN" aria-busy="'+(['connecting','disconnecting'].includes(state.mode))+'" '+(['connecting','disconnecting'].includes(state.mode)?'disabled':'')+'><span class="vl-toggle-thumb">'+icon('power')+'</span></button>';
+   if(['connecting','disconnecting'].includes(state.mode))markup+='<p class="vl-progress-label" role="status">'+m[0]+'</p>';
+   if(state.mode==='error')markup+='<button class="vl-detail" data-go="error-detail">Подробнее</button>';
+   markup+='</div>';
+   if(state.mode!=='empty')markup+='<div class="vl-mode" role="group" aria-label="Режим маршрутизации"><button data-go="routing:rules" aria-pressed="'+(state.routing==='rules')+'">Игровой</button><button data-go="routing:global" aria-pressed="'+(state.routing==='global')+'">Рабочий</button></div>';
+   if(state.mode!=='empty'){const status=state.connectionColor||(state.mode==='connected'?'connected':state.mode==='error'?'error':'off'); const names={connected:'Подключено',error:'Ошибка',off:'Отключено'};markup+='<div class="vl-stats"><div class="vl-stats-inner"><span class="vl-stat" aria-label="Использование оперативной памяти: 17,9 мегабайта">'+icon('cpu')+'<span>17,9 МБ</span></span><span class="vl-stat" aria-label="Время подключения">'+icon('clock')+'<span data-elapsed>00:00:00</span></span><button class="vl-connections" data-go="connections" data-status="'+status+'" aria-label="Соединения: '+(status==='connected'?3:0)+'. '+names[status]+'. Нажмите, чтобы сменить демонстрационный цвет.">'+icon('monitor')+'<span>'+(status==='connected'?3:0)+'</span></button></div></div>';}
+   if(state.mode!=='empty'&&app.dataset.actions==='text'){const on=state.mode==='connected';markup+='<div class="vl-ip" data-online="'+on+'" role="status" aria-label="'+(on?'Подключено. Бельгия.':'Отключено. Россия.')+' Демонстрационный IP"><span class="vl-flag" data-country="'+(on?'be':'ru')+'" aria-hidden="true"></span><span>'+(on?'104.28.195.139':'85.175.198.94')+'</span></div>';}
+
+   if(state.mode!=='empty')markup+='<button class="vl-server" data-go="servers">'+icon(state.server==='Автоматически'?'sparkles':'globe')+'<span class="vl-servertext"><span class="vl-small">Сервер</span><br>'+state.server+'</span>'+icon('chevron-right')+'</button>';
+   markup+='</main>';
+  }else{
+   markup='<button class="vl-back" data-go="'+(['settings','servers','import'].includes(state.page)?'home':state.page==='category'?'advanced':state.page==='leaf'?(state.detail?'category':'settings'):'settings')+'">'+icon('arrow-left')+'Назад</button>';
+   if(state.page==='settings')markup+='<h1 class="vl-title">Настройки</h1><div class="vl-list">'+settings.map(x=>row(...x)).join('')+'</div>';
+   else if(state.page==='advanced')markup+='<h1 class="vl-title">Расширенные настройки</h1><p class="vl-small">Все возможности приложения</p><div class="vl-list">'+categories.map(x=>row(x[0],x[1],'cat:'+x[0])).join('')+'</div>';
+   else if(state.page==='servers')markup+='<h1 class="vl-title">Выбор сервера</h1><p class="vl-small">Демонстрационный список</p><div class="vl-list">'+['Автоматически','Нидерланды · Amsterdam','Германия · Frankfurt'].map((s,i)=>row((s===state.server?'✓ ':'')+s,i?'globe':'sparkles','server:'+s)).join('')+'</div>';
+   else if(state.page==='import')markup+='<h1 class="vl-title">Добавить подключение</h1><div class="vl-list">'+[['По ссылке','link'],['Сканировать QR-код','scan-line'],['Из файла','file-up']].map(x=>row(x[0],x[1],'demo-import')).join('')+'</div><p class="vl-small">В макете добавляется демонстрационный профиль.</p>';
+   else if(state.page==='profiles')markup+='<h1 class="vl-title">Подключения</h1>'+row('Добавить подключение','plus','import')+(state.mode!=='empty'?row('Основное подключение','folder','profile-detail'):'');
+   else if(state.page==='category')markup+='<h1 class="vl-title">'+state.detail+'</h1><div class="vl-list">'+(detailGroups[state.detail]||[]).map(label=>row(label,'sliders-horizontal','leaf:'+label)).join('')+'</div>';
+   else if(state.page==='auto')markup+='<h1 class="vl-title">Автоподключение</h1><div class="vl-list"><label class="vl-check"><span>Запускать вместе с Windows</span><input type="checkbox" data-field="launch" '+(state.launch?'checked':'')+'></label><label class="vl-check"><span>Подключаться при запуске Veilor</span><input type="checkbox" data-field="autoconnect" '+(state.autoconnect?'checked':'')+'></label></div>';
+   else if(state.page==='appearance')markup+='<h1 class="vl-title">Оформление и доступность</h1>'+row('Тема','palette','leaf:Тема')+row('Язык','languages','leaf:Язык')+row('Масштаб и доступность','accessibility','leaf:Масштаб и доступность');
+   else if(state.page==='backup')markup+='<h1 class="vl-title">Копии и синхронизация</h1>'+['Создать копию','Восстановить копию','Автоматические копии','Локальная сеть','WebDAV'].map(x=>row(x,'cloud','leaf:'+x)).join('');
+   else if(state.page==='leaf')markup+='<h1 class="vl-title">'+state.leaf+'</h1><p class="vl-small">На этапе реализации здесь откроется существующий экран Karing. Изменения системных параметров в макете не выполняются.</p>';
+   else if(state.page==='error-detail')markup+='<h1 class="vl-title">Ошибка подключения</h1><p>Превышено время ожидания ответа сервера.</p><p class="vl-small">Демонстрационная ошибка. В приложении здесь будут фактическая причина и переход к диагностике.</p>'+row('Выбрать другой сервер','globe','servers');
+   else markup+='<h1 class="vl-title">'+state.detail+'</h1><p class="vl-small">Детальный экран будет переиспользовать существующую логику приложения.</p>';
+  }
+  app.dataset.page=state.page;
+  app.innerHTML=markup;
+  updateTimer();
+  if(globalThis.lucide)lucide.createIcons({attrs:{width:20,height:20}});
+ }
+ app.addEventListener('change',e=>{if(e.target.dataset.field)state[e.target.dataset.field]=e.target.checked;});
+ app.addEventListener('click',e=>{
+  const button=e.target.closest('button[data-go]'); if(!button)return; const action=button.dataset.go;
+  if(action==='connections'){const current=state.connectionColor||(state.mode==='connected'?'connected':state.mode==='error'?'error':'off');state.connectionColor={off:'connected',connected:'error',error:'off'}[current];render();}
+  else if(action==='pay'){state.paymentNotice=true;render();}
+  else if(action.startsWith('routing:')){state.routing=action.slice(8);render();}
+  else if(action==='refresh'){if(state.refreshing)return;state.refreshing=true;state.refreshed=false;render();setTimeout(()=>{state.refreshing=false;state.refreshed=true;render();},1300);}
+  else if(action==='power'){
+   state.connectionColor=null;
+   if(state.mode==='connected'){state.mode='disconnecting';render();setTimeout(()=>{state.mode='ready';state.since=null;render();},800);}
+   else {state.mode='connecting';render();setTimeout(()=>{if(state.mode==='connecting'){state.mode='connected';state.since=Date.now();render();}},1200);}
+  }else if(action.startsWith('server:')){state.server=action.slice(7);state.page='home';render();}
+  else if(action.startsWith('leaf:')){state.leaf=action.slice(5);state.page='leaf';render();}
+  else if(action.startsWith('cat:')){state.detail=action.slice(4);state.page='category';render();}
+  else if(action==='demo-import'){state.mode='ready';state.page='home';render();}
+  else{state.page=action;state.detail=({auto:'Автоподключение',appearance:'Оформление и доступность',backup:'Резервные копии и синхронизация',about:'О приложении и помощь','profile-detail':'Основное подключение'})[action]||state.detail;render();}
+ });
+ function updateTimer(){const el=app.querySelector('[data-elapsed]');if(!el)return;if(state.mode==='connected'&&state.since===null)state.since=Date.now();const sec=state.mode==='connected'?Math.floor((Date.now()-state.since)/1000):0;el.textContent=[Math.floor(sec/3600),Math.floor(sec/60)%60,sec%60].map(n=>String(n).padStart(2,'0')).join(':');}
+ const timer=setInterval(()=>{if(!app.isConnected){clearInterval(timer);return;}updateTimer();},1000);
+ render();
+ if(globalThis.Tweak){const tweak=new Tweak({container:app,onChange:()=>{state.page='home';render();}});tweak.addSelect(state,'refreshOutcome',{label:'Результат обновления',options:[{label:'Успех',value:'success'},{label:'Частичный успех',value:'partial'},{label:'Ошибка',value:'failure'}]});tweak.addToggle(state,'autopay',{label:'Автоподписка'});tweak.addSelect(state,'mode',{label:'Состояние подключения',options:[{label:'Не подключено',value:'ready'},{label:'Подключение',value:'connecting'},{label:'Подключено',value:'connected'},{label:'Отключение',value:'disconnecting'},{label:'Подписка закончилась',value:'expired'},{label:'Ошибка',value:'error'},{label:'Первый запуск',value:'empty'}]});}
+});
+})();
+</script>

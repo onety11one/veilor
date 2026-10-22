@@ -1,0 +1,66 @@
+{
+  "scope": "AOT metadata plus version-labelled source facts, not method decompilation",
+  "snapshotSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "dartVersion": "3.12.2",
+  "snapshotHash": "ace654289f5abc240509fc941453ebc5",
+  "target": "windows",
+  "arch": "x64",
+  "compressedPointers": false,
+  "blutterSourceCommit": "6b69d5cf3055480f198c88ae92f000e9dbd704c5",
+  "analysisMode": "detect-only",
+  "toolchainDetected": {
+    "cl.exe": false,
+    "clang-cl.exe": false,
+    "cmake.exe": false,
+    "ninja.exe": false
+  },
+  "sourceFacts": {
+    "controlPortDefault": {
+      "value": 3057,
+      "commit": "0c320dc182d095ec0d483f852169421e749c2bac"
+    },
+    "secretDerivation": {
+      "expression": "(await Did.getDid()).substring(8,24)",
+      "commit": "e3c19f1eb1225dbd48a4862f0983b82d0af8de69",
+      "currentAotVerified": false
+    }
+  },
+  "checksPassed": [
+    "Snapshot SHA-256 pinned",
+    "ELF64 little endian",
+    "ELF EM_X86_64",
+    "Two snapshot data headers",
+    "_kDartVmSnapshotData magic",
+    "_kDartVmSnapshotData FullAOT kind",
+    "_kDartIsolateSnapshotData magic",
+    "_kDartIsolateSnapshotData FullAOT kind",
+    "Both VM/isolate hashes match",
+    "Independent extractor agrees on snapshot hash",
+    "Independent extractor x64 Windows no compressed pointers",
+    "Engine reports Dart 3.12.2 Windows x64",
+    "Allowlisted AOT name VpnServiceConfig",
+    "Allowlisted AOT name FlutterVpnService",
+    "Allowlisted AOT name control_port",
+    "Allowlisted AOT name secret",
+    "Allowlisted AOT name service-config",
+    "Allowlisted AOT name service-http-port",
+    "Allowlisted AOT name connected-port",
+    "Allowlisted AOT name prepareConfig",
+    "Allowlisted AOT name proxy_manager.dart",
+    "Matching source default port 3057",
+    "Matching source missing control_port becomes zero",
+    "Matching source zero reset to default",
+    "Historical getSecret derives substring from Did.getDid",
+    "Historical service config receives API secret",
+    "Historical builder receives same secret argument",
+    "Historical core export uses getSecret when empty",
+    "No snapshot dump directory created"
+  ],
+  "snapshotLoadedIntoVm": false,
+  "karingExecuted": false,
+  "unresolved": [
+    "AOT methods and serializer defaults not decoded.",
+    "Current native event enum/wire not recovered.",
+    "Matching 3.12.2 analyzer needs a build toolchain and compatibility verification."
+  ]
+}

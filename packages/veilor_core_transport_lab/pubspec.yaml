@@ -1,0 +1,10 @@
+name: veilor_core_transport_lab
+description: Isolated Windows core lifecycle experiments with a synthetic Dart child.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  crypto: 3.0.7
+  veilor_vpn_state:
+    path: ../veilor_vpn_state

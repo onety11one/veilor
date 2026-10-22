@@ -1,0 +1,40 @@
+{
+  "scope": "Offline instruction assertions for this binary version; not runtime compatibility tests",
+  "subjectSha256": "023ed74fa5015aacf09d83ac7d4a80f9d48dbc0459018e8d75303d7d80d6a9ea",
+  "checksPassed": [
+    "Subject SHA-256",
+    "Own PID queried",
+    "Toolhelp process enumeration",
+    "Two basename calls",
+    "Case-insensitive comparison",
+    "Termination invoked",
+    "Terminate attempted",
+    "Kill fallback",
+    "Successful terminate skips kill",
+    "No full-path query in termination helper",
+    "Service JSON parsed",
+    "JSON key core_path",
+    "JSON key err_path",
+    "JSON key base_dir",
+    "JSON key work_dir",
+    "JSON key cache_dir",
+    "Empty core_path branch",
+    "Explicit core_path error",
+    "Stderr configured",
+    "SDK setup invoked",
+    "Setup creates directories",
+    "Stderr opens file"
+  ],
+  "launchPerformed": false,
+  "sameFilenameDifferentDirectoryIsIsolated": false,
+  "explicitlyRequiredAtSetUpDir": [
+    "core_path"
+  ],
+  "otherObservedPathKeys": [
+    "err_path",
+    "base_dir",
+    "work_dir",
+    "cache_dir"
+  ],
+  "completeServiceConfigSchemaRecovered": false
+}

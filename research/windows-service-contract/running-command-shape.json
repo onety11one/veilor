@@ -1,0 +1,11 @@
+{
+  "scope": "Read-only command shape, all argument values omitted",
+  "observations": [
+    {
+      "processId": 21252,
+      "commandLineReadable": false,
+      "run2TokenObserved": null,
+      "recognizedLongFlags": null
+    }
+  ]
+}

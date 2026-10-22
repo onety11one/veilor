@@ -1,0 +1,26 @@
+{
+  "dartCommit": "d684a576a6aa954ae107a03b2b4e1d61c3bebe93",
+  "files": [
+    "app_snapshot.cc",
+    "app_snapshot.h",
+    "dart.cc",
+    "dart_api_impl.cc",
+    "datastream.h",
+    "image_snapshot.cc",
+    "image_snapshot.h",
+    "object.cc",
+    "object.h",
+    "raw_object.cc",
+    "raw_object.h",
+    "snapshot.cc",
+    "snapshot.h",
+    "symbols.cc",
+    "symbols.h"
+  ],
+  "diskSnapshotFormatHash": "ace654289f5abc240509fc941453ebc5",
+  "gitBlobSnapshotFormatHash": "ace654289f5abc240509fc941453ebc5",
+  "targetSnapshotFormatHash": "ace654289f5abc240509fc941453ebc5",
+  "exactDiskSourceMatch": true,
+  "exactGitSourceMatch": true,
+  "hashWasForced": false
+}

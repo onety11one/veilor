@@ -1,0 +1,279 @@
+{
+  "scope": "Offline ELF/allowlisted names; substring offsets are not function mappings or recovered defaults",
+  "sha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "machine": 62,
+  "sections": [
+    {
+      "name": "",
+      "type": 0,
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "type": 7,
+      "address": "0x1c8",
+      "offset": 456,
+      "size": 32
+    },
+    {
+      "name": ".dynstr",
+      "type": 3,
+      "address": "0x1e8",
+      "offset": 488,
+      "size": 133
+    },
+    {
+      "name": ".dynsym",
+      "type": 11,
+      "address": "0x270",
+      "offset": 624,
+      "size": 144
+    },
+    {
+      "name": ".hash",
+      "type": 5,
+      "address": "0x300",
+      "offset": 768,
+      "size": 56
+    },
+    {
+      "name": ".rodata",
+      "type": 1,
+      "address": "0x340",
+      "offset": 832,
+      "size": 10753680
+    },
+    {
+      "name": ".eh_frame",
+      "type": 1,
+      "address": "0xa419d0",
+      "offset": 10754512,
+      "size": 66
+    },
+    {
+      "name": ".text",
+      "type": 1,
+      "address": "0xa44000",
+      "offset": 10764288,
+      "size": 11507776
+    },
+    {
+      "name": ".dynamic",
+      "type": 6,
+      "address": "0x1540000",
+      "offset": 22282240,
+      "size": 96
+    },
+    {
+      "name": ".bss",
+      "type": 1,
+      "address": "0x1540060",
+      "offset": 22282336,
+      "size": 16
+    },
+    {
+      "name": ".shstrtab",
+      "type": 3,
+      "address": "0x0",
+      "offset": 22282352,
+      "size": 90
+    }
+  ],
+  "snapshotSymbols": [
+    {
+      "name": "_kDartVmSnapshotInstructions",
+      "address": "0xa44000",
+      "size": 27616,
+      "section": 7
+    },
+    {
+      "name": "_kDartIsolateSnapshotInstructions",
+      "address": "0xa4ac00",
+      "size": 11480032,
+      "section": 7
+    },
+    {
+      "name": "_kDartVmSnapshotData",
+      "address": "0x340",
+      "size": 34896,
+      "section": 5
+    },
+    {
+      "name": "_kDartIsolateSnapshotData",
+      "address": "0x8bc0",
+      "size": 10718736,
+      "section": 5
+    },
+    {
+      "name": "_kDartSnapshotBuildId",
+      "address": "0x1c8",
+      "size": 32,
+      "section": 1
+    }
+  ],
+  "symbolCount": 6,
+  "allowlistedStrings": [
+    {
+      "text": "VpnServiceConfig",
+      "offsets": [
+        5254352,
+        8550688
+      ]
+    },
+    {
+      "text": "FlutterVpnService",
+      "offsets": [
+        5304493,
+        5928864,
+        6573517,
+        6864032,
+        7503328,
+        7955965,
+        8759824,
+        8779168
+      ]
+    },
+    {
+      "text": "control_port",
+      "offsets": [
+        7981728
+      ]
+    },
+    {
+      "text": "secret",
+      "offsets": [
+        5431009,
+        6265656,
+        7667257,
+        8370544,
+        8651265
+      ]
+    },
+    {
+      "text": "install_refer",
+      "offsets": [
+        7053344,
+        8773145,
+        8846448
+      ]
+    },
+    {
+      "text": "service-config",
+      "offsets": [
+        7111746
+      ]
+    },
+    {
+      "text": "service-http-port",
+      "offsets": [
+        8467618
+      ]
+    },
+    {
+      "text": "connected-port",
+      "offsets": [
+        5576050
+      ]
+    },
+    {
+      "text": "prepareConfig",
+      "offsets": [
+        6367392,
+        7617345
+      ]
+    },
+    {
+      "text": "currentState",
+      "offsets": [
+        5560069,
+        6753459,
+        8601684
+      ]
+    },
+    {
+      "text": "vpn_service.dart",
+      "offsets": [
+        5878194,
+        6009364
+      ]
+    },
+    {
+      "text": "vpn_service_platform_interface.dart",
+      "offsets": [
+        8473060
+      ]
+    },
+    {
+      "text": "vpn_service_windows.dart",
+      "offsets": []
+    },
+    {
+      "text": "proxy_manager.dart",
+      "offsets": [
+        8730644
+      ]
+    },
+    {
+      "text": "getSecret",
+      "offsets": [
+        6350320
+      ]
+    },
+    {
+      "text": "toJson",
+      "offsets": [
+        6610192,
+        7752868
+      ]
+    },
+    {
+      "text": "fromJson",
+      "offsets": [
+        5109930,
+        5527872,
+        5701679,
+        5919097,
+        5992202,
+        6053609,
+        6072754,
+        6122233,
+        6242584,
+        6338336,
+        6522182,
+        6604472,
+        6604707,
+        7319326,
+        7413803,
+        8341930,
+        8533347,
+        8860222,
+        8952714,
+        8954878,
+        8966015,
+        9009853,
+        9150587
+      ]
+    }
+  ],
+  "engineVersionCandidates": [
+    "3.12.2 (stable) (Tue Jun 9 01:11:39 2026 -0700) on \"windows_x64\""
+  ],
+  "snapshotHeaders": [
+    {
+      "symbol": "_kDartVmSnapshotData",
+      "offset": 832,
+      "prefixHex": "f5f5dcdc38140000000000000300000000000000",
+      "hashCandidate": "ace654289f5abc240509fc941453ebc5",
+      "featureCandidate": "product no-code_comments no-dwarf_stack_traces_mode dedup_instructions no-asan no-msan no-tsan no-shared_data x64 windows no-compressed-pointers"
+    },
+    {
+      "symbol": "_kDartIsolateSnapshotData",
+      "offset": 35776,
+      "prefixHex": "f5f5dcdc5b883900000000000300000000000000",
+      "hashCandidate": "ace654289f5abc240509fc941453ebc5",
+      "featureCandidate": "product no-code_comments no-dwarf_stack_traces_mode dedup_instructions no-asan no-msan no-tsan no-shared_data x64 windows no-compressed-pointers"
+    }
+  ]
+}

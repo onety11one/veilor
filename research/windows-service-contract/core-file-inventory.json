@@ -1,0 +1,9736 @@
+{
+  "scope": "PE static imports and public asset file names/sizes; neither import completeness nor universal runtime requirements",
+  "staticPeImports": [
+    "KERNEL32.dll",
+    "msvcrt.dll"
+  ],
+  "repoDataFiles": [
+    {
+      "path": "acl/360.srs",
+      "bytes": 114
+    },
+    {
+      "path": "acl/4399.srs",
+      "bytes": 70
+    },
+    {
+      "path": "acl/58.srs",
+      "bytes": 42
+    },
+    {
+      "path": "acl/ABC.srs",
+      "bytes": 54
+    },
+    {
+      "path": "acl/AbemaTV.srs",
+      "bytes": 102
+    },
+    {
+      "path": "acl/AccelerateDirectSites.srs",
+      "bytes": 1751
+    },
+    {
+      "path": "acl/Adobe.srs",
+      "bytes": 419
+    },
+    {
+      "path": "acl/AI.srs",
+      "bytes": 585
+    },
+    {
+      "path": "acl/Alibaba.srs",
+      "bytes": 407
+    },
+    {
+      "path": "acl/All4.srs",
+      "bytes": 66
+    },
+    {
+      "path": "acl/Amazon.srs",
+      "bytes": 487
+    },
+    {
+      "path": "acl/AmazonIp.srs",
+      "bytes": 4526
+    },
+    {
+      "path": "acl/Apple.srs",
+      "bytes": 352
+    },
+    {
+      "path": "acl/AppleNews.srs",
+      "bytes": 56
+    },
+    {
+      "path": "acl/AppleTV.srs",
+      "bytes": 77
+    },
+    {
+      "path": "acl/Bahamut.srs",
+      "bytes": 122
+    },
+    {
+      "path": "acl/Baidu.srs",
+      "bytes": 163
+    },
+    {
+      "path": "acl/BanAD.srs",
+      "bytes": 49000
+    },
+    {
+      "path": "acl/BanADCompany.srs",
+      "bytes": 1473
+    },
+    {
+      "path": "acl/BanEasyList.srs",
+      "bytes": 346528
+    },
+    {
+      "path": "acl/BanEasyListChina.srs",
+      "bytes": 33475
+    },
+    {
+      "path": "acl/BanEasyPrivacy.srs",
+      "bytes": 384929
+    },
+    {
+      "path": "acl/BanProgramAD.srs",
+      "bytes": 7940
+    },
+    {
+      "path": "acl/BBC.srs",
+      "bytes": 62
+    },
+    {
+      "path": "acl/BBCiPlayer.srs",
+      "bytes": 183
+    },
+    {
+      "path": "acl/Bilibili.srs",
+      "bytes": 244
+    },
+    {
+      "path": "acl/BilibiliHMT.srs",
+      "bytes": 243
+    },
+    {
+      "path": "acl/Binance.srs",
+      "bytes": 151
+    },
+    {
+      "path": "acl/Bing.srs",
+      "bytes": 71
+    },
+    {
+      "path": "acl/Blizzard.srs",
+      "bytes": 79
+    },
+    {
+      "path": "acl/ByteDance.srs",
+      "bytes": 453
+    },
+    {
+      "path": "acl/CCTV.srs",
+      "bytes": 72
+    },
+    {
+      "path": "acl/ChinaCompanyIp.srs",
+      "bytes": 953
+    },
+    {
+      "path": "acl/ChinaDNS.srs",
+      "bytes": 93
+    },
+    {
+      "path": "acl/ChinaDomain.srs",
+      "bytes": 4399
+    },
+    {
+      "path": "acl/ChinaIp.srs",
+      "bytes": 24852
+    },
+    {
+      "path": "acl/ChinaIpV6.srs",
+      "bytes": 6877
+    },
+    {
+      "path": "acl/ChinaMedia.srs",
+      "bytes": 440
+    },
+    {
+      "path": "acl/ChinaNet.srs",
+      "bytes": 43
+    },
+    {
+      "path": "acl/ChinaOneKeyLogin.srs",
+      "bytes": 214
+    },
+    {
+      "path": "acl/Claude.srs",
+      "bytes": 67
+    },
+    {
+      "path": "acl/ClaudeAI.srs",
+      "bytes": 67
+    },
+    {
+      "path": "acl/CN.srs",
+      "bytes": 84
+    },
+    {
+      "path": "acl/Crypto.srs",
+      "bytes": 2226
+    },
+    {
+      "path": "acl/DAZN.srs",
+      "bytes": 190
+    },
+    {
+      "path": "acl/Deezer.srs",
+      "bytes": 60
+    },
+    {
+      "path": "acl/Developer.srs",
+      "bytes": 242
+    },
+    {
+      "path": "acl/DiDi.srs",
+      "bytes": 81
+    },
+    {
+      "path": "acl/Discord.srs",
+      "bytes": 120
+    },
+    {
+      "path": "acl/DiscoveryPlus.srs",
+      "bytes": 77
+    },
+    {
+      "path": "acl/DisneyPlus.srs",
+      "bytes": 355
+    },
+    {
+      "path": "acl/Dmm.srs",
+      "bytes": 211
+    },
+    {
+      "path": "acl/Docker.srs",
+      "bytes": 157
+    },
+    {
+      "path": "acl/Douyu.srs",
+      "bytes": 124
+    },
+    {
+      "path": "acl/Download.srs",
+      "bytes": 179
+    },
+    {
+      "path": "acl/Dubox.srs",
+      "bytes": 58
+    },
+    {
+      "path": "acl/EHGallery.srs",
+      "bytes": 106
+    },
+    {
+      "path": "acl/EncoreTVB.srs",
+      "bytes": 145
+    },
+    {
+      "path": "acl/Epic.srs",
+      "bytes": 115
+    },
+    {
+      "path": "acl/F1.srs",
+      "bytes": 536
+    },
+    {
+      "path": "acl/Facebook.srs",
+      "bytes": 240
+    },
+    {
+      "path": "acl/FoxNow.srs",
+      "bytes": 67
+    },
+    {
+      "path": "acl/GameDownload.srs",
+      "bytes": 370
+    },
+    {
+      "path": "acl/Gemini.srs",
+      "bytes": 230
+    },
+    {
+      "path": "acl/Github.srs",
+      "bytes": 122
+    },
+    {
+      "path": "acl/Google.srs",
+      "bytes": 297
+    },
+    {
+      "path": "acl/GoogleCN.srs",
+      "bytes": 531
+    },
+    {
+      "path": "acl/GoogleCNProxyIP.srs",
+      "bytes": 102
+    },
+    {
+      "path": "acl/GoogleEarth.srs",
+      "bytes": 180
+    },
+    {
+      "path": "acl/GoogleFCM.srs",
+      "bytes": 209
+    },
+    {
+      "path": "acl/HBO.srs",
+      "bytes": 90
+    },
+    {
+      "path": "acl/HBO_GO_HKG.srs",
+      "bytes": 331
+    },
+    {
+      "path": "acl/Heytap.srs",
+      "bytes": 178
+    },
+    {
+      "path": "acl/HuaWei.srs",
+      "bytes": 142
+    },
+    {
+      "path": "acl/Hulu.srs",
+      "bytes": 134
+    },
+    {
+      "path": "acl/HuluJapan.srs",
+      "bytes": 117
+    },
+    {
+      "path": "acl/HWTV.srs",
+      "bytes": 58
+    },
+    {
+      "path": "acl/Iflytek.srs",
+      "bytes": 69
+    },
+    {
+      "path": "acl/Instagram.srs",
+      "bytes": 85
+    },
+    {
+      "path": "acl/Iqiyi.srs",
+      "bytes": 266
+    },
+    {
+      "path": "acl/IqiyiHMT.srs",
+      "bytes": 67
+    },
+    {
+      "path": "acl/ITV.srs",
+      "bytes": 96
+    },
+    {
+      "path": "acl/Iwara.srs",
+      "bytes": 43
+    },
+    {
+      "path": "acl/Japonx.srs",
+      "bytes": 110
+    },
+    {
+      "path": "acl/JD.srs",
+      "bytes": 119
+    },
+    {
+      "path": "acl/JetBrains.srs",
+      "bytes": 221
+    },
+    {
+      "path": "acl/JOOX.srs",
+      "bytes": 57
+    },
+    {
+      "path": "acl/KakaoTalk.srs",
+      "bytes": 141
+    },
+    {
+      "path": "acl/Kingsoft.srs",
+      "bytes": 69
+    },
+    {
+      "path": "acl/KKBOX.srs",
+      "bytes": 76
+    },
+    {
+      "path": "acl/KKTV.srs",
+      "bytes": 114
+    },
+    {
+      "path": "acl/Kuaishou.srs",
+      "bytes": 59
+    },
+    {
+      "path": "acl/LeTV.srs",
+      "bytes": 56
+    },
+    {
+      "path": "acl/Line.srs",
+      "bytes": 193
+    },
+    {
+      "path": "acl/LineTV.srs",
+      "bytes": 106
+    },
+    {
+      "path": "acl/LiTV.srs",
+      "bytes": 93
+    },
+    {
+      "path": "acl/LocalAreaNetwork.srs",
+      "bytes": 396
+    },
+    {
+      "path": "acl/Marketing.srs",
+      "bytes": 650
+    },
+    {
+      "path": "acl/Meitu.srs",
+      "bytes": 84
+    },
+    {
+      "path": "acl/MGTVTV.srs",
+      "bytes": 58
+    },
+    {
+      "path": "acl/MI.srs",
+      "bytes": 106
+    },
+    {
+      "path": "acl/Microsoft.srs",
+      "bytes": 758
+    },
+    {
+      "path": "acl/MIUIPrivacy.srs",
+      "bytes": 359
+    },
+    {
+      "path": "acl/My5.srs",
+      "bytes": 98
+    },
+    {
+      "path": "acl/MyTVSuper.srs",
+      "bytes": 133
+    },
+    {
+      "path": "acl/NaSDDNS.srs",
+      "bytes": 561
+    },
+    {
+      "path": "acl/NetEase.srs",
+      "bytes": 121
+    },
+    {
+      "path": "acl/NetEaseMusic.srs",
+      "bytes": 266
+    },
+    {
+      "path": "acl/Netflix.srs",
+      "bytes": 435
+    },
+    {
+      "path": "acl/NetflixIP.srs",
+      "bytes": 3416
+    },
+    {
+      "path": "acl/Niconico.srs",
+      "bytes": 72
+    },
+    {
+      "path": "acl/Nintendo.srs",
+      "bytes": 213
+    },
+    {
+      "path": "acl/NivodTV.srs",
+      "bytes": 143
+    },
+    {
+      "path": "acl/Olevod.srs",
+      "bytes": 129
+    },
+    {
+      "path": "acl/OneDrive.srs",
+      "bytes": 262
+    },
+    {
+      "path": "acl/OpenAi.srs",
+      "bytes": 269
+    },
+    {
+      "path": "acl/Origin.srs",
+      "bytes": 157
+    },
+    {
+      "path": "acl/Pandora.srs",
+      "bytes": 47
+    },
+    {
+      "path": "acl/PBS.srs",
+      "bytes": 43
+    },
+    {
+      "path": "acl/PDD.srs",
+      "bytes": 60
+    },
+    {
+      "path": "acl/Pixiv.srs",
+      "bytes": 71
+    },
+    {
+      "path": "acl/Porn.srs",
+      "bytes": 240
+    },
+    {
+      "path": "acl/Pornhub.srs",
+      "bytes": 90
+    },
+    {
+      "path": "acl/PPTVPPLive.srs",
+      "bytes": 54
+    },
+    {
+      "path": "acl/PrivateTracker.srs",
+      "bytes": 1169
+    },
+    {
+      "path": "acl/ProxyGFWlist.srs",
+      "bytes": 31799
+    },
+    {
+      "path": "acl/ProxyLite.srs",
+      "bytes": 3387
+    },
+    {
+      "path": "acl/ProxyMedia.srs",
+      "bytes": 3369
+    },
+    {
+      "path": "acl/PublicDirectCDN.srs",
+      "bytes": 97
+    },
+    {
+      "path": "acl/Qobuz.srs",
+      "bytes": 44
+    },
+    {
+      "path": "acl/Reddit.srs",
+      "bytes": 93
+    },
+    {
+      "path": "acl/RemoteDesktop.srs",
+      "bytes": 123
+    },
+    {
+      "path": "acl/Samsung.srs",
+      "bytes": 275
+    },
+    {
+      "path": "acl/Scholar.srs",
+      "bytes": 800
+    },
+    {
+      "path": "acl/Sina.srs",
+      "bytes": 167
+    },
+    {
+      "path": "acl/SohuSogo.srs",
+      "bytes": 128
+    },
+    {
+      "path": "acl/Sony.srs",
+      "bytes": 125
+    },
+    {
+      "path": "acl/SoundCloud.srs",
+      "bytes": 79
+    },
+    {
+      "path": "acl/Spark.srs",
+      "bytes": 111
+    },
+    {
+      "path": "acl/Spotify.srs",
+      "bytes": 126
+    },
+    {
+      "path": "acl/Steam.srs",
+      "bytes": 291
+    },
+    {
+      "path": "acl/SteamCN.srs",
+      "bytes": 270
+    },
+    {
+      "path": "acl/SteamRegionCheck.srs",
+      "bytes": 104
+    },
+    {
+      "path": "acl/TaiWanGood.srs",
+      "bytes": 74
+    },
+    {
+      "path": "acl/TapTap.srs",
+      "bytes": 55
+    },
+    {
+      "path": "acl/TeamViewer.srs",
+      "bytes": 117
+    },
+    {
+      "path": "acl/Telegram.srs",
+      "bytes": 206
+    },
+    {
+      "path": "acl/Tencent.srs",
+      "bytes": 215
+    },
+    {
+      "path": "acl/TencentLolm.srs",
+      "bytes": 80
+    },
+    {
+      "path": "acl/TencentVideo.srs",
+      "bytes": 69
+    },
+    {
+      "path": "acl/TeraBox.srs",
+      "bytes": 67
+    },
+    {
+      "path": "acl/TIDAL.srs",
+      "bytes": 95
+    },
+    {
+      "path": "acl/TikTok.srs",
+      "bytes": 145
+    },
+    {
+      "path": "acl/TopBlockedSites.srs",
+      "bytes": 1003
+    },
+    {
+      "path": "acl/Twitch.srs",
+      "bytes": 124
+    },
+    {
+      "path": "acl/Twitter.srs",
+      "bytes": 151
+    },
+    {
+      "path": "acl/UnBan.srs",
+      "bytes": 640
+    },
+    {
+      "path": "acl/VikACG.srs",
+      "bytes": 60
+    },
+    {
+      "path": "acl/Vip.srs",
+      "bytes": 87
+    },
+    {
+      "path": "acl/ViuTV.srs",
+      "bytes": 229
+    },
+    {
+      "path": "acl/Wechat.srs",
+      "bytes": 222
+    },
+    {
+      "path": "acl/Whatsapp.srs",
+      "bytes": 169
+    },
+    {
+      "path": "acl/Wikipedia.srs",
+      "bytes": 169
+    },
+    {
+      "path": "acl/Xbox.srs",
+      "bytes": 128
+    },
+    {
+      "path": "acl/Ximalaya.srs",
+      "bytes": 58
+    },
+    {
+      "path": "acl/Xunlei.srs",
+      "bytes": 108
+    },
+    {
+      "path": "acl/Youku.srs",
+      "bytes": 59
+    },
+    {
+      "path": "acl/YouTube.srs",
+      "bytes": 211
+    },
+    {
+      "path": "acl/YouTubeMusic.srs",
+      "bytes": 53
+    },
+    {
+      "path": "acl/YYeTs.srs",
+      "bytes": 179
+    },
+    {
+      "path": "acl/Zoom.srs",
+      "bytes": 59
+    },
+    {
+      "path": "acl_codes.txt",
+      "bytes": 1596
+    },
+    {
+      "path": "geoip/ad.srs",
+      "bytes": 1849
+    },
+    {
+      "path": "geoip/ae.srs",
+      "bytes": 22838
+    },
+    {
+      "path": "geoip/af.srs",
+      "bytes": 4170
+    },
+    {
+      "path": "geoip/ag.srs",
+      "bytes": 1227
+    },
+    {
+      "path": "geoip/ai.srs",
+      "bytes": 945
+    },
+    {
+      "path": "geoip/al.srs",
+      "bytes": 4691
+    },
+    {
+      "path": "geoip/am.srs",
+      "bytes": 4549
+    },
+    {
+      "path": "geoip/amazon.srs",
+      "bytes": 17565
+    },
+    {
+      "path": "geoip/ao.srs",
+      "bytes": 2436
+    },
+    {
+      "path": "geoip/aq.srs",
+      "bytes": 3685
+    },
+    {
+      "path": "geoip/ar.srs",
+      "bytes": 23262
+    },
+    {
+      "path": "geoip/arvancloud.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geoip/as.srs",
+      "bytes": 2438
+    },
+    {
+      "path": "geoip/at.srs",
+      "bytes": 30899
+    },
+    {
+      "path": "geoip/au.srs",
+      "bytes": 68056
+    },
+    {
+      "path": "geoip/aw.srs",
+      "bytes": 980
+    },
+    {
+      "path": "geoip/ax.srs",
+      "bytes": 1081
+    },
+    {
+      "path": "geoip/az.srs",
+      "bytes": 4012
+    },
+    {
+      "path": "geoip/ba.srs",
+      "bytes": 2974
+    },
+    {
+      "path": "geoip/bb.srs",
+      "bytes": 1427
+    },
+    {
+      "path": "geoip/bd.srs",
+      "bytes": 25128
+    },
+    {
+      "path": "geoip/be.srs",
+      "bytes": 26822
+    },
+    {
+      "path": "geoip/bf.srs",
+      "bytes": 1481
+    },
+    {
+      "path": "geoip/bg.srs",
+      "bytes": 15417
+    },
+    {
+      "path": "geoip/bh.srs",
+      "bytes": 2744
+    },
+    {
+      "path": "geoip/bi.srs",
+      "bytes": 840
+    },
+    {
+      "path": "geoip/bj.srs",
+      "bytes": 1175
+    },
+    {
+      "path": "geoip/bl.srs",
+      "bytes": 744
+    },
+    {
+      "path": "geoip/blocked-community@ru.srs",
+      "bytes": 3795
+    },
+    {
+      "path": "geoip/blocked@ru.srs",
+      "bytes": 201015
+    },
+    {
+      "path": "geoip/bm.srs",
+      "bytes": 1996
+    },
+    {
+      "path": "geoip/bn.srs",
+      "bytes": 1233
+    },
+    {
+      "path": "geoip/bo.srs",
+      "bytes": 2964
+    },
+    {
+      "path": "geoip/bq.srs",
+      "bytes": 784
+    },
+    {
+      "path": "geoip/br.srs",
+      "bytes": 98236
+    },
+    {
+      "path": "geoip/bs.srs",
+      "bytes": 1690
+    },
+    {
+      "path": "geoip/bt.srs",
+      "bytes": 1604
+    },
+    {
+      "path": "geoip/bv.srs",
+      "bytes": 301
+    },
+    {
+      "path": "geoip/bw.srs",
+      "bytes": 1453
+    },
+    {
+      "path": "geoip/by.srs",
+      "bytes": 4049
+    },
+    {
+      "path": "geoip/bz.srs",
+      "bytes": 1766
+    },
+    {
+      "path": "geoip/ca.srs",
+      "bytes": 88303
+    },
+    {
+      "path": "geoip/cc.srs",
+      "bytes": 304
+    },
+    {
+      "path": "geoip/cd.srs",
+      "bytes": 2117
+    },
+    {
+      "path": "geoip/cf.srs",
+      "bytes": 774
+    },
+    {
+      "path": "geoip/cg.srs",
+      "bytes": 1034
+    },
+    {
+      "path": "geoip/ch.srs",
+      "bytes": 42462
+    },
+    {
+      "path": "geoip/ci.srs",
+      "bytes": 2693
+    },
+    {
+      "path": "geoip/ck.srs",
+      "bytes": 777
+    },
+    {
+      "path": "geoip/cl.srs",
+      "bytes": 20312
+    },
+    {
+      "path": "geoip/cloudflare.srs",
+      "bytes": 3900
+    },
+    {
+      "path": "geoip/cloudfront.srs",
+      "bytes": 1007
+    },
+    {
+      "path": "geoip/cm.srs",
+      "bytes": 1597
+    },
+    {
+      "path": "geoip/cn.srs",
+      "bytes": 36491
+    },
+    {
+      "path": "geoip/co.srs",
+      "bytes": 16763
+    },
+    {
+      "path": "geoip/cr.srs",
+      "bytes": 4672
+    },
+    {
+      "path": "geoip/cu.srs",
+      "bytes": 1036
+    },
+    {
+      "path": "geoip/cv.srs",
+      "bytes": 1126
+    },
+    {
+      "path": "geoip/cw.srs",
+      "bytes": 1349
+    },
+    {
+      "path": "geoip/cx.srs",
+      "bytes": 528
+    },
+    {
+      "path": "geoip/cy.srs",
+      "bytes": 7183
+    },
+    {
+      "path": "geoip/cz.srs",
+      "bytes": 25100
+    },
+    {
+      "path": "geoip/de.srs",
+      "bytes": 259961
+    },
+    {
+      "path": "geoip/derakcloud.srs",
+      "bytes": 206
+    },
+    {
+      "path": "geoip/digitalocean.srs",
+      "bytes": 988
+    },
+    {
+      "path": "geoip/dj.srs",
+      "bytes": 995
+    },
+    {
+      "path": "geoip/dk.srs",
+      "bytes": 22289
+    },
+    {
+      "path": "geoip/dm.srs",
+      "bytes": 1035
+    },
+    {
+      "path": "geoip/do.srs",
+      "bytes": 6002
+    },
+    {
+      "path": "geoip/dz.srs",
+      "bytes": 2244
+    },
+    {
+      "path": "geoip/ec.srs",
+      "bytes": 6775
+    },
+    {
+      "path": "geoip/ee.srs",
+      "bytes": 8560
+    },
+    {
+      "path": "geoip/eg.srs",
+      "bytes": 4429
+    },
+    {
+      "path": "geoip/eh.srs",
+      "bytes": 349
+    },
+    {
+      "path": "geoip/er.srs",
+      "bytes": 770
+    },
+    {
+      "path": "geoip/es.srs",
+      "bytes": 58619
+    },
+    {
+      "path": "geoip/et.srs",
+      "bytes": 1117
+    },
+    {
+      "path": "geoip/facebook.srs",
+      "bytes": 526
+    },
+    {
+      "path": "geoip/fastly.srs",
+      "bytes": 566
+    },
+    {
+      "path": "geoip/fi.srs",
+      "bytes": 125193
+    },
+    {
+      "path": "geoip/fj.srs",
+      "bytes": 1279
+    },
+    {
+      "path": "geoip/fk.srs",
+      "bytes": 660
+    },
+    {
+      "path": "geoip/fm.srs",
+      "bytes": 896
+    },
+    {
+      "path": "geoip/fo.srs",
+      "bytes": 759
+    },
+    {
+      "path": "geoip/fr.srs",
+      "bytes": 101809
+    },
+    {
+      "path": "geoip/ga.srs",
+      "bytes": 1021
+    },
+    {
+      "path": "geoip/gb.srs",
+      "bytes": 154897
+    },
+    {
+      "path": "geoip/gcore.srs",
+      "bytes": 3526
+    },
+    {
+      "path": "geoip/gd.srs",
+      "bytes": 1197
+    },
+    {
+      "path": "geoip/ge.srs",
+      "bytes": 4630
+    },
+    {
+      "path": "geoip/gf.srs",
+      "bytes": 973
+    },
+    {
+      "path": "geoip/gg.srs",
+      "bytes": 1156
+    },
+    {
+      "path": "geoip/gh.srs",
+      "bytes": 3229
+    },
+    {
+      "path": "geoip/gi.srs",
+      "bytes": 1359
+    },
+    {
+      "path": "geoip/github.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geoip/gl.srs",
+      "bytes": 1328
+    },
+    {
+      "path": "geoip/gm.srs",
+      "bytes": 1049
+    },
+    {
+      "path": "geoip/gn.srs",
+      "bytes": 1017
+    },
+    {
+      "path": "geoip/google.srs",
+      "bytes": 8156
+    },
+    {
+      "path": "geoip/gp.srs",
+      "bytes": 1412
+    },
+    {
+      "path": "geoip/gq.srs",
+      "bytes": 805
+    },
+    {
+      "path": "geoip/gr.srs",
+      "bytes": 9791
+    },
+    {
+      "path": "geoip/gs.srs",
+      "bytes": 248
+    },
+    {
+      "path": "geoip/gt.srs",
+      "bytes": 3723
+    },
+    {
+      "path": "geoip/gu.srs",
+      "bytes": 1540
+    },
+    {
+      "path": "geoip/gw.srs",
+      "bytes": 838
+    },
+    {
+      "path": "geoip/gy.srs",
+      "bytes": 980
+    },
+    {
+      "path": "geoip/hk.srs",
+      "bytes": 57815
+    },
+    {
+      "path": "geoip/hm.srs",
+      "bytes": 299
+    },
+    {
+      "path": "geoip/hn.srs",
+      "bytes": 3356
+    },
+    {
+      "path": "geoip/hr.srs",
+      "bytes": 5856
+    },
+    {
+      "path": "geoip/ht.srs",
+      "bytes": 1336
+    },
+    {
+      "path": "geoip/hu.srs",
+      "bytes": 13531
+    },
+    {
+      "path": "geoip/id.srs",
+      "bytes": 51524
+    },
+    {
+      "path": "geoip/ie.srs",
+      "bytes": 30541
+    },
+    {
+      "path": "geoip/il.srs",
+      "bytes": 15618
+    },
+    {
+      "path": "geoip/im.srs",
+      "bytes": 1961
+    },
+    {
+      "path": "geoip/in.srs",
+      "bytes": 79196
+    },
+    {
+      "path": "geoip/io.srs",
+      "bytes": 713
+    },
+    {
+      "path": "geoip/iq.srs",
+      "bytes": 8441
+    },
+    {
+      "path": "geoip/ir.srs",
+      "bytes": 14723
+    },
+    {
+      "path": "geoip/iranserver.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geoip/irgfw-other-injected-ips.srs",
+      "bytes": 36
+    },
+    {
+      "path": "geoip/is.srs",
+      "bytes": 3882
+    },
+    {
+      "path": "geoip/it.srs",
+      "bytes": 56825
+    },
+    {
+      "path": "geoip/je.srs",
+      "bytes": 1393
+    },
+    {
+      "path": "geoip/jm.srs",
+      "bytes": 1938
+    },
+    {
+      "path": "geoip/jo.srs",
+      "bytes": 3113
+    },
+    {
+      "path": "geoip/jp.srs",
+      "bytes": 69103
+    },
+    {
+      "path": "geoip/ke.srs",
+      "bytes": 5955
+    },
+    {
+      "path": "geoip/kg.srs",
+      "bytes": 2577
+    },
+    {
+      "path": "geoip/kh.srs",
+      "bytes": 4390
+    },
+    {
+      "path": "geoip/ki.srs",
+      "bytes": 1030
+    },
+    {
+      "path": "geoip/km.srs",
+      "bytes": 777
+    },
+    {
+      "path": "geoip/kn.srs",
+      "bytes": 1073
+    },
+    {
+      "path": "geoip/kp.srs",
+      "bytes": 2927
+    },
+    {
+      "path": "geoip/kr.srs",
+      "bytes": 24099
+    },
+    {
+      "path": "geoip/kw.srs",
+      "bytes": 3111
+    },
+    {
+      "path": "geoip/ky.srs",
+      "bytes": 1495
+    },
+    {
+      "path": "geoip/kz.srs",
+      "bytes": 12079
+    },
+    {
+      "path": "geoip/la.srs",
+      "bytes": 1806
+    },
+    {
+      "path": "geoip/lb.srs",
+      "bytes": 3836
+    },
+    {
+      "path": "geoip/lc.srs",
+      "bytes": 1052
+    },
+    {
+      "path": "geoip/li.srs",
+      "bytes": 2099
+    },
+    {
+      "path": "geoip/linode.srs",
+      "bytes": 892
+    },
+    {
+      "path": "geoip/lk.srs",
+      "bytes": 2536
+    },
+    {
+      "path": "geoip/lr.srs",
+      "bytes": 1035
+    },
+    {
+      "path": "geoip/ls.srs",
+      "bytes": 940
+    },
+    {
+      "path": "geoip/lt.srs",
+      "bytes": 12454
+    },
+    {
+      "path": "geoip/lu.srs",
+      "bytes": 8954
+    },
+    {
+      "path": "geoip/lv.srs",
+      "bytes": 8243
+    },
+    {
+      "path": "geoip/ly.srs",
+      "bytes": 1443
+    },
+    {
+      "path": "geoip/ma.srs",
+      "bytes": 2828
+    },
+    {
+      "path": "geoip/malware.srs",
+      "bytes": 4678
+    },
+    {
+      "path": "geoip/mc.srs",
+      "bytes": 1594
+    },
+    {
+      "path": "geoip/md.srs",
+      "bytes": 7510
+    },
+    {
+      "path": "geoip/me.srs",
+      "bytes": 1576
+    },
+    {
+      "path": "geoip/mf.srs",
+      "bytes": 891
+    },
+    {
+      "path": "geoip/mg.srs",
+      "bytes": 1207
+    },
+    {
+      "path": "geoip/mh.srs",
+      "bytes": 793
+    },
+    {
+      "path": "geoip/microsoft.srs",
+      "bytes": 3793
+    },
+    {
+      "path": "geoip/mk.srs",
+      "bytes": 2428
+    },
+    {
+      "path": "geoip/ml.srs",
+      "bytes": 944
+    },
+    {
+      "path": "geoip/mm.srs",
+      "bytes": 4438
+    },
+    {
+      "path": "geoip/mn.srs",
+      "bytes": 3062
+    },
+    {
+      "path": "geoip/mo.srs",
+      "bytes": 4237
+    },
+    {
+      "path": "geoip/mp.srs",
+      "bytes": 760
+    },
+    {
+      "path": "geoip/mq.srs",
+      "bytes": 1205
+    },
+    {
+      "path": "geoip/mr.srs",
+      "bytes": 947
+    },
+    {
+      "path": "geoip/ms.srs",
+      "bytes": 665
+    },
+    {
+      "path": "geoip/mt.srs",
+      "bytes": 2493
+    },
+    {
+      "path": "geoip/mu.srs",
+      "bytes": 2475
+    },
+    {
+      "path": "geoip/mv.srs",
+      "bytes": 1481
+    },
+    {
+      "path": "geoip/mw.srs",
+      "bytes": 1394
+    },
+    {
+      "path": "geoip/mx.srs",
+      "bytes": 23357
+    },
+    {
+      "path": "geoip/my.srs",
+      "bytes": 19153
+    },
+    {
+      "path": "geoip/mz.srs",
+      "bytes": 1656
+    },
+    {
+      "path": "geoip/na.srs",
+      "bytes": 1258
+    },
+    {
+      "path": "geoip/nc.srs",
+      "bytes": 1212
+    },
+    {
+      "path": "geoip/ne.srs",
+      "bytes": 874
+    },
+    {
+      "path": "geoip/netflix.srs",
+      "bytes": 363
+    },
+    {
+      "path": "geoip/nf.srs",
+      "bytes": 689
+    },
+    {
+      "path": "geoip/ng.srs",
+      "bytes": 7280
+    },
+    {
+      "path": "geoip/ni.srs",
+      "bytes": 1703
+    },
+    {
+      "path": "geoip/nl.srs",
+      "bytes": 122443
+    },
+    {
+      "path": "geoip/no.srs",
+      "bytes": 21323
+    },
+    {
+      "path": "geoip/np.srs",
+      "bytes": 4434
+    },
+    {
+      "path": "geoip/nr.srs",
+      "bytes": 788
+    },
+    {
+      "path": "geoip/nu.srs",
+      "bytes": 659
+    },
+    {
+      "path": "geoip/nz.srs",
+      "bytes": 17327
+    },
+    {
+      "path": "geoip/om.srs",
+      "bytes": 2979
+    },
+    {
+      "path": "geoip/openai.srs",
+      "bytes": 1353
+    },
+    {
+      "path": "geoip/oracle.srs",
+      "bytes": 2392
+    },
+    {
+      "path": "geoip/pa.srs",
+      "bytes": 4197
+    },
+    {
+      "path": "geoip/parspack.srs",
+      "bytes": 330
+    },
+    {
+      "path": "geoip/pe.srs",
+      "bytes": 8520
+    },
+    {
+      "path": "geoip/pf.srs",
+      "bytes": 1374
+    },
+    {
+      "path": "geoip/pg.srs",
+      "bytes": 1915
+    },
+    {
+      "path": "geoip/ph.srs",
+      "bytes": 16242
+    },
+    {
+      "path": "geoip/phishing.srs",
+      "bytes": 263
+    },
+    {
+      "path": "geoip/pk.srs",
+      "bytes": 9910
+    },
+    {
+      "path": "geoip/pl.srs",
+      "bytes": 52926
+    },
+    {
+      "path": "geoip/pm.srs",
+      "bytes": 724
+    },
+    {
+      "path": "geoip/pn.srs",
+      "bytes": 306
+    },
+    {
+      "path": "geoip/pr.srs",
+      "bytes": 4760
+    },
+    {
+      "path": "geoip/private.srs",
+      "bytes": 144
+    },
+    {
+      "path": "geoip/ps.srs",
+      "bytes": 3113
+    },
+    {
+      "path": "geoip/pt.srs",
+      "bytes": 12149
+    },
+    {
+      "path": "geoip/pw.srs",
+      "bytes": 714
+    },
+    {
+      "path": "geoip/py.srs",
+      "bytes": 3593
+    },
+    {
+      "path": "geoip/qa.srs",
+      "bytes": 3784
+    },
+    {
+      "path": "geoip/re-filter@ru.srs",
+      "bytes": 65753
+    },
+    {
+      "path": "geoip/re.srs",
+      "bytes": 1368
+    },
+    {
+      "path": "geoip/ro.srs",
+      "bytes": 21081
+    },
+    {
+      "path": "geoip/rs.srs",
+      "bytes": 7329
+    },
+    {
+      "path": "geoip/ru.srs",
+      "bytes": 106160
+    },
+    {
+      "path": "geoip/rw.srs",
+      "bytes": 1326
+    },
+    {
+      "path": "geoip/sa.srs",
+      "bytes": 12000
+    },
+    {
+      "path": "geoip/sb.srs",
+      "bytes": 814
+    },
+    {
+      "path": "geoip/sc.srs",
+      "bytes": 13841
+    },
+    {
+      "path": "geoip/sd.srs",
+      "bytes": 1227
+    },
+    {
+      "path": "geoip/se.srs",
+      "bytes": 46047
+    },
+    {
+      "path": "geoip/sg.srs",
+      "bytes": 52995
+    },
+    {
+      "path": "geoip/sh.srs",
+      "bytes": 284
+    },
+    {
+      "path": "geoip/si.srs",
+      "bytes": 7241
+    },
+    {
+      "path": "geoip/sj.srs",
+      "bytes": 361
+    },
+    {
+      "path": "geoip/sk.srs",
+      "bytes": 9224
+    },
+    {
+      "path": "geoip/sl.srs",
+      "bytes": 1135
+    },
+    {
+      "path": "geoip/sm.srs",
+      "bytes": 993
+    },
+    {
+      "path": "geoip/sn.srs",
+      "bytes": 1428
+    },
+    {
+      "path": "geoip/so.srs",
+      "bytes": 1318
+    },
+    {
+      "path": "geoip/sr.srs",
+      "bytes": 976
+    },
+    {
+      "path": "geoip/ss.srs",
+      "bytes": 1095
+    },
+    {
+      "path": "geoip/st.srs",
+      "bytes": 773
+    },
+    {
+      "path": "geoip/sv.srs",
+      "bytes": 2480
+    },
+    {
+      "path": "geoip/sx.srs",
+      "bytes": 801
+    },
+    {
+      "path": "geoip/sy.srs",
+      "bytes": 2367
+    },
+    {
+      "path": "geoip/sz.srs",
+      "bytes": 1022
+    },
+    {
+      "path": "geoip/tc.srs",
+      "bytes": 868
+    },
+    {
+      "path": "geoip/td.srs",
+      "bytes": 1050
+    },
+    {
+      "path": "geoip/telegram.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geoip/tf.srs",
+      "bytes": 157
+    },
+    {
+      "path": "geoip/tg.srs",
+      "bytes": 1006
+    },
+    {
+      "path": "geoip/th.srs",
+      "bytes": 15316
+    },
+    {
+      "path": "geoip/tj.srs",
+      "bytes": 1739
+    },
+    {
+      "path": "geoip/tk.srs",
+      "bytes": 714
+    },
+    {
+      "path": "geoip/tl.srs",
+      "bytes": 1126
+    },
+    {
+      "path": "geoip/tm.srs",
+      "bytes": 1033
+    },
+    {
+      "path": "geoip/tn.srs",
+      "bytes": 1622
+    },
+    {
+      "path": "geoip/to.srs",
+      "bytes": 816
+    },
+    {
+      "path": "geoip/tor.srs",
+      "bytes": 2414
+    },
+    {
+      "path": "geoip/tr.srs",
+      "bytes": 25265
+    },
+    {
+      "path": "geoip/tt.srs",
+      "bytes": 1810
+    },
+    {
+      "path": "geoip/tv.srs",
+      "bytes": 722
+    },
+    {
+      "path": "geoip/tw.srs",
+      "bytes": 23235
+    },
+    {
+      "path": "geoip/twitter.srs",
+      "bytes": 203
+    },
+    {
+      "path": "geoip/tz.srs",
+      "bytes": 2926
+    },
+    {
+      "path": "geoip/ua.srs",
+      "bytes": 34905
+    },
+    {
+      "path": "geoip/ug.srs",
+      "bytes": 2179
+    },
+    {
+      "path": "geoip/um.srs",
+      "bytes": 674
+    },
+    {
+      "path": "geoip/us.srs",
+      "bytes": 532095
+    },
+    {
+      "path": "geoip/uy.srs",
+      "bytes": 2360
+    },
+    {
+      "path": "geoip/uz.srs",
+      "bytes": 4162
+    },
+    {
+      "path": "geoip/va.srs",
+      "bytes": 807
+    },
+    {
+      "path": "geoip/vc.srs",
+      "bytes": 971
+    },
+    {
+      "path": "geoip/ve.srs",
+      "bytes": 7738
+    },
+    {
+      "path": "geoip/vg.srs",
+      "bytes": 2384
+    },
+    {
+      "path": "geoip/vi.srs",
+      "bytes": 1572
+    },
+    {
+      "path": "geoip/vn.srs",
+      "bytes": 18870
+    },
+    {
+      "path": "geoip/vu.srs",
+      "bytes": 1087
+    },
+    {
+      "path": "geoip/wf.srs",
+      "bytes": 638
+    },
+    {
+      "path": "geoip/ws.srs",
+      "bytes": 928
+    },
+    {
+      "path": "geoip/xk.srs",
+      "bytes": 708
+    },
+    {
+      "path": "geoip/ye.srs",
+      "bytes": 1250
+    },
+    {
+      "path": "geoip/yt.srs",
+      "bytes": 773
+    },
+    {
+      "path": "geoip/za.srs",
+      "bytes": 22147
+    },
+    {
+      "path": "geoip/zm.srs",
+      "bytes": 1589
+    },
+    {
+      "path": "geoip/zw.srs",
+      "bytes": 1802
+    },
+    {
+      "path": "geoip_codes.txt",
+      "bytes": 1303
+    },
+    {
+      "path": "geoip_subnets.json",
+      "bytes": 14804
+    },
+    {
+      "path": "geosite/115.srs",
+      "bytes": 154
+    },
+    {
+      "path": "geosite/1337x.srs",
+      "bytes": 114
+    },
+    {
+      "path": "geosite/17zuoye.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/18comic.srs",
+      "bytes": 572
+    },
+    {
+      "path": "geosite/2ch.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/2gis.srs",
+      "bytes": 142
+    },
+    {
+      "path": "geosite/2kgames.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/36kr.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/36kr@ads.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/4399.srs",
+      "bytes": 471
+    },
+    {
+      "path": "geosite/4chan.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/4pda.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/4plebs.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/51job.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/54647.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/58tongcheng.srs",
+      "bytes": 381
+    },
+    {
+      "path": "geosite/5ch.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/6park.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/7tv.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/800best.srs",
+      "bytes": 307
+    },
+    {
+      "path": "geosite/8btc.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/928plus.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/9game.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/9news.srs",
+      "bytes": 194
+    },
+    {
+      "path": "geosite/9to5.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/aamgame.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/abc.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/abema.srs",
+      "bytes": 248
+    },
+    {
+      "path": "geosite/accuweather.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/acer.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/acer@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/acfun.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/acfun@ads.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/acplay.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/actalis.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/activision-blizzard.srs",
+      "bytes": 663
+    },
+    {
+      "path": "geosite/activision.srs",
+      "bytes": 320
+    },
+    {
+      "path": "geosite/adblock.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/adblockplus.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/adcolony-ads.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/addthis.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/addtoany.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/adguard.srs",
+      "bytes": 248
+    },
+    {
+      "path": "geosite/adidas.srs",
+      "bytes": 805
+    },
+    {
+      "path": "geosite/adidas@cn.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/adjust.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/adjust@ads.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/adobe-activation.srs",
+      "bytes": 564
+    },
+    {
+      "path": "geosite/adobe.srs",
+      "bytes": 1696
+    },
+    {
+      "path": "geosite/adobe@ads.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/adobe@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/ads.srs",
+      "bytes": 721
+    },
+    {
+      "path": "geosite/aerogard.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/aerogard@cn.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/af.srs",
+      "bytes": 334776
+    },
+    {
+      "path": "geosite/afdian.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/afp.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/agilebits.srs",
+      "bytes": 241
+    },
+    {
+      "path": "geosite/agora.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/aiqicha.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/airbnb.srs",
+      "bytes": 564
+    },
+    {
+      "path": "geosite/airchina.srs",
+      "bytes": 385
+    },
+    {
+      "path": "geosite/airchina@!cn.srs",
+      "bytes": 254
+    },
+    {
+      "path": "geosite/airwick.srs",
+      "bytes": 296
+    },
+    {
+      "path": "geosite/airwick@cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/aisiku.srs",
+      "bytes": 170
+    },
+    {
+      "path": "geosite/aixcoder.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/akamai.srs",
+      "bytes": 774
+    },
+    {
+      "path": "geosite/akamai@cn.srs",
+      "bytes": 151
+    },
+    {
+      "path": "geosite/akiko.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/alibaba.srs",
+      "bytes": 3342
+    },
+    {
+      "path": "geosite/alibaba@!cn.srs",
+      "bytes": 436
+    },
+    {
+      "path": "geosite/alibaba@ads.srs",
+      "bytes": 767
+    },
+    {
+      "path": "geosite/alibaba@cn.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/alibabacloud.srs",
+      "bytes": 185
+    },
+    {
+      "path": "geosite/alibabacloud@!cn.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/alibabacloud@cn.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/aligames.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/aliyun-drive.srs",
+      "bytes": 120
+    },
+    {
+      "path": "geosite/aliyun.srs",
+      "bytes": 799
+    },
+    {
+      "path": "geosite/aliyun@!cn.srs",
+      "bytes": 216
+    },
+    {
+      "path": "geosite/aliyun@ads.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/aljazeera.srs",
+      "bytes": 138
+    },
+    {
+      "path": "geosite/alphabet.srs",
+      "bytes": 8014
+    },
+    {
+      "path": "geosite/alphabet@!cn.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/alphabet@ads.srs",
+      "bytes": 671
+    },
+    {
+      "path": "geosite/alphabet@cn.srs",
+      "bytes": 1344
+    },
+    {
+      "path": "geosite/amap.srs",
+      "bytes": 193
+    },
+    {
+      "path": "geosite/amap@ads.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/amazon.srs",
+      "bytes": 2377
+    },
+    {
+      "path": "geosite/amazon@ads.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/amazon@cn.srs",
+      "bytes": 667
+    },
+    {
+      "path": "geosite/amazontrust.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/amc.srs",
+      "bytes": 176
+    },
+    {
+      "path": "geosite/amd.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/amd@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/amp.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/amp@cn.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/amplitude.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/amplitude@ads.srs",
+      "bytes": 209
+    },
+    {
+      "path": "geosite/anaconda.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/anandtech.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/android.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/anexia.srs",
+      "bytes": 341
+    },
+    {
+      "path": "geosite/anime.srs",
+      "bytes": 247
+    },
+    {
+      "path": "geosite/anker.srs",
+      "bytes": 157
+    },
+    {
+      "path": "geosite/anker@!cn.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/annas-archive.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/anon-v.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/anthropic.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/ap.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/apa.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/aparat.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/apifox.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/apipost.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/apkcombo.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/apkmirror.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/apkpure.srs",
+      "bytes": 104
+    },
+    {
+      "path": "geosite/apple-cn.srs",
+      "bytes": 1306
+    },
+    {
+      "path": "geosite/apple-dev.srs",
+      "bytes": 586
+    },
+    {
+      "path": "geosite/apple-dev@cn.srs",
+      "bytes": 156
+    },
+    {
+      "path": "geosite/apple-intelligence.srs",
+      "bytes": 143
+    },
+    {
+      "path": "geosite/apple-music.srs",
+      "bytes": 243
+    },
+    {
+      "path": "geosite/apple-music@cn.srs",
+      "bytes": 115
+    },
+    {
+      "path": "geosite/apple-pki.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/apple-pki@cn.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/apple-podcasts.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/apple-podcasts@cn.srs",
+      "bytes": 64
+    },
+    {
+      "path": "geosite/apple-tvplus.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/apple-update.srs",
+      "bytes": 227
+    },
+    {
+      "path": "geosite/apple.srs",
+      "bytes": 15674
+    },
+    {
+      "path": "geosite/apple@ads.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/apple@cn.srs",
+      "bytes": 2263
+    },
+    {
+      "path": "geosite/appledaily.srs",
+      "bytes": 352
+    },
+    {
+      "path": "geosite/applovin-ads.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/applysquare.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/aptoide.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/archive.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/archiveofourown.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/archivetoday.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/archlinux.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/arphic.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/artstation.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/asahi.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/askdiandian.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/asobo.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/asproex.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/asus.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/asus@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/atlassian.srs",
+      "bytes": 155
+    },
+    {
+      "path": "geosite/atom-data-ads.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/att.srs",
+      "bytes": 1293
+    },
+    {
+      "path": "geosite/att@cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/attwatchtv.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/autodesk.srs",
+      "bytes": 5042
+    },
+    {
+      "path": "geosite/autoru.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/auxgroup.srs",
+      "bytes": 311
+    },
+    {
+      "path": "geosite/auxgroup@!cn.srs",
+      "bytes": 128
+    },
+    {
+      "path": "geosite/available-only-inside@ru.srs",
+      "bytes": 1281
+    },
+    {
+      "path": "geosite/avaxhome.srs",
+      "bytes": 109
+    },
+    {
+      "path": "geosite/aviasales.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/avito.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/avito@ads.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/avmoo.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/awempire.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/aws-cn.srs",
+      "bytes": 394
+    },
+    {
+      "path": "geosite/aws-cn@cn.srs",
+      "bytes": 394
+    },
+    {
+      "path": "geosite/aws.srs",
+      "bytes": 924
+    },
+    {
+      "path": "geosite/aws@cn.srs",
+      "bytes": 394
+    },
+    {
+      "path": "geosite/azure.srs",
+      "bytes": 1525
+    },
+    {
+      "path": "geosite/azure@cn.srs",
+      "bytes": 859
+    },
+    {
+      "path": "geosite/b3log.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/bahamut.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/baidu.srs",
+      "bytes": 942
+    },
+    {
+      "path": "geosite/baidu@ads.srs",
+      "bytes": 418
+    },
+    {
+      "path": "geosite/baishancloud.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/baltamatica.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/bamtech.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/bandcamp.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/bandwagonhost.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/bangumi.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/barrons.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/bbc.srs",
+      "bytes": 322
+    },
+    {
+      "path": "geosite/bdsmhub.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/beats.srs",
+      "bytes": 7411
+    },
+    {
+      "path": "geosite/beats@cn.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/beget.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/beisen.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/bestbuy.srs",
+      "bytes": 942
+    },
+    {
+      "path": "geosite/bestbuy@cn.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/bestchange.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/bestore.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/bestv.srs",
+      "bytes": 114
+    },
+    {
+      "path": "geosite/betboom.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/bethesda.srs",
+      "bytes": 124
+    },
+    {
+      "path": "geosite/betterexplained.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/bilibili-cdn.srs",
+      "bytes": 184
+    },
+    {
+      "path": "geosite/bilibili-cdn@!cn.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/bilibili-game.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/bilibili.srs",
+      "bytes": 463
+    },
+    {
+      "path": "geosite/bilibili2.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/bilibili@!cn.srs",
+      "bytes": 115
+    },
+    {
+      "path": "geosite/biliintl.srs",
+      "bytes": 227
+    },
+    {
+      "path": "geosite/binance.srs",
+      "bytes": 488
+    },
+    {
+      "path": "geosite/bing.srs",
+      "bytes": 513
+    },
+    {
+      "path": "geosite/bing@ads.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/bing@cn.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/bitauto.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/bitflyer.srs",
+      "bytes": 64
+    },
+    {
+      "path": "geosite/bitly.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/bitsquare.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/bitwarden.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/bjyouth.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/blender.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/blizzard.srs",
+      "bytes": 349
+    },
+    {
+      "path": "geosite/blocked@ru.srs",
+      "bytes": 546068
+    },
+    {
+      "path": "geosite/blogspot.srs",
+      "bytes": 484
+    },
+    {
+      "path": "geosite/bloomberg.srs",
+      "bytes": 723
+    },
+    {
+      "path": "geosite/bluearchive.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/bluearchive@cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/bluepoch-games.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/bluepoch.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/bluesky.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/blurams.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/bmw.srs",
+      "bytes": 5948
+    },
+    {
+      "path": "geosite/bmw@cn.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/boboporn.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/boc.srs",
+      "bytes": 223
+    },
+    {
+      "path": "geosite/boc@!cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/bohemia.srs",
+      "bytes": 139
+    },
+    {
+      "path": "geosite/bongacams.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/booking.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/booking@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/books.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/boomerang.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/bootcdn.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/bootstrap.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/borneoschematics.srs",
+      "bytes": 115
+    },
+    {
+      "path": "geosite/boslife.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/boxun.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/boylove.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/br.srs",
+      "bytes": 334776
+    },
+    {
+      "path": "geosite/braveux.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/brazzers.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/bridgestone.srs",
+      "bytes": 1169
+    },
+    {
+      "path": "geosite/bridgestone@cn.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/brightcove.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/brilliant.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/broadcom.srs",
+      "bytes": 1019
+    },
+    {
+      "path": "geosite/broadcom@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/btdig.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/bttzyw.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/bushiroad.srs",
+      "bytes": 414
+    },
+    {
+      "path": "geosite/buymeacoffee.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/buypass.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/bybit.srs",
+      "bytes": 200
+    },
+    {
+      "path": "geosite/bytedance-ai-!cn.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/bytedance-ai-!cn@!cn.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/bytedance.srs",
+      "bytes": 6862
+    },
+    {
+      "path": "geosite/bytedance@!cn.srs",
+      "bytes": 573
+    },
+    {
+      "path": "geosite/bytedance@ads.srs",
+      "bytes": 472
+    },
+    {
+      "path": "geosite/c-span.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/cabletv.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/cainiao.srs",
+      "bytes": 152
+    },
+    {
+      "path": "geosite/cainiao@ads.srs",
+      "bytes": 63
+    },
+    {
+      "path": "geosite/calgoncarbon.srs",
+      "bytes": 202
+    },
+    {
+      "path": "geosite/calgoncarbon@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/cambridge.srs",
+      "bytes": 148
+    },
+    {
+      "path": "geosite/camwhores.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/canon.srs",
+      "bytes": 495
+    },
+    {
+      "path": "geosite/canon@cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/canonical.srs",
+      "bytes": 199
+    },
+    {
+      "path": "geosite/canva.srs",
+      "bytes": 150
+    },
+    {
+      "path": "geosite/capitalonline.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/carrotquest.srs",
+      "bytes": 234
+    },
+    {
+      "path": "geosite/carrotquest@ads.srs",
+      "bytes": 154
+    },
+    {
+      "path": "geosite/cas.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/casimages.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/catchplay.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/category-acg.srs",
+      "bytes": 148
+    },
+    {
+      "path": "geosite/category-ads-all.srs",
+      "bytes": 7503
+    },
+    {
+      "path": "geosite/category-ads-all@!cn.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/category-ads-all@ads.srs",
+      "bytes": 6526
+    },
+    {
+      "path": "geosite/category-ads-all@cn.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/category-ads-ir.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/category-ads.srs",
+      "bytes": 7109
+    },
+    {
+      "path": "geosite/category-ads@!cn.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/category-ads@ads.srs",
+      "bytes": 6196
+    },
+    {
+      "path": "geosite/category-ads@cn.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/category-ai-!cn.srs",
+      "bytes": 1818
+    },
+    {
+      "path": "geosite/category-ai-!cn@!cn.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/category-ai-!cn@ads.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/category-ai-chat-!cn.srs",
+      "bytes": 1818
+    },
+    {
+      "path": "geosite/category-ai-chat-!cn@!cn.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/category-ai-chat-!cn@ads.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/category-ai-cn.srs",
+      "bytes": 973
+    },
+    {
+      "path": "geosite/category-ai-ru.srs",
+      "bytes": 166
+    },
+    {
+      "path": "geosite/category-android-app-download.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/category-anticensorship.srs",
+      "bytes": 1187
+    },
+    {
+      "path": "geosite/category-antivirus.srs",
+      "bytes": 1146
+    },
+    {
+      "path": "geosite/category-antivirus@cn.srs",
+      "bytes": 521
+    },
+    {
+      "path": "geosite/category-automobile-cn.srs",
+      "bytes": 342
+    },
+    {
+      "path": "geosite/category-bank-cn.srs",
+      "bytes": 433
+    },
+    {
+      "path": "geosite/category-bank-ir.srs",
+      "bytes": 282
+    },
+    {
+      "path": "geosite/category-bank-jp.srs",
+      "bytes": 590
+    },
+    {
+      "path": "geosite/category-bank-mm.srs",
+      "bytes": 275
+    },
+    {
+      "path": "geosite/category-bank-ru.srs",
+      "bytes": 2486
+    },
+    {
+      "path": "geosite/category-bank-ru@ads.srs",
+      "bytes": 190
+    },
+    {
+      "path": "geosite/category-betting-ru.srs",
+      "bytes": 200
+    },
+    {
+      "path": "geosite/category-blog-cn.srs",
+      "bytes": 280
+    },
+    {
+      "path": "geosite/category-bourse-ir.srs",
+      "bytes": 451
+    },
+    {
+      "path": "geosite/category-browser-!cn.srs",
+      "bytes": 397
+    },
+    {
+      "path": "geosite/category-cas.srs",
+      "bytes": 2101
+    },
+    {
+      "path": "geosite/category-cas@ads.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/category-cas@cn.srs",
+      "bytes": 349
+    },
+    {
+      "path": "geosite/category-cdn-!cn.srs",
+      "bytes": 1847
+    },
+    {
+      "path": "geosite/category-cdn-!cn@cn.srs",
+      "bytes": 371
+    },
+    {
+      "path": "geosite/category-cdn-cn.srs",
+      "bytes": 717
+    },
+    {
+      "path": "geosite/category-cdn-cn@cn.srs",
+      "bytes": 283
+    },
+    {
+      "path": "geosite/category-collaborate-cn.srs",
+      "bytes": 268
+    },
+    {
+      "path": "geosite/category-communication.srs",
+      "bytes": 1389
+    },
+    {
+      "path": "geosite/category-communication@ads.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/category-companies.srs",
+      "bytes": 57739
+    },
+    {
+      "path": "geosite/category-companies@!cn.srs",
+      "bytes": 196
+    },
+    {
+      "path": "geosite/category-companies@ads.srs",
+      "bytes": 2110
+    },
+    {
+      "path": "geosite/category-companies@cn.srs",
+      "bytes": 6582
+    },
+    {
+      "path": "geosite/category-consent-management.srs",
+      "bytes": 191
+    },
+    {
+      "path": "geosite/category-container.srs",
+      "bytes": 171
+    },
+    {
+      "path": "geosite/category-cryptocurrency.srs",
+      "bytes": 2019
+    },
+    {
+      "path": "geosite/category-cryptocurrency@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/category-ddns.srs",
+      "bytes": 1022
+    },
+    {
+      "path": "geosite/category-dev-cn.srs",
+      "bytes": 1047
+    },
+    {
+      "path": "geosite/category-dev-cn@ads.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/category-dev.srs",
+      "bytes": 5756
+    },
+    {
+      "path": "geosite/category-dev@ads.srs",
+      "bytes": 215
+    },
+    {
+      "path": "geosite/category-dev@cn.srs",
+      "bytes": 327
+    },
+    {
+      "path": "geosite/category-documents-cn.srs",
+      "bytes": 226
+    },
+    {
+      "path": "geosite/category-doh.srs",
+      "bytes": 1188
+    },
+    {
+      "path": "geosite/category-ecommerce-ru.srs",
+      "bytes": 1621
+    },
+    {
+      "path": "geosite/category-ecommerce-ru@ads.srs",
+      "bytes": 403
+    },
+    {
+      "path": "geosite/category-ecommerce.srs",
+      "bytes": 9864
+    },
+    {
+      "path": "geosite/category-ecommerce@ads.srs",
+      "bytes": 498
+    },
+    {
+      "path": "geosite/category-ecommerce@cn.srs",
+      "bytes": 742
+    },
+    {
+      "path": "geosite/category-education-cn.srs",
+      "bytes": 1340
+    },
+    {
+      "path": "geosite/category-education-ir.srs",
+      "bytes": 167
+    },
+    {
+      "path": "geosite/category-education-ru.srs",
+      "bytes": 269
+    },
+    {
+      "path": "geosite/category-electronic-cn.srs",
+      "bytes": 605
+    },
+    {
+      "path": "geosite/category-emby.srs",
+      "bytes": 785
+    },
+    {
+      "path": "geosite/category-enhance-gaming.srs",
+      "bytes": 239
+    },
+    {
+      "path": "geosite/category-enhance-gaming@cn.srs",
+      "bytes": 115
+    },
+    {
+      "path": "geosite/category-enterprise-query-platform-cn.srs",
+      "bytes": 156
+    },
+    {
+      "path": "geosite/category-entertainment-cn.srs",
+      "bytes": 5060
+    },
+    {
+      "path": "geosite/category-entertainment-cn@ads.srs",
+      "bytes": 505
+    },
+    {
+      "path": "geosite/category-entertainment-cn@cn.srs",
+      "bytes": 50
+    },
+    {
+      "path": "geosite/category-entertainment-ru.srs",
+      "bytes": 331
+    },
+    {
+      "path": "geosite/category-entertainment.srs",
+      "bytes": 17444
+    },
+    {
+      "path": "geosite/category-entertainment@!cn.srs",
+      "bytes": 472
+    },
+    {
+      "path": "geosite/category-entertainment@ads.srs",
+      "bytes": 205
+    },
+    {
+      "path": "geosite/category-entertainment@cn.srs",
+      "bytes": 1076
+    },
+    {
+      "path": "geosite/category-finance.srs",
+      "bytes": 4645
+    },
+    {
+      "path": "geosite/category-finance@ads.srs",
+      "bytes": 190
+    },
+    {
+      "path": "geosite/category-finance@cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/category-food-cn.srs",
+      "bytes": 571
+    },
+    {
+      "path": "geosite/category-food-cn@ads.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/category-food-cn@cn.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/category-forums-ir.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/category-forums-ru.srs",
+      "bytes": 135
+    },
+    {
+      "path": "geosite/category-forums.srs",
+      "bytes": 937
+    },
+    {
+      "path": "geosite/category-forums@ads.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/category-game-accelerator-cn.srs",
+      "bytes": 386
+    },
+    {
+      "path": "geosite/category-game-platforms-download.srs",
+      "bytes": 1825
+    },
+    {
+      "path": "geosite/category-game-platforms-download@cn.srs",
+      "bytes": 431
+    },
+    {
+      "path": "geosite/category-games-!cn.srs",
+      "bytes": 7696
+    },
+    {
+      "path": "geosite/category-games-!cn@ads.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/category-games-!cn@cn.srs",
+      "bytes": 562
+    },
+    {
+      "path": "geosite/category-games-cn.srs",
+      "bytes": 1949
+    },
+    {
+      "path": "geosite/category-games-cn@ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/category-games-cn@cn.srs",
+      "bytes": 50
+    },
+    {
+      "path": "geosite/category-games.srs",
+      "bytes": 9441
+    },
+    {
+      "path": "geosite/category-games@ads.srs",
+      "bytes": 111
+    },
+    {
+      "path": "geosite/category-games@cn.srs",
+      "bytes": 584
+    },
+    {
+      "path": "geosite/category-gov-ir.srs",
+      "bytes": 299
+    },
+    {
+      "path": "geosite/category-gov-ru.srs",
+      "bytes": 939
+    },
+    {
+      "path": "geosite/category-hospital-cn.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/category-httpdns-cn.srs",
+      "bytes": 703
+    },
+    {
+      "path": "geosite/category-httpdns-cn@ads.srs",
+      "bytes": 703
+    },
+    {
+      "path": "geosite/category-insurance-ir.srs",
+      "bytes": 226
+    },
+    {
+      "path": "geosite/category-ip-geo-detect.srs",
+      "bytes": 1862
+    },
+    {
+      "path": "geosite/category-ip-geo-detect@!cn.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/category-ip-geo-detect@cn.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/category-ipfs.srs",
+      "bytes": 306
+    },
+    {
+      "path": "geosite/category-ir.srs",
+      "bytes": 223672
+    },
+    {
+      "path": "geosite/category-logistics-cn.srs",
+      "bytes": 1207
+    },
+    {
+      "path": "geosite/category-logistics-cn@ads.srs",
+      "bytes": 63
+    },
+    {
+      "path": "geosite/category-media-cn.srs",
+      "bytes": 2615
+    },
+    {
+      "path": "geosite/category-media-cn@ads.srs",
+      "bytes": 185
+    },
+    {
+      "path": "geosite/category-media-ir.srs",
+      "bytes": 322
+    },
+    {
+      "path": "geosite/category-media-ru-blocked.srs",
+      "bytes": 1128
+    },
+    {
+      "path": "geosite/category-media-ru.srs",
+      "bytes": 1201
+    },
+    {
+      "path": "geosite/category-media.srs",
+      "bytes": 12570
+    },
+    {
+      "path": "geosite/category-media@cn.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/category-medicine-ru.srs",
+      "bytes": 347
+    },
+    {
+      "path": "geosite/category-mobile-repair.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/category-mooc-cn.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/category-netdisk-!cn.srs",
+      "bytes": 636
+    },
+    {
+      "path": "geosite/category-netdisk-!cn@ads.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/category-netdisk-cn.srs",
+      "bytes": 690
+    },
+    {
+      "path": "geosite/category-network-security-cn.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/category-news-ir.srs",
+      "bytes": 528
+    },
+    {
+      "path": "geosite/category-novel.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/category-ntp-cn.srs",
+      "bytes": 221
+    },
+    {
+      "path": "geosite/category-ntp-cn@cn.srs",
+      "bytes": 221
+    },
+    {
+      "path": "geosite/category-ntp-jp.srs",
+      "bytes": 301
+    },
+    {
+      "path": "geosite/category-ntp.srs",
+      "bytes": 825
+    },
+    {
+      "path": "geosite/category-ntp@cn.srs",
+      "bytes": 221
+    },
+    {
+      "path": "geosite/category-number-verification-cn.srs",
+      "bytes": 143
+    },
+    {
+      "path": "geosite/category-olympiad-in-informatics.srs",
+      "bytes": 212
+    },
+    {
+      "path": "geosite/category-orgs.srs",
+      "bytes": 1124
+    },
+    {
+      "path": "geosite/category-outsource-cn.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/category-password-management.srs",
+      "bytes": 375
+    },
+    {
+      "path": "geosite/category-payment-ir.srs",
+      "bytes": 219
+    },
+    {
+      "path": "geosite/category-porn.srs",
+      "bytes": 43430
+    },
+    {
+      "path": "geosite/category-porn@ads.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/category-proxy-tunnels.srs",
+      "bytes": 204
+    },
+    {
+      "path": "geosite/category-pt.srs",
+      "bytes": 1034
+    },
+    {
+      "path": "geosite/category-pt@!cn.srs",
+      "bytes": 164
+    },
+    {
+      "path": "geosite/category-public-tracker.srs",
+      "bytes": 4509
+    },
+    {
+      "path": "geosite/category-remote-control.srs",
+      "bytes": 180
+    },
+    {
+      "path": "geosite/category-remote-control@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/category-retail-ru.srs",
+      "bytes": 654
+    },
+    {
+      "path": "geosite/category-retail-ru@ads.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/category-ru.srs",
+      "bytes": 7866
+    },
+    {
+      "path": "geosite/category-ru@ads.srs",
+      "bytes": 1576
+    },
+    {
+      "path": "geosite/category-ru@cn.srs",
+      "bytes": 506
+    },
+    {
+      "path": "geosite/category-scholar-!cn.srs",
+      "bytes": 4363
+    },
+    {
+      "path": "geosite/category-scholar-cn.srs",
+      "bytes": 735
+    },
+    {
+      "path": "geosite/category-scholar-hk.srs",
+      "bytes": 445
+    },
+    {
+      "path": "geosite/category-scholar-ir.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/category-scholar-uk.srs",
+      "bytes": 533
+    },
+    {
+      "path": "geosite/category-securities-cn.srs",
+      "bytes": 886
+    },
+    {
+      "path": "geosite/category-shopping-ir.srs",
+      "bytes": 200
+    },
+    {
+      "path": "geosite/category-social-media-!cn.srs",
+      "bytes": 4978
+    },
+    {
+      "path": "geosite/category-social-media-!cn@ads.srs",
+      "bytes": 241
+    },
+    {
+      "path": "geosite/category-social-media-!cn@cn.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/category-social-media-cn.srs",
+      "bytes": 378
+    },
+    {
+      "path": "geosite/category-social-media-cn@ads.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/category-social-media-ir.srs",
+      "bytes": 151
+    },
+    {
+      "path": "geosite/category-speedtest.srs",
+      "bytes": 900
+    },
+    {
+      "path": "geosite/category-speedtest@!cn.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/category-speedtest@ads.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/category-speedtest@cn.srs",
+      "bytes": 211
+    },
+    {
+      "path": "geosite/category-stun.srs",
+      "bytes": 3413
+    },
+    {
+      "path": "geosite/category-tech-ir.srs",
+      "bytes": 470
+    },
+    {
+      "path": "geosite/category-tech-media-ru.srs",
+      "bytes": 393
+    },
+    {
+      "path": "geosite/category-tech-media.srs",
+      "bytes": 322
+    },
+    {
+      "path": "geosite/category-tech-media@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/category-tm.srs",
+      "bytes": 710
+    },
+    {
+      "path": "geosite/category-travel-ir.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/category-travel-ru.srs",
+      "bytes": 277
+    },
+    {
+      "path": "geosite/category-urlshortner.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/category-voip.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/category-vpnservices.srs",
+      "bytes": 682
+    },
+    {
+      "path": "geosite/category-web-archive.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/category-wiki-cn.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/cavporn.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/cbs.srs",
+      "bytes": 329
+    },
+    {
+      "path": "geosite/ccb.srs",
+      "bytes": 188
+    },
+    {
+      "path": "geosite/ccb@!cn.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/cctv.srs",
+      "bytes": 482
+    },
+    {
+      "path": "geosite/cctv@ads.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/cdek.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/cdn77.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/ceno.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/cerebras.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/cern.srs",
+      "bytes": 131
+    },
+    {
+      "path": "geosite/certinomis.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/certum.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/changyou.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/chaoxing.srs",
+      "bytes": 335
+    },
+    {
+      "path": "geosite/chatango.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/chatwhores.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/cheetahmobile.srs",
+      "bytes": 145
+    },
+    {
+      "path": "geosite/chegg.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/chesscom.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/chinabroadnet.srs",
+      "bytes": 111
+    },
+    {
+      "path": "geosite/chinamobile.srs",
+      "bytes": 358
+    },
+    {
+      "path": "geosite/chinamobile@!cn.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/chinanews.srs",
+      "bytes": 131
+    },
+    {
+      "path": "geosite/chinapost.srs",
+      "bytes": 227
+    },
+    {
+      "path": "geosite/chinapower.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/chinaso.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/chinatelecom.srs",
+      "bytes": 230
+    },
+    {
+      "path": "geosite/chinatelecom@!cn.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/chinatower.srs",
+      "bytes": 104
+    },
+    {
+      "path": "geosite/chinaunicom.srs",
+      "bytes": 262
+    },
+    {
+      "path": "geosite/chinaunicom@!cn.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/chinaz.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/cian.srs",
+      "bytes": 150
+    },
+    {
+      "path": "geosite/cisco.srs",
+      "bytes": 1191
+    },
+    {
+      "path": "geosite/cisco@cn.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/citic.srs",
+      "bytes": 219
+    },
+    {
+      "path": "geosite/citic@!cn.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/citizenlab.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/cityu-hk.srs",
+      "bytes": 137
+    },
+    {
+      "path": "geosite/ciweimao.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/ck101.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/clarivate.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/clearasil.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/clearasil@cn.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/clearbit.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/clearbit@ads.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/clips4sale.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/cloudcone.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/cloudconvert.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/cloudflare-cn.srs",
+      "bytes": 283
+    },
+    {
+      "path": "geosite/cloudflare-cn@cn.srs",
+      "bytes": 283
+    },
+    {
+      "path": "geosite/cloudflare-ipfs.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/cloudflare.srs",
+      "bytes": 890
+    },
+    {
+      "path": "geosite/cloudflare@cn.srs",
+      "bytes": 283
+    },
+    {
+      "path": "geosite/cloudinary.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/cloudns.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/clubhouse.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/cmb.srs",
+      "bytes": 259
+    },
+    {
+      "path": "geosite/cmb@!cn.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/cn.srs",
+      "bytes": 445175
+    },
+    {
+      "path": "geosite/cn@ads.srs",
+      "bytes": 2050
+    },
+    {
+      "path": "geosite/cnb.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/cnbc.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/cnbeta.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/cnblogs.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/cnet.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/cnki.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/cnn.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/code.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/codeberg.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/codecademy.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/codeforces.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/coding.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/coinone.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/collabora.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/colorfulclouds.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/comfy-ui-launcher.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/comfy.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/comodo.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/comssone.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/connectivity-check.srs",
+      "bytes": 458
+    },
+    {
+      "path": "geosite/connectivity-check@cn.srs",
+      "bytes": 212
+    },
+    {
+      "path": "geosite/contentful.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/coolapk.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/coomer.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/copymanga.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/corel.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/costco.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/coupang.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/coursera.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/cowlevel.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/cowtransfer.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/craigslist.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/creativecommons.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/cryptominers.srs",
+      "bytes": 3294
+    },
+    {
+      "path": "geosite/csdn.srs",
+      "bytes": 185
+    },
+    {
+      "path": "geosite/csis.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/ctexcel.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/ctexcel@!cn.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/ctrip.srs",
+      "bytes": 394
+    },
+    {
+      "path": "geosite/ctrip@!cn.srs",
+      "bytes": 182
+    },
+    {
+      "path": "geosite/ctyun.srs",
+      "bytes": 390
+    },
+    {
+      "path": "geosite/cuhk.srs",
+      "bytes": 201
+    },
+    {
+      "path": "geosite/cuinc.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/curseforge.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/cursor.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/cuttly.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/cybertrust.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/cygames.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/cylink.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/dailymail.srs",
+      "bytes": 218
+    },
+    {
+      "path": "geosite/dailymotion.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/dandanplay.srs",
+      "bytes": 63
+    },
+    {
+      "path": "geosite/dandanzan.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/dangdang.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/dart.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/dazn.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/dcard.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/ddmaicai.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/debian.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/decryptipastore.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/dedao.srs",
+      "bytes": 124
+    },
+    {
+      "path": "geosite/deepin.srs",
+      "bytes": 181
+    },
+    {
+      "path": "geosite/deepin@!cn.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/deepseek.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/deezer.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/dell.srs",
+      "bytes": 1383
+    },
+    {
+      "path": "geosite/dell@cn.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/demonoid.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/deppon.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/deribit.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/dettol.srs",
+      "bytes": 363
+    },
+    {
+      "path": "geosite/dettol@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/deviantart.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/dewu.srs",
+      "bytes": 448
+    },
+    {
+      "path": "geosite/dewu@!cn.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/didi.srs",
+      "bytes": 188
+    },
+    {
+      "path": "geosite/didi@!cn.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/digicert.srs",
+      "bytes": 646
+    },
+    {
+      "path": "geosite/digicert@cn.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/digitalocean.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/digitalplayground.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/dingdatech.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/dingtalk.srs",
+      "bytes": 158
+    },
+    {
+      "path": "geosite/discord.srs",
+      "bytes": 408
+    },
+    {
+      "path": "geosite/discourse.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/discoveryplus.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/discuz.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/disney.srs",
+      "bytes": 2269
+    },
+    {
+      "path": "geosite/disney@ads.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/disney@cn.srs",
+      "bytes": 63
+    },
+    {
+      "path": "geosite/disqus.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/divar.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/dji.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/dlercloud.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/dlsite.srs",
+      "bytes": 143
+    },
+    {
+      "path": "geosite/dmit.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/dmm-porn.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/dmm.srs",
+      "bytes": 206
+    },
+    {
+      "path": "geosite/dmm@ads.srs",
+      "bytes": 156
+    },
+    {
+      "path": "geosite/dnspod.srs",
+      "bytes": 149
+    },
+    {
+      "path": "geosite/doc88.srs",
+      "bytes": 45
+    },
+    {
+      "path": "geosite/docin.srs",
+      "bytes": 62
+    },
+    {
+      "path": "geosite/docker.srs",
+      "bytes": 200
+    },
+    {
+      "path": "geosite/doi.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/dola.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/dola@!cn.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/dongchedi.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/dongjiao.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/douban.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/doubao.srs",
+      "bytes": 352
+    },
+    {
+      "path": "geosite/douyin.srs",
+      "bytes": 622
+    },
+    {
+      "path": "geosite/douyu.srs",
+      "bytes": 116
+    },
+    {
+      "path": "geosite/dowjones.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/dribbble.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/dropbox.srs",
+      "bytes": 251
+    },
+    {
+      "path": "geosite/drweb.srs",
+      "bytes": 151
+    },
+    {
+      "path": "geosite/dslreports.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/duckduckgo.srs",
+      "bytes": 468
+    },
+    {
+      "path": "geosite/duitang.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/duolingo.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/duolingo@ads.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/duolingo@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/duowan.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/durex.srs",
+      "bytes": 519
+    },
+    {
+      "path": "geosite/durex@cn.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/duyaoss.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/dw.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/dwion.srs",
+      "bytes": 151
+    },
+    {
+      "path": "geosite/dyna.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/dynu.srs",
+      "bytes": 244
+    },
+    {
+      "path": "geosite/dzen.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/dzen@ads.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/ea.srs",
+      "bytes": 1675
+    },
+    {
+      "path": "geosite/eastmoney.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/eastmoney@!cn.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/easylist.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/ebay.srs",
+      "bytes": 3077
+    },
+    {
+      "path": "geosite/ebay@cn.srs",
+      "bytes": 404
+    },
+    {
+      "path": "geosite/ebuyer.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/economist.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/eduhk.srs",
+      "bytes": 186
+    },
+    {
+      "path": "geosite/edx.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/egghead.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/ehentai.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/electron.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/eleme.srs",
+      "bytes": 156
+    },
+    {
+      "path": "geosite/eleme@ads.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/elevenlabs.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/elsevier.srs",
+      "bytes": 187
+    },
+    {
+      "path": "geosite/embark.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/embedly.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/embl.srs",
+      "bytes": 120
+    },
+    {
+      "path": "geosite/emogi-ads.srs",
+      "bytes": 45
+    },
+    {
+      "path": "geosite/emojipedia.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/eneba.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/enfa.srs",
+      "bytes": 358
+    },
+    {
+      "path": "geosite/entermediadb.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/entrust.srs",
+      "bytes": 145
+    },
+    {
+      "path": "geosite/entrust@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/envato.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/envybox.srs",
+      "bytes": 273
+    },
+    {
+      "path": "geosite/epicbrowser.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/epicgames.srs",
+      "bytes": 439
+    },
+    {
+      "path": "geosite/epicgames@cn.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/epochmediagroup.srs",
+      "bytes": 681
+    },
+    {
+      "path": "geosite/erolabs.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/escapefromtarkov.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/eset.srs",
+      "bytes": 208
+    },
+    {
+      "path": "geosite/eset@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/espn.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/espressif.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/espressif@!cn.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/esri.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/ethereum.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/everbright.srs",
+      "bytes": 167
+    },
+    {
+      "path": "geosite/evernote.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/f-droid.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/facebook-dev.srs",
+      "bytes": 471
+    },
+    {
+      "path": "geosite/facebook.srs",
+      "bytes": 3066
+    },
+    {
+      "path": "geosite/facebook@ads.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/faceit.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/falungong.srs",
+      "bytes": 1236
+    },
+    {
+      "path": "geosite/familymart.srs",
+      "bytes": 141
+    },
+    {
+      "path": "geosite/familymart@cn.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/fandom.srs",
+      "bytes": 161
+    },
+    {
+      "path": "geosite/fans66.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/fansta.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/farfetch.srs",
+      "bytes": 139
+    },
+    {
+      "path": "geosite/farfetch@cn.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/faronics.srs",
+      "bytes": 261
+    },
+    {
+      "path": "geosite/fastlane.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/fastly.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/faststone.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/fcbox.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/fedora.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/feedly.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/feishu.srs",
+      "bytes": 475
+    },
+    {
+      "path": "geosite/fengxing.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/fflogs.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/fflogs@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/fibank.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/ficbook.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/figma.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/filimo.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/finish.srs",
+      "bytes": 428
+    },
+    {
+      "path": "geosite/finish@cn.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/firebase.srs",
+      "bytes": 341
+    },
+    {
+      "path": "geosite/firebase@cn.srs",
+      "bytes": 120
+    },
+    {
+      "path": "geosite/firefox.srs",
+      "bytes": 157
+    },
+    {
+      "path": "geosite/flatpak.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/flibusta.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/flickr.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/flowus.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/flowwow.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/flurry-ads.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/flutter.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/flyio.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/focuschina.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/fonbet.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/fontawesome.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/fontexplorer.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/fonts.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/fontshop.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/fontsinuse.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/forbes.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/formula1.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/forza.srs",
+      "bytes": 135
+    },
+    {
+      "path": "geosite/fox.srs",
+      "bytes": 2240
+    },
+    {
+      "path": "geosite/fqnovel.srs",
+      "bytes": 431
+    },
+    {
+      "path": "geosite/fqnovel@ads.srs",
+      "bytes": 166
+    },
+    {
+      "path": "geosite/framer.srs",
+      "bytes": 116
+    },
+    {
+      "path": "geosite/freecodecamp.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/freenode.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/ft.srs",
+      "bytes": 305
+    },
+    {
+      "path": "geosite/ftv.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/funpay.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/futu.srs",
+      "bytes": 226
+    },
+    {
+      "path": "geosite/futu@cn.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/fzdm.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/gaijin.srs",
+      "bytes": 195
+    },
+    {
+      "path": "geosite/gamersky.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/gamersky@ads.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/gamesplanet.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/gandi.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/ganji.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/gannett.srs",
+      "bytes": 120
+    },
+    {
+      "path": "geosite/garena.srs",
+      "bytes": 208
+    },
+    {
+      "path": "geosite/gateio.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/geetest.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/gemfury.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/genotek-ru.srs",
+      "bytes": 141
+    },
+    {
+      "path": "geosite/geolocation-!cn.srs",
+      "bytes": 166026
+    },
+    {
+      "path": "geosite/geolocation-!cn@ads.srs",
+      "bytes": 3105
+    },
+    {
+      "path": "geosite/geolocation-cn.srs",
+      "bytes": 27308
+    },
+    {
+      "path": "geosite/geolocation-cn@ads.srs",
+      "bytes": 2050
+    },
+    {
+      "path": "geosite/geolocation-cn@cn.srs",
+      "bytes": 801
+    },
+    {
+      "path": "geosite/gettyimages.srs",
+      "bytes": 242
+    },
+    {
+      "path": "geosite/getui.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/gfw.srs",
+      "bytes": 28368
+    },
+    {
+      "path": "geosite/gfycat.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/ggsel.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/giffgaff.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/gigabyte.srs",
+      "bytes": 147
+    },
+    {
+      "path": "geosite/gigabyte@cn.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/gimy.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/gismeteo-ru.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/gismeteo.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/gitbook.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/gitee.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/github-copilot.srs",
+      "bytes": 197
+    },
+    {
+      "path": "geosite/github-copilot@ads.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/github.srs",
+      "bytes": 780
+    },
+    {
+      "path": "geosite/github1s.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/github@ads.srs",
+      "bytes": 120
+    },
+    {
+      "path": "geosite/gitlab.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/gitv.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/globalsign.srs",
+      "bytes": 305
+    },
+    {
+      "path": "geosite/globalsign@cn.srs",
+      "bytes": 159
+    },
+    {
+      "path": "geosite/globalvoices.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/globo.srs",
+      "bytes": 388
+    },
+    {
+      "path": "geosite/glyphs.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/gmo-internet.srs",
+      "bytes": 1259
+    },
+    {
+      "path": "geosite/gmo-internet@cn.srs",
+      "bytes": 159
+    },
+    {
+      "path": "geosite/godaddy.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/gofundme.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/gog.srs",
+      "bytes": 171
+    },
+    {
+      "path": "geosite/gog@ads.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/gog@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/golang.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/goodreads.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/google-cn.srs",
+      "bytes": 1197
+    },
+    {
+      "path": "geosite/google-deepmind.srs",
+      "bytes": 481
+    },
+    {
+      "path": "geosite/google-gemini.srs",
+      "bytes": 481
+    },
+    {
+      "path": "geosite/google-play.srs",
+      "bytes": 234
+    },
+    {
+      "path": "geosite/google-play@cn.srs",
+      "bytes": 143
+    },
+    {
+      "path": "geosite/google-registry-tld.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/google-registry.srs",
+      "bytes": 192
+    },
+    {
+      "path": "geosite/google-scholar.srs",
+      "bytes": 732
+    },
+    {
+      "path": "geosite/google-trust-services.srs",
+      "bytes": 138
+    },
+    {
+      "path": "geosite/google-trust-services@cn.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/google.srs",
+      "bytes": 7912
+    },
+    {
+      "path": "geosite/google@!cn.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/google@ads.srs",
+      "bytes": 671
+    },
+    {
+      "path": "geosite/google@cn.srs",
+      "bytes": 1344
+    },
+    {
+      "path": "geosite/googlefcm.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/googlefcm@!cn.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/goproxy.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/gracg.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/grapheneos.srs",
+      "bytes": 246
+    },
+    {
+      "path": "geosite/gravatar.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/greatfire.srs",
+      "bytes": 173
+    },
+    {
+      "path": "geosite/gree.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/groq.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/group-ib.srs",
+      "bytes": 315
+    },
+    {
+      "path": "geosite/growingio-ads.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/growingio.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/gucci.srs",
+      "bytes": 124
+    },
+    {
+      "path": "geosite/gucci@cn.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/guo.srs",
+      "bytes": 287
+    },
+    {
+      "path": "geosite/guokr.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/habr.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/haier.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/hainanairlines.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/haitang.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/hamivideo.srs",
+      "bytes": 235
+    },
+    {
+      "path": "geosite/hanyi.srs",
+      "bytes": 159
+    },
+    {
+      "path": "geosite/harpercollins.srs",
+      "bytes": 316
+    },
+    {
+      "path": "geosite/hashicorp.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/haskell.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/haveibeenpwned.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/hbo.srs",
+      "bytes": 620
+    },
+    {
+      "path": "geosite/hcaptcha.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/hdrezka.srs",
+      "bytes": 159
+    },
+    {
+      "path": "geosite/headhunter.srs",
+      "bytes": 104
+    },
+    {
+      "path": "geosite/hentaichen.srs",
+      "bytes": 116
+    },
+    {
+      "path": "geosite/hentaivn.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/herogame.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/heroku.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/hetzner.srs",
+      "bytes": 227
+    },
+    {
+      "path": "geosite/hetzner@ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/heyzo.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/hiido-ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/hikvision.srs",
+      "bytes": 115
+    },
+    {
+      "path": "geosite/hinet-eca.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/hinet.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/hisense.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/hitun.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/hkbn.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/hkbu.srs",
+      "bytes": 202
+    },
+    {
+      "path": "geosite/hkedcity.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/hketgroup.srs",
+      "bytes": 166
+    },
+    {
+      "path": "geosite/hketgroup@cn.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/hkgolden.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/hkopentv.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/hkt.srs",
+      "bytes": 165
+    },
+    {
+      "path": "geosite/hku.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/hkust.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/hm.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/hm@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/homebrew.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/homedepot.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/hongkongpost.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/honor.srs",
+      "bytes": 114
+    },
+    {
+      "path": "geosite/hooligapps.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/hotjar-ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/hotstar.srs",
+      "bytes": 150
+    },
+    {
+      "path": "geosite/hoyoverse.srs",
+      "bytes": 161
+    },
+    {
+      "path": "geosite/hoyoverse@ads.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/hp.srs",
+      "bytes": 1478
+    },
+    {
+      "path": "geosite/hp@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/hpe.srs",
+      "bytes": 312
+    },
+    {
+      "path": "geosite/hsbc-cn.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/hsbc.srs",
+      "bytes": 460
+    },
+    {
+      "path": "geosite/httpdns.srs",
+      "bytes": 331
+    },
+    {
+      "path": "geosite/huanghuagang.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/huawei-dev.srs",
+      "bytes": 259
+    },
+    {
+      "path": "geosite/huawei.srs",
+      "bytes": 2542
+    },
+    {
+      "path": "geosite/huawei@!cn.srs",
+      "bytes": 472
+    },
+    {
+      "path": "geosite/huawei@ads.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/huaweicloud.srs",
+      "bytes": 2094
+    },
+    {
+      "path": "geosite/huaweicloud@!cn.srs",
+      "bytes": 467
+    },
+    {
+      "path": "geosite/hubblephone.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/huffpost.srs",
+      "bytes": 248
+    },
+    {
+      "path": "geosite/hugecore.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/huggingface.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/hujiang.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/hulu.srs",
+      "bytes": 445
+    },
+    {
+      "path": "geosite/humblebundle.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/hunantv.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/hunantv@ads.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/huobi.srs",
+      "bytes": 142
+    },
+    {
+      "path": "geosite/hupu.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/hupun.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/hurricaneelectric.srs",
+      "bytes": 39
+    },
+    {
+      "path": "geosite/huya.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/ibkr.srs",
+      "bytes": 312
+    },
+    {
+      "path": "geosite/ibm.srs",
+      "bytes": 226
+    },
+    {
+      "path": "geosite/icable.srs",
+      "bytes": 111
+    },
+    {
+      "path": "geosite/icbc.srs",
+      "bytes": 512
+    },
+    {
+      "path": "geosite/icbc@!cn.srs",
+      "bytes": 372
+    },
+    {
+      "path": "geosite/icloud.srs",
+      "bytes": 487
+    },
+    {
+      "path": "geosite/icloud@cn.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/icloudprivaterelay.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/id.srs",
+      "bytes": 1090
+    },
+    {
+      "path": "geosite/ideco-ru.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/identrust.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/idg.srs",
+      "bytes": 151
+    },
+    {
+      "path": "geosite/ieee.srs",
+      "bytes": 488
+    },
+    {
+      "path": "geosite/ifanr.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/ifast.srs",
+      "bytes": 209
+    },
+    {
+      "path": "geosite/ifast@cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/iflytek.srs",
+      "bytes": 141
+    },
+    {
+      "path": "geosite/ihuman.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/iina.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/ikea.srs",
+      "bytes": 565
+    },
+    {
+      "path": "geosite/ikea@cn.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/illgames.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/illusion-nonofficial.srs",
+      "bytes": 302
+    },
+    {
+      "path": "geosite/illusion.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/imagebam.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/imagecurl.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/imageshack.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/imagetwist.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/imdb.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/imgbb.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/imgix.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/imgur.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/imperialcollege.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/infowars.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/infrapedia.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/inner-active-ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/inoreader.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/inshot.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/insider.srs",
+      "bytes": 247
+    },
+    {
+      "path": "geosite/instagram.srs",
+      "bytes": 720
+    },
+    {
+      "path": "geosite/instagram@ads.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/intel-dev.srs",
+      "bytes": 252
+    },
+    {
+      "path": "geosite/intel.srs",
+      "bytes": 2040
+    },
+    {
+      "path": "geosite/intel@cn.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/intercom.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/internet-archive.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/intsig.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/intuit.srs",
+      "bytes": 437
+    },
+    {
+      "path": "geosite/ipip.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/ipip@!cn.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/iqiyi.srs",
+      "bytes": 196
+    },
+    {
+      "path": "geosite/iqiyi@!cn.srs",
+      "bytes": 39
+    },
+    {
+      "path": "geosite/iqiyi@ads.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/ir.srs",
+      "bytes": 334776
+    },
+    {
+      "path": "geosite/isgd.srs",
+      "bytes": 42
+    },
+    {
+      "path": "geosite/ishumei.srs",
+      "bytes": 159
+    },
+    {
+      "path": "geosite/itchio.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/itiger.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/itunes.srs",
+      "bytes": 1066
+    },
+    {
+      "path": "geosite/itunes@cn.srs",
+      "bytes": 488
+    },
+    {
+      "path": "geosite/ixbt.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/ixsystems.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/iyf.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/jable.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/japonx.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/java.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/javbus.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/javcc.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/javdb.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/javwide.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/jd.srs",
+      "bytes": 1790
+    },
+    {
+      "path": "geosite/jd@!cn.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/jd@ads.srs",
+      "bytes": 109
+    },
+    {
+      "path": "geosite/jetbrains-ai.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/jetbrains.srs",
+      "bytes": 289
+    },
+    {
+      "path": "geosite/jetbrains@cn.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/jfrog.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/jianshu.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/jibencaozuo.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/jiemian.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/jiguang.srs",
+      "bytes": 187
+    },
+    {
+      "path": "geosite/jinshuju.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/jiyukobo.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/jkf.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/jlc.srs",
+      "bytes": 306
+    },
+    {
+      "path": "geosite/johren.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/jquery.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/jsdelivr.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/jtexpress.srs",
+      "bytes": 241
+    },
+    {
+      "path": "geosite/juejin.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/jushuitan.srs",
+      "bytes": 234
+    },
+    {
+      "path": "geosite/justav.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/justmysocks.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/jutongbao.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/jwplayer.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/kaggle.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/kakao.srs",
+      "bytes": 539
+    },
+    {
+      "path": "geosite/kanzhongguo.srs",
+      "bytes": 226
+    },
+    {
+      "path": "geosite/kaspersky.srs",
+      "bytes": 762
+    },
+    {
+      "path": "geosite/kaspersky@cn.srs",
+      "bytes": 506
+    },
+    {
+      "path": "geosite/kechuang.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/keep.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/kemono.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/kernel.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/keybase.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/khanacademy.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/kick.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/kindle.srs",
+      "bytes": 254
+    },
+    {
+      "path": "geosite/kindle4rss.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/kindle@cn.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/kingkonglive.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/kingsoft.srs",
+      "bytes": 393
+    },
+    {
+      "path": "geosite/kinopoisk.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/kinopub.srs",
+      "bytes": 260
+    },
+    {
+      "path": "geosite/kkbox.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/kktv.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/knovel.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/kodi.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/kodik.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/konachan.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/konami.srs",
+      "bytes": 251
+    },
+    {
+      "path": "geosite/kontur.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/kontur@ads.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/koolearn.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/kraken.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/ku6.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/kuaidi100.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/kuaikan.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/kuaishou.srs",
+      "bytes": 339
+    },
+    {
+      "path": "geosite/kuaishou@ads.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/kuaiyikeji.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/kubakuba.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/kubernetes.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/kucoin.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/kugou.srs",
+      "bytes": 241
+    },
+    {
+      "path": "geosite/kugou@ads.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/kurogames.srs",
+      "bytes": 186
+    },
+    {
+      "path": "geosite/kurogames@!cn.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/kurogames@ads.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/kuwo.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/kyodonews.srs",
+      "bytes": 135
+    },
+    {
+      "path": "geosite/lagou.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/landian.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/lantern.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/lanzou.srs",
+      "bytes": 169
+    },
+    {
+      "path": "geosite/laracasts.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/lark-global.srs",
+      "bytes": 403
+    },
+    {
+      "path": "geosite/lark.srs",
+      "bytes": 879
+    },
+    {
+      "path": "geosite/lastfm.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/lastpass.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/launchpad.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/lavteam.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/le.srs",
+      "bytes": 142
+    },
+    {
+      "path": "geosite/le@ads.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/lenovo.srs",
+      "bytes": 561
+    },
+    {
+      "path": "geosite/lethalhardcore.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/letsencrypt.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/letv-ads.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/lg.srs",
+      "bytes": 165
+    },
+    {
+      "path": "geosite/lianjia.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/liberapay.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/libgen.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/liepin.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/lifewire.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/ligastavok.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/lighter.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/lihkg.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/likee.srs",
+      "bytes": 444
+    },
+    {
+      "path": "geosite/limelight.srs",
+      "bytes": 119
+    },
+    {
+      "path": "geosite/linakesi.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/line.srs",
+      "bytes": 259
+    },
+    {
+      "path": "geosite/linguee.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/linkedin.srs",
+      "bytes": 196
+    },
+    {
+      "path": "geosite/linkedin@cn.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/linotype.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/linux.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/linuxdo.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/lisiku.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/litv.srs",
+      "bytes": 170
+    },
+    {
+      "path": "geosite/livejournal.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/liveperson.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/lizhi.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/lkcoffee.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/localbitcoins.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/localizejs.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/logitech.srs",
+      "bytes": 192
+    },
+    {
+      "path": "geosite/londonreal.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/longbridge.srs",
+      "bytes": 183
+    },
+    {
+      "path": "geosite/louisvuitton.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/louisvuitton@cn.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/lowiro.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/ltn.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/lumion.srs",
+      "bytes": 114
+    },
+    {
+      "path": "geosite/lysol.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/lysol@cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/madshi.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/mafengwo.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/magnit.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/mailcom.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/mailru-group.srs",
+      "bytes": 2295
+    },
+    {
+      "path": "geosite/mailru-group@ads.srs",
+      "bytes": 588
+    },
+    {
+      "path": "geosite/mailru.srs",
+      "bytes": 2295
+    },
+    {
+      "path": "geosite/mailru@ads.srs",
+      "bytes": 588
+    },
+    {
+      "path": "geosite/mainichi.srs",
+      "bytes": 183
+    },
+    {
+      "path": "geosite/malware.srs",
+      "bytes": 6848
+    },
+    {
+      "path": "geosite/manhuagui.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/manhuaren.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/manorama.srs",
+      "bytes": 167
+    },
+    {
+      "path": "geosite/manoto.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/manus.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/maocloud.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/mapbox.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/mapbox@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/marvel.srs",
+      "bytes": 214
+    },
+    {
+      "path": "geosite/mastercard.srs",
+      "bytes": 1926
+    },
+    {
+      "path": "geosite/mastercard@cn.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/masterclass.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/matrix.srs",
+      "bytes": 139
+    },
+    {
+      "path": "geosite/matters.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/mcdonalds.srs",
+      "bytes": 500
+    },
+    {
+      "path": "geosite/mcdonalds@cn.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/mdn.srs",
+      "bytes": 158
+    },
+    {
+      "path": "geosite/meadjohnson.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/meadjohnson@cn.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/mediachinesegroup.srs",
+      "bytes": 260
+    },
+    {
+      "path": "geosite/medium.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/meduza.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/mega.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/megafon.srs",
+      "bytes": 170
+    },
+    {
+      "path": "geosite/meipian.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/meitu.srs",
+      "bytes": 165
+    },
+    {
+      "path": "geosite/meituan.srs",
+      "bytes": 203
+    },
+    {
+      "path": "geosite/meizu.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/messenger.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/meta.srs",
+      "bytes": 4296
+    },
+    {
+      "path": "geosite/meta@ads.srs",
+      "bytes": 155
+    },
+    {
+      "path": "geosite/metabrainz.srs",
+      "bytes": 123
+    },
+    {
+      "path": "geosite/metacritic.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/metart.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/miaomiaozhe.srs",
+      "bytes": 63
+    },
+    {
+      "path": "geosite/microsoft-dev.srs",
+      "bytes": 990
+    },
+    {
+      "path": "geosite/microsoft-dev@cn.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/microsoft-pki.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/microsoft-pki@cn.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/microsoft.srs",
+      "bytes": 6949
+    },
+    {
+      "path": "geosite/microsoft@ads.srs",
+      "bytes": 218
+    },
+    {
+      "path": "geosite/microsoft@cn.srs",
+      "bytes": 1768
+    },
+    {
+      "path": "geosite/midea.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/mihoyo-cn.srs",
+      "bytes": 224
+    },
+    {
+      "path": "geosite/mihoyo-cn@ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/mihoyo-cn@cn.srs",
+      "bytes": 50
+    },
+    {
+      "path": "geosite/mihoyo.srs",
+      "bytes": 325
+    },
+    {
+      "path": "geosite/mihoyo@ads.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/mihoyo@cn.srs",
+      "bytes": 50
+    },
+    {
+      "path": "geosite/mikrotik.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/mindbox.srs",
+      "bytes": 233
+    },
+    {
+      "path": "geosite/mindbox@ads.srs",
+      "bytes": 137
+    },
+    {
+      "path": "geosite/mindgeek-porn.srs",
+      "bytes": 454
+    },
+    {
+      "path": "geosite/mindgeek.srs",
+      "bytes": 459
+    },
+    {
+      "path": "geosite/mini.srs",
+      "bytes": 1805
+    },
+    {
+      "path": "geosite/miniso.srs",
+      "bytes": 339
+    },
+    {
+      "path": "geosite/miniso@cn.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/miraheze.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/missav.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/misskey-universe.srs",
+      "bytes": 443
+    },
+    {
+      "path": "geosite/misskey.srs",
+      "bytes": 462
+    },
+    {
+      "path": "geosite/mit.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/mixi.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/mobile01.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/mocha.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/modrinth.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/mogujie.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/mojang.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/moji.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/moji@ads.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/momo.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/mongodb.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/monotype.srs",
+      "bytes": 203
+    },
+    {
+      "path": "geosite/moonvy.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/mopub-ads.srs",
+      "bytes": 45
+    },
+    {
+      "path": "geosite/morisawa.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/mortein.srs",
+      "bytes": 170
+    },
+    {
+      "path": "geosite/mortein@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/mosmetro.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/motorola.srs",
+      "bytes": 292
+    },
+    {
+      "path": "geosite/movefree.srs",
+      "bytes": 139
+    },
+    {
+      "path": "geosite/movefree@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/moxing.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/mozilla.srs",
+      "bytes": 786
+    },
+    {
+      "path": "geosite/mozilla@ads.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/msi.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/msn.srs",
+      "bytes": 290
+    },
+    {
+      "path": "geosite/msn@ads.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/msn@cn.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/mts-ru.srs",
+      "bytes": 135
+    },
+    {
+      "path": "geosite/mts-ru@ads.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/mubi.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/mucinex.srs",
+      "bytes": 140
+    },
+    {
+      "path": "geosite/mudvod.srs",
+      "bytes": 125
+    },
+    {
+      "path": "geosite/muji.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/muji@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/musixmatch.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/mvideo.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/mxplayer-ads.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/mxroute.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/mydirtyhobby.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/myfonts.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/myoffice-ru.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/myradio.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/mytvsuper.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/mzed.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/n26.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/n3ro.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/narwal.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/nationalgeographic.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/naver.srs",
+      "bytes": 475
+    },
+    {
+      "path": "geosite/nbcuniversal.srs",
+      "bytes": 230
+    },
+    {
+      "path": "geosite/neowin.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/netcraze.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/netcup.srs",
+      "bytes": 255
+    },
+    {
+      "path": "geosite/netease.srs",
+      "bytes": 482
+    },
+    {
+      "path": "geosite/netease@!cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/netease@ads.srs",
+      "bytes": 203
+    },
+    {
+      "path": "geosite/netflav.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/netflix.srs",
+      "bytes": 344
+    },
+    {
+      "path": "geosite/netlify.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/neuralink.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/newegg.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/newgrounds.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/newrelic-ads.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/newscorp.srs",
+      "bytes": 1472
+    },
+    {
+      "path": "geosite/newsmax.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/nexitally.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/nexo.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/nexon.srs",
+      "bytes": 111
+    },
+    {
+      "path": "geosite/nga.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/nginx.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/ngrok.srs",
+      "bytes": 153
+    },
+    {
+      "path": "geosite/nhk.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/nic-ru.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/nicegram.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/nicegram@ads.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/niconico.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/nike.srs",
+      "bytes": 1683
+    },
+    {
+      "path": "geosite/nike@cn.srs",
+      "bytes": 243
+    },
+    {
+      "path": "geosite/nikkan-gendai.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/nikke.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/nikkei.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/nintendo.srs",
+      "bytes": 1360
+    },
+    {
+      "path": "geosite/nintendo@cn.srs",
+      "bytes": 206
+    },
+    {
+      "path": "geosite/nist.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/nixos.srs",
+      "bytes": 191
+    },
+    {
+      "path": "geosite/nodejs.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/nodeseek.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/noip.srs",
+      "bytes": 819
+    },
+    {
+      "path": "geosite/nordstrom.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/nordvpn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/notion.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/now.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/nowcoder.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/npmjs.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/nsfw.srs",
+      "bytes": 328481
+    },
+    {
+      "path": "geosite/nudevista.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/nurofen.srs",
+      "bytes": 295
+    },
+    {
+      "path": "geosite/nurofen@cn.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/nutaku.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/nvidia.srs",
+      "bytes": 615
+    },
+    {
+      "path": "geosite/nvidia@cn.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/nyaa.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/nypost.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/nytimes.srs",
+      "bytes": 121
+    },
+    {
+      "path": "geosite/oan.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/oculus.srs",
+      "bytes": 217
+    },
+    {
+      "path": "geosite/ogury.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/ogury@ads.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/ok.srs",
+      "bytes": 242
+    },
+    {
+      "path": "geosite/okaapps.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/okaapps@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/okjike.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/okko.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/okx.srs",
+      "bytes": 148
+    },
+    {
+      "path": "geosite/okx@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/olevod.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/onedrive.srs",
+      "bytes": 272
+    },
+    {
+      "path": "geosite/onekey.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/oneplus.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/oneplus@!cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/ookla-speedtest.srs",
+      "bytes": 286
+    },
+    {
+      "path": "geosite/ookla-speedtest@ads.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/op.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/openai.srs",
+      "bytes": 435
+    },
+    {
+      "path": "geosite/openai@ads.srs",
+      "bytes": 109
+    },
+    {
+      "path": "geosite/opencollective.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/openjsfoundation.srs",
+      "bytes": 185
+    },
+    {
+      "path": "geosite/openjsfoundation@cn.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/openrec.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/opensourceinsights.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/openspeedtest.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/openstreetmap.srs",
+      "bytes": 154
+    },
+    {
+      "path": "geosite/openweather.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/openwrt.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/openx.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/openx@ads.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/oppo.srs",
+      "bytes": 401
+    },
+    {
+      "path": "geosite/oppo@!cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/oracle.srs",
+      "bytes": 232
+    },
+    {
+      "path": "geosite/oreilly.srs",
+      "bytes": 120
+    },
+    {
+      "path": "geosite/oreilly@cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/organicmaps.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/origin.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/oschina.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/osdn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/oskelly.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/osu.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/otpbank.srs",
+      "bytes": 178
+    },
+    {
+      "path": "geosite/oup.srs",
+      "bytes": 415
+    },
+    {
+      "path": "geosite/overclockers-ru.srs",
+      "bytes": 207
+    },
+    {
+      "path": "geosite/ozon.srs",
+      "bytes": 628
+    },
+    {
+      "path": "geosite/ozon@ads.srs",
+      "bytes": 227
+    },
+    {
+      "path": "geosite/pagecdn.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/panasonic.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/panasonic@cn.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/pandanet.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/paofuyun.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/paskoocheh.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/pastebin.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/patreon.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/pawchive.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/paypal.srs",
+      "bytes": 2340
+    },
+    {
+      "path": "geosite/paypal@cn.srs",
+      "bytes": 177
+    },
+    {
+      "path": "geosite/pbs.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/pccw.srs",
+      "bytes": 352
+    },
+    {
+      "path": "geosite/pchome.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/pearson.srs",
+      "bytes": 1102
+    },
+    {
+      "path": "geosite/pearson@cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/peppy.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/perl.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/perplexity.srs",
+      "bytes": 136
+    },
+    {
+      "path": "geosite/petrochina.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/pgyer.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/phishing.srs",
+      "bytes": 508690
+    },
+    {
+      "path": "geosite/phoenix.srs",
+      "bytes": 109
+    },
+    {
+      "path": "geosite/picacg.srs",
+      "bytes": 165
+    },
+    {
+      "path": "geosite/picacg@ads.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/picsee.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/pikpak.srs",
+      "bytes": 149
+    },
+    {
+      "path": "geosite/pikpak@ads.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/pinduoduo.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/pingan.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/pingan@!cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/pingcap.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/pinggy.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/pingpe.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/pingsx.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/pinkcore.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/pinterest.srs",
+      "bytes": 505
+    },
+    {
+      "path": "geosite/piratebay.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/pixhost.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/pixiv.srs",
+      "bytes": 152
+    },
+    {
+      "path": "geosite/pixiv@ads.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/pixnet.srs",
+      "bytes": 140
+    },
+    {
+      "path": "geosite/playboy.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/playcover.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/playstation.srs",
+      "bytes": 116
+    },
+    {
+      "path": "geosite/plex.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/plutotv.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/pocketcasts.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/pocoiq-ads.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/poe.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/polocloud.srs",
+      "bytes": 64
+    },
+    {
+      "path": "geosite/polymer.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/polyu.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/polyv.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/pornhub.srs",
+      "bytes": 144
+    },
+    {
+      "path": "geosite/pornpros.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/positive-technologies.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/postimages.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/pptv.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/primevideo.srs",
+      "bytes": 373
+    },
+    {
+      "path": "geosite/primevideo@cn.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/private.srs",
+      "bytes": 696
+    },
+    {
+      "path": "geosite/progress.srs",
+      "bytes": 119
+    },
+    {
+      "path": "geosite/projectpoi.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/projectsekai.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/proquest.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/protonmail.srs",
+      "bytes": 138
+    },
+    {
+      "path": "geosite/pstorage.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/ptt.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/pubg.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/pubmatic.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/pubmatic@ads.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/pugpig.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/purikonejp.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/python-community.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/python.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/qcc.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/qcloud.srs",
+      "bytes": 2393
+    },
+    {
+      "path": "geosite/qcloud@!cn.srs",
+      "bytes": 499
+    },
+    {
+      "path": "geosite/qianxin.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/qihoo360.srs",
+      "bytes": 812
+    },
+    {
+      "path": "geosite/qihoo360@ads.srs",
+      "bytes": 131
+    },
+    {
+      "path": "geosite/qimao.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/qingcloud.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/qingtingfm.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/qiniu.srs",
+      "bytes": 138
+    },
+    {
+      "path": "geosite/qixin.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/qnap.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/qnap@cn.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/qt.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/qualcomm.srs",
+      "bytes": 576
+    },
+    {
+      "path": "geosite/qualcomm@cn.srs",
+      "bytes": 137
+    },
+    {
+      "path": "geosite/quantil.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/quip.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/quora.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/qwant.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/qweather.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/radiko.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/raiffeisenbank.srs",
+      "bytes": 234
+    },
+    {
+      "path": "geosite/rakuten.srs",
+      "bytes": 314
+    },
+    {
+      "path": "geosite/rarbg.srs",
+      "bytes": 228
+    },
+    {
+      "path": "geosite/razer.srs",
+      "bytes": 147
+    },
+    {
+      "path": "geosite/razer@cn.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/rb.srs",
+      "bytes": 3248
+    },
+    {
+      "path": "geosite/rb@cn.srs",
+      "bytes": 302
+    },
+    {
+      "path": "geosite/reabble.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/reabble@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/readthedocs.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/reagroup.srs",
+      "bytes": 366
+    },
+    {
+      "path": "geosite/realclear.srs",
+      "bytes": 281
+    },
+    {
+      "path": "geosite/realitykings.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/realtype.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/rebrandly.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/reddit.srs",
+      "bytes": 181
+    },
+    {
+      "path": "geosite/redhat.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/redis.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/redotpay.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/redtube.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/regru.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/remirepo.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/remnawave.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/renren.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/reurl.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/reuters.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/rferl.srs",
+      "bytes": 330
+    },
+    {
+      "path": "geosite/riot.srs",
+      "bytes": 603
+    },
+    {
+      "path": "geosite/riot@cn.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/roblox.srs",
+      "bytes": 461
+    },
+    {
+      "path": "geosite/rockstar.srs",
+      "bytes": 149
+    },
+    {
+      "path": "geosite/roku.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/rossiyasegodnya.srs",
+      "bytes": 254
+    },
+    {
+      "path": "geosite/rostelecom.srs",
+      "bytes": 145
+    },
+    {
+      "path": "geosite/rostelecom@ads.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/rsshub-3rd.srs",
+      "bytes": 298
+    },
+    {
+      "path": "geosite/rsshub.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/rt.srs",
+      "bytes": 963
+    },
+    {
+      "path": "geosite/rthk.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/ru.srs",
+      "bytes": 14425
+    },
+    {
+      "path": "geosite/ruanmei.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/ruby.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/rubychina.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/ruleoflaw.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/rumble.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/rust.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/ruten.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/rutracker.srs",
+      "bytes": 131
+    },
+    {
+      "path": "geosite/rutube.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/safepal.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/sakurafrp.srs",
+      "bytes": 225
+    },
+    {
+      "path": "geosite/salesforce.srs",
+      "bytes": 403
+    },
+    {
+      "path": "geosite/samsung.srs",
+      "bytes": 343
+    },
+    {
+      "path": "geosite/samsung@ads.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/samsung@cn.srs",
+      "bytes": 103
+    },
+    {
+      "path": "geosite/sanctioned.srs",
+      "bytes": 30507
+    },
+    {
+      "path": "geosite/sankei.srs",
+      "bytes": 348
+    },
+    {
+      "path": "geosite/sb.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/sber.srs",
+      "bytes": 907
+    },
+    {
+      "path": "geosite/sber@ads.srs",
+      "bytes": 190
+    },
+    {
+      "path": "geosite/scala.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/scaleflex.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/scenesource.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/schoopia.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/schwab.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/sci-hub.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/sci.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/sciencedirect.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/scmp.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/scp.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/seasun.srs",
+      "bytes": 126
+    },
+    {
+      "path": "geosite/secom.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/sectigo.srs",
+      "bytes": 289
+    },
+    {
+      "path": "geosite/sectigo@cn.srs",
+      "bytes": 130
+    },
+    {
+      "path": "geosite/segment.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/segment@ads.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/segmentfault.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/sehuatang.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/selectel.srs",
+      "bytes": 268
+    },
+    {
+      "path": "geosite/sentry.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/servicepipe.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/setapp.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/setn.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/sf-express.srs",
+      "bytes": 195
+    },
+    {
+      "path": "geosite/shadowsockscom.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/shanbay.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/sharepoint.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/sharethis.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/shireyishunjian.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/shopee.srs",
+      "bytes": 221
+    },
+    {
+      "path": "geosite/shopee@cn.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/shopify.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/shorturl.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/showtimeanytime.srs",
+      "bytes": 64
+    },
+    {
+      "path": "geosite/shuqi.srs",
+      "bytes": 146
+    },
+    {
+      "path": "geosite/signal.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/sina.srs",
+      "bytes": 420
+    },
+    {
+      "path": "geosite/sina@!cn.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/sina@ads.srs",
+      "bytes": 233
+    },
+    {
+      "path": "geosite/singtaonewscorp.srs",
+      "bytes": 231
+    },
+    {
+      "path": "geosite/sinopec.srs",
+      "bytes": 115
+    },
+    {
+      "path": "geosite/sitepoint.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/skillshare.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/sky.srs",
+      "bytes": 204
+    },
+    {
+      "path": "geosite/sky@cn.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/skyeng.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/skyperfect.srs",
+      "bytes": 145
+    },
+    {
+      "path": "geosite/slack.srs",
+      "bytes": 163
+    },
+    {
+      "path": "geosite/slideshare.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/sling.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/smartone.srs",
+      "bytes": 249
+    },
+    {
+      "path": "geosite/smtiaojiaoshi.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/smzdm.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/snap.srs",
+      "bytes": 155
+    },
+    {
+      "path": "geosite/snap@ads.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/snapcraft.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/snapp.srs",
+      "bytes": 214
+    },
+    {
+      "path": "geosite/snk.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/snodehome.srs",
+      "bytes": 76
+    },
+    {
+      "path": "geosite/social.srs",
+      "bytes": 4445
+    },
+    {
+      "path": "geosite/softbank.srs",
+      "bytes": 288
+    },
+    {
+      "path": "geosite/softether.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/sogou.srs",
+      "bytes": 370
+    },
+    {
+      "path": "geosite/sogou@ads.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/sohu.srs",
+      "bytes": 273
+    },
+    {
+      "path": "geosite/sohu@ads.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/sokolov.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/sonemic.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/sony.srs",
+      "bytes": 958
+    },
+    {
+      "path": "geosite/sonypictures.srs",
+      "bytes": 247
+    },
+    {
+      "path": "geosite/soundcloud.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/soundofhope.srs",
+      "bytes": 147
+    },
+    {
+      "path": "geosite/sourceforge.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/sourcehut.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/soyjakparty.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/spacemail.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/spaceship.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/spacex.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/spankbang.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/speedtest.srs",
+      "bytes": 286
+    },
+    {
+      "path": "geosite/speedtest@ads.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/spiceworks.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/spotify.srs",
+      "bytes": 399
+    },
+    {
+      "path": "geosite/spotify@ads.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/springer.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/squareup.srs",
+      "bytes": 177
+    },
+    {
+      "path": "geosite/squirrelvpn.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/sslcom.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/sslcom@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/ssrcloud.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/st.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/st@cn.srs",
+      "bytes": 64
+    },
+    {
+      "path": "geosite/stackexchange.srs",
+      "bytes": 364
+    },
+    {
+      "path": "geosite/stackpath.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/stage1st.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/standardchartered.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/starbucks.srs",
+      "bytes": 693
+    },
+    {
+      "path": "geosite/starbucks@cn.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/starfieldtech.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/starplus.srs",
+      "bytes": 128
+    },
+    {
+      "path": "geosite/startpage.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/starworld.srs",
+      "bytes": 282
+    },
+    {
+      "path": "geosite/staticfile.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/steam.srs",
+      "bytes": 800
+    },
+    {
+      "path": "geosite/steam@cn.srs",
+      "bytes": 318
+    },
+    {
+      "path": "geosite/steaminventoryhelper.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/steamunlocked.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/steemit.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/sto-express.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/straitsx.srs",
+      "bytes": 148
+    },
+    {
+      "path": "geosite/streamable.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/strepsils.srs",
+      "bytes": 348
+    },
+    {
+      "path": "geosite/strepsils@cn.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/strikingly.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/stripe.srs",
+      "bytes": 152
+    },
+    {
+      "path": "geosite/subscene.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/suishouji.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/sumkoo.srs",
+      "bytes": 145
+    },
+    {
+      "path": "geosite/suning.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/supercell.srs",
+      "bytes": 299
+    },
+    {
+      "path": "geosite/supersonic.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/supersonic@ads.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/surflite.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/suruga-ya.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/svp.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/swag.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/swift.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/swift@cn.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/swisssign.srs",
+      "bytes": 343
+    },
+    {
+      "path": "geosite/sxl.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/symantec-pki.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/symantec.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/synology.srs",
+      "bytes": 256
+    },
+    {
+      "path": "geosite/synology@cn.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/t2-ru.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/taboola.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/tagtic-ads.srs",
+      "bytes": 61
+    },
+    {
+      "path": "geosite/taihe.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/taikang.srs",
+      "bytes": 96
+    },
+    {
+      "path": "geosite/tailscale.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/take-two.srs",
+      "bytes": 240
+    },
+    {
+      "path": "geosite/talkatone.srs",
+      "bytes": 127
+    },
+    {
+      "path": "geosite/taomee.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/tappx-ads.srs",
+      "bytes": 56
+    },
+    {
+      "path": "geosite/taptap.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/taptap@!cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/target.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/taylorfrancis.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/tbank-ru.srs",
+      "bytes": 1099
+    },
+    {
+      "path": "geosite/tcl.srs",
+      "bytes": 154
+    },
+    {
+      "path": "geosite/tcl@ads.srs",
+      "bytes": 113
+    },
+    {
+      "path": "geosite/teambition.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/teamspeak.srs",
+      "bytes": 82
+    },
+    {
+      "path": "geosite/teamviewer.srs",
+      "bytes": 144
+    },
+    {
+      "path": "geosite/teamviewer@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/technogym.srs",
+      "bytes": 161
+    },
+    {
+      "path": "geosite/techpowerup.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/techtimes.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/ted.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/telegram.srs",
+      "bytes": 248
+    },
+    {
+      "path": "geosite/telekom.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/television-ads.srs",
+      "bytes": 206
+    },
+    {
+      "path": "geosite/temp-mail.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/tencent-dev.srs",
+      "bytes": 213
+    },
+    {
+      "path": "geosite/tencent-dev@ads.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/tencent-games.srs",
+      "bytes": 810
+    },
+    {
+      "path": "geosite/tencent-tme.srs",
+      "bytes": 432
+    },
+    {
+      "path": "geosite/tencent-tme@ads.srs",
+      "bytes": 215
+    },
+    {
+      "path": "geosite/tencent.srs",
+      "bytes": 4631
+    },
+    {
+      "path": "geosite/tencent@!cn.srs",
+      "bytes": 560
+    },
+    {
+      "path": "geosite/tencent@ads.srs",
+      "bytes": 634
+    },
+    {
+      "path": "geosite/tendcloud.srs",
+      "bytes": 102
+    },
+    {
+      "path": "geosite/tendcloud@ads.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/terabox.srs",
+      "bytes": 118
+    },
+    {
+      "path": "geosite/termux.srs",
+      "bytes": 73
+    },
+    {
+      "path": "geosite/tesla.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/tesla@cn.srs",
+      "bytes": 90
+    },
+    {
+      "path": "geosite/test-ipv6.srs",
+      "bytes": 411
+    },
+    {
+      "path": "geosite/test-ipv6@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/test.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/tex.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/tgbus.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/theboringcompany.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/theguardian.srs",
+      "bytes": 147
+    },
+    {
+      "path": "geosite/theinitium.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/thelinuxfoundation.srs",
+      "bytes": 228
+    },
+    {
+      "path": "geosite/thelinuxfoundation@cn.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/theporndude.srs",
+      "bytes": 136
+    },
+    {
+      "path": "geosite/thescoregroup.srs",
+      "bytes": 1157
+    },
+    {
+      "path": "geosite/thesun.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/thetimes.srs",
+      "bytes": 163
+    },
+    {
+      "path": "geosite/thetype.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/thetype@cn.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/thomsonreuters.srs",
+      "bytes": 466
+    },
+    {
+      "path": "geosite/threads.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/tiancity.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/tianyancha.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/tidal.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/tidelift.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/tiktok.srs",
+      "bytes": 472
+    },
+    {
+      "path": "geosite/tiktok@!cn.srs",
+      "bytes": 469
+    },
+    {
+      "path": "geosite/tiktok@ads.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/tilda.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/timeweb.srs",
+      "bytes": 83
+    },
+    {
+      "path": "geosite/tinyurl.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/tld-!cn.srs",
+      "bytes": 3742
+    },
+    {
+      "path": "geosite/tld-cn.srs",
+      "bytes": 441
+    },
+    {
+      "path": "geosite/tld-opennic.srs",
+      "bytes": 171
+    },
+    {
+      "path": "geosite/tld-ru.srs",
+      "bytes": 142
+    },
+    {
+      "path": "geosite/tmdb.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/tmtpost.srs",
+      "bytes": 132
+    },
+    {
+      "path": "geosite/tokyo-sports.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/tokyo-toshokan.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/tonec.srs",
+      "bytes": 93
+    },
+    {
+      "path": "geosite/tongcheng.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/tongfang.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/topcoder.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/tor.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/torproject.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/tr.srs",
+      "bytes": 1090
+    },
+    {
+      "path": "geosite/tracker.srs",
+      "bytes": 2486
+    },
+    {
+      "path": "geosite/trackernetwork.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/trae.srs",
+      "bytes": 152
+    },
+    {
+      "path": "geosite/translatewiki.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/trello.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/trustasia.srs",
+      "bytes": 142
+    },
+    {
+      "path": "geosite/trustwallet.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/trustwave.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/truyen-hentai.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/tsquare.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/tube8.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/tubi.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/tumblr.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/tutanota.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/tvb.srs",
+      "bytes": 211
+    },
+    {
+      "path": "geosite/tvb@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/tvdb.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/tver.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/twca.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/twilio.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/twitch.srs",
+      "bytes": 419
+    },
+    {
+      "path": "geosite/twitter.srs",
+      "bytes": 284
+    },
+    {
+      "path": "geosite/twitter@ads.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/typekit.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/typenetwork.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/typography.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/u17.srs",
+      "bytes": 54
+    },
+    {
+      "path": "geosite/uber.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/uberads-ads.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/ubiquiti.srs",
+      "bytes": 144
+    },
+    {
+      "path": "geosite/ubiquiti@cn.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/ubisoft.srs",
+      "bytes": 281
+    },
+    {
+      "path": "geosite/ubisoft@cn.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/ubuntu.srs",
+      "bytes": 94
+    },
+    {
+      "path": "geosite/ubuntukylin.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/uc.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/uc@ads.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/ucloud.srs",
+      "bytes": 440
+    },
+    {
+      "path": "geosite/ucoz-ru.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/ucoz.srs",
+      "bytes": 324
+    },
+    {
+      "path": "geosite/udacity.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/udemy.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/udn.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/umeng.srs",
+      "bytes": 286
+    },
+    {
+      "path": "geosite/umeng@ads.srs",
+      "bytes": 234
+    },
+    {
+      "path": "geosite/unext.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/unionpay.srs",
+      "bytes": 192
+    },
+    {
+      "path": "geosite/unity.srs",
+      "bytes": 155
+    },
+    {
+      "path": "geosite/unity@ads.srs",
+      "bytes": 149
+    },
+    {
+      "path": "geosite/unitychina.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/unitychina@ads.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/uoliv.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/upai.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/usersdrive.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/uu-chat.srs",
+      "bytes": 87
+    },
+    {
+      "path": "geosite/v2ray.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/v8.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/vancl.srs",
+      "bytes": 59
+    },
+    {
+      "path": "geosite/vanish.srs",
+      "bytes": 446
+    },
+    {
+      "path": "geosite/vanish@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/vaptcha.srs",
+      "bytes": 65
+    },
+    {
+      "path": "geosite/veet.srs",
+      "bytes": 340
+    },
+    {
+      "path": "geosite/veet@cn.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/vercel.srs",
+      "bytes": 307
+    },
+    {
+      "path": "geosite/verisign-pki.srs",
+      "bytes": 416
+    },
+    {
+      "path": "geosite/verisign.srs",
+      "bytes": 343
+    },
+    {
+      "path": "geosite/verizon.srs",
+      "bytes": 206
+    },
+    {
+      "path": "geosite/verizon@ads.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/verizon@cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/vgtime.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/viber.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/vilavpn.srs",
+      "bytes": 97
+    },
+    {
+      "path": "geosite/vim.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/vimeo.srs",
+      "bytes": 234
+    },
+    {
+      "path": "geosite/visa.srs",
+      "bytes": 1415
+    },
+    {
+      "path": "geosite/visa@cn.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/visualarts.srs",
+      "bytes": 222
+    },
+    {
+      "path": "geosite/viu.srs",
+      "bytes": 164
+    },
+    {
+      "path": "geosite/vivo.srs",
+      "bytes": 117
+    },
+    {
+      "path": "geosite/vivo@!cn.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/vixengroup.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/vk.srs",
+      "bytes": 449
+    },
+    {
+      "path": "geosite/vk@ads.srs",
+      "bytes": 161
+    },
+    {
+      "path": "geosite/vmware.srs",
+      "bytes": 1014
+    },
+    {
+      "path": "geosite/vmware@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/voanews.srs",
+      "bytes": 489
+    },
+    {
+      "path": "geosite/vodafone.srs",
+      "bytes": 145
+    },
+    {
+      "path": "geosite/vokino.srs",
+      "bytes": 299
+    },
+    {
+      "path": "geosite/volcengine.srs",
+      "bytes": 2234
+    },
+    {
+      "path": "geosite/volmoe.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/volvo.srs",
+      "bytes": 1635
+    },
+    {
+      "path": "geosite/volvo@cn.srs",
+      "bytes": 104
+    },
+    {
+      "path": "geosite/voxmedia.srs",
+      "bytes": 185
+    },
+    {
+      "path": "geosite/vpngate.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/vrcdn.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/vrchat.srs",
+      "bytes": 75
+    },
+    {
+      "path": "geosite/vrzwk.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/vultr.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/w3schools.srs",
+      "bytes": 48
+    },
+    {
+      "path": "geosite/wallhaven.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/walmart.srs",
+      "bytes": 146
+    },
+    {
+      "path": "geosite/walmart@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/wanfang.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/wangsu.srs",
+      "bytes": 255
+    },
+    {
+      "path": "geosite/wanmei.srs",
+      "bytes": 171
+    },
+    {
+      "path": "geosite/wantmedia.srs",
+      "bytes": 192
+    },
+    {
+      "path": "geosite/wargaming.srs",
+      "bytes": 184
+    },
+    {
+      "path": "geosite/wasu.srs",
+      "bytes": 100
+    },
+    {
+      "path": "geosite/watchout.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/wbgames.srs",
+      "bytes": 161
+    },
+    {
+      "path": "geosite/weathercn.srs",
+      "bytes": 105
+    },
+    {
+      "path": "geosite/webex.srs",
+      "bytes": 185
+    },
+    {
+      "path": "geosite/webex@cn.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/webnovel.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/webnovel@!cn.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/webtype.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/weiphone.srs",
+      "bytes": 89
+    },
+    {
+      "path": "geosite/wenshushu.srs",
+      "bytes": 164
+    },
+    {
+      "path": "geosite/westerndigital.srs",
+      "bytes": 244
+    },
+    {
+      "path": "geosite/westerndigital@cn.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/whatsapp.srs",
+      "bytes": 194
+    },
+    {
+      "path": "geosite/whatsapp@ads.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/wholefoodsmarket.srs",
+      "bytes": 154
+    },
+    {
+      "path": "geosite/whoosh.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/wikidot.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/wikihow.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/wikimedia.srs",
+      "bytes": 222
+    },
+    {
+      "path": "geosite/wildberries.srs",
+      "bytes": 935
+    },
+    {
+      "path": "geosite/wildberries@ads.srs",
+      "bytes": 217
+    },
+    {
+      "path": "geosite/win-extra.srs",
+      "bytes": 2950
+    },
+    {
+      "path": "geosite/win-spy.srs",
+      "bytes": 2262
+    },
+    {
+      "path": "geosite/win-update.srs",
+      "bytes": 1553
+    },
+    {
+      "path": "geosite/windsurf.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/windy.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/wink.srs",
+      "bytes": 99
+    },
+    {
+      "path": "geosite/winline.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/wise.srs",
+      "bytes": 53
+    },
+    {
+      "path": "geosite/wisekey.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite/wish.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/wistia.srs",
+      "bytes": 92
+    },
+    {
+      "path": "geosite/wiwide.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/wix.srs",
+      "bytes": 131
+    },
+    {
+      "path": "geosite/wjx.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/wolai.srs",
+      "bytes": 71
+    },
+    {
+      "path": "geosite/woolite.srs",
+      "bytes": 119
+    },
+    {
+      "path": "geosite/woolite@cn.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/wordpress.srs",
+      "bytes": 136
+    },
+    {
+      "path": "geosite/wps.srs",
+      "bytes": 144
+    },
+    {
+      "path": "geosite/wsj.srs",
+      "bytes": 166
+    },
+    {
+      "path": "geosite/wwe.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/wynd.srs",
+      "bytes": 66
+    },
+    {
+      "path": "geosite/x.srs",
+      "bytes": 314
+    },
+    {
+      "path": "geosite/x5.srs",
+      "bytes": 313
+    },
+    {
+      "path": "geosite/x5@ads.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/x@ads.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/xai.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/xbox.srs",
+      "bytes": 506
+    },
+    {
+      "path": "geosite/xbox@cn.srs",
+      "bytes": 46
+    },
+    {
+      "path": "geosite/xd.srs",
+      "bytes": 139
+    },
+    {
+      "path": "geosite/xd@!cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/xda.srs",
+      "bytes": 91
+    },
+    {
+      "path": "geosite/xdty.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/xedge.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/xhamster.srs",
+      "bytes": 238
+    },
+    {
+      "path": "geosite/xhamster@ads.srs",
+      "bytes": 57
+    },
+    {
+      "path": "geosite/xiaoheihe.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/xiaohongshu.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/xiaohongshu@!cn.srs",
+      "bytes": 81
+    },
+    {
+      "path": "geosite/xiaomi-ai.srs",
+      "bytes": 79
+    },
+    {
+      "path": "geosite/xiaomi-iot.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/xiaomi.srs",
+      "bytes": 647
+    },
+    {
+      "path": "geosite/xiaomi@!cn.srs",
+      "bytes": 70
+    },
+    {
+      "path": "geosite/xiaomi@ads.srs",
+      "bytes": 287
+    },
+    {
+      "path": "geosite/xiaoyuzhou.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/ximalaya.srs",
+      "bytes": 95
+    },
+    {
+      "path": "geosite/ximalaya@ads.srs",
+      "bytes": 85
+    },
+    {
+      "path": "geosite/xingkongwuxianmedia.srs",
+      "bytes": 129
+    },
+    {
+      "path": "geosite/xingrz.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/xnxx.srs",
+      "bytes": 84
+    },
+    {
+      "path": "geosite/xtom.srs",
+      "bytes": 143
+    },
+    {
+      "path": "geosite/xueersi.srs",
+      "bytes": 131
+    },
+    {
+      "path": "geosite/xueqiu.srs",
+      "bytes": 104
+    },
+    {
+      "path": "geosite/xunlei.srs",
+      "bytes": 152
+    },
+    {
+      "path": "geosite/xvideos.srs",
+      "bytes": 98
+    },
+    {
+      "path": "geosite/yahoo.srs",
+      "bytes": 953
+    },
+    {
+      "path": "geosite/yahoo@ads.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/yahoo@cn.srs",
+      "bytes": 55
+    },
+    {
+      "path": "geosite/yandex.srs",
+      "bytes": 1098
+    },
+    {
+      "path": "geosite/yandex@ads.srs",
+      "bytes": 374
+    },
+    {
+      "path": "geosite/ycombinator.srs",
+      "bytes": 74
+    },
+    {
+      "path": "geosite/ymtc.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/ynet.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/ynoproject.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/yokaverse.srs",
+      "bytes": 109
+    },
+    {
+      "path": "geosite/yomiuri.srs",
+      "bytes": 216
+    },
+    {
+      "path": "geosite/yostar.srs",
+      "bytes": 160
+    },
+    {
+      "path": "geosite/yostar@cn.srs",
+      "bytes": 43
+    },
+    {
+      "path": "geosite/youjizz.srs",
+      "bytes": 72
+    },
+    {
+      "path": "geosite/youku.srs",
+      "bytes": 281
+    },
+    {
+      "path": "geosite/youku@!cn.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/youku@ads.srs",
+      "bytes": 200
+    },
+    {
+      "path": "geosite/youmind.srs",
+      "bytes": 78
+    },
+    {
+      "path": "geosite/youporn.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/youquan.srs",
+      "bytes": 134
+    },
+    {
+      "path": "geosite/youtube.srs",
+      "bytes": 1144
+    },
+    {
+      "path": "geosite/youtube@ads.srs",
+      "bytes": 52
+    },
+    {
+      "path": "geosite/youtube@cn.srs",
+      "bytes": 41
+    },
+    {
+      "path": "geosite/youzan.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/yto-express.srs",
+      "bytes": 403
+    },
+    {
+      "path": "geosite/yuanbei.srs",
+      "bytes": 109
+    },
+    {
+      "path": "geosite/yuanfudao.srs",
+      "bytes": 162
+    },
+    {
+      "path": "geosite/yuewen.srs",
+      "bytes": 239
+    },
+    {
+      "path": "geosite/yuewen@!cn.srs",
+      "bytes": 47
+    },
+    {
+      "path": "geosite/yuketang.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/yundaex.srs",
+      "bytes": 133
+    },
+    {
+      "path": "geosite/yunfanjiasu.srs",
+      "bytes": 107
+    },
+    {
+      "path": "geosite/yunlaopo.srs",
+      "bytes": 104
+    },
+    {
+      "path": "geosite/yy.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/z-library.srs",
+      "bytes": 466
+    },
+    {
+      "path": "geosite/z3x-team.srs",
+      "bytes": 60
+    },
+    {
+      "path": "geosite/zaobao.srs",
+      "bytes": 77
+    },
+    {
+      "path": "geosite/zb.srs",
+      "bytes": 67
+    },
+    {
+      "path": "geosite/zdns.srs",
+      "bytes": 168
+    },
+    {
+      "path": "geosite/zee.srs",
+      "bytes": 265
+    },
+    {
+      "path": "geosite/zeetv.srs",
+      "bytes": 122
+    },
+    {
+      "path": "geosite/zendesk.srs",
+      "bytes": 106
+    },
+    {
+      "path": "geosite/zeplin.srs",
+      "bytes": 58
+    },
+    {
+      "path": "geosite/zhangtao.srs",
+      "bytes": 112
+    },
+    {
+      "path": "geosite/zhihu.srs",
+      "bytes": 110
+    },
+    {
+      "path": "geosite/zhihu@ads.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/zhimeishe.srs",
+      "bytes": 101
+    },
+    {
+      "path": "geosite/zhubajie.srs",
+      "bytes": 86
+    },
+    {
+      "path": "geosite/ziroom.srs",
+      "bytes": 69
+    },
+    {
+      "path": "geosite/zoho.srs",
+      "bytes": 187
+    },
+    {
+      "path": "geosite/zoom.srs",
+      "bytes": 68
+    },
+    {
+      "path": "geosite/zotero.srs",
+      "bytes": 44
+    },
+    {
+      "path": "geosite/zscaler.srs",
+      "bytes": 232
+    },
+    {
+      "path": "geosite/zte.srs",
+      "bytes": 108
+    },
+    {
+      "path": "geosite/zto-express.srs",
+      "bytes": 147
+    },
+    {
+      "path": "geosite/zuoyebang.srs",
+      "bytes": 80
+    },
+    {
+      "path": "geosite/zuoyebang@ads.srs",
+      "bytes": 49
+    },
+    {
+      "path": "geosite/zynga.srs",
+      "bytes": 88
+    },
+    {
+      "path": "geosite_codes.txt",
+      "bytes": 21522
+    },
+    {
+      "path": "preset/cn.json",
+      "bytes": 8851
+    },
+    {
+      "path": "preset/default.json",
+      "bytes": 6152
+    },
+    {
+      "path": "preset/ir.json",
+      "bytes": 6593
+    },
+    {
+      "path": "preset/ru.json",
+      "bytes": 6835
+    }
+  ],
+  "installedDataFileCount": 2457,
+  "installedOnlyNames": [
+    "geosite/acfun-ads.srs",
+    "geosite/adjust-ads.srs",
+    "geosite/adobe-ads.srs",
+    "geosite/alibaba-ads.srs",
+    "geosite/amap-ads.srs",
+    "geosite/amazon-ads.srs",
+    "geosite/apple-ads.srs",
+    "geosite/baidu-ads.srs",
+    "geosite/bytedance-ads.srs",
+    "geosite/clearbit-ads.srs",
+    "geosite/dmm-ads.srs",
+    "geosite/duolingo-ads.srs",
+    "geosite/facebook-ads.srs",
+    "geosite/fqnovel-ads.srs",
+    "geosite/github-ads.srs",
+    "geosite/google-ads.srs",
+    "geosite/hunantv-ads.srs",
+    "geosite/instagram-ads.srs",
+    "geosite/iqiyi-ads.srs",
+    "geosite/jd-ads.srs",
+    "geosite/kuaishou-ads.srs",
+    "geosite/kugou-ads.srs",
+    "geosite/meta-ads.srs",
+    "geosite/microsoft-ads.srs",
+    "geosite/mihoyo-ads.srs",
+    "geosite/netease-ads.srs",
+    "geosite/ogury-ads.srs",
+    "geosite/ookla-speedtest-ads.srs",
+    "geosite/openx-ads.srs",
+    "geosite/pubmatic-ads.srs",
+    "geosite/qihoo360-ads.srs",
+    "geosite/segment-ads.srs",
+    "geosite/sina-ads.srs",
+    "geosite/sohu-ads.srs",
+    "geosite/spotify-ads.srs",
+    "geosite/supersonic-ads.srs",
+    "geosite/tencent-ads.srs",
+    "geosite/umeng-ads.srs",
+    "geosite/unity-ads.srs",
+    "geosite/whatsapp-ads.srs",
+    "geosite/xhamster-ads.srs",
+    "geosite/xiaomi-ads.srs",
+    "geosite/ximalaya-ads.srs",
+    "geosite/yahoo-ads.srs",
+    "geosite/youku-ads.srs",
+    "geosite/zuoyebang-ads.srs",
+    "port.txt"
+  ],
+  "repoOnlyNames": [
+    "geosite/activision-blizzard.srs",
+    "geosite/activision.srs",
+    "geosite/amplitude.srs",
+    "geosite/amplitude@ads.srs",
+    "geosite/newgrounds.srs",
+    "geosite/nordvpn.srs",
+    "geosite/vixengroup.srs"
+  ]
+}

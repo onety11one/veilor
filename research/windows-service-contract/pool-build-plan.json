@@ -1,0 +1,73 @@
+{
+  "scope": "Prepared build commands only; analyzer is not executed by this driver",
+  "sourceHashVerified": true,
+  "cxxStandard": 20,
+  "compressedPointers": false,
+  "analysis": "pool-only",
+  "compatMacros": [
+    "-DHAS_RECORD_TYPE=1",
+    "-DNO_METHOD_EXTRACTOR_STUB=1",
+    "-DUNIFORM_INTEGER_ACCESS=1",
+    "-DNO_CODE_ANALYSIS=1"
+  ],
+  "commands": [
+    [
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\python-deps\\cmake\\data\\bin\\cmake.exe",
+      "-S",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\dartsdk\\v3.12.2",
+      "-B",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\build\\dartvm3.12.2_windows_x64",
+      "-G",
+      "Ninja",
+      "-DTARGET_OS=windows",
+      "-DTARGET_ARCH=x64",
+      "-DCOMPRESSED_PTRS=0",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_CXX_FLAGS=/Zc:preprocessor"
+    ],
+    [
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\python-deps\\cmake\\data\\bin\\cmake.exe",
+      "--build",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\build\\dartvm3.12.2_windows_x64",
+      "--parallel",
+      "4"
+    ],
+    [
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\python-deps\\cmake\\data\\bin\\cmake.exe",
+      "--install",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\build\\dartvm3.12.2_windows_x64"
+    ],
+    [
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\python-deps\\cmake\\data\\bin\\cmake.exe",
+      "-S",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\blutter",
+      "-B",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\build\\blutter_dartvm3.12.2_windows_x64_no-compressed-ptrs_no-analysis",
+      "-G",
+      "Ninja",
+      "-DDARTLIB=dartvm3.12.2_windows_x64",
+      "-DNAME_SUFFIX=_no-compressed-ptrs_no-analysis",
+      "-DBLUTTER_ARCH=x64",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_CXX_FLAGS=/Zc:preprocessor /EHsc",
+      "-DHAS_RECORD_TYPE=1",
+      "-DNO_METHOD_EXTRACTOR_STUB=1",
+      "-DUNIFORM_INTEGER_ACCESS=1",
+      "-DNO_CODE_ANALYSIS=1"
+    ],
+    [
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\python-deps\\cmake\\data\\bin\\cmake.exe",
+      "--build",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\build\\blutter_dartvm3.12.2_windows_x64_no-compressed-ptrs_no-analysis",
+      "--parallel",
+      "4"
+    ],
+    [
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\python-deps\\cmake\\data\\bin\\cmake.exe",
+      "--install",
+      "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\blutter-windows\\build\\blutter_dartvm3.12.2_windows_x64_no-compressed-ptrs_no-analysis"
+    ]
+  ],
+  "msvcPresent": true,
+  "licenseAccepted": true
+}

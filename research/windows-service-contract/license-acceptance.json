@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "authorization": "User explicitly approved required licenses and continuation in this task",
+  "licenseUrl": "https://go.microsoft.com/fwlink/?LinkId=2179911",
+  "msvcVersion": "14.44.17.14",
+  "sdkFamily": "26100",
+  "timestampUtc": "2026-10-22T10:39:15.161531+00:00",
+  "cleanupRoots": [
+    "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\msvc",
+    "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\work\\toolchains\\portable-build\\downloads"
+  ]
+}

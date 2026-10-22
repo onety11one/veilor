@@ -1,0 +1,6 @@
+name: veilor_vpn_state
+description: Proposed VPN state contract and presentation policy for Veilor.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=3.4.0 <4.0.0'

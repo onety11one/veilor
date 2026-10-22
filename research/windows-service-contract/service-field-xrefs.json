@@ -1,0 +1,2295 @@
+{
+  "scope": "Direct references are candidates, not complete JSON consumer proof; reflection, indirect pointers and other binaries not covered",
+  "fields": [
+    {
+      "field": "control_port",
+      "directReferences": []
+    },
+    {
+      "field": "base_dir",
+      "directReferences": [
+        {
+          "function": "main.setUpDir",
+          "pc": "0x1415f8604",
+          "keys": [
+            "base_dir"
+          ],
+          "address": "0x141dd8694",
+          "asm": "lea rdx, [rip + 0x7e0089]"
+        }
+      ]
+    },
+    {
+      "field": "work_dir",
+      "directReferences": [
+        {
+          "function": "main.setUpDir",
+          "pc": "0x1415f865e",
+          "keys": [
+            "work_dir"
+          ],
+          "address": "0x141dd869c",
+          "asm": "lea rdx, [rip + 0x7e0037]"
+        }
+      ]
+    },
+    {
+      "field": "cache_dir",
+      "directReferences": [
+        {
+          "function": "main.setUpDir",
+          "pc": "0x1415f86bb",
+          "keys": [
+            "cache_dir"
+          ],
+          "address": "0x141dda237",
+          "asm": "lea rdx, [rip + 0x7e1b75]"
+        }
+      ]
+    },
+    {
+      "field": "core_path",
+      "directReferences": [
+        {
+          "function": "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate",
+          "pc": "0x1415db484",
+          "keys": [
+            "core_path"
+          ],
+          "address": "0x141dda22e",
+          "asm": "lea rdx, [rip + 0x7feda3]"
+        },
+        {
+          "function": "main.setUpDir",
+          "pc": "0x1415f8487",
+          "keys": [
+            "core_path"
+          ],
+          "address": "0x141dda22e",
+          "asm": "lea rdx, [rip + 0x7e1da0]"
+        }
+      ]
+    },
+    {
+      "field": "log_path",
+      "directReferences": [
+        {
+          "function": "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate",
+          "pc": "0x1415db4ff",
+          "keys": [
+            "log_path"
+          ],
+          "address": "0x141dd87b4",
+          "asm": "lea rdx, [rip + 0x7fd2ae]"
+        }
+      ]
+    },
+    {
+      "field": "err_path",
+      "directReferences": [
+        {
+          "function": "main.setUpDir",
+          "pc": "0x1415f84de",
+          "keys": [
+            "err_path"
+          ],
+          "address": "0x141dd868c",
+          "asm": "lea rdx, [rip + 0x7e01a7]"
+        }
+      ]
+    },
+    {
+      "field": "id",
+      "directReferences": [
+        {
+          "function": "vendor/golang.org/x/net/dns/dnsmessage.(*header).unpack",
+          "pc": "0x140172594",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rcx, [rip + 0x1c5f9ab]"
+        },
+        {
+          "function": "vendor/golang.org/x/net/idna.labelError.Error",
+          "pc": "0x1402fac56",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dfb2c6",
+          "asm": "lea rax, [rip + 0x1b00669]"
+        },
+        {
+          "function": "vendor/golang.org/x/net/idna.runeError.Error",
+          "pc": "0x1402facea",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e01bc1",
+          "asm": "lea rax, [rip + 0x1b06ed0]"
+        },
+        {
+          "function": "vendor/golang.org/x/net/idna.(*labelError).Error",
+          "pc": "0x1402fe536",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dfb2c6",
+          "asm": "lea rax, [rip + 0x1afcd89]"
+        },
+        {
+          "function": "vendor/golang.org/x/net/idna.(*runeError).Error",
+          "pc": "0x1402fe5b6",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e01bc1",
+          "asm": "lea rax, [rip + 0x1b03604]"
+        },
+        {
+          "function": "vendor/golang.org/x/net/http2/hpack.(*headerFieldTable).idToIndex",
+          "pc": "0x140302f8d",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e08ebb",
+          "asm": "lea rax, [rip + 0x1b05f27]"
+        },
+        {
+          "function": "net/http.init",
+          "pc": "0x1403090c8",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd2b78",
+          "asm": "lea rdx, [rip + 0x1ac9aa9]"
+        },
+        {
+          "function": "github.com/sagernet/gvisor/pkg/tcpip/transport/tcp.(*keepalive).StateFields",
+          "pc": "0x14062f882",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd2b78",
+          "asm": "lea rcx, [rip + 0x17a32ef]"
+        },
+        {
+          "function": "github.com/sagernet/gvisor/pkg/tcpip/network/internal/fragmentation.(*reassembler).StateFields",
+          "pc": "0x1406509b8",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rcx, [rip + 0x1781587]"
+        },
+        {
+          "function": "github.com/sagernet/gvisor/pkg/tcpip/network/ipv4.(*protocol).StateFields",
+          "pc": "0x140665bd1",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd2991",
+          "asm": "lea rcx, [rip + 0x176cdb9]"
+        },
+        {
+          "function": "github.com/sagernet/gvisor/pkg/tcpip/network/ipv4.(*protocol).StateFields",
+          "pc": "0x140665bf7",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd3608",
+          "asm": "lea rcx, [rip + 0x176da0a]"
+        },
+        {
+          "function": "github.com/sagernet/gvisor/pkg/tcpip/transport/icmp.(*endpoint).StateFields",
+          "pc": "0x1406939a4",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd4947",
+          "asm": "lea rcx, [rip + 0x1740f9c]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.(*Client).NewOrder",
+          "pc": "0x1407699b4",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rdx, [rip + 0x1674d31]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.Subproblem.LogValue",
+          "pc": "0x14076b0ca",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141de6f53",
+          "asm": "lea rsi, [rip + 0x167be82]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.Subproblem.LogValue",
+          "pc": "0x14076b10b",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x1671733]"
+        },
+        {
+          "function": "golang.org/x/net/idna.labelError.Error",
+          "pc": "0x1407a4a76",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dfb2c6",
+          "asm": "lea rax, [rip + 0x1656849]"
+        },
+        {
+          "function": "golang.org/x/net/idna.runeError.Error",
+          "pc": "0x1407a4b0f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e01bc1",
+          "asm": "lea rax, [rip + 0x165d0ab]"
+        },
+        {
+          "function": "golang.org/x/net/idna.(*labelError).Error",
+          "pc": "0x1407a8276",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dfb2c6",
+          "asm": "lea rax, [rip + 0x1653049]"
+        },
+        {
+          "function": "golang.org/x/net/idna.(*runeError).Error",
+          "pc": "0x1407a82f6",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e01bc1",
+          "asm": "lea rax, [rip + 0x16598c4]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).ObtainCertificate",
+          "pc": "0x1407a8f1a",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rsi, [rip + 0x1633924]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.validateOrderIdentifiers",
+          "pc": "0x1407aa49f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e68254",
+          "asm": "lea rax, [rip + 0x16bddae]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.validateOrderIdentifiers",
+          "pc": "0x1407aa4df",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e68254",
+          "asm": "lea rcx, [rip + 0x16bdd6e]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).solveChallenges.func1",
+          "pc": "0x1407abde7",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x1630a57]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).solveChallenges.func1",
+          "pc": "0x1407ac2a7",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x1630597]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).presentForNextChallenge",
+          "pc": "0x1407ac67b",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea r8, [rip + 0x16301c3]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).presentForNextChallenge",
+          "pc": "0x1407ac91b",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x162ff23]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).initiateCurrentChallenge",
+          "pc": "0x1407ace3e",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rsi, [rip + 0x162fa00]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).initiateCurrentChallenge",
+          "pc": "0x1407ad03c",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x162f802]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).initiateCurrentChallenge",
+          "pc": "0x1407ad3a1",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x162f49d]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).initiateCurrentChallenge",
+          "pc": "0x1407ad6bb",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x162f183]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).initiateCurrentChallenge",
+          "pc": "0x1407ada30",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x162ee0e]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).initiateCurrentChallenge",
+          "pc": "0x1407ae185",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x162e6b9]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).pollAuthorization",
+          "pc": "0x1407af7e0",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x162d05e]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).pollAuthorization",
+          "pc": "0x1407afae9",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdx, [rip + 0x162cd55]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3.(*Client).pollAuthorization",
+          "pc": "0x1407aff48",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdi, [rip + 0x162c8f6]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*acmeClient).throttle",
+          "pc": "0x1407cb168",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rdx, [rip + 0x161357d]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*acmeClient).throttle",
+          "pc": "0x1407cb4a0",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x1613245]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.Config.makeCertificateWithOCSP",
+          "pc": "0x1407d79a3",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x1606d42]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.Config.makeCertificateWithOCSP",
+          "pc": "0x1407d7bd7",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x1606b0e]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).reloadManagedCertificate",
+          "pc": "0x1407d8cba",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x1605a2b]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert",
+          "pc": "0x1407dc9a7",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ffe97]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert",
+          "pc": "0x1407dccc4",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rbx, [rip + 0x15ffb7a]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407dd20f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ff62f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407dd30d",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ff531]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407dd41c",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ff422]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407dde2b",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fea13]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407de1af",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fe68f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407de866",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fdfd8]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func2",
+          "pc": "0x1407dea94",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fddaa]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func1",
+          "pc": "0x1407df08f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdx, [rip + 0x15fd7af]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).obtainCert.func1",
+          "pc": "0x1407df1a9",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fd695]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert",
+          "pc": "0x1407dfc82",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fcbbc]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert",
+          "pc": "0x1407dff9f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rbx, [rip + 0x15fc89f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e04ea",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fc354]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e0682",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fc1bc]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e0893",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fbfab]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e0c67",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fbbd7]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e14fa",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fb344]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e18af",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15faf8f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e1f9f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fa89f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func2",
+          "pc": "0x1407e2254",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15fa5ea]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func1",
+          "pc": "0x1407e27cf",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdx, [rip + 0x15fa06f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).renewCert.func1",
+          "pc": "0x1407e28e9",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15f9f55]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).generateCSR",
+          "pc": "0x1407e31f7",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15fb4ee]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).selectCert",
+          "pc": "0x1407ee42b",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ee413]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).selectCert",
+          "pc": "0x1407ee533",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ee30b]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).selectCert",
+          "pc": "0x1407ee674",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15ee1ca]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).selectCert",
+          "pc": "0x1407ee9d3",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdx, [rip + 0x15ede6b]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).selectCert",
+          "pc": "0x1407ef089",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdx, [rip + 0x15ed7b5]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).getCertDuringHandshake",
+          "pc": "0x1407f16b4",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15eb18a]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).handshakeMaintenance",
+          "pc": "0x1407f4165",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15ea580]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*ACMEIssuer).distributedHTTPChallengeSolver",
+          "pc": "0x1407fa138",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rsi, [rip + 0x15e2706]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*ACMEIssuer).distributedHTTPChallengeSolver",
+          "pc": "0x1407fa5f0",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rcx, [rip + 0x15e224e]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*ACMEIssuer).solveHTTPChallengeBlindly",
+          "pc": "0x1407facc8",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea rdx, [rip + 0x15e1b76]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.solveHTTPChallenge",
+          "pc": "0x1407fb48b",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddc845",
+          "asm": "lea r8, [rip + 0x15e13b3]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).RenewManagedCertificates",
+          "pc": "0x1407fcaad",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15e1c38]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).RenewManagedCertificates",
+          "pc": "0x1407fcd60",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15e1985]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).RenewManagedCertificates",
+          "pc": "0x1407fd64e",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea r9, [rip + 0x15e1097]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).RenewManagedCertificates",
+          "pc": "0x1407fd952",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15e0d93]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).RenewManagedCertificates",
+          "pc": "0x1407fdcf6",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15e09ef]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).queueRenewalTask",
+          "pc": "0x1407fe58e",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea r9, [rip + 0x15e0157]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).queueRenewalTask.func1",
+          "pc": "0x1407fea50",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea r9, [rip + 0x15dfc95]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).updateOCSPStaples",
+          "pc": "0x1407ff7ed",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15deef8]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).updateOCSPStaples",
+          "pc": "0x1407ffce0",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15dea05]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).updateOCSPStaples",
+          "pc": "0x1407fff96",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15de74f]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).updateOCSPStaples",
+          "pc": "0x140800860",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15dde85]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Cache).updateOCSPStaples",
+          "pc": "0x140800e20",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15dd8c5]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).updateARI",
+          "pc": "0x1408018b3",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15dce32]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).forceRenew",
+          "pc": "0x140804ec0",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15d9825]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).forceRenew",
+          "pc": "0x1408050f2",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15d95f3]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).forceRenew",
+          "pc": "0x1408053fa",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15d92eb]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).forceRenew",
+          "pc": "0x140805772",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15d8f73]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).moveCompromisedPrivateKey",
+          "pc": "0x140805efd",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dde6ec",
+          "asm": "lea rsi, [rip + 0x15d87e8]"
+        },
+        {
+          "function": "golang.org/x/net/http2/hpack.(*headerFieldTable).idToIndex",
+          "pc": "0x14097942d",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e08ebb",
+          "asm": "lea rax, [rip + 0x148fa87]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi/trafficontrol.TrackerMetadata.MarshalJSON",
+          "pc": "0x140a5c3dc",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rcx, [rip + 0x1375b63]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.connectionRouter.closeConnection.func3",
+          "pc": "0x140abdef0",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rbx, [rip + 0x131404f]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box.applyDebugListenOption.func1.2",
+          "pc": "0x140b4d451",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd2b78",
+          "asm": "lea rcx, [rip + 0x1285720]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go.(*Conn).handleCloseError",
+          "pc": "0x140c32a81",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141de001e",
+          "asm": "lea rbx, [rip + 0x11ad596]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*GoAwayFrame).encode",
+          "pc": "0x140c75437",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rcx, [rip + 0x115cb08]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3.(*RawServerConn).onIdleTimer-fm",
+          "pc": "0x140c91997",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141de0042",
+          "asm": "lea rcx, [rip + 0x114e6a4]"
+        },
+        {
+          "function": "google.golang.org/protobuf/reflect/protoreflect.(*SourcePath).appendMethodOptions",
+          "pc": "0x140d3bdce",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dec74f",
+          "asm": "lea rbx, [rip + 0x10b097a]"
+        },
+        {
+          "function": "golang.org/x/net/dns/dnsmessage.(*header).unpack",
+          "pc": "0x141147334",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rcx, [rip + 0xc8ac0b]"
+        },
+        {
+          "function": "github.com/sagernet/gvisor/pkg/tcpip/stack/gro.(*groPacket).StateFields",
+          "pc": "0x1412d9e44",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd2b02",
+          "asm": "lea rcx, [rip + 0xaf8cb7]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/wgengine/magicsock.(*Conn).cleanStaleDerp",
+          "pc": "0x141332f87",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd2b78",
+          "asm": "lea rcx, [rip + 0xa9fbea]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/util/osdiag.(*moduleInfo).setDebugInfo",
+          "pc": "0x14149ef64",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rcx, [rip + 0x932fdb]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.init.2",
+          "pc": "0x1414ab1d9",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd9e64",
+          "asm": "lea rcx, [rip + 0x92ec84]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.init.2",
+          "pc": "0x1414ab200",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd9e64",
+          "asm": "lea rcx, [rip + 0x92ec5d]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.init.2",
+          "pc": "0x1414ab542",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd9e64",
+          "asm": "lea rdi, [rip + 0x92e91b]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.(*Handler).serveIDToken",
+          "pc": "0x1414aca57",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dfc86e",
+          "asm": "lea rcx, [rip + 0x94fe10]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/net/udprelay.extractClientInfo",
+          "pc": "0x1414c3d01",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141e56e17",
+          "asm": "lea rax, [rip + 0x99310f]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/derp/derpserver.init",
+          "pc": "0x141536c43",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141ddd317",
+          "asm": "lea rbx, [rip + 0x8a66cd]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate",
+          "pc": "0x1415db57f",
+          "keys": [
+            "id"
+          ],
+          "address": "0x141dd1f46",
+          "asm": "lea rdx, [rip + 0x7f69c0]"
+        }
+      ]
+    },
+    {
+      "field": "version",
+      "directReferences": [
+        {
+          "function": "crypto/tls.parseECHConfig",
+          "pc": "0x1402843b5",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x1b5247f]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*aliClient).IsEntprienseEdition",
+          "pc": "0x140813671",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f8b6d]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*aliClient).IsEntprienseEdition",
+          "pc": "0x14081369f",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c5986]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*aliClient).IsEntprienseEdition",
+          "pc": "0x1408136ba",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f8b24]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*aliClient).IsEntprienseEdition",
+          "pc": "0x1408136ef",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15ee303]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*aliClient).IsEntprienseEdition",
+          "pc": "0x14081371f",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c5906]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*aliClient).IsEntprienseEdition",
+          "pc": "0x14081373a",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15ee2b8]"
+        },
+        {
+          "function": "github.com/libdns/alidns.instanceEdition.IsEnterpriseEdition",
+          "pc": "0x140815cca",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f6514]"
+        },
+        {
+          "function": "github.com/libdns/alidns.instanceEdition.IsEnterpriseEdition",
+          "pc": "0x140815d05",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c3320]"
+        },
+        {
+          "function": "github.com/libdns/alidns.instanceEdition.IsEnterpriseEdition",
+          "pc": "0x140815d1b",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f64c3]"
+        },
+        {
+          "function": "github.com/libdns/alidns.instanceEdition.IsEnterpriseEdition",
+          "pc": "0x140815d50",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15ebca2]"
+        },
+        {
+          "function": "github.com/libdns/alidns.instanceEdition.IsEnterpriseEdition",
+          "pc": "0x140815d8f",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c3296]"
+        },
+        {
+          "function": "github.com/libdns/alidns.instanceEdition.IsEnterpriseEdition",
+          "pc": "0x140815daa",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15ebc48]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).addDomainRecord",
+          "pc": "0x1408189a0",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f383e]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).addDomainRecord",
+          "pc": "0x1408189dc",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c0649]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).addDomainRecord",
+          "pc": "0x1408189f7",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f37e7]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).addDomainRecord",
+          "pc": "0x140818a3b",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e8fb7]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).addDomainRecord",
+          "pc": "0x140818a77",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c05ae]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).addDomainRecord",
+          "pc": "0x140818a92",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e8f60]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).delDomainRecord",
+          "pc": "0x140818c40",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f359e]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).delDomainRecord",
+          "pc": "0x140818c7c",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c03a9]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).delDomainRecord",
+          "pc": "0x140818c97",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f3547]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).delDomainRecord",
+          "pc": "0x140818cdb",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e8d17]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).delDomainRecord",
+          "pc": "0x140818d17",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c030e]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).delDomainRecord",
+          "pc": "0x140818d32",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e8cc0]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).setDomainRecord",
+          "pc": "0x140818ee0",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f32fe]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).setDomainRecord",
+          "pc": "0x140818f1c",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c0109]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).setDomainRecord",
+          "pc": "0x140818f37",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15f32a7]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).setDomainRecord",
+          "pc": "0x140818f7b",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e8a77]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).setDomainRecord",
+          "pc": "0x140818fb7",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15c006e]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*Provider).setDomainRecord",
+          "pc": "0x140818fd2",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e8a20]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*instanceEdition).IsEnterpriseEdition",
+          "pc": "0x14081d2f9",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15eeee5]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*instanceEdition).IsEnterpriseEdition",
+          "pc": "0x14081d324",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15bbd01]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*instanceEdition).IsEnterpriseEdition",
+          "pc": "0x14081d33f",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e0c1e5",
+          "asm": "lea rbx, [rip + 0x15eee9f]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*instanceEdition).IsEnterpriseEdition",
+          "pc": "0x14081d372",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e4680]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*instanceEdition).IsEnterpriseEdition",
+          "pc": "0x14081d39f",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd902c",
+          "asm": "lea rbx, [rip + 0x15bbc86]"
+        },
+        {
+          "function": "github.com/libdns/alidns.(*instanceEdition).IsEnterpriseEdition",
+          "pc": "0x14081d3ba",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141e019f9",
+          "asm": "lea rbx, [rip + 0x15e4638]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/common/ja3.(*ParseError).Error",
+          "pc": "0x14082c619",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dff963",
+          "asm": "lea rbx, [rip + 0x15d3343]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/common/ja3.(*ClientHello).parseSegment",
+          "pc": "0x14082c742",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dff963",
+          "asm": "lea rcx, [rip + 0x15d321a]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/common/ja3.(*ClientHello).parseHandshake",
+          "pc": "0x14082c903",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dff963",
+          "asm": "lea rcx, [rip + 0x15d3059]"
+        },
+        {
+          "function": "encoding/xml.(*Decoder).rawToken",
+          "pc": "0x140a05bea",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rax, [rip + 0x13d0c4a]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.version",
+          "pc": "0x140ac73a2",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x130f492]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).execute",
+          "pc": "0x140b9e705",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rbx, [rip + 0x123812f]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).InitDefaultVersionFlag",
+          "pc": "0x140ba032a",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rbx, [rip + 0x123650a]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).InitDefaultVersionFlag",
+          "pc": "0x140ba037a",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141ddfbfe",
+          "asm": "lea rbx, [rip + 0x123f87d]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).InitDefaultVersionFlag",
+          "pc": "0x140ba03e2",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141ddfbfe",
+          "asm": "lea rbx, [rip + 0x123f815]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).InitDefaultVersionFlag",
+          "pc": "0x140ba044c",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x12363e8]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).InitDefaultVersionFlag",
+          "pc": "0x140ba0499",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x123639b]"
+        },
+        {
+          "function": "github.com/spf13/cobra.(*Command).InitDefaultVersionFlag",
+          "pc": "0x140ba04f9",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rbx, [rip + 0x123633b]"
+        },
+        {
+          "function": "github.com/spf13/cobra.helpOrVersionFlagPresent",
+          "pc": "0x140ba7cc1",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rbx, [rip + 0x122eb73]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/qlog.PacketHeader.encode",
+          "pc": "0x140c04446",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df13c3",
+          "asm": "lea rbx, [rip + 0x11ecf76]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/qlog.PacketHeader.encode",
+          "pc": "0x140c04581",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x11d22b3]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/qlog.PacketHeaderVersionNegotiation.encode",
+          "pc": "0x140c0502e",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df13c3",
+          "asm": "lea rcx, [rip + 0x11ec38e]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go.(*Conn).handleVersionNegotiationPacket",
+          "pc": "0x140c2ef2b",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df13c3",
+          "asm": "lea rdx, [rip + 0x11c2491]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go.(*Conn).handleVersionNegotiationPacket",
+          "pc": "0x140c2f048",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df13c3",
+          "asm": "lea rsi, [rip + 0x11c2374]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go.(*Conn).handleVersionNegotiationPacket",
+          "pc": "0x140c2f3c1",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df13c3",
+          "asm": "lea rsi, [rip + 0x11c1ffb]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go.(*Conn).handleCloseError",
+          "pc": "0x140c32b0b",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141de8b6e",
+          "asm": "lea rbx, [rip + 0x11b605c]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go.(*baseServer).handlePacketImpl",
+          "pc": "0x140c5449d",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df13c3",
+          "asm": "lea rdx, [rip + 0x119cf1f]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/tsweb/varz.init.0",
+          "pc": "0x141112b2a",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rax, [rip + 0xcc3d0a]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/net/packet.(*GeneveHeader).Encode",
+          "pc": "0x141290fcd",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141df692f",
+          "asm": "lea rcx, [rip + 0xb6595b]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/derp/derpserver.(*Server).ExpVar",
+          "pc": "0x141544624",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rbx, [rip + 0x892210]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*environmentIntegration).processor",
+          "pc": "0x1415b61df",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x820655]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*environmentIntegration).processor",
+          "pc": "0x1415b621b",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x820619]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.envelopeFromBody",
+          "pc": "0x1415c52a1",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x811593]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*HTTPTransport).worker",
+          "pc": "0x1415c79f1",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rcx, [rip + 0x80ee43]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate",
+          "pc": "0x1415db5e1",
+          "keys": [
+            "version"
+          ],
+          "address": "0x141dd683b",
+          "asm": "lea rdx, [rip + 0x7fb253]"
+        }
+      ]
+    },
+    {
+      "field": "name",
+      "directReferences": [
+        {
+          "function": "mime/multipart.(*Reader).readForm",
+          "pc": "0x1402e18e3",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x1af127e]"
+        },
+        {
+          "function": "mime/multipart.(*Part).FormName",
+          "pc": "0x1402e2d19",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x1aefe48]"
+        },
+        {
+          "function": "net/http/internal/httpcommon.validateHeaders",
+          "pc": "0x140305296",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd7187",
+          "asm": "lea rax, [rip + 0x1ad1eea]"
+        },
+        {
+          "function": "database/sql.validateNamedValueName",
+          "pc": "0x1405101a9",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141e29da7",
+          "asm": "lea rax, [rip + 0x1919bf7]"
+        },
+        {
+          "function": "database/sql.validateNamedValueName",
+          "pc": "0x1405101e1",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141e29da7",
+          "asm": "lea rcx, [rip + 0x1919bbf]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.(*Client).GetRenewalInfo",
+          "pc": "0x140760185",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd3e52",
+          "asm": "lea rdx, [rip + 0x1673cc6]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.(*Client).GetRenewalInfo",
+          "pc": "0x1407605fb",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd3e52",
+          "asm": "lea rdx, [rip + 0x1673850]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.(*Client).GetRenewalInfo",
+          "pc": "0x14076092d",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd3e52",
+          "asm": "lea rdx, [rip + 0x167351e]"
+        },
+        {
+          "function": "github.com/mholt/acmez/v3/acme.(*Client).GetRenewalInfo",
+          "pc": "0x140760f17",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd3e52",
+          "asm": "lea rdx, [rip + 0x1672f34]"
+        },
+        {
+          "function": "github.com/libdns/libdns.RR.toSRV",
+          "pc": "0x1407bfb81",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141e71d00",
+          "asm": "lea rax, [rip + 0x16b2178]"
+        },
+        {
+          "function": "github.com/libdns/libdns.RR.toSRV",
+          "pc": "0x1407bfbbf",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141e71d00",
+          "asm": "lea rcx, [rip + 0x16b213a]"
+        },
+        {
+          "function": "github.com/caddyserver/certmagic.(*Config).getCertFromAnyCertManager",
+          "pc": "0x1407f8c61",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd3e52",
+          "asm": "lea rsi, [rip + 0x15db1ea]"
+        },
+        {
+          "function": "github.com/libdns/cloudflare.(*Provider).getDNSRecords",
+          "pc": "0x14081ebc2",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x15b3f9f]"
+        },
+        {
+          "function": "github.com/libdns/cloudflare.(*Provider).getZoneInfo",
+          "pc": "0x14081f622",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x15b353f]"
+        },
+        {
+          "function": "github.com/metacubex/utls/dicttls.init",
+          "pc": "0x1408a9fdc",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141ddf3c5",
+          "asm": "lea rcx, [rip + 0x15353e2]"
+        },
+        {
+          "function": "github.com/metacubex/utls/dicttls.init",
+          "pc": "0x1408aa045",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141ddf3c5",
+          "asm": "lea rcx, [rip + 0x1535379]"
+        },
+        {
+          "function": "golang.org/x/net/internal/httpcommon.validateHeaders",
+          "pc": "0x14097cb16",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd7187",
+          "asm": "lea rax, [rip + 0x145a66a]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.dnsRouter.queryDNS.func1",
+          "pc": "0x140abe97f",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rbx, [rip + 0x13141e2]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.parseProviderName.func1",
+          "pc": "0x140abf784",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rbx, [rip + 0x13133dd]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.proxyRouter.getProxies.func2",
+          "pc": "0x140ac1568",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x13115f9]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.parseProxyName.func1",
+          "pc": "0x140ac1b24",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rbx, [rip + 0x131103d]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.proxyInfo",
+          "pc": "0x140ac1de1",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x1310d80]"
+        },
+        {
+          "function": "github.com/sagernet/sing-box/experimental/clashapi.dnsRouter.queryDNS.func1.1",
+          "pc": "0x140ac94b6",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x13096ab]"
+        },
+        {
+          "function": "github.com/sagernet/cronet-go.EngineParams.SetDNSServerOverride",
+          "pc": "0x140bc174f",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141ddf202",
+          "asm": "lea rcx, [rip + 0x121daac]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*HeadersFrame).encode",
+          "pc": "0x140c74fe9",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x115db78]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*SettingsFrame).encode",
+          "pc": "0x140c7587a",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x115d2e7]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*SettingsFrame).encode",
+          "pc": "0x140c75b1b",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x115d046]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*SettingsFrame).encode",
+          "pc": "0x140c75dc9",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x115cd98]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*SettingsFrame).encode",
+          "pc": "0x140c761fc",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x115c965]"
+        },
+        {
+          "function": "github.com/sagernet/quic-go/http3/qlog.(*SettingsFrame).encode",
+          "pc": "0x140c762a2",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141ddcb47",
+          "asm": "lea rcx, [rip + 0x116689e]"
+        },
+        {
+          "function": "google.golang.org/protobuf/reflect/protoreflect.(*SourcePath).appendUninterpretedOption",
+          "pc": "0x140d3ab51",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rsi, [rip + 0x1098010]"
+        },
+        {
+          "function": "google.golang.org/protobuf/internal/encoding/tag.Marshal",
+          "pc": "0x140d8ee11",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd4bcc",
+          "asm": "lea rbx, [rip + 0x1045db4]"
+        },
+        {
+          "function": "google.golang.org/grpc/balancer/pickfirst.(*pickfirstBalancer).resolverErrorLocked",
+          "pc": "0x140dff7ba",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dfec00",
+          "asm": "lea rax, [rip + 0xfff43f]"
+        },
+        {
+          "function": "google.golang.org/grpc/balancer/pickfirst.(*pickfirstBalancer).resolverErrorLocked",
+          "pc": "0x140dff7f2",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dfec00",
+          "asm": "lea rcx, [rip + 0xfff407]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/client/local.(*Client).SetDNS",
+          "pc": "0x1413e7853",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x9eb30e]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.(*Handler).serveSetDNS",
+          "pc": "0x1414b1f9e",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rbx, [rip + 0x920bc3]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.(*Handler).serveDNSQuery",
+          "pc": "0x1414b665a",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x91c507]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/ipn/localapi.servePprof",
+          "pc": "0x1414b8200",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rbx, [rip + 0x91a961]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/wgengine/router/osrouter.(*firewallTweaker).doSet",
+          "pc": "0x1414da2ef",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141deda91",
+          "asm": "lea r8, [rip + 0x91379b]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/wgengine/router/osrouter.(*firewallTweaker).doSet",
+          "pc": "0x1414da447",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dfce72",
+          "asm": "lea r8, [rip + 0x922a24]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/wgengine/router/osrouter.(*firewallTweaker).doSet",
+          "pc": "0x1414da6a7",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dfce72",
+          "asm": "lea r8, [rip + 0x9227c4]"
+        },
+        {
+          "function": "github.com/sagernet/tailscale/wgengine/router/osrouter.(*firewallTweaker).doSet",
+          "pc": "0x1414daab9",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141deda91",
+          "asm": "lea r8, [rip + 0x912fd1]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*environmentIntegration).processor",
+          "pc": "0x1415b60da",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x81ca87]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*environmentIntegration).processor",
+          "pc": "0x1415b60fb",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x81ca66]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*environmentIntegration).processor",
+          "pc": "0x1415b6177",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x81c9ea]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*environmentIntegration).processor",
+          "pc": "0x1415b6198",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x81c9c9]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.envelopeFromBody",
+          "pc": "0x1415c522d",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x80d934]"
+        },
+        {
+          "function": "github.com/getsentry/sentry-go.(*HTTPTransport).worker",
+          "pc": "0x1415c79a4",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x80b1bd]"
+        },
+        {
+          "function": "main.init.32",
+          "pc": "0x141607561",
+          "keys": [
+            "name"
+          ],
+          "address": "0x141dd2b68",
+          "asm": "lea rcx, [rip + 0x7cb600]"
+        }
+      ]
+    },
+    {
+      "field": "secret",
+      "directReferences": [
+        {
+          "function": "crypto/hpke.newContext",
+          "pc": "0x140269ac4",
+          "keys": [
+            "secret"
+          ],
+          "address": "0x141dd52da",
+          "asm": "lea r10, [rip + 0x1b6b80f]"
+        },
+        {
+          "function": "crypto/hpke.newContext",
+          "pc": "0x14026a098",
+          "keys": [
+            "secret"
+          ],
+          "address": "0x141dd52da",
+          "asm": "lea r10, [rip + 0x1b6b23b]"
+        },
+        {
+          "function": "github.com/metacubex/utls/internal/hpke.newContext",
+          "pc": "0x14089f883",
+          "keys": [
+            "secret"
+          ],
+          "address": "0x141dd52da",
+          "asm": "lea r10, [rip + 0x1535a50]"
+        }
+      ]
+    },
+    {
+      "field": "install_refer",
+      "directReferences": []
+    },
+    {
+      "field": "prepare",
+      "directReferences": [
+        {
+          "function": "github.com/enfein/mieru/v3/pkg/protocol.(*PacketUnderlay).writeOneSegment",
+          "pc": "0x140f1fa0f",
+          "keys": [
+            "prepare"
+          ],
+          "address": "0x141e31f87",
+          "asm": "lea rax, [rip + 0xf12571]"
+        },
+        {
+          "function": "github.com/enfein/mieru/v3/pkg/protocol.(*PacketUnderlay).writeOneSegment",
+          "pc": "0x140f1fa4d",
+          "keys": [
+            "prepare"
+          ],
+          "address": "0x141e31f87",
+          "asm": "lea rcx, [rip + 0xf12533]"
+        },
+        {
+          "function": "github.com/enfein/mieru/v3/pkg/protocol.(*StreamUnderlay).writeOneSegment",
+          "pc": "0x140f260b2",
+          "keys": [
+            "prepare"
+          ],
+          "address": "0x141e31f87",
+          "asm": "lea rax, [rip + 0xf0bece]"
+        },
+        {
+          "function": "github.com/enfein/mieru/v3/pkg/protocol.(*StreamUnderlay).writeOneSegment",
+          "pc": "0x140f260ed",
+          "keys": [
+            "prepare"
+          ],
+          "address": "0x141e31f87",
+          "asm": "lea rcx, [rip + 0xf0be93]"
+        }
+      ]
+    },
+    {
+      "field": "wake_lock",
+      "directReferences": []
+    },
+    {
+      "field": "auto_connect_at_boot",
+      "directReferences": []
+    },
+    {
+      "field": "allowed_sender_packages",
+      "directReferences": []
+    },
+    {
+      "field": "include_all_networks",
+      "directReferences": []
+    },
+    {
+      "field": "exclude_local_networks",
+      "directReferences": []
+    },
+    {
+      "field": "exclude_cellular_services",
+      "directReferences": []
+    },
+    {
+      "field": "exclude_apns",
+      "directReferences": []
+    },
+    {
+      "field": "exclude_device_communication",
+      "directReferences": []
+    },
+    {
+      "field": "enforce_routes",
+      "directReferences": []
+    },
+    {
+      "field": "auto_route_use_sub_ranges_by_default",
+      "directReferences": []
+    },
+    {
+      "field": "disconnect_after_sleep_seconds",
+      "directReferences": []
+    },
+    {
+      "field": "sentry_minversion",
+      "directReferences": [
+        {
+          "function": "github.com/sagernet/sing-box/experimental/libbox.SentryInitPrivate",
+          "pc": "0x1415db641",
+          "keys": [
+            "sentry_minversion"
+          ],
+          "address": "0x141deb165",
+          "asm": "lea rdx, [rip + 0x80fb1d]"
+        }
+      ]
+    }
+  ]
+}

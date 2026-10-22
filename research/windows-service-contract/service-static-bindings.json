@@ -1,0 +1,122 @@
+{
+  "scope": "Static Cobra command object/function-value pointers and router interface table; not executed",
+  "commands": [
+    {
+      "label": "root",
+      "global": "0x143502348",
+      "object": "0x14354bf60",
+      "use": "karing",
+      "callbacks": [
+        {
+          "fieldOffset": "0x100",
+          "function": "main.preRun",
+          "indirection": 1
+        }
+      ]
+    },
+    {
+      "label": "run2",
+      "global": "0x143502428",
+      "object": "0x143550fe0",
+      "use": "run2",
+      "callbacks": [
+        {
+          "fieldOffset": "0x118",
+          "function": "main.init.func27",
+          "indirection": 1
+        }
+      ]
+    }
+  ],
+  "routerItabCandidate": "0x141f846e0",
+  "routerSlots": [
+    {
+      "offset": "0x18",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Connect"
+    },
+    {
+      "offset": "0x20",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Delete"
+    },
+    {
+      "offset": "0x28",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Find"
+    },
+    {
+      "offset": "0x30",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Get"
+    },
+    {
+      "offset": "0x38",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Group"
+    },
+    {
+      "offset": "0x40",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Handle"
+    },
+    {
+      "offset": "0x48",
+      "function": "github.com/go-chi/chi/v5.(*Mux).HandleFunc"
+    },
+    {
+      "offset": "0x50",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Head"
+    },
+    {
+      "offset": "0x58",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Match"
+    },
+    {
+      "offset": "0x60",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Method"
+    },
+    {
+      "offset": "0x68",
+      "function": "github.com/go-chi/chi/v5.(*Mux).MethodFunc"
+    },
+    {
+      "offset": "0x70",
+      "function": "github.com/go-chi/chi/v5.(*Mux).MethodNotAllowed"
+    },
+    {
+      "offset": "0x78",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Middlewares"
+    },
+    {
+      "offset": "0x80",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Mount"
+    },
+    {
+      "offset": "0x88",
+      "function": "github.com/go-chi/chi/v5.(*Mux).NotFound"
+    },
+    {
+      "offset": "0x90",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Options"
+    },
+    {
+      "offset": "0x98",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Patch"
+    },
+    {
+      "offset": "0xa0",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Post"
+    },
+    {
+      "offset": "0xa8",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Put"
+    },
+    {
+      "offset": "0xb0",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Route"
+    },
+    {
+      "offset": "0xb8",
+      "function": "github.com/go-chi/chi/v5.(*Mux).Routes"
+    },
+    {
+      "offset": "0xc0",
+      "function": "github.com/go-chi/chi/v5.(*Mux).ServeHTTP"
+    }
+  ]
+}

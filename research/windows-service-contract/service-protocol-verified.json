@@ -1,0 +1,72 @@
+{
+  "scope": "Static checked bindings only; no request sent, argv template is not observed Dart argv",
+  "launchCommand": "run2",
+  "longFlags": [
+    "service-config",
+    "service-http-port",
+    "connected-port"
+  ],
+  "listenAddressFormat": "127.0.0.1:%d",
+  "routes": [
+    {
+      "method": "GET",
+      "group": "/reload",
+      "subpath": "/",
+      "handler": "main.createHttpServer.func1.1",
+      "registrationPc": "0x1416043db"
+    },
+    {
+      "method": "GET",
+      "group": "/stop",
+      "subpath": "/",
+      "handler": "main.createHttpServer.func2.1",
+      "registrationPc": "0x1416043f8"
+    },
+    {
+      "method": "GET",
+      "group": "/clashiApiConnections",
+      "subpath": "/",
+      "handler": "main.createHttpServer.func3.1",
+      "registrationPc": "0x141604415"
+    }
+  ],
+  "query": {
+    "connections": "includeConnections",
+    "booleanTrueLiteral": "true"
+  },
+  "checksPassed": [
+    "Go function count",
+    "runtime.text base",
+    "Cobra run2 command Use",
+    "run2 callback",
+    "run2 callback calls runService",
+    "runService calls main.createService",
+    "runService calls main.createHttpServer",
+    "runService calls main.destroyAll",
+    "Router interface slot 0x30 is GET",
+    "route literal /reload",
+    "subpath slash /reload",
+    "GET interface invocation /reload",
+    "handler callback /reload",
+    "route literal /stop",
+    "subpath slash /stop",
+    "GET interface invocation /stop",
+    "handler callback /stop",
+    "route literal /clashiApiConnections",
+    "subpath slash /clashiApiConnections",
+    "GET interface invocation /clashiApiConnections",
+    "handler callback /clashiApiConnections",
+    "reload calls restartService",
+    "stop sends channel event",
+    "connections invokes BoxService.GetConnections",
+    "persistent flag service-config",
+    "persistent flag service-http-port",
+    "persistent flag connected-port",
+    "includeConnections query key",
+    "true boolean comparison"
+  ],
+  "limitations": [
+    "Slash/no-slash HTTP normalization not exercised.",
+    "Port allocation, credentials and full event mapping remain unverified."
+  ]
+}
