@@ -98,3 +98,7 @@ macos_se/fastlane/AuthKey.p8
 # ai
 .cursor/
 .ai/
+
+# Veilor local credentials and experiments
+/veilor/local/
+/veilor/examples/*.local.json

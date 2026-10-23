@@ -1,5 +1,14 @@
 # OneXray App
 
+## Veilor fork context
+
+This checkout is the active `veilor/onexray` branch of `onety11one/veilor`.
+Read `veilor/HANDOFF.md` before continuing work and `veilor/DESIGN.md` for UI requirements.
+The Karing-based direction is discontinued and archived in `veilor/core-readonly-adapter`.
+Upstream behavior contracts remain applicable; fork status and build evidence live in `veilor/`.
+New GitHub writes target `onety11one/veilor` only, unless the user explicitly requests upstream work.
+The original upstream remotes are read-only. Do not publish to stores without authorization.
+
 Cross-platform Flutter Xray-core client. [Current contracts](docs/README.md)
 describe shipped behavior; Git history holds retired plans and progress logs.
 

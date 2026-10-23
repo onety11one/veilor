@@ -1,0 +1,59 @@
+Running build hooks...Unhandled exception:
+System not configured correctly: No compiler configured on host 'windows_x64' with target 'windows_x64'.
+#0      CompilerResolver.resolveCompiler (package:native_toolchain_c/src/cbuilder/compiler_resolver.dart:70:5)
+<asynchronous suspension>
+#1      RunCBuilder.compiler (package:native_toolchain_c/src/cbuilder/run_cbuilder.dart:106:44)
+<asynchronous suspension>
+#2      RunCBuilder.run (package:native_toolchain_c/src/cbuilder/run_cbuilder.dart:139:27)
+<asynchronous suspension>
+#3      CBuilder.run (package:native_toolchain_c/src/cbuilder/cbuilder.dart:237:5)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///c:/users/onety/documents/codex/2026-10-20/rfr/work/onexray-audit/pub-cache/hosted/pub.dev/cnativeapi-0.5.2/hook/build.dart:117:5)
+<asynchronous suspension>
+#5      build (package:hooks/src/api/build_and_link.dart:250:5)
+<asynchronous suspension>
+#6      main (file:///c:/users/onety/documents/codex/2026-10-20/rfr/work/onexray-audit/pub-cache/hosted/pub.dev/cnativeapi-0.5.2/hook/build.dart:16:3)
+<asynchronous suspension>
+
+  Building assets for package:cnativeapi failed.
+  build.dart returned with exit code: 255.
+  To reproduce run:
+  (cd C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\pub-cache\hosted\pub.dev\cnativeapi-0.5.2\; C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\toolchains\flutter\bin\cache\dart-sdk\bin\dart.exe --packages=C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\source\.dart_tool\package_config.json C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\source\.dart_tool\hooks_runner\cnativeapi\8e04c28b44\hook.dill --config=C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\source\.dart_tool\hooks_runner\cnativeapi\8e04c28b44\input.json )
+  stderr:
+  Unhandled exception:
+System not configured correctly: No compiler configured on host 'windows_x64' with target 'windows_x64'.
+#0      CompilerResolver.resolveCompiler (package:native_toolchain_c/src/cbuilder/compiler_resolver.dart:70:5)
+<asynchronous suspension>
+#1      RunCBuilder.compiler (package:native_toolchain_c/src/cbuilder/run_cbuilder.dart:106:44)
+<asynchronous suspension>
+#2      RunCBuilder.run (package:native_toolchain_c/src/cbuilder/run_cbuilder.dart:139:27)
+<asynchronous suspension>
+#3      CBuilder.run (package:native_toolchain_c/src/cbuilder/cbuilder.dart:237:5)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///c:/users/onety/documents/codex/2026-10-20/rfr/work/onexray-audit/pub-cache/hosted/pub.dev/cnativeapi-0.5.2/hook/build.dart:117:5)
+<asynchronous suspension>
+#5      build (package:hooks/src/api/build_and_link.dart:250:5)
+<asynchronous suspension>
+#6      main (file:///c:/users/onety/documents/codex/2026-10-20/rfr/work/onexray-audit/pub-cache/hosted/pub.dev/cnativeapi-0.5.2/hook/build.dart:16:3)
+<asynchronous suspension>
+
+  stdout:
+  No compiler set in BuildInput.cCompiler.cc.
+Looking for Visual Studio Locator on PATH.
+Running `where.exe vswhere.exe`.
+в‚¬РЊвЂќР‹С’РЉР‚вЂ“в‚¬Сџ: В­Тђ РіВ¤В ТђРІР±Рї В­В В©РІРЃ РґВ В©В«Р» Р‡В® В§В В¤В В­В­Р»В¬ РёВ РЋВ«В®В­В В¬.
+
+
+Did not find  Visual Studio Locator on PATH.
+Looking for Visual Studio Locator in [C:/Program Files \(x86\)/Microsoft Visual Studio/Installer/vswhere.exe, C:/Program Files/Microsoft Visual Studio/Installer/vswhere.exe].
+Found no Visual Studio Locator in [C:/Program Files \(x86\)/Microsoft Visual Studio/Installer/vswhere.exe, C:/Program Files/Microsoft Visual Studio/Installer/vswhere.exe].
+No Visual Studio installation found with the requested Microsoft.VisualStudio.Component.VC.Tools.x86.x64 component.
+You can install the missing package via
+Looking for MSVC relative to [] with VC/Tools/MSVC/*/.
+Found no MSVC relative to [].
+Looking for cl.exe relative to [] with bin/Hostx64/x64/cl.exe.
+Found no cl.exe relative to [].
+No compiler configured on host 'windows_x64' with target 'windows_x64'.
+
+
+Running build hooks...Error: Running build hooks failed.

@@ -1,0 +1,33 @@
+{
+  "outbounds": [
+    {
+      "tag": "Veilor - VLESS test",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "server.example.com",
+            "port": 2080,
+            "users": [
+              {
+                "id": "00000000-0000-4000-8000-000000000001",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "cover.example.com",
+          "fingerprint": "edge",
+          "password": "REPLACE_WITH_REALITY_PUBLIC_KEY",
+          "shortId": "REPLACE_WITH_REALITY_SHORT_ID"
+        }
+      }
+    }
+  ]
+}

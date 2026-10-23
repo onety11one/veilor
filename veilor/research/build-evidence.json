@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-23",
+  "flutter": "3.47.7",
+  "dart": "3.13.5",
+  "go": "1.27.3",
+  "rust": "1.99.1",
+  "libclang": "18.1.1",
+  "cargo_home": "C:/Users/Onety/Documents/Codex/ox-build/cargo",
+  "flutter_pub_get_exit": 0,
+  "gen_l10n_exit": 0,
+  "libxray_build_exit": 0,
+  "cargo_fetch_locked_exit": 0,
+  "ffigen_exit": 255,
+  "flutter_windows_build_exit": 1,
+  "visual_studio_installer": "blocked by execution policy before command execution",
+  "wintun": "not prepared; official download incomplete; curl exit 35",
+  "vole_build": "not run after Rust preparation",
+  "native_artifacts": [
+    {
+      "path": "source/windows/app/libXray.dll",
+      "size": 31833600,
+      "sha256": "7aecb2910736076512c0adeb6f880fcbdf2240817138b07056f47f6e826f3745"
+    },
+    {
+      "path": "source/windows/app/OneXrayCore.exe",
+      "size": 31508992,
+      "sha256": "82fc9a0d88b2af3c4c3d1c41c39dcef9a4f224f4b0cdf27fdf914401648afc67"
+    }
+  ],
+  "runtime_validation": "not run",
+  "logs": [
+    "evidence/flutter-new-version.txt",
+    "evidence/flutter-pub-get-prepared.txt",
+    "evidence/gen-l10n.txt",
+    "evidence/libxray-build-prepared.txt",
+    "evidence/cargo-fetch-short-path.txt",
+    "evidence/ffigen.txt",
+    "evidence/flutter-build-windows.txt",
+    "evidence/wintun-download.txt"
+  ],
+  "sourceLayout": "Historical local audit workspace; source/ in artifact paths is the current application repository root."
+}

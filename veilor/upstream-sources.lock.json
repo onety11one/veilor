@@ -1,0 +1,51 @@
+{
+  "recordedAt": "2026-10-23",
+  "app": {
+    "repository": "https://github.com/YuanDevTeam/OneXray.git",
+    "commit": "73c1cb33fb755d8da324064225bff17734e590f6",
+    "license": "GPL-3.0"
+  },
+  "dependencies": [
+    {
+      "directory": "libXray",
+      "repository": "https://github.com/XTLS/libXray.git",
+      "commit": "dbe95129fa96689c4643ddca52c278448eec6df1",
+      "license": "MIT"
+    },
+    {
+      "directory": "Vole",
+      "repository": "https://github.com/YuanDevTeam/Vole.git",
+      "commit": "f616f19fee4da2053ad5bd8caba915f537ae2648",
+      "license": "MIT"
+    }
+  ],
+  "transitiveReferences": {
+    "xrayCore": {
+      "repository": "https://github.com/XTLS/Xray-core.git",
+      "commit": "1b1647cd9ddf",
+      "goModuleVersion": "v1.260327.1-0.20261021115930-1b1647cd9ddf",
+      "resolvedBy": "libXray/go.mod and go.sum",
+      "license": "MPL-2.0"
+    },
+    "boring": {
+      "repository": "https://github.com/YuanDevTeam/boring.git",
+      "commit": "43c1c1d5b9464b3f2d5204be8664778fada7dbaf",
+      "resolvedBy": "Vole/Cargo.lock"
+    },
+    "boringssl": {
+      "repository": "https://github.com/google/boringssl.git",
+      "commit": "e2a57cfb4d915b4ba820585aef9fdee7bca13fe5",
+      "resolvedBy": "boring git submodule"
+    }
+  },
+  "validatedTools": {
+    "flutter": "3.47.7",
+    "dart": "3.13.5",
+    "go": "1.27.3",
+    "rust": "1.99.1",
+    "llvmMinGW": "20261020-ucrt-x86_64",
+    "libclang": "18.1.1",
+    "wintunExpected": "0.14.1"
+  },
+  "scope": "Dependency revisions for the recorded Windows build attempt; not proof of full application build or runtime parity. Keep upstream LIBXRAY_REF=main unchanged."
+}
