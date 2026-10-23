@@ -1,0 +1,297 @@
+{
+  "scope": "Static Windows Karing 1.2.25+2802; not live VPN validation",
+  "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "paths": {
+    "exeDir": "dirname(Platform.resolvedExecutable)",
+    "portableCandidate": "exeDir/profiles; existing directory plus create/delete __test_dir__ probe",
+    "nonPortable": "getApplicationSupportDirectory through FlutterVpnService/MethodChannel/PC",
+    "base_dir": "selected profileDir",
+    "work_dir": "exeDir/data",
+    "cache_dir": "profileDir/cache",
+    "serviceConfig": "profileDir/service.json",
+    "core_path": "profileDir/service_core.json",
+    "log_path": "profileDir/service_core.log",
+    "err_path": "profileDir/service_error.log",
+    "serviceExecutable": "exeDir/karingService.exe",
+    "processWorkingDirectory": "dirname(serviceExecutable)"
+  },
+  "instructionChecks": [
+    {
+      "address": "0xa85761",
+      "instruction": "call 0xa85774"
+    },
+    {
+      "address": "0xa85706",
+      "instruction": "call 0xa8572c"
+    },
+    {
+      "address": "0xa8570e",
+      "instruction": "mov rsi, qword ptr [r15 + 0xdb9f]"
+    },
+    {
+      "address": "0xa7f896",
+      "instruction": "call 0xa856f8"
+    },
+    {
+      "address": "0xa7f8e2",
+      "instruction": "call 0xa855bc"
+    },
+    {
+      "address": "0xa7f909",
+      "instruction": "mov rsi, qword ptr [r15 + 0xda97]"
+    },
+    {
+      "address": "0xa7f96c",
+      "instruction": "call 0xa84d30"
+    },
+    {
+      "address": "0xa7f98d",
+      "instruction": "call 0xa84cd0"
+    },
+    {
+      "address": "0xa7f9d1",
+      "instruction": "call 0xa7fa08"
+    },
+    {
+      "address": "0xa7fa31",
+      "instruction": "call 0xa7fad0"
+    },
+    {
+      "address": "0xa7fb20",
+      "instruction": "call 0xa7fb60"
+    },
+    {
+      "address": "0xa7fbaa",
+      "instruction": "call 0xa7fbf4"
+    },
+    {
+      "address": "0xa7fc1d",
+      "instruction": "call 0xa7fc44"
+    },
+    {
+      "address": "0xd8800f",
+      "instruction": "call 0xa8572c"
+    },
+    {
+      "address": "0xd88025",
+      "instruction": "mov rsi, qword ptr [r15 + 0x1a27]"
+    },
+    {
+      "address": "0xdb50f6",
+      "instruction": "call 0xa8572c"
+    },
+    {
+      "address": "0xdb50fe",
+      "instruction": "mov rsi, qword ptr [r15 + 0x30c8f]"
+    },
+    {
+      "address": "0xcb103d",
+      "instruction": "call 0xa7f850"
+    },
+    {
+      "address": "0xcb1056",
+      "instruction": "mov rsi, qword ptr [r15 + 0xda0f]"
+    },
+    {
+      "address": "0xd8447d",
+      "instruction": "call 0xa7f850"
+    },
+    {
+      "address": "0xd84496",
+      "instruction": "mov rsi, qword ptr [r15 + 0x30947]"
+    },
+    {
+      "address": "0xd87f4d",
+      "instruction": "call 0xa7f850"
+    },
+    {
+      "address": "0xd87f66",
+      "instruction": "mov rsi, qword ptr [r15 + 0x30cc7]"
+    },
+    {
+      "address": "0xd87fad",
+      "instruction": "call 0xa7f850"
+    },
+    {
+      "address": "0xd87fc6",
+      "instruction": "mov rsi, qword ptr [r15 + 0x30ccf]"
+    },
+    {
+      "address": "0xd8807d",
+      "instruction": "call 0xa7f850"
+    },
+    {
+      "address": "0xd88096",
+      "instruction": "mov rsi, qword ptr [r15 + 0x30cd7]"
+    },
+    {
+      "address": "0xd84e07",
+      "instruction": "xor esi, esi"
+    },
+    {
+      "address": "0xd84e09",
+      "instruction": "call 0xcdf434"
+    },
+    {
+      "address": "0xd84f00",
+      "instruction": "call 0xfb1ecc"
+    },
+    {
+      "address": "0xd84fde",
+      "instruction": "cmp rsi, 2"
+    },
+    {
+      "address": "0xd85107",
+      "instruction": "call 0xd81ae0"
+    },
+    {
+      "address": "0xd851d9",
+      "instruction": "cmp rax, 4"
+    },
+    {
+      "address": "0xd8535c",
+      "instruction": "call 0xcdf3f8"
+    },
+    {
+      "address": "0xd85383",
+      "instruction": "mov qword ptr [rcx + 0x4278], rdx"
+    },
+    {
+      "address": "0xd85397",
+      "instruction": "mov rbx, qword ptr [r15 + 0x309cf]"
+    },
+    {
+      "address": "0xd853b8",
+      "instruction": "call 0x1424178"
+    },
+    {
+      "address": "0xd853dd",
+      "instruction": "mov rdx, qword ptr [rax + 0x1f]"
+    },
+    {
+      "address": "0xd853e5",
+      "instruction": "mov qword ptr [rax + 0x4280], rdx"
+    },
+    {
+      "address": "0xd85458",
+      "instruction": "mov r11, qword ptr [r15 + 0x309d7]"
+    },
+    {
+      "address": "0xd85476",
+      "instruction": "mov r11, qword ptr [r15 + 0x309df]"
+    },
+    {
+      "address": "0xd8553e",
+      "instruction": "mov r11, qword ptr [r15 + 0x309e7]"
+    },
+    {
+      "address": "0xd8560d",
+      "instruction": "mov r11, qword ptr [r15 + 0x309ef]"
+    },
+    {
+      "address": "0xd8572c",
+      "instruction": "call 0xa85774"
+    },
+    {
+      "address": "0xd85774",
+      "instruction": "call 0xce32e8"
+    },
+    {
+      "address": "0xd8579b",
+      "instruction": "mov qword ptr [rcx + 0x4260], rdx"
+    },
+    {
+      "address": "0xd85892",
+      "instruction": "call 0xc4ac50"
+    },
+    {
+      "address": "0xd8589e",
+      "instruction": "call 0xd85ebc"
+    },
+    {
+      "address": "0xd858b1",
+      "instruction": "call 0xc49028"
+    },
+    {
+      "address": "0xd85933",
+      "instruction": "call 0xc48e00"
+    },
+    {
+      "address": "0xd85975",
+      "instruction": "call 0xd81a34"
+    },
+    {
+      "address": "0xd8598c",
+      "instruction": "mov qword ptr [rcx + 0x4278], rdx"
+    },
+    {
+      "address": "0xd85ef3",
+      "instruction": "mov rax, qword ptr [rax + 0x4288]"
+    },
+    {
+      "address": "0xd85f21",
+      "instruction": "mov rsi, qword ptr [r15 + 0x526f]"
+    },
+    {
+      "address": "0xd85f2c",
+      "instruction": "call 0xa77f48"
+    },
+    {
+      "address": "0xd86b94",
+      "instruction": "mov rdx, qword ptr [r14 + 0x90]"
+    },
+    {
+      "address": "0xd86b9f",
+      "instruction": "mov qword ptr [rcx + 0x4288], rdx"
+    },
+    {
+      "address": "0xd85cb0",
+      "instruction": "mov qword ptr [rax + 0x4268], rdx"
+    }
+  ],
+  "poolStrings": {
+    "0xdba0": "profiles",
+    "0xda98": "__test_dir__",
+    "0xda10": "cache",
+    "0x30948": "service_error.log",
+    "0x30cc8": "service_core.log",
+    "0x30cd0": "service_core.json",
+    "0x30cd8": "service.json",
+    "0x30c90": "karingService.exe",
+    "0x1a28": "data",
+    "0x309d8": "run2",
+    "0x309e0": "--service-config=",
+    "0x309e8": "--service-http-port=",
+    "0x309f0": "--connected-port="
+  },
+  "startup": {
+    "selectedPortCount": 2,
+    "temporarySocketLeasesClosedBeforeRebind": true,
+    "connectedPort": "first selected port, rebound as loopback listener before Process.start",
+    "serviceHttpPort": "second selected port, passed via --service-http-port=",
+    "arguments": [
+      "run2",
+      "--service-config=<path>",
+      "--service-http-port=<port>",
+      "--connected-port=<port>"
+    ],
+    "waitRace": [
+      "process exit",
+      "waitConnect",
+      "timeout"
+    ],
+    "waitPollDelayMicroseconds": 300000,
+    "socketCallback": "sets static slot 0x4288=true; no socket reads or sender authentication in this callback",
+    "waitSuccessEnumIndex": 3,
+    "connectedFlagSlot": "0x4288",
+    "startedFlagSlot": "0x4268"
+  },
+  "limitations": [
+    "No complete stop/restart cleanup verified",
+    "Port release/rebind has TOCTOU window",
+    "TCP signal is not authenticated and does not independently prove useful VPN traffic",
+    "Native support-directory final absolute path not resolved or read",
+    "Other versions not established",
+    "Enum indices are preserved; human-readable names not inferred from indices"
+  ]
+}

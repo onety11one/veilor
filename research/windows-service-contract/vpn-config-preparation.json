@@ -1,0 +1,474 @@
+{
+  "scope": "Windows Karing 1.2.25+2802 preparation; not production launch config",
+  "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "fields": [
+    {
+      "key": "control_port",
+      "objectOffset": "0x8",
+      "source": "settings.proxy.control_port",
+      "storeInstruction": "0xd87756"
+    },
+    {
+      "key": "base_dir",
+      "objectOffset": "0x10",
+      "source": "await PathUtils.profileDir()",
+      "storeInstruction": "0xd8777a"
+    },
+    {
+      "key": "work_dir",
+      "objectOffset": "0x18",
+      "source": "PathUtils.appAssetsDir()",
+      "storeInstruction": "0xd877a1"
+    },
+    {
+      "key": "cache_dir",
+      "objectOffset": "0x20",
+      "source": "await PathUtils.cacheDir()",
+      "storeInstruction": "0xd877dc"
+    },
+    {
+      "key": "core_path",
+      "objectOffset": "0x28",
+      "source": "await PathUtils.serviceCoreConfigFilePath()",
+      "storeInstruction": "0xd87817"
+    },
+    {
+      "key": "log_path",
+      "objectOffset": "0x30",
+      "source": "await PathUtils.serviceLogFilePath()",
+      "storeInstruction": "0xd87852"
+    },
+    {
+      "key": "err_path",
+      "objectOffset": "0x38",
+      "source": "await PathUtils.serviceStdErrorFilePath()",
+      "storeInstruction": "0xd8788d"
+    },
+    {
+      "key": "id",
+      "objectOffset": "0x40",
+      "source": "await Did.getDid(); value not read or computed",
+      "storeInstruction": "0xd878c8"
+    },
+    {
+      "key": "version",
+      "objectOffset": "0x48",
+      "source": "compiled public version 1.2.25.2802",
+      "storeInstruction": "0xd878ea"
+    },
+    {
+      "key": "name",
+      "objectOffset": "0x50",
+      "source": "compiled public name Karing",
+      "storeInstruction": "0xd878f5"
+    },
+    {
+      "key": "secret",
+      "objectOffset": "0x58",
+      "source": "await ClashApi.getSecret(); value not read or computed",
+      "storeInstruction": "0xd87919"
+    },
+    {
+      "key": "install_refer",
+      "objectOffset": "0x60",
+      "source": "await InstallReferrerUtils.getString()",
+      "storeInstruction": "0xd8793b"
+    },
+    {
+      "key": "prepare",
+      "objectOffset": "0x68",
+      "source": "await VPNService.getTunMode(); settings.tun.enable AND cached isRunAsAdmin result on Windows",
+      "storeInstruction": "0xd8795d"
+    },
+    {
+      "key": "wake_lock",
+      "objectOffset": "0x70",
+      "source": "settings.ui.wake_lock",
+      "storeInstruction": "0xd879f7"
+    },
+    {
+      "key": "auto_connect_at_boot",
+      "objectOffset": "0x78",
+      "source": "settings.auto_connect_at_boot",
+      "storeInstruction": "0xd87a02"
+    },
+    {
+      "key": "allowed_sender_packages",
+      "objectOffset": "0x80",
+      "source": "settings.allowed_sender_packages; direct reference assignment",
+      "storeInstruction": "0xd87a0d"
+    },
+    {
+      "key": "include_all_networks",
+      "objectOffset": "0x88",
+      "source": "settings.tun.include_all_networks",
+      "storeInstruction": "0xd87a30"
+    },
+    {
+      "key": "exclude_local_networks",
+      "objectOffset": "0x90",
+      "source": "settings.tun.exclude_local_networks",
+      "storeInstruction": "0xd87a3b"
+    },
+    {
+      "key": "exclude_cellular_services",
+      "objectOffset": "0x98",
+      "source": "settings.tun.exclude_cellular_services",
+      "storeInstruction": "0xd87a46"
+    },
+    {
+      "key": "exclude_apns",
+      "objectOffset": "0xa0",
+      "source": "settings.tun.exclude_apns",
+      "storeInstruction": "0xd87a51"
+    },
+    {
+      "key": "exclude_device_communication",
+      "objectOffset": "0xa8",
+      "source": "settings.tun.exclude_device_communication",
+      "storeInstruction": "0xd87a5c"
+    },
+    {
+      "key": "enforce_routes",
+      "objectOffset": "0xb0",
+      "source": "settings.tun.enforce_routes",
+      "storeInstruction": "0xd87a67"
+    },
+    {
+      "key": "auto_route_use_sub_ranges_by_default",
+      "objectOffset": "0xb8",
+      "source": "settings.tun.auto_route_use_sub_ranges_by_default",
+      "storeInstruction": "0xd87a72"
+    },
+    {
+      "key": "disconnect_after_sleep_seconds",
+      "objectOffset": "0xc0",
+      "source": "settings Duration at root 0xf8 converted to seconds; null becomes 0",
+      "storeInstruction": "0xd879e8"
+    },
+    {
+      "key": "sentry_minversion",
+      "objectOffset": "0xc8",
+      "source": "remote_config.sentry_min_version, then conditional version/build-age policy; full policy not yet verified",
+      "storeInstruction": "0xd87aab"
+    }
+  ],
+  "sourceFieldEvidence": [
+    {
+      "key": "proxy",
+      "serializer": "SettingConfig.toJson",
+      "keyInstruction": "0xc6cd65",
+      "sourceOffset": "0x40",
+      "poolOffset": "0x357f0"
+    },
+    {
+      "key": "tun",
+      "serializer": "SettingConfig.toJson",
+      "keyInstruction": "0xc6cd7e",
+      "sourceOffset": "0x50",
+      "poolOffset": "0x30228"
+    },
+    {
+      "key": "ui",
+      "serializer": "SettingConfig.toJson",
+      "keyInstruction": "0xc6cd00",
+      "sourceOffset": "0x28",
+      "poolOffset": "0x35750"
+    },
+    {
+      "key": "auto_connect_at_boot",
+      "serializer": "SettingConfig.toJson",
+      "keyInstruction": "0xc6ceb9",
+      "sourceOffset": "0xb0",
+      "poolOffset": "0x35940"
+    },
+    {
+      "key": "allowed_sender_packages",
+      "serializer": "SettingConfig.toJson",
+      "keyInstruction": "0xc6ced5",
+      "sourceOffset": "0xb8",
+      "poolOffset": "0x35958"
+    },
+    {
+      "key": "disconnect_after_sleep_seconds",
+      "serializer": "SettingConfig.toJson",
+      "keyInstruction": "0xc6cfb9",
+      "sourceOffset": "0xf8",
+      "poolOffset": "0x35a40"
+    },
+    {
+      "key": "control_port",
+      "serializer": "SettingConfigItemProxy.toJson",
+      "keyInstruction": "0xc6fc29",
+      "sourceOffset": "0x50",
+      "poolOffset": "0x36630"
+    },
+    {
+      "key": "wake_lock",
+      "serializer": "SettingConfigItemUI.toJson",
+      "keyInstruction": "0xc70490",
+      "sourceOffset": "0x28",
+      "poolOffset": "0x369b0"
+    },
+    {
+      "key": "include_all_networks",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6ef95",
+      "sourceOffset": "0x50",
+      "poolOffset": "0x36410"
+    },
+    {
+      "key": "exclude_local_networks",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6efae",
+      "sourceOffset": "0x58",
+      "poolOffset": "0x36428"
+    },
+    {
+      "key": "exclude_cellular_services",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6efc7",
+      "sourceOffset": "0x60",
+      "poolOffset": "0x36440"
+    },
+    {
+      "key": "exclude_apns",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6efe0",
+      "sourceOffset": "0x68",
+      "poolOffset": "0x36458"
+    },
+    {
+      "key": "exclude_device_communication",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6eff9",
+      "sourceOffset": "0x70",
+      "poolOffset": "0x36470"
+    },
+    {
+      "key": "enforce_routes",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6f012",
+      "sourceOffset": "0x78",
+      "poolOffset": "0x36488"
+    },
+    {
+      "key": "auto_route_use_sub_ranges_by_default",
+      "serializer": "SettingConfigItemTUN.toJson",
+      "keyInstruction": "0xc6f02b",
+      "sourceOffset": "0x80",
+      "poolOffset": "0x364a0"
+    },
+    {
+      "key": "sentry_min_version",
+      "serializer": "RemoteConfig.toJson",
+      "keyInstruction": "0xca25e5",
+      "sourceOffset": "0x20",
+      "poolOffset": "0x36b10"
+    }
+  ],
+  "instructionChecks": [
+    {
+      "address": "0xd87756",
+      "instruction": "mov qword ptr [rdi + 7], rdx"
+    },
+    {
+      "address": "0xd8777a",
+      "instruction": "mov qword ptr [rdi + 0xf], rax"
+    },
+    {
+      "address": "0xd877a1",
+      "instruction": "mov qword ptr [rdi + 0x17], rax"
+    },
+    {
+      "address": "0xd877dc",
+      "instruction": "mov qword ptr [rdi + 0x1f], rax"
+    },
+    {
+      "address": "0xd87817",
+      "instruction": "mov qword ptr [rdi + 0x27], rax"
+    },
+    {
+      "address": "0xd87852",
+      "instruction": "mov qword ptr [rdi + 0x2f], rax"
+    },
+    {
+      "address": "0xd8788d",
+      "instruction": "mov qword ptr [rdi + 0x37], rax"
+    },
+    {
+      "address": "0xd878c8",
+      "instruction": "mov qword ptr [rdi + 0x3f], rax"
+    },
+    {
+      "address": "0xd878ea",
+      "instruction": "mov qword ptr [rdi + 0x47], rax"
+    },
+    {
+      "address": "0xd878f5",
+      "instruction": "mov qword ptr [rdi + 0x4f], rax"
+    },
+    {
+      "address": "0xd87919",
+      "instruction": "mov qword ptr [rdi + 0x57], rax"
+    },
+    {
+      "address": "0xd8793b",
+      "instruction": "mov qword ptr [rdi + 0x5f], rax"
+    },
+    {
+      "address": "0xd8795d",
+      "instruction": "mov qword ptr [rdi + 0x67], rax"
+    },
+    {
+      "address": "0xd879f7",
+      "instruction": "mov qword ptr [rdi + 0x6f], rdx"
+    },
+    {
+      "address": "0xd87a02",
+      "instruction": "mov qword ptr [rdi + 0x77], rax"
+    },
+    {
+      "address": "0xd87a0d",
+      "instruction": "mov qword ptr [rdi + 0x7f], rax"
+    },
+    {
+      "address": "0xd87a30",
+      "instruction": "mov qword ptr [rdi + 0x87], rdx"
+    },
+    {
+      "address": "0xd87a3b",
+      "instruction": "mov qword ptr [rdi + 0x8f], rdx"
+    },
+    {
+      "address": "0xd87a46",
+      "instruction": "mov qword ptr [rdi + 0x97], rdx"
+    },
+    {
+      "address": "0xd87a51",
+      "instruction": "mov qword ptr [rdi + 0x9f], rdx"
+    },
+    {
+      "address": "0xd87a5c",
+      "instruction": "mov qword ptr [rdi + 0xa7], rdx"
+    },
+    {
+      "address": "0xd87a67",
+      "instruction": "mov qword ptr [rdi + 0xaf], rdx"
+    },
+    {
+      "address": "0xd87a72",
+      "instruction": "mov qword ptr [rdi + 0xb7], rdx"
+    },
+    {
+      "address": "0xd879e8",
+      "instruction": "mov qword ptr [rdi + 0xbf], rax"
+    },
+    {
+      "address": "0xd87aab",
+      "instruction": "mov qword ptr [rdi + 0xc7], rax"
+    },
+    {
+      "address": "0xd87747",
+      "instruction": "mov rcx, qword ptr [rax + 0x3f]"
+    },
+    {
+      "address": "0xd8774b",
+      "instruction": "mov rdx, qword ptr [rcx + 0x4f]"
+    },
+    {
+      "address": "0xd878f9",
+      "instruction": "call 0xd84824"
+    },
+    {
+      "address": "0xd8484d",
+      "instruction": "call 0xca1c04"
+    },
+    {
+      "address": "0xd84863",
+      "instruction": "mov qword ptr [rsp], 0x30"
+    },
+    {
+      "address": "0xd8486e",
+      "instruction": "mov esi, 8"
+    },
+    {
+      "address": "0xd8487a",
+      "instruction": "call 0xa5b760"
+    },
+    {
+      "address": "0xd916c9",
+      "instruction": "mov rcx, qword ptr [rax + 0x4f]"
+    },
+    {
+      "address": "0xd916cd",
+      "instruction": "mov rdx, qword ptr [rcx + 7]"
+    },
+    {
+      "address": "0xd916da",
+      "instruction": "mov rax, qword ptr [r14 + 0x98]"
+    },
+    {
+      "address": "0xd916ea",
+      "instruction": "mov rax, qword ptr [rax + 0x3480]"
+    },
+    {
+      "address": "0x10c0d13",
+      "instruction": "call 0x10c113c"
+    },
+    {
+      "address": "0x10c0d30",
+      "instruction": "mov qword ptr [rax + 0x3480], rdx"
+    },
+    {
+      "address": "0xd87c34",
+      "instruction": "call 0xd87d1c"
+    },
+    {
+      "address": "0xd87d76",
+      "instruction": "mov qword ptr [rcx + 0x4248], rdx"
+    },
+    {
+      "address": "0xd87d85",
+      "instruction": "mov qword ptr [rcx + 0x4258], rdx"
+    },
+    {
+      "address": "0xd87d94",
+      "instruction": "mov qword ptr [rcx + 0x4250], rdx"
+    },
+    {
+      "address": "0xd87da3",
+      "instruction": "mov qword ptr [rcx + 0x4270], rdx"
+    },
+    {
+      "address": "0xd87c8a",
+      "instruction": "call 0xff65e4"
+    },
+    {
+      "address": "0xd87cb2",
+      "instruction": "call 0xc95810"
+    },
+    {
+      "address": "0xd87be6",
+      "instruction": "mov qword ptr [rdi + 0xc7], rax"
+    }
+  ],
+  "secretAlgorithm": {
+    "currentAotVerified": true,
+    "description": "await Did.getDid(), substring(8,24); optional end argument Smi 0x30 = 24",
+    "actualValueComputed": false
+  },
+  "platformStorage": {
+    "0x4248": "config object",
+    "0x4258": "service exe path",
+    "0x4250": "service config file path",
+    "0x4270": "excluded port list"
+  },
+  "unresolved": [
+    "sentry version/build-age policy full semantics",
+    "PathUtils full path resolution and permissions",
+    "port reservations and readiness authentication",
+    "core JSON and complete lifecycle",
+    "compatibility with 1.2.26+2908"
+  ]
+}

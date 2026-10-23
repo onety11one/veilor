@@ -25,3 +25,7 @@
 Скрипты рядом — копии для review, привязанные к рабочим папкам work/toolchains/portable-build и work/karing-feasibility; из research их запускать нельзя. build-pool-only.py только собирает, run-pool-only.py анализирует snapshot с закреплённым SHA-256, extract-vpn-methods.py проверяет две карты и публикует выбранные метаданные.
 
 Следующий шаг — сопоставить constructor/toJson с object pool и смещениями полей, затем параметры Windows _start/waitConnect/_stop. Активные lib/bind/windows/pubspec не изменены. Коммит/push не выполнялись.
+
+## Продолжение: начальные значения VpnServiceConfig
+
+В следующем offline-шаге сопоставлены все 25 ключей с полями и восстановлены constructor defaults: 23 прямых скалярных присваивания и 2 значения через factory/allocation. Подробности и ограничения: [VPN-CONFIG-RECOVERY.md](VPN-CONFIG-RECOVERY.md). Ранее указанный статус «defaults не восстановлены» относится к моменту первоначального составления этого отчёта. Значения после заполнения вызывающим кодом всё ещё требуют исследования.

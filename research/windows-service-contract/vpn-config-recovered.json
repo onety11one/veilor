@@ -1,0 +1,376 @@
+{
+  "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "sourceVersion": "Karing 1.2.25+2802 / Dart 3.12.2",
+  "mode": "offline only",
+  "fieldCount": 25,
+  "explicitScalarDefaultsRecovered": 23,
+  "helperOrAllocationDefaultsRecovered": 2,
+  "poolEntries": {
+    "0x36630": "String: \"control_port\"",
+    "0x3a4e8": "String: \"base_dir\"",
+    "0x3a4f0": "String: \"work_dir\"",
+    "0x3a4f8": "String: \"cache_dir\"",
+    "0x3a500": "String: \"core_path\"",
+    "0x3a508": "String: \"log_path\"",
+    "0x3a510": "String: \"err_path\"",
+    "0xd6c8": "String: \"id\"",
+    "0xb2e8": "String: \"version\"",
+    "0x59b0": "String: \"name\"",
+    "0x30630": "String: \"secret\"",
+    "0x3a518": "String: \"install_refer\"",
+    "0x3a520": "String: \"prepare\"",
+    "0x369b0": "String: \"wake_lock\"",
+    "0x35940": "String: \"auto_connect_at_boot\"",
+    "0x35958": "String: \"allowed_sender_packages\"",
+    "0x36410": "String: \"include_all_networks\"",
+    "0x36428": "String: \"exclude_local_networks\"",
+    "0x36440": "String: \"exclude_cellular_services\"",
+    "0x36458": "String: \"exclude_apns\"",
+    "0x36470": "String: \"exclude_device_communication\"",
+    "0x36488": "String: \"enforce_routes\"",
+    "0x364a0": "String: \"auto_route_use_sub_ranges_by_default\"",
+    "0x35a40": "String: \"disconnect_after_sleep_seconds\"",
+    "0x3a528": "String: \"sentry_minversion\"",
+    "0x2720": "TypeArguments: <String, dynamic>",
+    "0xc98": "String: \"\"",
+    "0x1010": "TypeArguments: <String>"
+  },
+  "threadOffsets": {
+    "bool_true": 144,
+    "bool_false": 152,
+    "object_null": 128
+  },
+  "fields": [
+    {
+      "key": "control_port",
+      "objectOffset": "0x8",
+      "keyInstruction": "0xd8667b",
+      "loadInstruction": "0xd8668a",
+      "poolOffset": "0x36630",
+      "constructorDefault": {
+        "value": 0,
+        "kind": "integer",
+        "instruction": "0xd8655c"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "base_dir",
+      "objectOffset": "0x10",
+      "keyInstruction": "0xd866c9",
+      "loadInstruction": "0xd866d4",
+      "poolOffset": "0x3a4e8",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86560"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "work_dir",
+      "objectOffset": "0x18",
+      "keyInstruction": "0xd866fe",
+      "loadInstruction": "0xd86709",
+      "poolOffset": "0x3a4f0",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86564"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "cache_dir",
+      "objectOffset": "0x20",
+      "keyInstruction": "0xd86733",
+      "loadInstruction": "0xd8673e",
+      "poolOffset": "0x3a4f8",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86568"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "core_path",
+      "objectOffset": "0x28",
+      "keyInstruction": "0xd86768",
+      "loadInstruction": "0xd86773",
+      "poolOffset": "0x3a500",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd8656c"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "log_path",
+      "objectOffset": "0x30",
+      "keyInstruction": "0xd8679d",
+      "loadInstruction": "0xd867a8",
+      "poolOffset": "0x3a508",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86570"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "err_path",
+      "objectOffset": "0x38",
+      "keyInstruction": "0xd867d2",
+      "loadInstruction": "0xd867dd",
+      "poolOffset": "0x3a510",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86574"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "id",
+      "objectOffset": "0x40",
+      "keyInstruction": "0xd86807",
+      "loadInstruction": "0xd86815",
+      "poolOffset": "0xd6c8",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86578"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "version",
+      "objectOffset": "0x48",
+      "keyInstruction": "0xd86842",
+      "loadInstruction": "0xd86850",
+      "poolOffset": "0xb2e8",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd8657c"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "name",
+      "objectOffset": "0x50",
+      "keyInstruction": "0xd8687d",
+      "loadInstruction": "0xd8688b",
+      "poolOffset": "0x59b0",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86580"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "secret",
+      "objectOffset": "0x58",
+      "keyInstruction": "0xd868b8",
+      "loadInstruction": "0xd868c6",
+      "poolOffset": "0x30630",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86584"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "install_refer",
+      "objectOffset": "0x60",
+      "keyInstruction": "0xd868f3",
+      "loadInstruction": "0xd86901",
+      "poolOffset": "0x3a518",
+      "constructorDefault": {
+        "value": "",
+        "kind": "string",
+        "instruction": "0xd86588"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "prepare",
+      "objectOffset": "0x68",
+      "keyInstruction": "0xd8692e",
+      "loadInstruction": "0xd8693c",
+      "poolOffset": "0x3a520",
+      "constructorDefault": {
+        "value": true,
+        "kind": "boolean",
+        "instruction": "0xd8658c"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "wake_lock",
+      "objectOffset": "0x70",
+      "keyInstruction": "0xd86947",
+      "loadInstruction": "0xd86955",
+      "poolOffset": "0x369b0",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd86590"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "auto_connect_at_boot",
+      "objectOffset": "0x78",
+      "keyInstruction": "0xd86960",
+      "loadInstruction": "0xd8696e",
+      "poolOffset": "0x35940",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd86594"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "allowed_sender_packages",
+      "objectOffset": "0x80",
+      "keyInstruction": "0xd86979",
+      "loadInstruction": "0xd86987",
+      "poolOffset": "0x35958",
+      "constructorDefault": {
+        "value": [],
+        "kind": "list<string>",
+        "evidence": "zero RSI length, String type arguments, GrowableList factory, length store at 0xa57a38, result store at 0xd865e0"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "include_all_networks",
+      "objectOffset": "0x88",
+      "keyInstruction": "0xd869b4",
+      "loadInstruction": "0xd869c2",
+      "poolOffset": "0x36410",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd86598"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "exclude_local_networks",
+      "objectOffset": "0x90",
+      "keyInstruction": "0xd869d0",
+      "loadInstruction": "0xd869de",
+      "poolOffset": "0x36428",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd8659f"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "exclude_cellular_services",
+      "objectOffset": "0x98",
+      "keyInstruction": "0xd869ec",
+      "loadInstruction": "0xd869fa",
+      "poolOffset": "0x36440",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd865a6"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "exclude_apns",
+      "objectOffset": "0xa0",
+      "keyInstruction": "0xd86a08",
+      "loadInstruction": "0xd86a16",
+      "poolOffset": "0x36458",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd865ad"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "exclude_device_communication",
+      "objectOffset": "0xa8",
+      "keyInstruction": "0xd86a24",
+      "loadInstruction": "0xd86a32",
+      "poolOffset": "0x36470",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd865b4"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "enforce_routes",
+      "objectOffset": "0xb0",
+      "keyInstruction": "0xd86a40",
+      "loadInstruction": "0xd86a4e",
+      "poolOffset": "0x36488",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd865bb"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "auto_route_use_sub_ranges_by_default",
+      "objectOffset": "0xb8",
+      "keyInstruction": "0xd86a5c",
+      "loadInstruction": "0xd86a6a",
+      "poolOffset": "0x364a0",
+      "constructorDefault": {
+        "value": false,
+        "kind": "boolean",
+        "instruction": "0xd865c2"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "disconnect_after_sleep_seconds",
+      "objectOffset": "0xc0",
+      "keyInstruction": "0xd86a78",
+      "loadInstruction": "0xd86a86",
+      "poolOffset": "0x35a40",
+      "constructorDefault": {
+        "value": 0,
+        "kind": "integer",
+        "instruction": "0xd865c9"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    },
+    {
+      "key": "sentry_minversion",
+      "objectOffset": "0xc8",
+      "keyInstruction": "0xd86acb",
+      "loadInstruction": "0xd86ad9",
+      "poolOffset": "0x3a528",
+      "constructorDefault": {
+        "value": null,
+        "kind": "null",
+        "evidence": "allocation null-initialization; no constructor overwrite of object offset 0xc8"
+      },
+      "scope": "constructor default only; caller can overwrite before serialization"
+    }
+  ],
+  "limitations": [
+    "Not evidence for active source version 1.2.26+2908",
+    "Constructor defaults are not valid launch configuration",
+    "No native consumer or launch behavior inferred from key names",
+    "Slow allocation uses VM runtime semantics; no live allocation invoked"
+  ]
+}

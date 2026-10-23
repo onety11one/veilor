@@ -70,3 +70,7 @@ dart tool/audit_known_core.dart <absolute-path-to-snapshot>
 ```
 
 Последующее исследование нашло подтверждённых потребителей 9 из 25 наблюдаемых полей и добавило перенос выбранных .srs через bundledAssetsRoot в WindowsLaunchPlan.prepare. При отсутствии обязательного для профиля local asset источника подготовка завершается ошибкой. Подробности и оставшиеся пробелы — [CONFIG-AND-ASSETS.md](../../research/windows-service-contract/CONFIG-AND-ASSETS.md). Полная схема SDK всё ещё не восстановлена; наличие плана и зелёных тестов имитатора не снимает необходимость изолированного runtime-теста.
+
+## Уточнение AOT Windows startup
+
+В [WINDOWS-PATHS-STARTUP.md](../../research/windows-service-contract/WINDOWS-PATHS-STARTUP.md) подтверждены пути и порядок запуска исходного Karing. Его argv использует --option=value, тогда как лабораторный план пока передаёт пары --option value; принятие обоих вариантов настоящим core динамически не проверено. Оригинальный Process.start использует каталог exe как workingDirectory; work_dir в service JSON отдельно указывает на assets. Папки лаборатории изолированы намеренно и не объявляются точной раскладкой оригинала. Исследование не является разрешением запускать настоящий core рядом с работающим VPN.

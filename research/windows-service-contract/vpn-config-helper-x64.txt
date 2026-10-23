@@ -1,0 +1,63 @@
+# Selected constructor dependencies; static x64 disassembly only.
+
+GrowableList factory
+0xa579f8: push rbp
+0xa579f9: mov rbp, rsp
+0xa579fc: sub rsp, 0x10
+0xa57a00: mov rdx, rdi
+0xa57a03: mov rax, rsi
+0xa57a06: mov qword ptr [rbp - 8], rdi
+0xa57a0a: mov qword ptr [rbp - 0x10], rsi
+0xa57a0e: cmp rsp, qword ptr [r14 + 0x48]
+0xa57a12: jbe 0xa57a6f
+0xa57a18: mov rdi, rax
+0xa57a1b: call 0xa579b0
+0xa57a20: mov rdx, qword ptr [rbp - 8]
+0xa57a24: mov qword ptr [rbp - 8], rax
+0xa57a28: call 0x1533474
+0xa57a2d: mov rdx, rax
+0xa57a30: mov rcx, qword ptr [rbp - 8]
+0xa57a34: mov qword ptr [rdx + 0x17], rcx
+0xa57a38: mov qword ptr [rdx + 0xf], 0
+0xa57a40: mov rcx, qword ptr [rbp - 0x10]
+0xa57a44: cmp rcx, 0
+0xa57a48: jle 0xa57a67
+0xa57a4e: mov rax, rcx
+0xa57a51: add rax, rax
+0xa57a54: jno 0xa57a63
+0xa57a5a: call 0x15346c8
+0xa57a5f: mov qword ptr [rax + 7], rcx
+0xa57a63: mov qword ptr [rdx + 0xf], rax
+0xa57a67: mov rax, rdx
+0xa57a6a: mov rsp, rbp
+0xa57a6d: pop rbp
+0xa57a6e: ret
+0xa57a6f: call qword ptr [r14 + 0x238]
+0xa57a76: jmp 0xa57a18
+
+VpnServiceConfig allocation stub
+0xd86b50: mov r8d, 0x13ad1c
+0xd86b56: jmp 0x1533420
+0xd86b5b: int3
+
+Generic allocation stub
+0x1533420: movzx rsi, r8w
+0x1533424: shr esi, 4
+0x1533427: and esi, 0xf0
+0x153342d: mov rax, qword ptr [r14 + 0x58]
+0x1533431: lea r9, [rax + rsi]
+0x1533435: cmp r9, qword ptr [r14 + 0x60]
+0x1533439: jae 0x1533466
+0x153343f: mov qword ptr [r14 + 0x58], r9
+0x1533443: mov qword ptr [rax], r8
+0x1533446: add rax, 1
+0x153344a: lea rdi, [rax + 7]
+0x153344e: mov r10, qword ptr [r14 + 0x80]
+0x1533455: mov qword ptr [rdi], r10
+0x1533458: mov qword ptr [rdi + 8], r10
+0x153345c: add rdi, 0x10
+0x1533460: cmp rdi, r9
+0x1533463: jb 0x1533455
+0x1533465: ret
+0x1533466: mov rdx, qword ptr [r14 + 0x80]
+0x153346d: jmp qword ptr [r14 + 0x230]

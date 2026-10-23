@@ -1,0 +1,1448 @@
+# PC._start
+0xd84cc4: push rbp
+0xd84cc5: mov rbp, rsp
+0xd84cc8: sub rsp, 0x128
+0xd84ccf: mov rax, qword ptr [r14 + 0x80]
+0xd84cd6: mov qword ptr [rbp - 8], rax
+0xd84cda: mov qword ptr [rbp - 0xb0], rdi
+0xd84ce1: cmp rsp, qword ptr [r14 + 0x48]
+0xd84ce5: jbe 0xd85e20
+0xd84ceb: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xd84cf2: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd84cf7: mov rdi, qword ptr [r14 + 0x70]
+0xd84cfb: mov rdi, qword ptr [rdi + 0x4258]
+0xd84d02: call 0xc4ad68 ; path$path_::basename_c4ad68
+0xd84d07: mov ecx, dword ptr [rax - 1]
+0xd84d0a: shr ecx, 0xc
+0xd84d0d: mov qword ptr [rsp], rax
+0xd84d11: mov rax, qword ptr [r14 + 0x68]
+0xd84d15: call qword ptr [rax + rcx*8 + 0x42e0]
+0xd84d1c: mov qword ptr [rbp - 0xb8], rax
+0xd84d23: mov r10d, 1
+0xd84d29: call 0x15334a4 ; AllocateContextStub_15334a4
+0xd84d2e: mov rdi, qword ptr [r15 + 0xd17] ; TypeArguments: <int>
+0xd84d35: xor esi, esi
+0xd84d37: mov qword ptr [rbp - 0xc0], rax
+0xd84d3e: call 0xa579f8 ; dart_core__GrowableList::factory_ctor_a579f8
+0xd84d43: mov rdi, qword ptr [r15 + 0x304c7] ; TypeArguments: <ServerSocket>
+0xd84d4a: xor esi, esi
+0xd84d4c: mov qword ptr [rbp - 0xc8], rax
+0xd84d53: call 0xa579f8 ; dart_core__GrowableList::factory_ctor_a579f8
+0xd84d58: mov qword ptr [rbp - 0xe0], rax
+0xd84d5f: mov rdi, qword ptr [rbp - 0xc8]
+0xd84d66: xor edx, edx
+0xd84d68: mov rcx, qword ptr [r14 + 0x80]
+0xd84d6f: mov qword ptr [rbp - 0xd0], rdx
+0xd84d76: mov qword ptr [rbp - 0xd8], rcx
+0xd84d7d: cmp rsp, qword ptr [r14 + 0x48]
+0xd84d81: jbe 0xd85e2c
+0xd84d87: mov rax, qword ptr [r14 + 0x70]
+0xd84d8b: mov rax, qword ptr [rax + 0x4270]
+0xd84d92: cmp rax, qword ptr [r14 + 0x88]
+0xd84d99: jne 0xd84dab
+0xd84d9f: mov rdx, qword ptr [r15 + 0x3099f] ; Field <MethodChannelFlutterVpnServicePC._excludePorts@2483400281>: static late (offset: 0x4270)
+0xd84da6: call 0x1532ab8 ; InitLateStaticFieldStub_1532ab8
+0xd84dab: mov rcx, qword ptr [rax + 0xf]
+0xd84daf: sar rcx, 1
+0xd84db2: shl rcx, 1
+0xd84db5: add rcx, 4
+0xd84db9: mov rax, qword ptr [rbp - 0xd0]
+0xd84dc0: cmp rax, rcx
+0xd84dc3: jge 0xd85022
+0xd84dc9: mov rdi, qword ptr [rbp - 0xe0]
+0xd84dd0: mov rax, qword ptr [r14 + 0x70]
+0xd84dd4: mov rax, qword ptr [rax + 0x7c8]
+0xd84ddb: cmp rax, qword ptr [r14 + 0x88]
+0xd84de2: jne 0xd84df4
+0xd84de8: mov rdx, qword ptr [r15 + 0x309a7] ; Field <_InternetAddress@16069316.loopbackIPv4>: static late (offset: 0x7c8)
+0xd84def: call 0x1532ab8 ; InitLateStaticFieldStub_1532ab8
+0xd84df4: mov qword ptr [rbp - 0xe8], rax
+0xd84dfb: call 0xa64fac ; dart_io_IOOverrides::get_current_a64fac
+0xd84e00: mov rdi, qword ptr [rbp - 0xe8]
+0xd84e07: xor esi, esi
+0xd84e09: call 0xcdf434 ; dart_io__ServerSocket::bind_cdf434
+0xd84e0e: mov rcx, rax
+0xd84e11: mov qword ptr [rbp - 0xe8], rcx
+0xd84e18: call 0xa6d434 ; AwaitStub_a6d434
+0xd84e1d: mov rsp, rbp
+0xd84e20: pop rbp
+0xd84e21: ret
+0xd84e22: mov rcx, rax
+0xd84e25: mov rax, qword ptr [rbp - 0xe0]
+0xd84e2c: mov qword ptr [rbp - 0xf8], rcx
+0xd84e33: mov rdx, qword ptr [rax + 0xf]
+0xd84e37: mov qword ptr [rbp - 0xe8], rdx
+0xd84e3e: mov rbx, qword ptr [rax + 0x17]
+0xd84e42: mov rsi, qword ptr [rbx + 0xf]
+0xd84e46: mov rbx, rdx
+0xd84e49: sar rbx, 1
+0xd84e4c: mov qword ptr [rbp - 0xf0], rbx
+0xd84e53: sar rsi, 1
+0xd84e56: cmp rbx, rsi
+0xd84e59: jne 0xd84e67
+0xd84e5f: mov rdi, rax
+0xd84e62: call 0xa57808 ; dart_core__GrowableList::_growToNextCapacity_a57808
+0xd84e67: mov rcx, qword ptr [rbp - 0xe0]
+0xd84e6e: mov rbx, qword ptr [rbp - 0xf8]
+0xd84e75: mov rsi, qword ptr [rbp - 0xf0]
+0xd84e7c: mov rax, rsi
+0xd84e7f: add rax, 1
+0xd84e83: mov rdx, rax
+0xd84e86: add rdx, rdx
+0xd84e89: mov qword ptr [rcx + 0xf], rdx
+0xd84e8d: mov rdx, qword ptr [rcx + 0x17]
+0xd84e91: mov rax, rbx
+0xd84e94: lea r13, [rdx + rsi*8 + 0x17]
+0xd84e99: mov qword ptr [r13], rax
+0xd84e9d: test al, 1
+0xd84e9f: je 0xd84eb8
+0xd84ea1: mov r11b, byte ptr [rdx - 1]
+0xd84ea5: shr r11d, 2
+0xd84ea9: and r11d, dword ptr [r14 + 0x50]
+0xd84ead: test byte ptr [rax - 1], r11b
+0xd84eb1: je 0xd84eb8
+0xd84eb3: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd84eb8: mov rax, qword ptr [r14 + 0x70]
+0xd84ebc: mov rax, qword ptr [rax + 0x4270]
+0xd84ec3: mov qword ptr [rbp - 0x100], rax
+0xd84eca: mov rdx, qword ptr [rbx + 0xf]
+0xd84ece: mov qword ptr [rbp - 0xe8], rdx
+0xd84ed5: mov rdi, qword ptr [rdx + 0xf]
+0xd84ed9: call 0xc53dec ; dart_io__NativeSocket::get_port_c53dec
+0xd84ede: mov rcx, rax
+0xd84ee1: mov rax, rcx
+0xd84ee4: add rax, rax
+0xd84ee7: jno 0xd84ef6
+0xd84eed: call 0x15346c8 ; AllocateMintSharedWithoutFPURegsStub_15346c8
+0xd84ef2: mov qword ptr [rax + 7], rcx
+0xd84ef6: mov rdi, qword ptr [rbp - 0x100]
+0xd84efd: mov rsi, rax
+0xd84f00: call 0xfb1ecc ; dart_collection_ListBase::contains_fb1ecc
+0xd84f05: test al, 0x10
+0xd84f07: jne 0xd84f20
+0xd84f0d: mov rcx, qword ptr [rbp - 0xd8]
+0xd84f14: mov rbx, qword ptr [rbp - 0xc8]
+0xd84f1b: jmp 0xd85005
+0xd84f20: mov rax, qword ptr [rbp - 0xc8]
+0xd84f27: mov rdi, qword ptr [rbp - 0xe8]
+0xd84f2e: call 0x14a44e4 ; dart_io__RawSocket::get_port_14a44e4
+0xd84f33: mov rcx, rax
+0xd84f36: mov rax, rcx
+0xd84f39: add rax, rax
+0xd84f3c: jno 0xd84f4b
+0xd84f42: call 0x15346c8 ; AllocateMintSharedWithoutFPURegsStub_15346c8
+0xd84f47: mov qword ptr [rax + 7], rcx
+0xd84f4b: mov rcx, rax
+0xd84f4e: mov rax, qword ptr [rbp - 0xc8]
+0xd84f55: mov qword ptr [rbp - 0x100], rcx
+0xd84f5c: mov rdx, qword ptr [rax + 0xf]
+0xd84f60: mov qword ptr [rbp - 0xe8], rdx
+0xd84f67: mov rbx, qword ptr [rax + 0x17]
+0xd84f6b: mov rsi, qword ptr [rbx + 0xf]
+0xd84f6f: mov rbx, rdx
+0xd84f72: sar rbx, 1
+0xd84f75: mov qword ptr [rbp - 0xf0], rbx
+0xd84f7c: sar rsi, 1
+0xd84f7f: cmp rbx, rsi
+0xd84f82: jne 0xd84f90
+0xd84f88: mov rdi, rax
+0xd84f8b: call 0xa57808 ; dart_core__GrowableList::_growToNextCapacity_a57808
+0xd84f90: mov rbx, qword ptr [rbp - 0xc8]
+0xd84f97: mov rcx, qword ptr [rbp - 0xf0]
+0xd84f9e: mov rsi, rcx
+0xd84fa1: add rsi, 1
+0xd84fa5: mov rax, rsi
+0xd84fa8: add rax, rax
+0xd84fab: mov qword ptr [rbx + 0xf], rax
+0xd84faf: mov rdx, qword ptr [rbx + 0x17]
+0xd84fb3: mov rax, qword ptr [rbp - 0x100]
+0xd84fba: lea r13, [rdx + rcx*8 + 0x17]
+0xd84fbf: mov qword ptr [r13], rax
+0xd84fc3: test al, 1
+0xd84fc5: je 0xd84fde
+0xd84fc7: mov r11b, byte ptr [rdx - 1]
+0xd84fcb: shr r11d, 2
+0xd84fcf: and r11d, dword ptr [r14 + 0x50]
+0xd84fd3: test byte ptr [rax - 1], r11b
+0xd84fd7: je 0xd84fde
+0xd84fd9: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd84fde: cmp rsi, 2
+0xd84fe2: je 0xd85029
+0xd84fe8: mov rax, qword ptr [rbp - 0xd8]
+0xd84fef: jmp 0xd85002
+0xd84ff4: lea rsp, [rbp - 0x128]
+0xd84ffb: mov rbx, qword ptr [rbp - 0xc8]
+0xd85002: mov rcx, rax
+0xd85005: mov rax, qword ptr [rbp - 0xd0]
+0xd8500c: add rax, 1
+0xd85010: mov rdx, rax
+0xd85013: mov rdi, rbx
+0xd85016: mov rax, qword ptr [rbp - 0xe0]
+0xd8501d: jmp 0xd84d6f
+0xd85022: mov rbx, qword ptr [rbp - 0xc8]
+0xd85029: mov rax, qword ptr [rbp - 0xe0]
+0xd85030: mov rdx, qword ptr [r15 + 0x304c7] ; TypeArguments: <ServerSocket>
+0xd85037: call 0xa795cc ; AllocateListIteratorStub_a795cc
+0xd8503c: mov rdx, rax
+0xd8503f: mov rcx, qword ptr [rbp - 0xe0]
+0xd85046: mov qword ptr [rbp - 0xf8], rdx
+0xd8504d: mov qword ptr [rdx + 0xf], rcx
+0xd85051: mov rax, qword ptr [rcx + 0xf]
+0xd85055: mov rsi, rax
+0xd85058: sar rsi, 1
+0xd8505b: mov qword ptr [rbp - 0xd0], rsi
+0xd85062: mov qword ptr [rdx + 0x17], rsi
+0xd85066: xor edi, edi
+0xd85068: mov qword ptr [rdx + 0x1f], rdi
+0xd8506c: mov r8, qword ptr [rbp - 0xd8]
+0xd85073: mov qword ptr [rbp - 0xe8], r8
+0xd8507a: cmp rsp, qword ptr [r14 + 0x48]
+0xd8507e: jbe 0xd85e38
+0xd85084: mov rax, qword ptr [rcx + 0xf]
+0xd85088: sar rax, 1
+0xd8508b: cmp rsi, rax
+0xd8508e: jne 0xd85de9
+0xd85094: mov r9, qword ptr [rdx + 0x1f]
+0xd85098: cmp r9, rax
+0xd8509b: jge 0xd851b9
+0xd850a1: mov rbx, r9
+0xd850a4: cmp rbx, rax
+0xd850a7: jae 0xd85e44
+0xd850ad: mov rax, qword ptr [rcx + 0x17]
+0xd850b1: mov rbx, qword ptr [rax + r9*8 + 0x17]
+0xd850b6: mov rax, rbx
+0xd850b9: mov qword ptr [rbp - 0xd8], rbx
+0xd850c0: mov qword ptr [rdx + 0x27], rax
+0xd850c4: mov r11b, byte ptr [rdx - 1]
+0xd850c8: shr r11d, 2
+0xd850cc: and r11d, dword ptr [r14 + 0x50]
+0xd850d0: test byte ptr [rax - 1], r11b
+0xd850d4: je 0xd850db
+0xd850d6: call 0x1532e26
+0xd850db: add r9, 1
+0xd850df: mov qword ptr [rdx + 0x1f], r9
+0xd850e3: mov r10d, 1
+0xd850e9: call 0x15334a4 ; AllocateContextStub_15334a4
+0xd850ee: mov rcx, rax
+0xd850f1: mov rax, qword ptr [rbp - 0xd8]
+0xd850f8: mov qword ptr [rbp - 0x100], rcx
+0xd850ff: mov qword ptr [rcx + 0x17], rax
+0xd85103: mov rdi, qword ptr [rax + 0xf]
+0xd85107: call 0xd81ae0 ; dart_io__RawServerSocket::close_d81ae0
+0xd8510c: mov rdx, qword ptr [rbp - 0x100]
+0xd85113: mov rbx, qword ptr [r15 + 0x304bf] ; [pool value not exported]
+0xd8511a: mov qword ptr [rbp - 0x108], rax
+0xd85121: call 0x15337fc ; AllocateClosureStub_15337fc
+0xd85126: mov r11, qword ptr [r15 + 0x304c7] ; TypeArguments: <ServerSocket>
+0xd8512d: mov qword ptr [rsp + 0x10], r11
+0xd85132: mov r11, qword ptr [rbp - 0x108]
+0xd85139: mov qword ptr [rsp + 8], r11
+0xd8513e: mov qword ptr [rsp], rax
+0xd85142: mov r10, qword ptr [r15 + 0x3f] ; [pool value not exported]
+0xd85146: call 0xa4e258 ; dart_async__Future::then_a4e258
+0xd8514b: mov rbx, rax
+0xd8514e: mov rdx, qword ptr [r14 + 0x80]
+0xd85155: mov rcx, qword ptr [r14 + 0x80]
+0xd8515c: mov qword ptr [rbp - 0x108], rbx
+0xd85163: mov rbx, qword ptr [r15 + 0x304cf] ; Type: Future<ServerSocket>
+0xd8516a: mov r9, qword ptr [r15 + 0x309af] ; Null
+0xd85171: call 0xd81b8c ; IsType_Future@ServerSocket@_Stub_d81b8c
+0xd85176: mov rax, qword ptr [rbp - 0x108]
+0xd8517d: call 0xa6d434 ; AwaitStub_a6d434
+0xd85182: mov rsp, rbp
+0xd85185: pop rbp
+0xd85186: ret
+0xd85187: mov r8, qword ptr [rbp - 0xe8]
+0xd8518e: jmp 0xd8519d
+0xd85193: lea rsp, [rbp - 0x128]
+0xd8519a: mov r8, rax
+0xd8519d: mov rcx, qword ptr [rbp - 0xe0]
+0xd851a4: mov rdx, qword ptr [rbp - 0xf8]
+0xd851ab: mov rsi, qword ptr [rbp - 0xd0]
+0xd851b2: xor edi, edi
+0xd851b4: jmp 0xd85073
+0xd851b9: mov rcx, qword ptr [rbp - 0xc8]
+0xd851c0: mov rax, rdx
+0xd851c3: mov rbx, qword ptr [r14 + 0x80]
+0xd851ca: mov qword ptr [rax + 0x27], rbx
+0xd851ce: mov rax, qword ptr [rcx + 0xf]
+0xd851d2: mov qword ptr [rbp - 0xd8], rax
+0xd851d9: cmp rax, 4
+0xd851dd: je 0xd8529e
+0xd851e3: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xd851e8: mov qword ptr [rbp - 0x100], rax
+0xd851ef: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xd851f4: mov rbx, qword ptr [r14 + 0x80]
+0xd851fb: mov r10d, 4
+0xd85201: mov qword ptr [rbp - 0x108], rax
+0xd85208: call 0x153443c ; AllocateArrayStub_153443c
+0xd8520d: mov r11, qword ptr [r15 + 0x309bf] ; String: [not exported]
+0xd85214: mov qword ptr [rax + 0x17], r11
+0xd85218: mov rcx, qword ptr [rbp - 0xd8]
+0xd8521f: mov qword ptr [rax + 0x1f], rcx
+0xd85223: mov qword ptr [rsp], rax
+0xd85227: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd8522c: mov rcx, qword ptr [rbp - 0x108]
+0xd85233: mov qword ptr [rcx + 7], rax
+0xd85237: mov r11b, byte ptr [rcx - 1]
+0xd8523b: shr r11d, 2
+0xd8523f: and r11d, dword ptr [r14 + 0x50]
+0xd85243: test byte ptr [rax - 1], r11b
+0xd85247: je 0xd8524e
+0xd85249: call 0x1532e19
+0xd8524e: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xd85253: mov rsi, rax
+0xd85256: mov rdi, qword ptr [r14 + 0x80]
+0xd8525d: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xd85262: mov rcx, qword ptr [rbp - 0x100]
+0xd85269: mov rax, qword ptr [r15 + 0x309c7] ; [pool value not exported]
+0xd85270: mov qword ptr [rcx + 7], rax
+0xd85274: mov rax, qword ptr [rbp - 0x108]
+0xd8527b: mov qword ptr [rcx + 0xf], rax
+0xd8527f: mov r11b, byte ptr [rcx - 1]
+0xd85283: shr r11d, 2
+0xd85287: and r11d, dword ptr [r14 + 0x50]
+0xd8528b: test byte ptr [rax - 1], r11b
+0xd8528f: je 0xd85296
+0xd85291: call 0x1532e19
+0xd85296: mov rax, rcx
+0xd85299: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd8529e: mov rax, qword ptr [r15 + 0x309c7] ; [pool value not exported]
+0xd852a5: mov rcx, qword ptr [r14 + 0x70]
+0xd852a9: mov rcx, qword ptr [rcx + 0x4278]
+0xd852b0: mov qword ptr [rbp - 0xd8], rcx
+0xd852b7: cmp rcx, qword ptr [r14 + 0x80]
+0xd852be: je 0xd852cc
+0xd852c4: mov rdi, rcx
+0xd852c7: call 0xd81a34 ; dart_io__ServerSocket::close_d81a34
+0xd852cc: mov rax, qword ptr [rbp - 0xc8]
+0xd852d3: mov rdx, qword ptr [r14 + 0x80]
+0xd852da: mov rcx, qword ptr [r14 + 0x70]
+0xd852de: mov qword ptr [rcx + 0x4278], rdx
+0xd852e5: xor edx, edx
+0xd852e7: mov rcx, qword ptr [r14 + 0x70]
+0xd852eb: mov qword ptr [rcx + 0x4280], rdx
+0xd852f2: mov rdx, qword ptr [r14 + 0x98]
+0xd852f9: mov rcx, qword ptr [r14 + 0x70]
+0xd852fd: mov qword ptr [rcx + 0x4288], rdx
+0xd85304: mov rax, qword ptr [r14 + 0x70]
+0xd85308: mov rax, qword ptr [rax + 0x7c8]
+0xd8530f: cmp rax, qword ptr [r14 + 0x88]
+0xd85316: jne 0xd85328
+0xd8531c: mov rdx, qword ptr [r15 + 0x309a7] ; Field <_InternetAddress@16069316.loopbackIPv4>: static late (offset: 0x7c8)
+0xd85323: call 0x1532ab8 ; InitLateStaticFieldStub_1532ab8
+0xd85328: mov rdx, rax
+0xd8532b: mov rcx, qword ptr [rbp - 0xc8]
+0xd85332: mov rax, qword ptr [rcx + 0xf]
+0xd85336: sar rax, 1
+0xd85339: xor ebx, ebx
+0xd8533b: cmp rbx, rax
+0xd8533e: jae 0xd85e49
+0xd85344: mov rax, qword ptr [rcx + 0x17]
+0xd85348: mov rbx, qword ptr [rax + 0x17]
+0xd8534c: sar rbx, 1
+0xd8534f: jae 0xd85356
+0xd85351: mov rbx, qword ptr [rbx + rbx + 8]
+0xd85356: mov rdi, rdx
+0xd85359: mov rsi, rbx
+0xd8535c: call 0xcdf3f8 ; dart_io_ServerSocket::bind_cdf3f8
+0xd85361: mov rcx, rax
+0xd85364: mov qword ptr [rbp - 0xd8], rcx
+0xd8536b: call 0xa6d434 ; AwaitStub_a6d434
+0xd85370: mov rsp, rbp
+0xd85373: pop rbp
+0xd85374: ret
+0xd85375: mov rdx, rax
+0xd85378: mov qword ptr [rbp - 0xd8], rax
+0xd8537f: mov rcx, qword ptr [r14 + 0x70]
+0xd85383: mov qword ptr [rcx + 0x4278], rdx
+0xd8538a: cmp rax, qword ptr [r14 + 0x80]
+0xd85391: je 0xd85e4e
+0xd85397: mov rbx, qword ptr [r15 + 0x309cf] ; [pool value not exported]
+0xd8539e: mov rdx, qword ptr [r14 + 0x80]
+0xd853a5: call 0x15337fc ; AllocateClosureStub_15337fc
+0xd853aa: mov rdi, qword ptr [rbp - 0xd8]
+0xd853b1: mov rsi, rax
+0xd853b4: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd853b8: call 0x1424178 ; dart_io__ServerSocket::listen_1424178
+0xd853bd: mov rcx, qword ptr [rbp - 0xc8]
+0xd853c4: mov rax, qword ptr [rcx + 0xf]
+0xd853c8: sar rax, 1
+0xd853cb: mov ebx, 1
+0xd853d0: cmp rbx, rax
+0xd853d3: jae 0xd85e53
+0xd853d9: mov rax, qword ptr [rcx + 0x17]
+0xd853dd: mov rdx, qword ptr [rax + 0x1f]
+0xd853e1: mov rax, qword ptr [r14 + 0x70]
+0xd853e5: mov qword ptr [rax + 0x4280], rdx
+0xd853ec: mov rdi, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd853f3: xor esi, esi
+0xd853f5: call 0xa579f8 ; dart_core__GrowableList::factory_ctor_a579f8
+0xd853fa: mov qword ptr [rbp - 0x100], rax
+0xd85401: mov rcx, qword ptr [rax + 0xf]
+0xd85405: mov qword ptr [rbp - 0xd8], rcx
+0xd8540c: mov rdx, qword ptr [rax + 0x17]
+0xd85410: mov rbx, qword ptr [rdx + 0xf]
+0xd85414: mov rdx, rcx
+0xd85417: sar rdx, 1
+0xd8541a: mov qword ptr [rbp - 0xd0], rdx
+0xd85421: sar rbx, 1
+0xd85424: cmp rdx, rbx
+0xd85427: jne 0xd85435
+0xd8542d: mov rdi, rax
+0xd85430: call 0xa57808 ; dart_core__GrowableList::_growToNextCapacity_a57808
+0xd85435: mov rdi, qword ptr [rbp - 0x100]
+0xd8543c: mov rax, qword ptr [rbp - 0xd0]
+0xd85443: mov rcx, rax
+0xd85446: add rcx, 1
+0xd8544a: mov rdx, rcx
+0xd8544d: add rdx, rdx
+0xd85450: mov qword ptr [rdi + 0xf], rdx
+0xd85454: mov rcx, qword ptr [rdi + 0x17]
+0xd85458: mov r11, qword ptr [r15 + 0x309d7] ; String: "run2"
+0xd8545f: mov qword ptr [rcx + rax*8 + 0x17], r11
+0xd85464: mov rbx, qword ptr [r14 + 0x80]
+0xd8546b: mov r10d, 4
+0xd85471: call 0x153443c ; AllocateArrayStub_153443c
+0xd85476: mov r11, qword ptr [r15 + 0x309df] ; String: "--service-config="
+0xd8547d: mov qword ptr [rax + 0x17], r11
+0xd85481: mov rcx, qword ptr [r14 + 0x70]
+0xd85485: mov rcx, qword ptr [rcx + 0x4250]
+0xd8548c: mov qword ptr [rax + 0x1f], rcx
+0xd85490: mov qword ptr [rsp], rax
+0xd85494: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd85499: mov rcx, rax
+0xd8549c: mov rax, qword ptr [rbp - 0x100]
+0xd854a3: mov qword ptr [rbp - 0x108], rcx
+0xd854aa: mov rdx, qword ptr [rax + 0xf]
+0xd854ae: mov qword ptr [rbp - 0xd8], rdx
+0xd854b5: mov rbx, qword ptr [rax + 0x17]
+0xd854b9: mov rsi, qword ptr [rbx + 0xf]
+0xd854bd: mov rbx, rdx
+0xd854c0: sar rbx, 1
+0xd854c3: mov qword ptr [rbp - 0xd0], rbx
+0xd854ca: sar rsi, 1
+0xd854cd: cmp rbx, rsi
+0xd854d0: jne 0xd854de
+0xd854d6: mov rdi, rax
+0xd854d9: call 0xa57808 ; dart_core__GrowableList::_growToNextCapacity_a57808
+0xd854de: mov rdi, qword ptr [rbp - 0x100]
+0xd854e5: mov rcx, qword ptr [rbp - 0xd0]
+0xd854ec: mov rax, rcx
+0xd854ef: add rax, 1
+0xd854f3: mov rdx, rax
+0xd854f6: add rdx, rdx
+0xd854f9: mov qword ptr [rdi + 0xf], rdx
+0xd854fd: mov rdx, qword ptr [rdi + 0x17]
+0xd85501: mov rax, qword ptr [rbp - 0x108]
+0xd85508: lea r13, [rdx + rcx*8 + 0x17]
+0xd8550d: mov qword ptr [r13], rax
+0xd85511: test al, 1
+0xd85513: je 0xd8552c
+0xd85515: mov r11b, byte ptr [rdx - 1]
+0xd85519: shr r11d, 2
+0xd8551d: and r11d, dword ptr [r14 + 0x50]
+0xd85521: test byte ptr [rax - 1], r11b
+0xd85525: je 0xd8552c
+0xd85527: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd8552c: mov rbx, qword ptr [r14 + 0x80]
+0xd85533: mov r10d, 4
+0xd85539: call 0x153443c ; AllocateArrayStub_153443c
+0xd8553e: mov r11, qword ptr [r15 + 0x309e7] ; String: "--service-http-port="
+0xd85545: mov qword ptr [rax + 0x17], r11
+0xd85549: mov rcx, qword ptr [r14 + 0x70]
+0xd8554d: mov rcx, qword ptr [rcx + 0x4280]
+0xd85554: mov qword ptr [rax + 0x1f], rcx
+0xd85558: mov qword ptr [rsp], rax
+0xd8555c: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd85561: mov rcx, rax
+0xd85564: mov rax, qword ptr [rbp - 0x100]
+0xd8556b: mov qword ptr [rbp - 0x108], rcx
+0xd85572: mov rdx, qword ptr [rax + 0xf]
+0xd85576: mov qword ptr [rbp - 0xd8], rdx
+0xd8557d: mov rbx, qword ptr [rax + 0x17]
+0xd85581: mov rsi, qword ptr [rbx + 0xf]
+0xd85585: mov rbx, rdx
+0xd85588: sar rbx, 1
+0xd8558b: mov qword ptr [rbp - 0xd0], rbx
+0xd85592: sar rsi, 1
+0xd85595: cmp rbx, rsi
+0xd85598: jne 0xd855a6
+0xd8559e: mov rdi, rax
+0xd855a1: call 0xa57808 ; dart_core__GrowableList::_growToNextCapacity_a57808
+0xd855a6: mov rdi, qword ptr [rbp - 0x100]
+0xd855ad: mov rcx, qword ptr [rbp - 0xd0]
+0xd855b4: mov rax, rcx
+0xd855b7: add rax, 1
+0xd855bb: mov rdx, rax
+0xd855be: add rdx, rdx
+0xd855c1: mov qword ptr [rdi + 0xf], rdx
+0xd855c5: mov rdx, qword ptr [rdi + 0x17]
+0xd855c9: mov rax, qword ptr [rbp - 0x108]
+0xd855d0: lea r13, [rdx + rcx*8 + 0x17]
+0xd855d5: mov qword ptr [r13], rax
+0xd855d9: test al, 1
+0xd855db: je 0xd855f4
+0xd855dd: mov r11b, byte ptr [rdx - 1]
+0xd855e1: shr r11d, 2
+0xd855e5: and r11d, dword ptr [r14 + 0x50]
+0xd855e9: test byte ptr [rax - 1], r11b
+0xd855ed: je 0xd855f4
+0xd855ef: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd855f4: mov rbx, qword ptr [r14 + 0x80]
+0xd855fb: mov r10d, 4
+0xd85601: call 0x153443c ; AllocateArrayStub_153443c
+0xd85606: mov qword ptr [rbp - 0xd8], rax
+0xd8560d: mov r11, qword ptr [r15 + 0x309ef] ; String: "--connected-port="
+0xd85614: mov qword ptr [rax + 0x17], r11
+0xd85618: mov rdi, qword ptr [r14 + 0x70]
+0xd8561c: mov rdi, qword ptr [rdi + 0x4278]
+0xd85623: cmp rdi, qword ptr [r14 + 0x80]
+0xd8562a: je 0xd85e58
+0xd85630: call 0xcdf214 ; dart_io__ServerSocket::get_port_cdf214
+0xd85635: mov rcx, rax
+0xd85638: mov rax, rcx
+0xd8563b: add rax, rax
+0xd8563e: jno 0xd8564d
+0xd85644: call 0x15346c8 ; AllocateMintSharedWithoutFPURegsStub_15346c8
+0xd85649: mov qword ptr [rax + 7], rcx
+0xd8564d: mov rdx, qword ptr [rbp - 0xd8]
+0xd85654: lea r13, [rdx + 0x1f]
+0xd85658: mov qword ptr [r13], rax
+0xd8565c: test al, 1
+0xd8565e: je 0xd85677
+0xd85660: mov r11b, byte ptr [rdx - 1]
+0xd85664: shr r11d, 2
+0xd85668: and r11d, dword ptr [r14 + 0x50]
+0xd8566c: test byte ptr [rax - 1], r11b
+0xd85670: je 0xd85677
+0xd85672: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd85677: mov r11, qword ptr [rbp - 0xd8]
+0xd8567e: mov qword ptr [rsp], r11
+0xd85682: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd85687: mov rcx, rax
+0xd8568a: mov rax, qword ptr [rbp - 0x100]
+0xd85691: mov qword ptr [rbp - 0x108], rcx
+0xd85698: mov rdx, qword ptr [rax + 0xf]
+0xd8569c: mov qword ptr [rbp - 0xd8], rdx
+0xd856a3: mov rbx, qword ptr [rax + 0x17]
+0xd856a7: mov rsi, qword ptr [rbx + 0xf]
+0xd856ab: mov rbx, rdx
+0xd856ae: sar rbx, 1
+0xd856b1: mov qword ptr [rbp - 0xd0], rbx
+0xd856b8: sar rsi, 1
+0xd856bb: cmp rbx, rsi
+0xd856be: jne 0xd856cc
+0xd856c4: mov rdi, rax
+0xd856c7: call 0xa57808 ; dart_core__GrowableList::_growToNextCapacity_a57808
+0xd856cc: mov rbx, qword ptr [rbp - 0xc0]
+0xd856d3: mov rsi, qword ptr [rbp - 0x100]
+0xd856da: mov rcx, qword ptr [rbp - 0xd0]
+0xd856e1: mov rax, rcx
+0xd856e4: add rax, 1
+0xd856e8: mov rdx, rax
+0xd856eb: add rdx, rdx
+0xd856ee: mov qword ptr [rsi + 0xf], rdx
+0xd856f2: mov rdx, qword ptr [rsi + 0x17]
+0xd856f6: mov rax, qword ptr [rbp - 0x108]
+0xd856fd: lea r13, [rdx + rcx*8 + 0x17]
+0xd85702: mov qword ptr [r13], rax
+0xd85706: test al, 1
+0xd85708: je 0xd85721
+0xd8570a: mov r11b, byte ptr [rdx - 1]
+0xd8570e: shr r11d, 2
+0xd85712: and r11d, dword ptr [r14 + 0x50]
+0xd85716: test byte ptr [rax - 1], r11b
+0xd8571a: je 0xd85721
+0xd8571c: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd85721: mov rdi, qword ptr [r14 + 0x70]
+0xd85725: mov rdi, qword ptr [rdi + 0x4258]
+0xd8572c: call 0xa85774 ; path$path_::dirname_a85774
+0xd85731: mov rbx, rax
+0xd85734: mov rax, qword ptr [rbp - 0xc0]
+0xd8573b: mov rcx, qword ptr [r15 + 0xc97] ; String: ""
+0xd85742: mov qword ptr [rbp - 0xd8], rbx
+0xd85749: mov qword ptr [rax + 0x17], rcx
+0xd8574d: mov rdx, qword ptr [r14 + 0x98]
+0xd85754: mov rcx, qword ptr [r14 + 0x70]
+0xd85758: mov qword ptr [rcx + 0x4268], rdx
+0xd8575f: mov rdi, qword ptr [r14 + 0x70]
+0xd85763: mov rdi, qword ptr [rdi + 0x4258]
+0xd8576a: mov rsi, qword ptr [rbp - 0x100]
+0xd85771: mov rdx, rbx
+0xd85774: call 0xce32e8 ; dart_io_Process::start_ce32e8
+0xd85779: mov rcx, rax
+0xd8577c: mov qword ptr [rbp - 0x108], rcx
+0xd85783: call 0xa6d434 ; AwaitStub_a6d434
+0xd85788: mov rsp, rbp
+0xd8578b: pop rbp
+0xd8578c: ret
+0xd8578d: mov rdx, rax
+0xd85790: mov qword ptr [rbp - 0xd8], rax
+0xd85797: mov rcx, qword ptr [r14 + 0x70]
+0xd8579b: mov qword ptr [rcx + 0x4260], rdx
+0xd857a2: cmp rax, qword ptr [r14 + 0x80]
+0xd857a9: je 0xd85805
+0xd857af: mov rdi, rax
+0xd857b2: call 0xce596c ; dart_io__ProcessImpl::get_stdout_ce596c
+0xd857b7: mov r11, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd857be: mov qword ptr [rsp + 0x10], r11
+0xd857c3: mov qword ptr [rsp + 8], rax
+0xd857c8: mov r11, qword ptr [r15 + 0x1cef] ; [pool value not exported]
+0xd857cf: mov qword ptr [rsp], r11
+0xd857d3: mov r10, qword ptr [r15 + 0x3f] ; [pool value not exported]
+0xd857d7: call 0xc4b564 ; dart_async_Stream::transform_c4b564
+0xd857dc: mov rbx, qword ptr [r15 + 0x309f7] ; Function: [dart:ui] Shader::Shader._ (0x152b4c0)
+0xd857e3: mov rdx, qword ptr [r14 + 0x80]
+0xd857ea: mov qword ptr [rbp - 0x100], rax
+0xd857f1: call 0x15337fc ; AllocateClosureStub_15337fc
+0xd857f6: mov rdi, qword ptr [rbp - 0x100]
+0xd857fd: mov rsi, rax
+0xd85800: call 0xd85f8c ; dart_async_Stream::forEach_d85f8c
+0xd85805: mov rax, qword ptr [r14 + 0x70]
+0xd85809: mov rax, qword ptr [rax + 0x4260]
+0xd85810: mov qword ptr [rbp - 0xd8], rax
+0xd85817: cmp rax, qword ptr [r14 + 0x80]
+0xd8581e: je 0xd8587a
+0xd85824: mov rdi, rax
+0xd85827: call 0xce5934 ; dart_io__ProcessImpl::get_stderr_ce5934
+0xd8582c: mov r11, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd85833: mov qword ptr [rsp + 0x10], r11
+0xd85838: mov qword ptr [rsp + 8], rax
+0xd8583d: mov r11, qword ptr [r15 + 0x1cef] ; [pool value not exported]
+0xd85844: mov qword ptr [rsp], r11
+0xd85848: mov r10, qword ptr [r15 + 0x3f] ; [pool value not exported]
+0xd8584c: call 0xc4b564 ; dart_async_Stream::transform_c4b564
+0xd85851: mov rdx, qword ptr [rbp - 0xc0]
+0xd85858: mov rbx, qword ptr [r15 + 0x309ff] ; [pool value not exported]
+0xd8585f: mov qword ptr [rbp - 0x100], rax
+0xd85866: call 0x15337fc ; AllocateClosureStub_15337fc
+0xd8586b: mov rdi, qword ptr [rbp - 0x100]
+0xd85872: mov rsi, rax
+0xd85875: call 0xd85f8c ; dart_async_Stream::forEach_d85f8c
+0xd8587a: mov rdi, qword ptr [r14 + 0x70]
+0xd8587e: mov rdi, qword ptr [rdi + 0x4260]
+0xd85885: cmp rdi, qword ptr [r14 + 0x80]
+0xd8588c: je 0xd85e5d
+0xd85892: call 0xc4ac50 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::waitProcessExit_c4ac50
+0xd85897: mov qword ptr [rbp - 0xd8], rax
+0xd8589e: call 0xd85ebc ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::waitConnect_d85ebc
+0xd858a3: mov rdi, qword ptr [rbp - 0xb0]
+0xd858aa: mov qword ptr [rbp - 0x100], rax
+0xd858b1: call 0xc49028 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::waitTimeout_c49028
+0xd858b6: mov rbx, qword ptr [r14 + 0x80]
+0xd858bd: mov r10d, 6
+0xd858c3: mov qword ptr [rbp - 0x108], rax
+0xd858ca: call 0x153443c ; AllocateArrayStub_153443c
+0xd858cf: mov rcx, rax
+0xd858d2: mov rax, qword ptr [rbp - 0xd8]
+0xd858d9: mov qword ptr [rbp - 0x110], rcx
+0xd858e0: mov qword ptr [rcx + 0x17], rax
+0xd858e4: mov rax, qword ptr [rbp - 0x100]
+0xd858eb: mov qword ptr [rcx + 0x1f], rax
+0xd858ef: mov rax, qword ptr [rbp - 0x108]
+0xd858f6: mov qword ptr [rcx + 0x27], rax
+0xd858fa: mov rdx, qword ptr [r15 + 0x2fc6f] ; TypeArguments: <Future<VpnServiceWaitResult>>
+0xd85901: call 0x1533474 ; AllocateGrowableArrayStub_1533474
+0xd85906: mov rcx, rax
+0xd85909: mov rax, qword ptr [rbp - 0x110]
+0xd85910: mov qword ptr [rcx + 0x17], rax
+0xd85914: mov qword ptr [rcx + 0xf], 6
+0xd8591c: mov r11, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xd85923: mov qword ptr [rsp + 8], r11
+0xd85928: mov qword ptr [rsp], rcx
+0xd8592c: mov r10, qword ptr [r15 + 0x6ff] ; [pool value not exported]
+0xd85933: call 0xc48e00 ; dart_async_Future::any_c48e00
+0xd85938: mov rcx, rax
+0xd8593b: mov qword ptr [rbp - 0xd8], rcx
+0xd85942: call 0xa6d434 ; AwaitStub_a6d434
+0xd85947: mov rsp, rbp
+0xd8594a: pop rbp
+0xd8594b: ret
+0xd8594c: mov qword ptr [rbp - 0x100], rax
+0xd85953: mov rcx, qword ptr [r14 + 0x70]
+0xd85957: mov rcx, qword ptr [rcx + 0x4278]
+0xd8595e: mov qword ptr [rbp - 0xd8], rcx
+0xd85965: cmp rcx, qword ptr [r14 + 0x80]
+0xd8596c: je 0xd85981
+0xd85972: mov rdi, rcx
+0xd85975: call 0xd81a34 ; dart_io__ServerSocket::close_d81a34
+0xd8597a: mov rax, qword ptr [rbp - 0x100]
+0xd85981: mov rdx, qword ptr [r14 + 0x80]
+0xd85988: mov rcx, qword ptr [r14 + 0x70]
+0xd8598c: mov qword ptr [rcx + 0x4278], rdx
+0xd85993: mov rdx, qword ptr [r14 + 0x98]
+0xd8599a: mov rcx, qword ptr [r14 + 0x70]
+0xd8599e: mov qword ptr [rcx + 0x4288], rdx
+0xd859a5: mov rcx, qword ptr [rax + 7]
+0xd859a9: mov rdx, qword ptr [rcx + 7]
+0xd859ad: cmp rdx, 1
+0xd859b1: jg 0xd85c41
+0xd859b7: cmp rdx, 0
+0xd859bb: jg 0xd85b11
+0xd859c1: mov rcx, qword ptr [r14 + 0x70]
+0xd859c5: mov rcx, qword ptr [rcx + 0x4260]
+0xd859cc: mov qword ptr [rbp - 0xd8], rcx
+0xd859d3: cmp rcx, qword ptr [r14 + 0x80]
+0xd859da: je 0xd859ef
+0xd859e0: mov rdi, rcx
+0xd859e3: call 0xd85e68 ; dart_io__ProcessImpl::kill_d85e68
+0xd859e8: mov rax, qword ptr [rbp - 0x100]
+0xd859ef: mov rsi, qword ptr [rbp - 0xb8]
+0xd859f6: mov rcx, qword ptr [rbp - 0xc0]
+0xd859fd: mov rbx, qword ptr [r15 + 0x309c7] ; [pool value not exported]
+0xd85a04: mov rdx, qword ptr [r14 + 0x80]
+0xd85a0b: mov rdi, qword ptr [r14 + 0x70]
+0xd85a0f: mov qword ptr [rdi + 0x4260], rdx
+0xd85a16: mov rdx, qword ptr [r14 + 0x98]
+0xd85a1d: mov rdi, qword ptr [r14 + 0x70]
+0xd85a21: mov qword ptr [rdi + 0x4268], rdx
+0xd85a28: mov qword ptr [rax + 7], rbx
+0xd85a2c: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xd85a31: mov rbx, qword ptr [r14 + 0x80]
+0xd85a38: mov r10d, 0xc
+0xd85a3e: mov qword ptr [rbp - 0xd8], rax
+0xd85a45: call 0x153443c ; AllocateArrayStub_153443c
+0xd85a4a: mov r11, qword ptr [r15 + 0x30a07] ; String: [not exported]
+0xd85a51: mov qword ptr [rax + 0x17], r11
+0xd85a55: mov rcx, qword ptr [rbp - 0xb8]
+0xd85a5c: mov qword ptr [rax + 0x1f], rcx
+0xd85a60: mov r11, qword ptr [r15 + 0x30a0f] ; String: [not exported]
+0xd85a67: mov qword ptr [rax + 0x27], r11
+0xd85a6b: mov rdx, qword ptr [rbp - 0x100]
+0xd85a72: mov rbx, qword ptr [rdx + 0x17]
+0xd85a76: cmp rbx, qword ptr [r14 + 0x80]
+0xd85a7d: je 0xd85e62
+0xd85a83: mov qword ptr [rax + 0x2f], rbx
+0xd85a87: mov r11, qword ptr [r15 + 0x14a7] ; String: [not exported]
+0xd85a8e: mov qword ptr [rax + 0x37], r11
+0xd85a92: mov rbx, qword ptr [rbp - 0xc0]
+0xd85a99: mov rsi, qword ptr [rbx + 0x17]
+0xd85a9d: mov qword ptr [rax + 0x3f], rsi
+0xd85aa1: mov qword ptr [rsp], rax
+0xd85aa5: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd85aaa: mov rcx, qword ptr [rbp - 0xd8]
+0xd85ab1: mov qword ptr [rcx + 7], rax
+0xd85ab5: mov r11b, byte ptr [rcx - 1]
+0xd85ab9: shr r11d, 2
+0xd85abd: and r11d, dword ptr [r14 + 0x50]
+0xd85ac1: test byte ptr [rax - 1], r11b
+0xd85ac5: je 0xd85acc
+0xd85ac7: call 0x1532e19
+0xd85acc: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xd85ad1: mov rsi, rax
+0xd85ad4: mov rdi, qword ptr [r14 + 0x80]
+0xd85adb: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xd85ae0: mov rax, qword ptr [rbp - 0xd8]
+0xd85ae7: mov rcx, qword ptr [rbp - 0x100]
+0xd85aee: mov qword ptr [rcx + 0xf], rax
+0xd85af2: mov r11b, byte ptr [rcx - 1]
+0xd85af6: shr r11d, 2
+0xd85afa: and r11d, dword ptr [r14 + 0x50]
+0xd85afe: test byte ptr [rax - 1], r11b
+0xd85b02: je 0xd85b09
+0xd85b04: call 0x1532e19
+0xd85b09: mov rax, rcx
+0xd85b0c: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xd85b11: mov rbx, qword ptr [rbp - 0xc0]
+0xd85b18: mov rcx, rax
+0xd85b1b: mov rax, qword ptr [r14 + 0x70]
+0xd85b1f: mov rax, qword ptr [rax + 0x4260]
+0xd85b26: mov qword ptr [rbp - 0xd8], rax
+0xd85b2d: cmp rax, qword ptr [r14 + 0x80]
+0xd85b34: jne 0xd85b42
+0xd85b3a: mov rax, rbx
+0xd85b3d: jmp 0xd85b58
+0xd85b42: mov rdi, rax
+0xd85b45: call 0xd85e68 ; dart_io__ProcessImpl::kill_d85e68
+0xd85b4a: mov rax, qword ptr [rbp - 0xc0]
+0xd85b51: mov rcx, qword ptr [rbp - 0x100]
+0xd85b58: mov rbx, qword ptr [rbp - 0xb8]
+0xd85b5f: mov rdx, qword ptr [r14 + 0x80]
+0xd85b66: mov rsi, qword ptr [r14 + 0x70]
+0xd85b6a: mov qword ptr [rsi + 0x4260], rdx
+0xd85b71: mov rdx, qword ptr [r14 + 0x98]
+0xd85b78: mov rsi, qword ptr [r14 + 0x70]
+0xd85b7c: mov qword ptr [rsi + 0x4268], rdx
+0xd85b83: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xd85b88: mov rbx, qword ptr [r14 + 0x80]
+0xd85b8f: mov r10d, 8
+0xd85b95: mov qword ptr [rbp - 0xd8], rax
+0xd85b9c: call 0x153443c ; AllocateArrayStub_153443c
+0xd85ba1: mov r11, qword ptr [r15 + 0x30a07] ; String: [not exported]
+0xd85ba8: mov qword ptr [rax + 0x17], r11
+0xd85bac: mov rcx, qword ptr [rbp - 0xb8]
+0xd85bb3: mov qword ptr [rax + 0x1f], rcx
+0xd85bb7: mov r11, qword ptr [r15 + 0x30a17] ; String: [not exported]
+0xd85bbe: mov qword ptr [rax + 0x27], r11
+0xd85bc2: mov rdx, qword ptr [rbp - 0xc0]
+0xd85bc9: mov rbx, qword ptr [rdx + 0x17]
+0xd85bcd: mov qword ptr [rax + 0x2f], rbx
+0xd85bd1: mov qword ptr [rsp], rax
+0xd85bd5: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd85bda: mov rcx, qword ptr [rbp - 0xd8]
+0xd85be1: mov qword ptr [rcx + 7], rax
+0xd85be5: mov r11b, byte ptr [rcx - 1]
+0xd85be9: shr r11d, 2
+0xd85bed: and r11d, dword ptr [r14 + 0x50]
+0xd85bf1: test byte ptr [rax - 1], r11b
+0xd85bf5: je 0xd85bfc
+0xd85bf7: call 0x1532e19
+0xd85bfc: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xd85c01: mov rsi, rax
+0xd85c04: mov rdi, qword ptr [r14 + 0x80]
+0xd85c0b: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xd85c10: mov rax, qword ptr [rbp - 0xd8]
+0xd85c17: mov rcx, qword ptr [rbp - 0x100]
+0xd85c1e: mov qword ptr [rcx + 0xf], rax
+0xd85c22: mov r11b, byte ptr [rcx - 1]
+0xd85c26: shr r11d, 2
+0xd85c2a: and r11d, dword ptr [r14 + 0x50]
+0xd85c2e: test byte ptr [rax - 1], r11b
+0xd85c32: je 0xd85c39
+0xd85c34: call 0x1532e19
+0xd85c39: mov rax, rcx
+0xd85c3c: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xd85c41: mov rcx, rax
+0xd85c44: cmp rdx, 2
+0xd85c48: jg 0xd85ca5
+0xd85c4e: mov rax, qword ptr [r14 + 0x70]
+0xd85c52: mov rax, qword ptr [rax + 0x4260]
+0xd85c59: mov qword ptr [rbp - 0xc0], rax
+0xd85c60: cmp rax, qword ptr [r14 + 0x80]
+0xd85c67: je 0xd85c75
+0xd85c6d: mov rdi, rax
+0xd85c70: call 0xd85e68 ; dart_io__ProcessImpl::kill_d85e68
+0xd85c75: mov rdx, qword ptr [r14 + 0x80]
+0xd85c7c: mov rax, qword ptr [r14 + 0x70]
+0xd85c80: mov qword ptr [rax + 0x4260], rdx
+0xd85c87: mov rdx, qword ptr [r14 + 0x98]
+0xd85c8e: mov rax, qword ptr [r14 + 0x70]
+0xd85c92: mov qword ptr [rax + 0x4268], rdx
+0xd85c99: mov rax, qword ptr [rbp - 0x100]
+0xd85ca0: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xd85ca5: mov rdx, qword ptr [r14 + 0x90]
+0xd85cac: mov rax, qword ptr [r14 + 0x70]
+0xd85cb0: mov qword ptr [rax + 0x4268], rdx
+0xd85cb7: mov rax, qword ptr [r14 + 0x70]
+0xd85cbb: mov rax, qword ptr [rax + 0x4260]
+0xd85cc2: mov qword ptr [rbp - 0xc0], rax
+0xd85cc9: cmp rax, qword ptr [r14 + 0x80]
+0xd85cd0: je 0xd85d1d
+0xd85cd6: mov rdi, rax
+0xd85cd9: call 0xc4ad10 ; dart_io__ProcessImpl::get_exitCode_c4ad10
+0xd85cde: mov rbx, qword ptr [r15 + 0x30a1f] ; [pool value not exported]
+0xd85ce5: mov rdx, qword ptr [r14 + 0x80]
+0xd85cec: mov qword ptr [rbp - 0xd8], rax
+0xd85cf3: call 0x15337fc ; AllocateClosureStub_15337fc
+0xd85cf8: mov r11, qword ptr [r15 + 0x427] ; TypeArguments: <Null?>
+0xd85cff: mov qword ptr [rsp + 0x10], r11
+0xd85d04: mov r11, qword ptr [rbp - 0xd8]
+0xd85d0b: mov qword ptr [rsp + 8], r11
+0xd85d10: mov qword ptr [rsp], rax
+0xd85d14: mov r10, qword ptr [r15 + 0x3f] ; [pool value not exported]
+0xd85d18: call 0x145a9a0 ; dart_async__Future::then_145a9a0
+0xd85d1d: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xd85d22: mov rcx, rax
+0xd85d25: mov rax, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xd85d2c: mov qword ptr [rcx + 7], rax
+0xd85d30: mov rax, rcx
+0xd85d33: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd85d38: lea rsp, [rbp - 0x128]
+0xd85d3f: mov rcx, qword ptr [rbp - 0xb8]
+0xd85d46: mov qword ptr [rbp - 0xc0], rax
+0xd85d4d: mov rbx, qword ptr [r14 + 0x80]
+0xd85d54: mov r10d, 8
+0xd85d5a: call 0x153443c ; AllocateArrayStub_153443c
+0xd85d5f: mov r11, qword ptr [r15 + 0x30a07] ; String: [not exported]
+0xd85d66: mov qword ptr [rax + 0x17], r11
+0xd85d6a: mov rcx, qword ptr [rbp - 0xb8]
+0xd85d71: mov qword ptr [rax + 0x1f], rcx
+0xd85d75: mov r11, qword ptr [r15 + 0x30a27] ; String: [not exported]
+0xd85d7c: mov qword ptr [rax + 0x27], r11
+0xd85d80: mov rcx, qword ptr [rbp - 0xc0]
+0xd85d87: mov qword ptr [rax + 0x2f], rcx
+0xd85d8b: mov qword ptr [rsp], rax
+0xd85d8f: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xd85d94: mov qword ptr [rbp - 0xc0], rax
+0xd85d9b: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xd85da0: mov rcx, rax
+0xd85da3: mov rax, qword ptr [rbp - 0xc0]
+0xd85daa: mov qword ptr [rbp - 0xd8], rcx
+0xd85db1: mov qword ptr [rcx + 7], rax
+0xd85db5: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xd85dba: mov rsi, rax
+0xd85dbd: mov rdi, qword ptr [r14 + 0x80]
+0xd85dc4: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xd85dc9: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xd85dce: mov rdx, qword ptr [r15 + 0x309c7] ; [pool value not exported]
+0xd85dd5: mov qword ptr [rax + 7], rdx
+0xd85dd9: mov rcx, qword ptr [rbp - 0xd8]
+0xd85de0: mov qword ptr [rax + 0xf], rcx
+0xd85de4: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd85de9: mov rbx, rcx
+0xd85dec: mov rcx, qword ptr [rbp - 0xb8]
+0xd85df3: mov rax, rdx
+0xd85df6: mov rdx, qword ptr [r15 + 0x309c7] ; [pool value not exported]
+0xd85dfd: call 0xa58044 ; AllocateConcurrentModificationErrorStub_a58044
+0xd85e02: mov rcx, rax
+0xd85e05: mov rax, qword ptr [rbp - 0xe0]
+0xd85e0c: mov qword ptr [rbp - 0xc0], rcx
+0xd85e13: mov qword ptr [rcx + 0xf], rax
+0xd85e17: mov rax, rcx
+0xd85e1a: call 0x1532b58 ; ThrowStub_1532b58
+0xd85e1f: int3
+0xd85e20: call qword ptr [r14 + 0x238]
+0xd85e27: jmp 0xd84ceb
+0xd85e2c: call qword ptr [r14 + 0x238]
+0xd85e33: jmp 0xd84d87
+0xd85e38: call qword ptr [r14 + 0x238]
+0xd85e3f: jmp 0xd85084
+0xd85e44: call 0x1534a70 ; RangeErrorSharedWithoutFPURegsStub_1534a70
+0xd85e49: call 0x1534a70 ; RangeErrorSharedWithoutFPURegsStub_1534a70
+0xd85e4e: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xd85e53: call 0x1534a70 ; RangeErrorSharedWithoutFPURegsStub_1534a70
+0xd85e58: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xd85e5d: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xd85e62: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xd85e67: int3
+
+# PathUtils.profileDir
+0xa7f850: push rbp
+0xa7f851: mov rbp, rsp
+0xa7f854: sub rsp, 0x78
+0xa7f858: mov rax, qword ptr [r14 + 0x80]
+0xa7f85f: mov qword ptr [rbp - 8], rax
+0xa7f863: cmp rsp, qword ptr [r14 + 0x48]
+0xa7f867: jbe 0xa7f9fa
+0xa7f86d: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xa7f874: call 0xa6d678 ; InitAsyncStub_a6d678
+0xa7f879: mov rax, qword ptr [r14 + 0x70]
+0xa7f87d: mov rax, qword ptr [rax + 0x1e70]
+0xa7f884: mov rcx, qword ptr [rax + 7]
+0xa7f888: test rcx, rcx
+0xa7f88b: je 0xa7f896
+0xa7f891: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7f896: call 0xa856f8 ; karing$app$utils$path_utils_PathUtils::profileDirForPortableMode_a856f8
+0xa7f89b: mov qword ptr [rbp - 0x60], rax
+0xa7f89f: call 0xa64fac ; dart_io_IOOverrides::get_current_a64fac
+0xa7f8a4: call 0xa64c18 ; Allocate_DirectoryStub_a64c18
+0xa7f8a9: mov rcx, rax
+0xa7f8ac: mov rax, qword ptr [rbp - 0x60]
+0xa7f8b0: mov qword ptr [rbp - 0x68], rcx
+0xa7f8b4: mov qword ptr [rcx + 7], rax
+0xa7f8b8: mov rdi, rax
+0xa7f8bb: call 0xa64e8c ; dart_io_FileSystemEntity::_toUtf8Array_a64e8c
+0xa7f8c0: mov rcx, qword ptr [rbp - 0x68]
+0xa7f8c4: mov qword ptr [rcx + 0xf], rax
+0xa7f8c8: mov r11b, byte ptr [rcx - 1]
+0xa7f8cc: shr r11d, 2
+0xa7f8d0: and r11d, dword ptr [r14 + 0x50]
+0xa7f8d4: test byte ptr [rax - 1], r11b
+0xa7f8d8: je 0xa7f8df
+0xa7f8da: call 0x1532e19
+0xa7f8df: mov rdi, rcx
+0xa7f8e2: call 0xa855bc ; dart_io__Directory::exists_a855bc
+0xa7f8e7: mov rcx, rax
+0xa7f8ea: mov qword ptr [rbp - 0x70], rcx
+0xa7f8ee: call 0xa6d434 ; AwaitStub_a6d434
+0xa7f8f3: mov rsp, rbp
+0xa7f8f6: pop rbp
+0xa7f8f7: ret
+0xa7f8f8: cmp rax, qword ptr [r14 + 0x90]
+0xa7f8ff: jne 0xa7f9d1
+0xa7f905: mov rdi, qword ptr [rbp - 0x60]
+0xa7f909: mov rsi, qword ptr [r15 + 0xda97] ; String: "__test_dir__"
+0xa7f910: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xa7f914: call 0xa7b500 ; path$path_::join_a7b500
+0xa7f919: mov qword ptr [rbp - 0x68], rax
+0xa7f91d: call 0xa64fac ; dart_io_IOOverrides::get_current_a64fac
+0xa7f922: call 0xa64c18 ; Allocate_DirectoryStub_a64c18
+0xa7f927: mov rdi, qword ptr [rbp - 0x68]
+0xa7f92b: mov qword ptr [rbp - 0x70], rax
+0xa7f92f: mov qword ptr [rax + 7], rdi
+0xa7f933: call 0xa64e8c ; dart_io_FileSystemEntity::_toUtf8Array_a64e8c
+0xa7f938: mov rcx, qword ptr [rbp - 0x70]
+0xa7f93c: mov qword ptr [rcx + 0xf], rax
+0xa7f940: mov r11b, byte ptr [rcx - 1]
+0xa7f944: shr r11d, 2
+0xa7f948: and r11d, dword ptr [r14 + 0x50]
+0xa7f94c: test byte ptr [rax - 1], r11b
+0xa7f950: je 0xa7f957
+0xa7f952: call 0x1532e19
+0xa7f957: mov r11, qword ptr [r14 + 0x90]
+0xa7f95e: mov qword ptr [rsp], r11
+0xa7f962: mov rdi, rcx
+0xa7f965: mov r10, qword ptr [r15 + 0xa5b7] ; [pool value not exported]
+0xa7f96c: call 0xa84d30 ; dart_io__Directory::create_a84d30
+0xa7f971: mov rcx, rax
+0xa7f974: mov qword ptr [rbp - 0x68], rcx
+0xa7f978: call 0xa6d434 ; AwaitStub_a6d434
+0xa7f97d: mov rsp, rbp
+0xa7f980: pop rbp
+0xa7f981: ret
+0xa7f982: mov rdi, qword ptr [rbp - 0x70]
+0xa7f986: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xa7f98d: call 0xa84cd0 ; dart_io_FileSystemEntity::delete_a84cd0
+0xa7f992: mov rcx, rax
+0xa7f995: mov qword ptr [rbp - 0x68], rcx
+0xa7f999: call 0xa6d434 ; AwaitStub_a6d434
+0xa7f99e: mov rsp, rbp
+0xa7f9a1: pop rbp
+0xa7f9a2: ret
+0xa7f9a3: mov rdx, qword ptr [rbp - 0x60]
+0xa7f9a7: mov rax, qword ptr [r14 + 0x70]
+0xa7f9ab: mov qword ptr [rax + 0x1e70], rdx
+0xa7f9b2: mov rdx, qword ptr [r14 + 0x90]
+0xa7f9b9: mov rax, qword ptr [r14 + 0x70]
+0xa7f9bd: mov qword ptr [rax + 0x1e78], rdx
+0xa7f9c4: mov rax, qword ptr [rbp - 0x60]
+0xa7f9c8: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7f9cd: lea rsp, [rbp - 0x78]
+0xa7f9d1: call 0xa7fa08 ; karing$app$utils$path_utils_PathUtils::profileDirNonPortable_a7fa08
+0xa7f9d6: mov rcx, rax
+0xa7f9d9: mov qword ptr [rbp - 0x60], rcx
+0xa7f9dd: call 0xa6d434 ; AwaitStub_a6d434
+0xa7f9e2: mov rsp, rbp
+0xa7f9e5: pop rbp
+0xa7f9e6: ret
+0xa7f9e7: mov rdx, rax
+0xa7f9ea: mov rcx, qword ptr [r14 + 0x70]
+0xa7f9ee: mov qword ptr [rcx + 0x1e70], rdx
+0xa7f9f5: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7f9fa: call qword ptr [r14 + 0x238]
+0xa7fa01: jmp 0xa7f86d
+0xa7fa06: int3
+0xa7fa07: int3
+
+# PathUtils.profileDirNonPortable
+0xa7fa08: push rbp
+0xa7fa09: mov rbp, rsp
+0xa7fa0c: sub rsp, 0x20
+0xa7fa10: mov rax, qword ptr [r14 + 0x80]
+0xa7fa17: mov qword ptr [rbp - 8], rax
+0xa7fa1b: cmp rsp, qword ptr [r14 + 0x48]
+0xa7fa1f: jbe 0xa7fac3
+0xa7fa25: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xa7fa2c: call 0xa6d678 ; InitAsyncStub_a6d678
+0xa7fa31: call 0xa7fad0 ; vpn_service$vpn_service_FlutterVpnService::getAppGroupDirectory_a7fad0
+0xa7fa36: mov rcx, rax
+0xa7fa39: mov qword ptr [rbp - 0x10], rcx
+0xa7fa3d: call 0xa6d434 ; AwaitStub_a6d434
+0xa7fa42: mov rsp, rbp
+0xa7fa45: pop rbp
+0xa7fa46: ret
+0xa7fa47: mov qword ptr [rbp - 0x10], rax
+0xa7fa4b: cmp rax, qword ptr [r14 + 0x80]
+0xa7fa52: je 0xa7fab7
+0xa7fa58: mov rdi, rax
+0xa7fa5b: call 0xa855bc ; dart_io__Directory::exists_a855bc
+0xa7fa60: mov rcx, rax
+0xa7fa63: mov qword ptr [rbp - 0x18], rcx
+0xa7fa67: call 0xa6d434 ; AwaitStub_a6d434
+0xa7fa6c: mov rsp, rbp
+0xa7fa6f: pop rbp
+0xa7fa70: ret
+0xa7fa71: cmp rax, qword ptr [r14 + 0x90]
+0xa7fa78: je 0xa7faaa
+0xa7fa7e: mov r11, qword ptr [r14 + 0x90]
+0xa7fa85: mov qword ptr [rsp], r11
+0xa7fa89: mov rdi, qword ptr [rbp - 0x10]
+0xa7fa8d: mov r10, qword ptr [r15 + 0xa5b7] ; [pool value not exported]
+0xa7fa94: call 0xa84d30 ; dart_io__Directory::create_a84d30
+0xa7fa99: mov rcx, rax
+0xa7fa9c: mov qword ptr [rbp - 0x18], rcx
+0xa7faa0: call 0xa6d434 ; AwaitStub_a6d434
+0xa7faa5: mov rsp, rbp
+0xa7faa8: pop rbp
+0xa7faa9: ret
+0xa7faaa: mov rcx, qword ptr [rbp - 0x10]
+0xa7faae: mov rax, qword ptr [rcx + 7]
+0xa7fab2: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7fab7: mov rax, qword ptr [r15 + 0xc97] ; String: ""
+0xa7fabe: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7fac3: call qword ptr [r14 + 0x238]
+0xa7faca: jmp 0xa7fa25
+0xa7facf: int3
+
+# PathUtils.profileDirForPortableMode
+0xa856f8: push rbp
+0xa856f9: mov rbp, rsp
+0xa856fc: cmp rsp, qword ptr [r14 + 0x48]
+0xa85700: jbe 0xa85723
+0xa85706: call 0xa8572c ; karing$app$utils$path_utils_PathUtils::exeDir_a8572c
+0xa8570b: mov rdi, rax
+0xa8570e: mov rsi, qword ptr [r15 + 0xdb9f] ; String: "profiles"
+0xa85715: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xa85719: call 0xa7b500 ; path$path_::join_a7b500
+0xa8571e: mov rsp, rbp
+0xa85721: pop rbp
+0xa85722: ret
+0xa85723: call qword ptr [r14 + 0x238]
+0xa8572a: jmp 0xa85706
+
+# PathUtils.cacheDir
+0xcb1014: push rbp
+0xcb1015: mov rbp, rsp
+0xcb1018: sub rsp, 0x18
+0xcb101c: mov rax, qword ptr [r14 + 0x80]
+0xcb1023: mov qword ptr [rbp - 8], rax
+0xcb1027: cmp rsp, qword ptr [r14 + 0x48]
+0xcb102b: jbe 0xcb108c
+0xcb1031: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xcb1038: call 0xa6d678 ; InitAsyncStub_a6d678
+0xcb103d: call 0xa7f850 ; karing$app$utils$path_utils_PathUtils::profileDir_a7f850
+0xcb1042: mov rcx, rax
+0xcb1045: mov qword ptr [rbp - 0x10], rcx
+0xcb1049: call 0xa6d434 ; AwaitStub_a6d434
+0xcb104e: mov rsp, rbp
+0xcb1051: pop rbp
+0xcb1052: ret
+0xcb1053: mov rdi, rax
+0xcb1056: mov rsi, qword ptr [r15 + 0xda0f] ; String: "cache"
+0xcb105d: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xcb1061: call 0xa7b500 ; path$path_::join_a7b500
+0xcb1066: mov rdi, rax
+0xcb1069: mov qword ptr [rbp - 0x10], rax
+0xcb106d: call 0xcb1098 ; karing$app$utils$file_utils_FileUtils::createDir_cb1098
+0xcb1072: mov rcx, rax
+0xcb1075: mov qword ptr [rbp - 0x18], rcx
+0xcb1079: call 0xa6d434 ; AwaitStub_a6d434
+0xcb107e: mov rsp, rbp
+0xcb1081: pop rbp
+0xcb1082: ret
+0xcb1083: mov rax, qword ptr [rbp - 0x10]
+0xcb1087: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xcb108c: call qword ptr [r14 + 0x238]
+0xcb1093: jmp 0xcb1031
+0xcb1095: int3
+0xcb1096: int3
+0xcb1097: int3
+
+# PathUtils.serviceStdErrorFilePath
+0xd84454: push rbp
+0xd84455: mov rbp, rsp
+0xd84458: sub rsp, 0x10
+0xd8445c: mov rax, qword ptr [r14 + 0x80]
+0xd84463: mov qword ptr [rbp - 8], rax
+0xd84467: cmp rsp, qword ptr [r14 + 0x48]
+0xd8446b: jbe 0xd844ab
+0xd84471: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd84478: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd8447d: call 0xa7f850 ; karing$app$utils$path_utils_PathUtils::profileDir_a7f850
+0xd84482: mov rcx, rax
+0xd84485: mov qword ptr [rbp - 0x10], rcx
+0xd84489: call 0xa6d434 ; AwaitStub_a6d434
+0xd8448e: mov rsp, rbp
+0xd84491: pop rbp
+0xd84492: ret
+0xd84493: mov rdi, rax
+0xd84496: mov rsi, qword ptr [r15 + 0x30947] ; String: "service_error.log"
+0xd8449d: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd844a1: call 0xa7b500 ; path$path_::join_a7b500
+0xd844a6: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd844ab: call qword ptr [r14 + 0x238]
+0xd844b2: jmp 0xd84471
+
+# PathUtils.serviceLogFilePath
+0xd87f24: push rbp
+0xd87f25: mov rbp, rsp
+0xd87f28: sub rsp, 0x10
+0xd87f2c: mov rax, qword ptr [r14 + 0x80]
+0xd87f33: mov qword ptr [rbp - 8], rax
+0xd87f37: cmp rsp, qword ptr [r14 + 0x48]
+0xd87f3b: jbe 0xd87f7b
+0xd87f41: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd87f48: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd87f4d: call 0xa7f850 ; karing$app$utils$path_utils_PathUtils::profileDir_a7f850
+0xd87f52: mov rcx, rax
+0xd87f55: mov qword ptr [rbp - 0x10], rcx
+0xd87f59: call 0xa6d434 ; AwaitStub_a6d434
+0xd87f5e: mov rsp, rbp
+0xd87f61: pop rbp
+0xd87f62: ret
+0xd87f63: mov rdi, rax
+0xd87f66: mov rsi, qword ptr [r15 + 0x30cc7] ; String: "service_core.log"
+0xd87f6d: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd87f71: call 0xa7b500 ; path$path_::join_a7b500
+0xd87f76: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd87f7b: call qword ptr [r14 + 0x238]
+0xd87f82: jmp 0xd87f41
+
+# PathUtils.serviceCoreConfigFilePath
+0xd87f84: push rbp
+0xd87f85: mov rbp, rsp
+0xd87f88: sub rsp, 0x10
+0xd87f8c: mov rax, qword ptr [r14 + 0x80]
+0xd87f93: mov qword ptr [rbp - 8], rax
+0xd87f97: cmp rsp, qword ptr [r14 + 0x48]
+0xd87f9b: jbe 0xd87fdb
+0xd87fa1: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd87fa8: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd87fad: call 0xa7f850 ; karing$app$utils$path_utils_PathUtils::profileDir_a7f850
+0xd87fb2: mov rcx, rax
+0xd87fb5: mov qword ptr [rbp - 0x10], rcx
+0xd87fb9: call 0xa6d434 ; AwaitStub_a6d434
+0xd87fbe: mov rsp, rbp
+0xd87fc1: pop rbp
+0xd87fc2: ret
+0xd87fc3: mov rdi, rax
+0xd87fc6: mov rsi, qword ptr [r15 + 0x30ccf] ; String: "service_core.json"
+0xd87fcd: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd87fd1: call 0xa7b500 ; path$path_::join_a7b500
+0xd87fd6: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd87fdb: call qword ptr [r14 + 0x238]
+0xd87fe2: jmp 0xd87fa1
+
+# PathUtils.appAssetsDir
+0xd87fe4: push rbp
+0xd87fe5: mov rbp, rsp
+0xd87fe8: cmp rsp, qword ptr [r14 + 0x48]
+0xd87fec: jbe 0xd88048
+0xd87ff2: mov rax, qword ptr [r14 + 0x70]
+0xd87ff6: mov rax, qword ptr [rax + 0x1e68]
+0xd87ffd: mov rcx, qword ptr [rax + 7]
+0xd88001: test rcx, rcx
+0xd88004: je 0xd8800f
+0xd8800a: mov rsp, rbp
+0xd8800d: pop rbp
+0xd8800e: ret
+0xd8800f: call 0xa8572c ; karing$app$utils$path_utils_PathUtils::exeDir_a8572c
+0xd88014: mov rdx, rax
+0xd88017: mov rcx, qword ptr [r14 + 0x70]
+0xd8801b: mov qword ptr [rcx + 0x1e68], rdx
+0xd88022: mov rdi, rax
+0xd88025: mov rsi, qword ptr [r15 + 0x1a27] ; String: "data"
+0xd8802c: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd88030: call 0xa7b500 ; path$path_::join_a7b500
+0xd88035: mov rdx, rax
+0xd88038: mov rcx, qword ptr [r14 + 0x70]
+0xd8803c: mov qword ptr [rcx + 0x1e68], rdx
+0xd88043: mov rsp, rbp
+0xd88046: pop rbp
+0xd88047: ret
+0xd88048: call qword ptr [r14 + 0x238]
+0xd8804f: jmp 0xd87ff2
+0xd88051: int3
+0xd88052: int3
+0xd88053: int3
+
+# PathUtils.serviceConfigFilePath
+0xd88054: push rbp
+0xd88055: mov rbp, rsp
+0xd88058: sub rsp, 0x10
+0xd8805c: mov rax, qword ptr [r14 + 0x80]
+0xd88063: mov qword ptr [rbp - 8], rax
+0xd88067: cmp rsp, qword ptr [r14 + 0x48]
+0xd8806b: jbe 0xd880ab
+0xd88071: mov rax, qword ptr [r15 + 0x100f] ; TypeArguments: <String>
+0xd88078: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd8807d: call 0xa7f850 ; karing$app$utils$path_utils_PathUtils::profileDir_a7f850
+0xd88082: mov rcx, rax
+0xd88085: mov qword ptr [rbp - 0x10], rcx
+0xd88089: call 0xa6d434 ; AwaitStub_a6d434
+0xd8808e: mov rsp, rbp
+0xd88091: pop rbp
+0xd88092: ret
+0xd88093: mov rdi, rax
+0xd88096: mov rsi, qword ptr [r15 + 0x30cd7] ; String: "service.json"
+0xd8809d: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd880a1: call 0xa7b500 ; path$path_::join_a7b500
+0xd880a6: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd880ab: call qword ptr [r14 + 0x238]
+0xd880b2: jmp 0xd88071
+
+# PathUtils.serviceExePath
+0xdb50e8: push rbp
+0xdb50e9: mov rbp, rsp
+0xdb50ec: cmp rsp, qword ptr [r14 + 0x48]
+0xdb50f0: jbe 0xdb5113
+0xdb50f6: call 0xa8572c ; karing$app$utils$path_utils_PathUtils::exeDir_a8572c
+0xdb50fb: mov rdi, rax
+0xdb50fe: mov rsi, qword ptr [r15 + 0x30c8f] ; String: "karingService.exe"
+0xdb5105: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xdb5109: call 0xa7b500 ; path$path_::join_a7b500
+0xdb510e: mov rsp, rbp
+0xdb5111: pop rbp
+0xdb5112: ret
+0xdb5113: call qword ptr [r14 + 0x238]
+0xdb511a: jmp 0xdb50f6
+
+# PC.waitConnect
+0xd85ebc: push rbp
+0xd85ebd: mov rbp, rsp
+0xd85ec0: sub rsp, 0x10
+0xd85ec4: mov rax, qword ptr [r14 + 0x80]
+0xd85ecb: mov qword ptr [rbp - 8], rax
+0xd85ecf: cmp rsp, qword ptr [r14 + 0x48]
+0xd85ed3: jbe 0xd85f74
+0xd85ed9: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xd85ee0: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd85ee5: cmp rsp, qword ptr [r14 + 0x48]
+0xd85ee9: jbe 0xd85f80
+0xd85eef: mov rax, qword ptr [r14 + 0x70]
+0xd85ef3: mov rax, qword ptr [rax + 0x4288]
+0xd85efa: test al, 0x10
+0xd85efc: je 0xd85f5f
+0xd85f02: mov rax, qword ptr [r14 + 0x70]
+0xd85f06: mov rax, qword ptr [rax + 0x4278]
+0xd85f0d: cmp rax, qword ptr [r14 + 0x80]
+0xd85f14: je 0xd85f44
+0xd85f1a: mov rdi, qword ptr [r14 + 0x80]
+0xd85f21: mov rsi, qword ptr [r15 + 0x526f] ; [pool value not exported]
+0xd85f28: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xd85f2c: call 0xa77f48 ; dart_async_Future::factory_ctor_delayed_a77f48
+0xd85f31: mov rcx, rax
+0xd85f34: mov qword ptr [rbp - 0x10], rcx
+0xd85f38: call 0xa6d434 ; AwaitStub_a6d434
+0xd85f3d: mov rsp, rbp
+0xd85f40: pop rbp
+0xd85f41: ret
+0xd85f42: jmp 0xd85ee5
+0xd85f44: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xd85f49: mov rcx, rax
+0xd85f4c: mov rax, qword ptr [r15 + 0x301af] ; [pool value not exported]
+0xd85f53: mov qword ptr [rcx + 7], rax
+0xd85f57: mov rax, rcx
+0xd85f5a: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd85f5f: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xd85f64: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xd85f6b: mov qword ptr [rax + 7], rcx
+0xd85f6f: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd85f74: call qword ptr [r14 + 0x238]
+0xd85f7b: jmp 0xd85ed9
+0xd85f80: call qword ptr [r14 + 0x238]
+0xd85f87: jmp 0xd85eef
+
+# PC.socketCallback
+0xd86b5c: push rbp
+0xd86b5d: mov rbp, rsp
+0xd86b60: sub rsp, 0x10
+0xd86b64: mov rax, qword ptr [r14 + 0x80]
+0xd86b6b: mov qword ptr [rbp - 8], rax
+0xd86b6f: xor eax, eax
+0xd86b71: mov rcx, qword ptr [rbp + rax*4 + 0x18]
+0xd86b76: mov rdx, qword ptr [rcx + 0x27]
+0xd86b7a: mov qword ptr [rbp - 0x10], rdx
+0xd86b7e: cmp rsp, qword ptr [r14 + 0x48]
+0xd86b82: jbe 0xd86bb2
+0xd86b88: mov rax, qword ptr [r15 + 0x87] ; TypeArguments: <void?>
+0xd86b8f: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd86b94: mov rdx, qword ptr [r14 + 0x90]
+0xd86b9b: mov rcx, qword ptr [r14 + 0x70]
+0xd86b9f: mov qword ptr [rcx + 0x4288], rdx
+0xd86ba6: mov rax, qword ptr [r14 + 0x80]
+0xd86bad: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xd86bb2: call qword ptr [r14 + 0x238]
+0xd86bb9: jmp 0xd86b88
+0xd86bbb: int3
+
+# PathUtils.exeDir
+0xa8572c: push rbp
+0xa8572d: mov rbp, rsp
+0xa85730: cmp rsp, qword ptr [r14 + 0x48]
+0xa85734: jbe 0xa8576b
+0xa8573a: mov rax, qword ptr [r14 + 0x78]
+0xa8573e: mov rax, qword ptr [rax + 0xb8]
+0xa85745: cmp rax, qword ptr [r14 + 0x88]
+0xa8574c: jne 0xa8575e
+0xa85752: mov rdx, qword ptr [r15 + 0x978f] ; Field <_Platform@16069316.resolvedExecutable>: static late shared (offset: 0xb8)
+0xa85759: call 0x1532964 ; InitSharedLateStaticFieldStub_1532964
+0xa8575e: mov rdi, rax
+0xa85761: call 0xa85774 ; path$path_::dirname_a85774
+0xa85766: mov rsp, rbp
+0xa85769: pop rbp
+0xa8576a: ret
+0xa8576b: call qword ptr [r14 + 0x238]
+0xa85772: jmp 0xa8573a
+
+# FlutterVpnService.getAppGroupDirectory
+0xa7fad0: push rbp
+0xa7fad1: mov rbp, rsp
+0xa7fad4: sub rsp, 0x10
+0xa7fad8: mov rax, qword ptr [r14 + 0x80]
+0xa7fadf: mov qword ptr [rbp - 8], rax
+0xa7fae3: cmp rsp, qword ptr [r14 + 0x48]
+0xa7fae7: jbe 0xa7fb3b
+0xa7faed: mov rax, qword ptr [r15 + 0xda9f] ; TypeArguments: <Directory?>
+0xa7faf4: call 0xa6d678 ; InitAsyncStub_a6d678
+0xa7faf9: mov rax, qword ptr [r14 + 0x70]
+0xa7fafd: mov rax, qword ptr [rax + 0x3698]
+0xa7fb04: cmp rax, qword ptr [r14 + 0x88]
+0xa7fb0b: jne 0xa7fb1d
+0xa7fb11: mov rdx, qword ptr [r15 + 0xd307] ; Field <FlutterVpnServicePlatform._instance@1719370305>: static late (offset: 0x3698)
+0xa7fb18: call 0x1532ab8 ; InitLateStaticFieldStub_1532ab8
+0xa7fb1d: mov rdi, rax
+0xa7fb20: call 0xa7fb60 ; vpn_service$vpn_service_method_channel_MethodChannelFlutterVpnService::getAppGroupDirectory_a7fb60
+0xa7fb25: mov rcx, rax
+0xa7fb28: mov qword ptr [rbp - 0x10], rcx
+0xa7fb2c: call 0xa6d434 ; AwaitStub_a6d434
+0xa7fb31: mov rsp, rbp
+0xa7fb34: pop rbp
+0xa7fb35: ret
+0xa7fb36: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xa7fb3b: call qword ptr [r14 + 0x238]
+0xa7fb42: jmp 0xa7faed
+
+# PC.getAppGroupDirectory
+0xa7fbf4: push rbp
+0xa7fbf5: mov rbp, rsp
+0xa7fbf8: sub rsp, 0x10
+0xa7fbfc: mov rax, qword ptr [r14 + 0x80]
+0xa7fc03: mov qword ptr [rbp - 8], rax
+0xa7fc07: cmp rsp, qword ptr [r14 + 0x48]
+0xa7fc0b: jbe 0xa7fc38
+0xa7fc11: mov rax, qword ptr [r15 + 0xda9f] ; TypeArguments: <Directory?>
+0xa7fc18: call 0xa6d678 ; InitAsyncStub_a6d678
+0xa7fc1d: call 0xa7fc44 ; path_provider$path_provider_::getApplicationSupportDirectory_a7fc44
+0xa7fc22: mov rcx, rax
+0xa7fc25: mov qword ptr [rbp - 0x10], rcx
+0xa7fc29: call 0xa6d434 ; AwaitStub_a6d434
+0xa7fc2e: mov rsp, rbp
+0xa7fc31: pop rbp
+0xa7fc32: ret
+0xa7fc33: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xa7fc38: call qword ptr [r14 + 0x238]
+0xa7fc3f: jmp 0xa7fc11
+0xa7fc41: int3
+0xa7fc42: int3
+0xa7fc43: int3
+
+# MethodChannel.getAppGroupDirectory
+0xa7fb60: push rbp
+0xa7fb61: mov rbp, rsp
+0xa7fb64: sub rsp, 0x18
+0xa7fb68: mov rax, qword ptr [r14 + 0x80]
+0xa7fb6f: mov qword ptr [rbp - 8], rax
+0xa7fb73: mov qword ptr [rbp - 0x10], rdi
+0xa7fb77: cmp rsp, qword ptr [r14 + 0x48]
+0xa7fb7b: jbe 0xa7fbea
+0xa7fb81: mov rax, qword ptr [r15 + 0xda9f] ; TypeArguments: <Directory?>
+0xa7fb88: call 0xa6d678 ; InitAsyncStub_a6d678
+0xa7fb8d: mov rax, qword ptr [rbp - 0x10]
+0xa7fb91: mov rcx, qword ptr [rax + 7]
+0xa7fb95: cmp rcx, qword ptr [r14 + 0x80]
+0xa7fb9c: je 0xa7fbaa
+0xa7fba2: mov rax, rcx
+0xa7fba5: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7fbaa: call 0xa7fbf4 ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::getAppGroupDirectory_a7fbf4
+0xa7fbaf: mov rcx, rax
+0xa7fbb2: mov qword ptr [rbp - 0x18], rcx
+0xa7fbb6: call 0xa6d434 ; AwaitStub_a6d434
+0xa7fbbb: mov rsp, rbp
+0xa7fbbe: pop rbp
+0xa7fbbf: ret
+0xa7fbc0: mov rdx, rax
+0xa7fbc3: mov rcx, qword ptr [rbp - 0x10]
+0xa7fbc7: mov qword ptr [rcx + 7], rax
+0xa7fbcb: mov r11b, byte ptr [rcx - 1]
+0xa7fbcf: shr r11d, 2
+0xa7fbd3: and r11d, dword ptr [r14 + 0x50]
+0xa7fbd7: test byte ptr [rax - 1], r11b
+0xa7fbdb: je 0xa7fbe2
+0xa7fbdd: call 0x1532e19
+0xa7fbe2: mov rax, rdx
+0xa7fbe5: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xa7fbea: call qword ptr [r14 + 0x238]
+0xa7fbf1: jmp 0xa7fb81
+0xa7fbf3: int3

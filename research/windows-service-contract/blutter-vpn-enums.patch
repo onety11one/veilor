@@ -1,0 +1,37 @@
+diff --git a/blutter/src/DartDumper.cpp b/blutter/src/DartDumper.cpp
+index c736ac9..f62b171 100644
+--- a/blutter/src/DartDumper.cpp
++++ b/blutter/src/DartDumper.cpp
+@@ -878,6 +878,25 @@ std::string DartDumper::getPoolObjectDescription(intptr_t offset, bool simpleFor
+ 
+ void DartDumper::DumpObjectPool(const char* filename)
+ {
++    // Research-only: known enum CIDs from pinned snapshot, fields proven by
++    // enumToString machine code and previous class metadata. No Dart invoke.
++    std::ofstream enumFile(std::string(filename) + ".vpn-enums.tsv");
++    enumFile << "poolOffset\tclassId\tindex\tname\n";
++    const auto& enumPool = app.GetObjectPool();
++    for (intptr_t n = 0; n < enumPool.Length(); ++n) {
++        if (enumPool.TypeAt(n) != dart::ObjectPool::EntryType::kTaggedObject) continue;
++        auto& value = dart::Object::Handle(enumPool.ObjectAt(n));
++        if (value.GetClassId() != 8310 && value.GetClassId() != 8311) continue;
++        auto& instance = dart::Instance::Cast(value);
++        auto raw = dart::UntaggedObject::ToAddr(instance.ptr()->untag());
++        auto index = *reinterpret_cast<int64_t*>(raw + 8);
++        auto& name = dart::Object::Handle(*reinterpret_cast<dart::ObjectPtr*>(raw + 16));
++        if (index < 0 || index > 32 || !name.IsString()) throw std::runtime_error("Unexpected VPN enum layout");
++        std::string label = dart::String::Cast(name).ToCString();
++        if (label.empty() || label.size() > 64 || label.find_first_not_of("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_") != std::string::npos)
++            throw std::runtime_error("Unexpected VPN enum name");
++        enumFile << std::format("{:#x}\t{}\t{}\t{}\n", dart::ObjectPool::OffsetFromIndex(n) + 1, value.GetClassId(), index, label);
++    }
+ 	std::ofstream of(filename);
+ 	const auto& pool = app.GetObjectPool();
+ 	intptr_t num = pool.Length();
+@@ -910,3 +929,6 @@ void DartDumper::DumpObjects(const char* filename)
+ 		of << "\n\n";
+ 	}
+ }
++
++
++

@@ -1,0 +1,213 @@
+{
+  "scope": "Karing 1.2.25+2802 HTTP static checks; enum names from one successful isolated VM load",
+  "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "instructionChecks": [
+    {
+      "address": "0xc4b002",
+      "instruction": "call 0xc68f40"
+    },
+    {
+      "address": "0xc4b09a",
+      "instruction": "call 0xc50d80"
+    },
+    {
+      "address": "0xc50ea5",
+      "instruction": "mov r11, qword ptr [r15 + 0x16ff]"
+    },
+    {
+      "address": "0xc50eb1",
+      "instruction": "mov r11, qword ptr [r15 + 0x30177]"
+    },
+    {
+      "address": "0xc50ee5",
+      "instruction": "mov rsi, qword ptr [r15 + 0xb61f]"
+    },
+    {
+      "address": "0xc50eec",
+      "instruction": "call 0xc50f10"
+    },
+    {
+      "address": "0xc4b0bd",
+      "instruction": "call 0xc50d18"
+    },
+    {
+      "address": "0xc50d49",
+      "instruction": "call 0xdd707c"
+    },
+    {
+      "address": "0xc4b0e4",
+      "instruction": "call 0xc50cac"
+    },
+    {
+      "address": "0xc50ceb",
+      "instruction": "call 0xa77f48"
+    },
+    {
+      "address": "0xc4b15b",
+      "instruction": "call 0xc48e00"
+    },
+    {
+      "address": "0xc4b221",
+      "instruction": "cmp rdx, 0x190"
+    },
+    {
+      "address": "0xc4b2fe",
+      "instruction": "call 0x10211b4"
+    },
+    {
+      "address": "0xc4b30d",
+      "instruction": "call 0xc4b7b8"
+    },
+    {
+      "address": "0xc4b377",
+      "instruction": "mov qword ptr [rcx + 0xf], rax"
+    },
+    {
+      "address": "0xc4b4d4",
+      "instruction": "call 0xc4bb40"
+    },
+    {
+      "address": "0xc6a6e0",
+      "instruction": "mov rax, qword ptr [r15 + 0xc3c7]"
+    },
+    {
+      "address": "0xca97d5",
+      "instruction": "call 0xca97fc"
+    },
+    {
+      "address": "0xca9829",
+      "instruction": "mov rax, qword ptr [rax + 0x4290]"
+    },
+    {
+      "address": "0xca9842",
+      "instruction": "call 0xc48d9c"
+    },
+    {
+      "address": "0xc48ddd",
+      "instruction": "mov rax, qword ptr [r15 + 0xd2ff]"
+    },
+    {
+      "address": "0xc48de9",
+      "instruction": "mov rax, qword ptr [r15 + 0xd317]"
+    },
+    {
+      "address": "0xc48bc0",
+      "instruction": "mov r11, qword ptr [r15 + 0x2fc5f]"
+    },
+    {
+      "address": "0xd84a3d",
+      "instruction": "mov rdx, qword ptr [r15 + 0x3057f]"
+    },
+    {
+      "address": "0xd84c58",
+      "instruction": "mov r11, qword ptr [r15 + 0xd2ff]"
+    },
+    {
+      "address": "0xc48ce5",
+      "instruction": "mov r11, qword ptr [r15 + 0xd317]"
+    }
+  ],
+  "http": {
+    "method": "get",
+    "scheme": "http",
+    "host": "127.0.0.1",
+    "port": "caller-supplied service HTTP port",
+    "pathConstruction": "action + question mark, then SDK HttpClient.open normalization",
+    "syntheticStopUri": "http://127.0.0.1:12345/stop",
+    "proxySelector": "DIRECT",
+    "statusRequired": 200,
+    "body": "UTF-8 text joined and returned, no JSON decode at this layer",
+    "deadlineLimitation": "response-close race is after await open; body join has no explicit timer in inspected range",
+    "stopCallerConsumesBody": false,
+    "bearerHeader": "no explicit setup identified in inspected path; do not confuse with Clash API"
+  },
+  "enums": [
+    {
+      "poolOffset": "0x2fdb8",
+      "classId": 8310,
+      "index": 0,
+      "name": "processExit"
+    },
+    {
+      "poolOffset": "0x301b0",
+      "classId": 8310,
+      "index": 1,
+      "name": "timeout"
+    },
+    {
+      "poolOffset": "0x309c8",
+      "classId": 8310,
+      "index": 2,
+      "name": "err"
+    },
+    {
+      "poolOffset": "0x2fc78",
+      "classId": 8310,
+      "index": 3,
+      "name": "done"
+    },
+    {
+      "poolOffset": "0x53eb8",
+      "classId": 8311,
+      "index": 0,
+      "name": "invalid"
+    },
+    {
+      "poolOffset": "0xd318",
+      "classId": 8311,
+      "index": 1,
+      "name": "disconnected"
+    },
+    {
+      "poolOffset": "0x30580",
+      "classId": 8311,
+      "index": 2,
+      "name": "connecting"
+    },
+    {
+      "poolOffset": "0xd300",
+      "classId": 8311,
+      "index": 3,
+      "name": "connected"
+    },
+    {
+      "poolOffset": "0x30588",
+      "classId": 8311,
+      "index": 4,
+      "name": "reasserting"
+    },
+    {
+      "poolOffset": "0x2fc60",
+      "classId": 8311,
+      "index": 5,
+      "name": "disconnecting"
+    }
+  ],
+  "enumRuns": [
+    {
+      "run": "aot-enums-first",
+      "returnCode": 0,
+      "analyzerSha256": "cb0faa2bc0f44a36d7163fd0d233c13e7d133558d0d7d7e8370714082102f1a3",
+      "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882"
+    },
+    {
+      "run": "aot-enums-verified",
+      "returnCode": 3221225477,
+      "analyzerSha256": "f75e5b64589f2986b9dfc65c022b15d0957c5095fceb43fac0b1c18676e38df8",
+      "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882"
+    },
+    {
+      "run": "aot-enums-repeat",
+      "returnCode": 3221225477,
+      "analyzerSha256": "f75e5b64589f2986b9dfc65c022b15d0957c5095fceb43fac0b1c18676e38df8",
+      "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882"
+    }
+  ],
+  "limitations": [
+    "Two later loads crashed with 0xC0000005 at/after Dart_CreateIsolateGroup; VM stability unresolved",
+    "Enum map has one successful extraction, not two repeatable runtime extractions",
+    "No live HTTP/redirect/auth/network validation",
+    "No complete current-version lifecycle proof",
+    "invalid/reasserting names recovered, their transitions not traced"
+  ]
+}

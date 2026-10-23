@@ -1,5 +1,7 @@
 # Передача работы Veilor
 
+> **Архив с 23.10.2026. Разработка Veilor на основе Karing прекращена по решению пользователя.** Текущий статус и границы результатов: [DEVELOPMENT-STOPPED.md](DEVELOPMENT-STOPPED.md). Дальнейшая разработка — [veilor/onexray](https://github.com/onety11one/veilor/tree/veilor/onexray). Разделы продолжения ниже сохраняются как история исследования.
+
 Начать с [состояния проекта](STATUS-2026-10-22.md), затем [последнего исследования](../../research/windows-service-contract/TOOLCHAIN-PREP.md).
 
 ## Где находится результат
@@ -36,3 +38,15 @@ vpn-aot-methods.json содержит карту 42 методов, vpn-config-x
 Не запускать установленный или скопированный karingService.exe, даже --help, рядом с действующим VPN: singleton завершает процессы по basename. Не отправлять установленному сервису reload/stop. Другой каталог не обеспечивает изоляцию. Реальный запуск — в отдельной Windows VM со снимком; лабораторные тесты запускают только свой mock.
 
 Не читать/публиковать реальные профили, ID/secret, argv и credentials. PID ownership check является снимком, не аутентификацией; остаются TOCTOU-гонки. TCP-ready не превращать в connected. Не менять proxy/firewall/маршруты на рабочей машине для проверки гипотез.
+
+## Продолжение после сохранения отчёта
+
+Offline-разбор восстановил поля и начальные значения VpnServiceConfig для исследованного бинарника: [VPN-CONFIG-RECOVERY.md](../../research/windows-service-contract/VPN-CONFIG-RECOVERY.md). Следующая точка — присваивания вызывающего кода до toJson и Windows start/waitConnect/stop. Готовая конфигурация запуска и паритет версий ещё не доказаны.
+
+Следующий offline-шаг завершён: [заполнение конфигурации перед запуском](../../research/windows-service-contract/VPN-CONFIG-PREPARATION.md). Новая точка продолжения — разрешение PathUtils и порядок Windows _start/waitConnect/_stop. Полная политика sentry_minversion ещё не восстановлена; не подменять её константой.
+
+Продолжение: [Windows paths/startup](../../research/windows-service-contract/WINDOWS-PATHS-STARTUP.md). Подтверждены формулы путей, выбор двух портов, Process.start и гонка ожидания ready/exit/timeout. Следующая точка — stop/очистка и цепочка state callbacks. TCP callback не аутентифицирован; готовность не объявлять доказательством трафика.
+
+Разобраны [Windows stop/state](../../research/windows-service-contract/WINDOWS-STOP-STATE.md): HTTP stop, вложенные ожидания, kill fallback, подавление exit callback во время операции и отдельная proxy cleanup. Следующая точка — HttpRequest.request и точное отображение enum/state API, затем единая lifecycle-таблица. Событие состояния не доказывает успешную proxy cleanup; поиск/kill по имени на хосте не выполнять.
+
+Последнее уточнение: [HTTP/state](../../research/windows-service-contract/WINDOWS-HTTP-STATE.md). Восстановлены имена 6 состояний и 4 wait-исходов из одного успешного VM-run. Две последующие загрузки crash 0xC0000005 после Dart_CreateIsolateGroup; повторяемость enum-выгрузки не подтверждена. До новых VM-runs локализовать сбой. Дальше можно работать offline: lifecycle/backend контракт и негативные сценарии на mock. Начальный HTTP URL stop нормализуется в /stop, native handler ранее найден /stop/; redirects/совместимость не проверены динамически.

@@ -1,3 +1,5 @@
+> **Veilor / Karing: development discontinued on 2026-10-23.** This branch is retained as a research archive. See [final status](docs/veilor/DEVELOPMENT-STOPPED.md). Active Veilor work continues in [veilor/onexray](https://github.com/onety11one/veilor/tree/veilor/onexray). The upstream Karing README follows.
+
 <h1 align="center">
   <img src="./README_assets/img/mascot.jpg" alt="Karing" width="256" />
   <br>

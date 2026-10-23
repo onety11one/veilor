@@ -1,0 +1,826 @@
+# PC.stop
+0xc48b44: push rbp
+0xc48b45: mov rbp, rsp
+0xc48b48: sub rsp, 0x38
+0xc48b4c: mov rax, qword ptr [r14 + 0x80]
+0xc48b53: mov qword ptr [rbp - 8], rax
+0xc48b57: cmp rsp, qword ptr [r14 + 0x48]
+0xc48b5b: jbe 0xc48d8d
+0xc48b61: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc48b68: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc48b6d: mov rdx, qword ptr [r15 + 0x2fc5f] ; [pool value not exported]
+0xc48b74: mov rax, qword ptr [r14 + 0x70]
+0xc48b78: mov qword ptr [rax + 0x4290], rdx
+0xc48b7f: mov rax, qword ptr [r14 + 0x70]
+0xc48b83: mov rax, qword ptr [rax + 0x4298]
+0xc48b8a: mov qword ptr [rbp - 0x10], rax
+0xc48b8e: cmp rax, qword ptr [r14 + 0x80]
+0xc48b95: je 0xc48be1
+0xc48b9b: mov r11, qword ptr [r15 + 0x8187] ; TypeArguments: <String, String>
+0xc48ba2: mov qword ptr [rsp + 8], r11
+0xc48ba7: mov r11, qword ptr [r14 + 0xa0]
+0xc48bae: mov qword ptr [rsp], r11
+0xc48bb2: call 0xa50bc8 ; dart_core_Map::factory_ctor__fromLiteral_a50bc8
+0xc48bb7: mov r11, qword ptr [rbp - 0x10]
+0xc48bbb: mov qword ptr [rsp + 0x10], r11
+0xc48bc0: mov r11, qword ptr [r15 + 0x2fc5f] ; [pool value not exported]
+0xc48bc7: mov qword ptr [rsp + 8], r11
+0xc48bcc: mov qword ptr [rsp], rax
+0xc48bd0: mov rax, qword ptr [rbp - 0x10]
+0xc48bd4: mov r10, qword ptr [r15 + 0x2f7] ; [pool value not exported]
+0xc48bdb: mov rcx, qword ptr [rax + 0x37]
+0xc48bdf: call rcx
+0xc48be1: mov rdi, qword ptr [r15 + 0x2fc67] ; [pool value not exported]
+0xc48be8: mov rsi, qword ptr [r15 + 0x2fc4f] ; [pool value not exported]
+0xc48bef: call 0xc490a8 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::wait_c490a8
+0xc48bf4: mov rdi, qword ptr [r15 + 0x2fc4f] ; [pool value not exported]
+0xc48bfb: mov qword ptr [rbp - 0x10], rax
+0xc48bff: call 0xc49028 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::waitTimeout_c49028
+0xc48c04: mov rbx, qword ptr [r14 + 0x80]
+0xc48c0b: mov r10d, 4
+0xc48c11: mov qword ptr [rbp - 0x18], rax
+0xc48c15: call 0x153443c ; AllocateArrayStub_153443c
+0xc48c1a: mov rcx, rax
+0xc48c1d: mov rax, qword ptr [rbp - 0x10]
+0xc48c21: mov qword ptr [rbp - 0x20], rcx
+0xc48c25: mov qword ptr [rcx + 0x17], rax
+0xc48c29: mov rax, qword ptr [rbp - 0x18]
+0xc48c2d: mov qword ptr [rcx + 0x1f], rax
+0xc48c31: mov rdx, qword ptr [r15 + 0x2fc6f] ; TypeArguments: <Future<VpnServiceWaitResult>>
+0xc48c38: call 0x1533474 ; AllocateGrowableArrayStub_1533474
+0xc48c3d: mov rcx, rax
+0xc48c40: mov rax, qword ptr [rbp - 0x20]
+0xc48c44: mov qword ptr [rcx + 0x17], rax
+0xc48c48: mov qword ptr [rcx + 0xf], 4
+0xc48c50: mov r11, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc48c57: mov qword ptr [rsp + 8], r11
+0xc48c5c: mov qword ptr [rsp], rcx
+0xc48c60: mov r10, qword ptr [r15 + 0x6ff] ; [pool value not exported]
+0xc48c67: call 0xc48e00 ; dart_async_Future::any_c48e00
+0xc48c6c: mov rcx, rax
+0xc48c6f: mov qword ptr [rbp - 0x10], rcx
+0xc48c73: call 0xa6d434 ; AwaitStub_a6d434
+0xc48c78: mov rsp, rbp
+0xc48c7b: pop rbp
+0xc48c7c: ret
+0xc48c7d: mov rdx, qword ptr [r14 + 0x80]
+0xc48c84: mov qword ptr [rbp - 0x18], rax
+0xc48c88: mov rcx, qword ptr [r14 + 0x70]
+0xc48c8c: mov qword ptr [rcx + 0x4290], rdx
+0xc48c93: mov rcx, qword ptr [rax + 7]
+0xc48c97: cmp rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc48c9e: jne 0xc48d0b
+0xc48ca4: mov rcx, qword ptr [r14 + 0x70]
+0xc48ca8: mov rcx, qword ptr [rcx + 0x4298]
+0xc48caf: mov qword ptr [rbp - 0x10], rcx
+0xc48cb3: cmp rcx, qword ptr [r14 + 0x80]
+0xc48cba: je 0xc48d84
+0xc48cc0: mov r11, qword ptr [r15 + 0x8187] ; TypeArguments: <String, String>
+0xc48cc7: mov qword ptr [rsp + 8], r11
+0xc48ccc: mov r11, qword ptr [r14 + 0xa0]
+0xc48cd3: mov qword ptr [rsp], r11
+0xc48cd7: call 0xa50bc8 ; dart_core_Map::factory_ctor__fromLiteral_a50bc8
+0xc48cdc: mov r11, qword ptr [rbp - 0x10]
+0xc48ce0: mov qword ptr [rsp + 0x10], r11
+0xc48ce5: mov r11, qword ptr [r15 + 0xd317] ; [pool value not exported]
+0xc48cec: mov qword ptr [rsp + 8], r11
+0xc48cf1: mov qword ptr [rsp], rax
+0xc48cf5: mov rax, qword ptr [rbp - 0x10]
+0xc48cf9: mov r10, qword ptr [r15 + 0x2f7] ; [pool value not exported]
+0xc48d00: mov rcx, qword ptr [rax + 0x37]
+0xc48d04: call rcx
+0xc48d06: jmp 0xc48d84
+0xc48d0b: call 0xc48d9c ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::get__currentState_c48d9c
+0xc48d10: mov rcx, rax
+0xc48d13: mov qword ptr [rbp - 0x10], rcx
+0xc48d17: call 0xa6d434 ; AwaitStub_a6d434
+0xc48d1c: mov rsp, rbp
+0xc48d1f: pop rbp
+0xc48d20: ret
+0xc48d21: mov qword ptr [rbp - 0x20], rax
+0xc48d25: mov rcx, qword ptr [r14 + 0x70]
+0xc48d29: mov rcx, qword ptr [rcx + 0x4298]
+0xc48d30: mov qword ptr [rbp - 0x10], rcx
+0xc48d34: cmp rcx, qword ptr [r14 + 0x80]
+0xc48d3b: je 0xc48d84
+0xc48d41: mov r11, qword ptr [r15 + 0x8187] ; TypeArguments: <String, String>
+0xc48d48: mov qword ptr [rsp + 8], r11
+0xc48d4d: mov r11, qword ptr [r14 + 0xa0]
+0xc48d54: mov qword ptr [rsp], r11
+0xc48d58: call 0xa50bc8 ; dart_core_Map::factory_ctor__fromLiteral_a50bc8
+0xc48d5d: mov r11, qword ptr [rbp - 0x10]
+0xc48d61: mov qword ptr [rsp + 0x10], r11
+0xc48d66: mov r11, qword ptr [rbp - 0x20]
+0xc48d6a: mov qword ptr [rsp + 8], r11
+0xc48d6f: mov qword ptr [rsp], rax
+0xc48d73: mov rax, qword ptr [rbp - 0x10]
+0xc48d77: mov r10, qword ptr [r15 + 0x2f7] ; [pool value not exported]
+0xc48d7e: mov rcx, qword ptr [rax + 0x37]
+0xc48d82: call rcx
+0xc48d84: mov rax, qword ptr [rbp - 0x18]
+0xc48d88: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xc48d8d: call qword ptr [r14 + 0x238]
+0xc48d94: jmp 0xc48b61
+0xc48d99: int3
+0xc48d9a: int3
+0xc48d9b: int3
+
+# PC._stop
+0xc491f0: push rbp
+0xc491f1: mov rbp, rsp
+0xc491f4: sub rsp, 0x40
+0xc491f8: mov rax, qword ptr [r14 + 0x80]
+0xc491ff: mov qword ptr [rbp - 8], rax
+0xc49203: mov qword ptr [rbp - 0x10], rdi
+0xc49207: cmp rsp, qword ptr [r14 + 0x48]
+0xc4920b: jbe 0xc4943d
+0xc49211: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc49218: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc4921d: mov rax, qword ptr [r14 + 0x70]
+0xc49221: mov rax, qword ptr [rax + 0x4280]
+0xc49228: sar rax, 1
+0xc4922b: jae 0xc49232
+0xc4922d: mov rax, qword ptr [rax + rax + 8]
+0xc49232: cmp rax, 0
+0xc49236: je 0xc4926a
+0xc4923c: mov rsi, rax
+0xc4923f: mov rdi, qword ptr [r15 + 0x2fc7f] ; String: [not exported]
+0xc49246: mov rdx, qword ptr [r14 + 0x80]
+0xc4924d: mov rbx, qword ptr [r15 + 0x2fc87] ; [pool value not exported]
+0xc49254: call 0xc4af14 ; vpn_service$http_request_HttpRequest::request_c4af14
+0xc49259: mov rcx, rax
+0xc4925c: mov qword ptr [rbp - 0x10], rcx
+0xc49260: call 0xa6d434 ; AwaitStub_a6d434
+0xc49265: mov rsp, rbp
+0xc49268: pop rbp
+0xc49269: ret
+0xc4926a: mov rdx, qword ptr [r14 + 0x98]
+0xc49271: mov rax, qword ptr [r14 + 0x70]
+0xc49275: mov qword ptr [rax + 0x4268], rdx
+0xc4927c: mov rdi, qword ptr [r14 + 0x70]
+0xc49280: mov rdi, qword ptr [rdi + 0x4258]
+0xc49287: call 0xc4ad68 ; path$path_::basename_c4ad68
+0xc4928c: mov ecx, dword ptr [rax - 1]
+0xc4928f: shr ecx, 0xc
+0xc49292: mov qword ptr [rsp], rax
+0xc49296: mov rax, qword ptr [r14 + 0x68]
+0xc4929a: call qword ptr [rax + rcx*8 + 0x42e0]
+0xc492a1: mov qword ptr [rbp - 0x10], rax
+0xc492a5: mov rcx, qword ptr [r14 + 0x70]
+0xc492a9: mov rcx, qword ptr [rcx + 0x4260]
+0xc492b0: cmp rcx, qword ptr [r14 + 0x80]
+0xc492b7: je 0xc49418
+0xc492bd: mov qword ptr [rsp], rcx
+0xc492c1: call 0xa79990 ; dart_io__ProcessUtils::_pid_a79990
+0xc492c6: mov qword ptr [rbp - 0x18], rax
+0xc492ca: mov rdi, qword ptr [r14 + 0x70]
+0xc492ce: mov rdi, qword ptr [rdi + 0x4260]
+0xc492d5: cmp rdi, qword ptr [r14 + 0x80]
+0xc492dc: je 0xc49449
+0xc492e2: call 0xc4ac50 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::waitProcessExit_c4ac50
+0xc492e7: mov rdi, qword ptr [r15 + 0xafcf] ; [pool value not exported]
+0xc492ee: mov qword ptr [rbp - 0x20], rax
+0xc492f2: call 0xc49028 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::waitTimeout_c49028
+0xc492f7: mov rbx, qword ptr [r14 + 0x80]
+0xc492fe: mov r10d, 4
+0xc49304: mov qword ptr [rbp - 0x28], rax
+0xc49308: call 0x153443c ; AllocateArrayStub_153443c
+0xc4930d: mov rcx, rax
+0xc49310: mov rax, qword ptr [rbp - 0x20]
+0xc49314: mov qword ptr [rbp - 0x30], rcx
+0xc49318: mov qword ptr [rcx + 0x17], rax
+0xc4931c: mov rax, qword ptr [rbp - 0x28]
+0xc49320: mov qword ptr [rcx + 0x1f], rax
+0xc49324: mov rdx, qword ptr [r15 + 0x2fc6f] ; TypeArguments: <Future<VpnServiceWaitResult>>
+0xc4932b: call 0x1533474 ; AllocateGrowableArrayStub_1533474
+0xc49330: mov rcx, rax
+0xc49333: mov rax, qword ptr [rbp - 0x30]
+0xc49337: mov qword ptr [rcx + 0x17], rax
+0xc4933b: mov qword ptr [rcx + 0xf], 4
+0xc49343: mov r11, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc4934a: mov qword ptr [rsp + 8], r11
+0xc4934f: mov qword ptr [rsp], rcx
+0xc49353: mov r10, qword ptr [r15 + 0x6ff] ; [pool value not exported]
+0xc4935a: call 0xc48e00 ; dart_async_Future::any_c48e00
+0xc4935f: mov rcx, rax
+0xc49362: mov qword ptr [rbp - 0x20], rcx
+0xc49366: call 0xa6d434 ; AwaitStub_a6d434
+0xc4936b: mov rsp, rbp
+0xc4936e: pop rbp
+0xc4936f: ret
+0xc49370: mov rcx, qword ptr [rbp - 0x18]
+0xc49374: mov qword ptr [rbp - 0x20], rax
+0xc49378: sar rcx, 1
+0xc4937b: jae 0xc49382
+0xc4937d: mov rcx, qword ptr [rcx + rcx + 8]
+0xc49382: mov rdi, rcx
+0xc49385: call 0xc4ac08 ; dart_io_Process::killPid_c4ac08
+0xc4938a: mov rdx, qword ptr [r14 + 0x80]
+0xc49391: mov rax, qword ptr [r14 + 0x70]
+0xc49395: mov qword ptr [rax + 0x4260], rdx
+0xc4939c: mov rax, qword ptr [rbp - 0x20]
+0xc493a0: mov rcx, qword ptr [rax + 7]
+0xc493a4: mov rdx, qword ptr [rcx + 7]
+0xc493a8: cmp rdx, 1
+0xc493ac: jg 0xc493d8
+0xc493b2: cmp rdx, 0
+0xc493b6: jg 0xc493cc
+0xc493bc: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc493c3: mov qword ptr [rax + 7], rcx
+0xc493c7: jmp 0xc493df
+0xc493cc: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc493d3: jmp 0xc493df
+0xc493d8: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc493df: mov rdi, qword ptr [rbp - 0x10]
+0xc493e3: call 0xc49450 ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::_killProcesses_c49450
+0xc493e8: test al, 0x10
+0xc493ea: jne 0xc4940f
+0xc493f0: mov rax, qword ptr [rbp - 0x20]
+0xc493f4: mov rdx, qword ptr [r14 + 0x80]
+0xc493fb: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc49402: mov qword ptr [rax + 7], rcx
+0xc49406: mov qword ptr [rax + 0xf], rdx
+0xc4940a: jmp 0xc49413
+0xc4940f: mov rax, qword ptr [rbp - 0x20]
+0xc49413: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xc49418: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc4941f: mov rdi, qword ptr [rbp - 0x10]
+0xc49423: call 0xc49450 ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::_killProcesses_c49450
+0xc49428: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xc4942d: mov rcx, qword ptr [r15 + 0x2fc77] ; [pool value not exported]
+0xc49434: mov qword ptr [rax + 7], rcx
+0xc49438: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc4943d: call qword ptr [r14 + 0x238]
+0xc49444: jmp 0xc49211
+0xc49449: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xc4944e: int3
+0xc4944f: int3
+
+# PC._killProcesses
+0xc49450: push rbp
+0xc49451: mov rbp, rsp
+0xc49454: sub rsp, 0x98
+0xc4945b: mov qword ptr [rbp - 0x60], rdi
+0xc4945f: cmp rsp, qword ptr [r14 + 0x48]
+0xc49463: jbe 0xc495f5
+0xc49469: call 0xc496a4 ; vpn_service$windows$process_helper_::getWindowsProcesses_c496a4
+0xc4946e: mov qword ptr [rbp - 0x70], rax
+0xc49472: mov rcx, qword ptr [rax + 7]
+0xc49476: mov rdx, rcx
+0xc49479: mov qword ptr [rbp - 0x68], rcx
+0xc4947d: call 0xa795cc ; AllocateListIteratorStub_a795cc
+0xc49482: mov rsi, rax
+0xc49485: mov rdx, qword ptr [rbp - 0x70]
+0xc49489: mov qword ptr [rbp - 0x88], rsi
+0xc49490: mov qword ptr [rsi + 0xf], rdx
+0xc49494: mov rax, qword ptr [rdx + 0xf]
+0xc49498: mov rdi, rax
+0xc4949b: sar rdi, 1
+0xc4949e: mov qword ptr [rbp - 0x80], rdi
+0xc494a2: mov qword ptr [rsi + 0x17], rdi
+0xc494a6: xor eax, eax
+0xc494a8: mov qword ptr [rsi + 0x1f], rax
+0xc494ac: mov r8, qword ptr [r14 + 0x98]
+0xc494b3: mov qword ptr [rbp - 0x78], r8
+0xc494b7: cmp rsp, qword ptr [r14 + 0x48]
+0xc494bb: jbe 0xc49601
+0xc494c1: mov rax, qword ptr [rdx + 0xf]
+0xc494c5: sar rax, 1
+0xc494c8: cmp rdi, rax
+0xc494cb: jne 0xc495d2
+0xc494d1: mov rcx, qword ptr [rsi + 0x1f]
+0xc494d5: cmp rcx, rax
+0xc494d8: jge 0xc495ab
+0xc494de: mov rbx, rcx
+0xc494e1: cmp rbx, rax
+0xc494e4: jae 0xc4960d
+0xc494ea: mov rax, qword ptr [rdx + 0x17]
+0xc494ee: mov rbx, qword ptr [rax + rcx*8 + 0x17]
+0xc494f3: mov rax, rbx
+0xc494f6: mov qword ptr [rbp - 0x68], rbx
+0xc494fa: mov qword ptr [rsi + 0x27], rax
+0xc494fe: mov r11b, byte ptr [rsi - 1]
+0xc49502: shr r11d, 2
+0xc49506: and r11d, dword ptr [r14 + 0x50]
+0xc4950a: test byte ptr [rax - 1], r11b
+0xc4950e: je 0xc49515
+0xc49510: call 0x1532e40
+0xc49515: add rcx, 1
+0xc49519: mov qword ptr [rsi + 0x1f], rcx
+0xc4951d: mov rax, qword ptr [rbx + 0xf]
+0xc49521: mov ecx, dword ptr [rax - 1]
+0xc49524: shr ecx, 0xc
+0xc49527: mov qword ptr [rsp], rax
+0xc4952b: mov rax, qword ptr [r14 + 0x68]
+0xc4952f: call qword ptr [rax + rcx*8 + 0x42e0]
+0xc49536: mov ecx, dword ptr [rax - 1]
+0xc49539: shr ecx, 0xc
+0xc4953c: mov qword ptr [rsp + 8], rax
+0xc49541: mov r11, qword ptr [rbp - 0x60]
+0xc49545: mov qword ptr [rsp], r11
+0xc49549: mov rax, qword ptr [r14 + 0x68]
+0xc4954d: call qword ptr [rax + rcx*8]
+0xc49550: test al, 0x10
+0xc49552: jne 0xc49593
+0xc49558: mov rcx, qword ptr [rbp - 0x68]
+0xc4955c: mov rdx, qword ptr [rcx + 7]
+0xc49560: mov rax, rdx
+0xc49563: add rax, rax
+0xc49566: jno 0xc49575
+0xc4956c: call 0x15346c8 ; AllocateMintSharedWithoutFPURegsStub_15346c8
+0xc49571: mov qword ptr [rax + 7], rdx
+0xc49575: mov qword ptr [rsp + 8], rax
+0xc4957a: mov qword ptr [rsp], 0x1e
+0xc49582: call 0xc49614 ; dart_io__ProcessUtils::_killPid_c49614
+0xc49587: mov r8, qword ptr [r14 + 0x90]
+0xc4958e: jmp 0xc49597
+0xc49593: mov r8, qword ptr [rbp - 0x78]
+0xc49597: mov rdx, qword ptr [rbp - 0x70]
+0xc4959b: mov rsi, qword ptr [rbp - 0x88]
+0xc495a2: mov rdi, qword ptr [rbp - 0x80]
+0xc495a6: jmp 0xc494b3
+0xc495ab: mov rax, rsi
+0xc495ae: mov rcx, qword ptr [r14 + 0x80]
+0xc495b5: mov qword ptr [rax + 0x27], rcx
+0xc495b9: mov rax, qword ptr [rbp - 0x78]
+0xc495bd: jmp 0xc495cd
+0xc495c2: lea rsp, [rbp - 0x98]
+0xc495c9: mov rax, qword ptr [rbp - 0x58]
+0xc495cd: mov rsp, rbp
+0xc495d0: pop rbp
+0xc495d1: ret
+0xc495d2: mov rcx, rdx
+0xc495d5: mov rax, rsi
+0xc495d8: call 0xa58044 ; AllocateConcurrentModificationErrorStub_a58044
+0xc495dd: mov rcx, rax
+0xc495e0: mov rax, qword ptr [rbp - 0x70]
+0xc495e4: mov qword ptr [rbp - 0x68], rcx
+0xc495e8: mov qword ptr [rcx + 0xf], rax
+0xc495ec: mov rax, rcx
+0xc495ef: call 0x1532b58 ; ThrowStub_1532b58
+0xc495f4: int3
+0xc495f5: call qword ptr [r14 + 0x238]
+0xc495fc: jmp 0xc49469
+0xc49601: call qword ptr [r14 + 0x238]
+0xc49608: jmp 0xc494c1
+0xc4960d: call 0x1534a70 ; RangeErrorSharedWithoutFPURegsStub_1534a70
+0xc49612: int3
+0xc49613: int3
+
+# PC._stopWithoutUpdateState
+0xd86bbc: push rbp
+0xd86bbd: mov rbp, rsp
+0xd86bc0: sub rsp, 0x30
+0xd86bc4: mov rax, qword ptr [r14 + 0x80]
+0xd86bcb: mov qword ptr [rbp - 8], rax
+0xd86bcf: mov rsi, rdi
+0xd86bd2: mov qword ptr [rbp - 0x10], rdi
+0xd86bd6: cmp rsp, qword ptr [r14 + 0x48]
+0xd86bda: jbe 0xd86c87
+0xd86be0: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xd86be7: call 0xa6d678 ; InitAsyncStub_a6d678
+0xd86bec: mov rsi, qword ptr [rbp - 0x10]
+0xd86bf0: mov rdi, qword ptr [r15 + 0x2fc67] ; [pool value not exported]
+0xd86bf7: call 0xc490a8 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::wait_c490a8
+0xd86bfc: mov rdi, qword ptr [rbp - 0x10]
+0xd86c00: mov qword ptr [rbp - 0x10], rax
+0xd86c04: call 0xc49028 ; vpn_service$vpn_service_platform_interface_FlutterVpnWait::waitTimeout_c49028
+0xd86c09: mov rbx, qword ptr [r14 + 0x80]
+0xd86c10: mov r10d, 4
+0xd86c16: mov qword ptr [rbp - 0x18], rax
+0xd86c1a: call 0x153443c ; AllocateArrayStub_153443c
+0xd86c1f: mov rcx, rax
+0xd86c22: mov rax, qword ptr [rbp - 0x10]
+0xd86c26: mov qword ptr [rbp - 0x20], rcx
+0xd86c2a: mov qword ptr [rcx + 0x17], rax
+0xd86c2e: mov rax, qword ptr [rbp - 0x18]
+0xd86c32: mov qword ptr [rcx + 0x1f], rax
+0xd86c36: mov rdx, qword ptr [r15 + 0x2fc6f] ; TypeArguments: <Future<VpnServiceWaitResult>>
+0xd86c3d: call 0x1533474 ; AllocateGrowableArrayStub_1533474
+0xd86c42: mov rcx, rax
+0xd86c45: mov rax, qword ptr [rbp - 0x20]
+0xd86c49: mov qword ptr [rcx + 0x17], rax
+0xd86c4d: mov qword ptr [rcx + 0xf], 4
+0xd86c55: mov r11, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xd86c5c: mov qword ptr [rsp + 8], r11
+0xd86c61: mov qword ptr [rsp], rcx
+0xd86c65: mov r10, qword ptr [r15 + 0x6ff] ; [pool value not exported]
+0xd86c6c: call 0xc48e00 ; dart_async_Future::any_c48e00
+0xd86c71: mov rcx, rax
+0xd86c74: mov qword ptr [rbp - 0x10], rcx
+0xd86c78: call 0xa6d434 ; AwaitStub_a6d434
+0xd86c7d: mov rsp, rbp
+0xd86c80: pop rbp
+0xd86c81: ret
+0xd86c82: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xd86c87: call qword ptr [r14 + 0x238]
+0xd86c8e: jmp 0xd86be0
+0xd86c93: int3
+
+# PC.exitCallback
+0xd86264: push rbp
+0xd86265: mov rbp, rsp
+0xd86268: sub rsp, 0x28
+0xd8626c: cmp rsp, qword ptr [r14 + 0x48]
+0xd86270: jbe 0xd86396
+0xd86276: mov rdx, qword ptr [r14 + 0x80]
+0xd8627d: mov rax, qword ptr [r14 + 0x70]
+0xd86281: mov qword ptr [rax + 0x4260], rdx
+0xd86288: mov rdx, qword ptr [r14 + 0x98]
+0xd8628f: mov rax, qword ptr [r14 + 0x70]
+0xd86293: mov qword ptr [rax + 0x4268], rdx
+0xd8629a: mov rax, qword ptr [r14 + 0x70]
+0xd8629e: mov rax, qword ptr [rax + 0x4290]
+0xd862a5: cmp rax, qword ptr [r14 + 0x80]
+0xd862ac: jne 0xd8638a
+0xd862b2: mov rax, qword ptr [r14 + 0x70]
+0xd862b6: mov rax, qword ptr [rax + 0x4298]
+0xd862bd: mov qword ptr [rbp - 8], rax
+0xd862c1: cmp rax, qword ptr [r14 + 0x80]
+0xd862c8: je 0xd8638a
+0xd862ce: mov rcx, qword ptr [rbp + 0x10]
+0xd862d2: mov rbx, qword ptr [r14 + 0x80]
+0xd862d9: mov r10d, 4
+0xd862df: call 0x153443c ; AllocateArrayStub_153443c
+0xd862e4: mov qword ptr [rbp - 0x10], rax
+0xd862e8: mov r11, qword ptr [r15 + 0x2fbff] ; String: [not exported]
+0xd862ef: mov qword ptr [rax + 0x17], r11
+0xd862f3: mov rcx, qword ptr [rbp + 0x10]
+0xd862f7: test cl, 1
+0xd862fa: mov edx, 0x3c
+0xd862ff: je 0xd86307
+0xd86301: mov edx, dword ptr [rcx - 1]
+0xd86304: shr edx, 0xc
+0xd86307: mov qword ptr [rsp], rcx
+0xd8630b: mov rcx, rdx
+0xd8630e: mov r10, qword ptr [r15 + 0x1df] ; [pool value not exported]
+0xd86315: mov rax, qword ptr [r14 + 0x68]
+0xd86319: call qword ptr [rax + rcx*8 + 0x551f0]
+0xd86320: mov rdx, qword ptr [rbp - 0x10]
+0xd86324: lea r13, [rdx + 0x1f]
+0xd86328: mov qword ptr [r13], rax
+0xd8632c: test al, 1
+0xd8632e: je 0xd86347
+0xd86330: mov r11b, byte ptr [rdx - 1]
+0xd86334: shr r11d, 2
+0xd86338: and r11d, dword ptr [r14 + 0x50]
+0xd8633c: test byte ptr [rax - 1], r11b
+0xd86340: je 0xd86347
+0xd86342: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xd86347: mov r11, qword ptr [r15 + 0x8187] ; TypeArguments: <String, String>
+0xd8634e: mov qword ptr [rsp + 8], r11
+0xd86353: mov r11, qword ptr [rbp - 0x10]
+0xd86357: mov qword ptr [rsp], r11
+0xd8635b: call 0xa50bc8 ; dart_core_Map::factory_ctor__fromLiteral_a50bc8
+0xd86360: mov r11, qword ptr [rbp - 8]
+0xd86364: mov qword ptr [rsp + 0x10], r11
+0xd86369: mov r11, qword ptr [r15 + 0xd317] ; [pool value not exported]
+0xd86370: mov qword ptr [rsp + 8], r11
+0xd86375: mov qword ptr [rsp], rax
+0xd86379: mov rax, qword ptr [rbp - 8]
+0xd8637d: mov r10, qword ptr [r15 + 0x2f7] ; [pool value not exported]
+0xd86384: mov rcx, qword ptr [rax + 0x37]
+0xd86388: call rcx
+0xd8638a: mov rax, qword ptr [r14 + 0x80]
+0xd86391: mov rsp, rbp
+0xd86394: pop rbp
+0xd86395: ret
+0xd86396: call qword ptr [r14 + 0x238]
+0xd8639d: jmp 0xd86276
+0xd863a2: int3
+0xd863a3: int3
+
+# VPNService.stateCallback
+0x10c12b8: push rbp
+0x10c12b9: mov rbp, rsp
+0x10c12bc: sub rsp, 0xb8
+0x10c12c3: mov rax, qword ptr [r14 + 0x80]
+0x10c12ca: mov qword ptr [rbp - 8], rax
+0x10c12ce: xor eax, eax
+0x10c12d0: mov rcx, qword ptr [rbp + rax*4 + 0x20]
+0x10c12d5: mov rdx, qword ptr [rbp + rax*4 + 0x18]
+0x10c12da: mov qword ptr [rbp - 0x78], rdx
+0x10c12de: mov rbx, qword ptr [rbp + rax*4 + 0x10]
+0x10c12e3: mov qword ptr [rbp - 0x70], rbx
+0x10c12e7: mov rsi, qword ptr [rcx + 0x27]
+0x10c12eb: mov qword ptr [rbp - 0x68], rsi
+0x10c12ef: cmp rsp, qword ptr [r14 + 0x48]
+0x10c12f3: jbe 0x10c1575
+0x10c12f9: mov rax, qword ptr [r15 + 0x87] ; TypeArguments: <void?>
+0x10c1300: call 0xa6d678 ; InitAsyncStub_a6d678
+0x10c1305: mov rax, qword ptr [rbp - 0x78]
+0x10c1309: cmp rax, qword ptr [r15 + 0xd317] ; [pool value not exported]
+0x10c1310: jne 0x10c13e9
+0x10c1316: call 0xc6ab78 ; karing$app$local_services$vpn_service_VPNService::getSystemProxyEnable_c6ab78
+0x10c131b: mov rcx, rax
+0x10c131e: mov qword ptr [rbp - 0x80], rcx
+0x10c1322: call 0xa6d434 ; AwaitStub_a6d434
+0x10c1327: mov rsp, rbp
+0x10c132a: pop rbp
+0x10c132b: ret
+0x10c132c: cmp rax, qword ptr [r14 + 0x90]
+0x10c1333: jne 0x10c13e9
+0x10c1339: call 0xc6aa34 ; vpn_service$vpn_service_FlutterVpnService::cleanSystemProxy_c6aa34
+0x10c133e: mov rcx, rax
+0x10c1341: mov qword ptr [rbp - 0x80], rcx
+0x10c1345: call 0xa6d434 ; AwaitStub_a6d434
+0x10c134a: mov rsp, rbp
+0x10c134d: pop rbp
+0x10c134e: ret
+0x10c134f: jmp 0x10c13e9
+0x10c1354: lea rsp, [rbp - 0xb8]
+0x10c135b: mov qword ptr [rbp - 0x68], rax
+0x10c135f: mov rbx, qword ptr [r14 + 0x80]
+0x10c1366: mov r10d, 4
+0x10c136c: call 0x153443c ; AllocateArrayStub_153443c
+0x10c1371: mov qword ptr [rbp - 0x80], rax
+0x10c1375: mov r11, qword ptr [r15 + 0x467b7] ; String: [not exported]
+0x10c137c: mov qword ptr [rax + 0x17], r11
+0x10c1380: mov rcx, qword ptr [rbp - 0x68]
+0x10c1384: test cl, 1
+0x10c1387: mov edx, 0x3c
+0x10c138c: je 0x10c1394
+0x10c138e: mov edx, dword ptr [rcx - 1]
+0x10c1391: shr edx, 0xc
+0x10c1394: mov qword ptr [rsp], rcx
+0x10c1398: mov rcx, rdx
+0x10c139b: mov r10, qword ptr [r15 + 0x1df] ; [pool value not exported]
+0x10c13a2: mov rax, qword ptr [r14 + 0x68]
+0x10c13a6: call qword ptr [rax + rcx*8 + 0x551f0]
+0x10c13ad: mov rdx, qword ptr [rbp - 0x80]
+0x10c13b1: lea r13, [rdx + 0x1f]
+0x10c13b5: mov qword ptr [r13], rax
+0x10c13b9: test al, 1
+0x10c13bb: je 0x10c13d4
+0x10c13bd: mov r11b, byte ptr [rdx - 1]
+0x10c13c1: shr r11d, 2
+0x10c13c5: and r11d, dword ptr [r14 + 0x50]
+0x10c13c9: test byte ptr [rax - 1], r11b
+0x10c13cd: je 0x10c13d4
+0x10c13cf: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0x10c13d4: mov r11, qword ptr [rbp - 0x80]
+0x10c13d8: mov qword ptr [rsp], r11
+0x10c13dc: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0x10c13e1: mov rdi, rax
+0x10c13e4: call 0xa77240 ; karing$app$utils$log_Log::w_a77240
+0x10c13e9: mov rax, qword ptr [r14 + 0x70]
+0x10c13ed: mov rax, qword ptr [rax + 0x3498]
+0x10c13f4: cmp rax, qword ptr [r14 + 0x88]
+0x10c13fb: jne 0x10c140d
+0x10c1401: mov rdx, qword ptr [r15 + 0xafd7] ; Field <VPNService.onEventStateChanged>: static late final (offset: 0x3498)
+0x10c1408: call 0x1532a68 ; InitLateFinalStaticFieldStub_1532a68
+0x10c140d: mov qword ptr [rbp - 0x80], rax
+0x10c1411: mov rcx, qword ptr [rax + 7]
+0x10c1415: mov rdx, rcx
+0x10c1418: mov qword ptr [rbp - 0x68], rcx
+0x10c141c: call 0xa795cc ; AllocateListIteratorStub_a795cc
+0x10c1421: mov rsi, rax
+0x10c1424: mov rbx, qword ptr [rbp - 0x80]
+0x10c1428: mov qword ptr [rbp - 0xa0], rsi
+0x10c142f: mov qword ptr [rsi + 0xf], rbx
+0x10c1433: mov rax, qword ptr [rbx + 0xf]
+0x10c1437: mov rdi, rax
+0x10c143a: sar rdi, 1
+0x10c143d: mov qword ptr [rbp - 0x98], rdi
+0x10c1444: mov qword ptr [rsi + 0x17], rdi
+0x10c1448: xor eax, eax
+0x10c144a: mov qword ptr [rsi + 0x1f], rax
+0x10c144e: xor ecx, ecx
+0x10c1450: cmp rsp, qword ptr [r14 + 0x48]
+0x10c1454: jbe 0x10c1581
+0x10c145a: mov rax, qword ptr [rbx + 0xf]
+0x10c145e: sar rax, 1
+0x10c1461: cmp rdi, rax
+0x10c1464: jne 0x10c1559
+0x10c146a: cmp rcx, rax
+0x10c146d: jge 0x10c1543
+0x10c1473: mov rax, qword ptr [rbx + 0x17]
+0x10c1477: mov r8, qword ptr [rax + rcx*8 + 0x17]
+0x10c147c: mov rax, r8
+0x10c147f: mov qword ptr [rbp - 0x90], r8
+0x10c1486: mov qword ptr [rsi + 0x27], rax
+0x10c148a: test al, 1
+0x10c148c: je 0x10c14a5
+0x10c148e: mov r11b, byte ptr [rsi - 1]
+0x10c1492: shr r11d, 2
+0x10c1496: and r11d, dword ptr [r14 + 0x50]
+0x10c149a: test byte ptr [rax - 1], r11b
+0x10c149e: je 0x10c14a5
+0x10c14a0: call 0x1532e40
+0x10c14a5: mov r9, rcx
+0x10c14a8: add r9, 1
+0x10c14ac: mov qword ptr [rbp - 0x88], r9
+0x10c14b3: mov qword ptr [rsi + 0x1f], r9
+0x10c14b7: cmp r8, qword ptr [r14 + 0x80]
+0x10c14be: jne 0x10c14f4
+0x10c14c4: mov rax, r8
+0x10c14c7: mov rdx, qword ptr [rbp - 0x68]
+0x10c14cb: mov rcx, qword ptr [r14 + 0x80]
+0x10c14d2: cmp rdx, qword ptr [r14 + 0x80]
+0x10c14d9: je 0x10c14f4
+0x10c14df: mov rsi, qword ptr [rdx + 0x27]
+0x10c14e3: mov rbx, qword ptr [r15 + 0x18f] ; [pool value not exported]
+0x10c14ea: mov r9, qword ptr [r15 + 0x467bf] ; Null
+0x10c14f1: call qword ptr [rsi + 7]
+0x10c14f4: mov r11, qword ptr [rbp - 0x90]
+0x10c14fb: mov qword ptr [rsp + 0x10], r11
+0x10c1500: mov r11, qword ptr [rbp - 0x78]
+0x10c1504: mov qword ptr [rsp + 8], r11
+0x10c1509: mov r11, qword ptr [rbp - 0x70]
+0x10c150d: mov qword ptr [rsp], r11
+0x10c1511: mov rax, qword ptr [rbp - 0x90]
+0x10c1518: mov r10, qword ptr [r15 + 0x2f7] ; [pool value not exported]
+0x10c151f: mov rcx, qword ptr [rax + 0x37]
+0x10c1523: call rcx
+0x10c1525: mov rcx, qword ptr [rbp - 0x88]
+0x10c152c: mov rbx, qword ptr [rbp - 0x80]
+0x10c1530: mov rsi, qword ptr [rbp - 0xa0]
+0x10c1537: mov rdi, qword ptr [rbp - 0x98]
+0x10c153e: jmp 0x10c1450
+0x10c1543: mov rax, rsi
+0x10c1546: mov rcx, qword ptr [r14 + 0x80]
+0x10c154d: mov qword ptr [rax + 0x27], rcx
+0x10c1551: mov rax, rcx
+0x10c1554: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0x10c1559: mov rax, rbx
+0x10c155c: call 0xa58044 ; AllocateConcurrentModificationErrorStub_a58044
+0x10c1561: mov rcx, rax
+0x10c1564: mov rax, qword ptr [rbp - 0x80]
+0x10c1568: mov qword ptr [rcx + 0xf], rax
+0x10c156c: mov rax, rcx
+0x10c156f: call 0x1532b58 ; ThrowStub_1532b58
+0x10c1574: int3
+0x10c1575: call qword ptr [r14 + 0x238]
+0x10c157c: jmp 0x10c12f9
+0x10c1581: call qword ptr [r14 + 0x238]
+0x10c1588: jmp 0x10c145a
+0x10c158d: int3
+0x10c158e: int3
+0x10c158f: int3
+
+# PC._currentState
+0xc48d9c: push rbp
+0xc48d9d: mov rbp, rsp
+0xc48da0: sub rsp, 8
+0xc48da4: mov rax, qword ptr [r14 + 0x80]
+0xc48dab: mov qword ptr [rbp - 8], rax
+0xc48daf: cmp rsp, qword ptr [r14 + 0x48]
+0xc48db3: jbe 0xc48df5
+0xc48db9: mov rax, qword ptr [r15 + 0xd30f] ; TypeArguments: <FlutterVpnServiceState>
+0xc48dc0: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc48dc5: mov rcx, qword ptr [r14 + 0x70]
+0xc48dc9: mov rcx, qword ptr [rcx + 0x4260]
+0xc48dd0: cmp rcx, qword ptr [r14 + 0x80]
+0xc48dd7: je 0xc48de9
+0xc48ddd: mov rax, qword ptr [r15 + 0xd2ff] ; [pool value not exported]
+0xc48de4: jmp 0xc48df0
+0xc48de9: mov rax, qword ptr [r15 + 0xd317] ; [pool value not exported]
+0xc48df0: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc48df5: call qword ptr [r14 + 0x238]
+0xc48dfc: jmp 0xc48db9
+0xc48dfe: int3
+0xc48dff: int3
+
+# PC.cleanSystemProxy
+0xc6aafc: push rbp
+0xc6aafd: mov rbp, rsp
+0xc6ab00: sub rsp, 0x28
+0xc6ab04: mov rax, qword ptr [r14 + 0x80]
+0xc6ab0b: mov qword ptr [rbp - 8], rax
+0xc6ab0f: cmp rsp, qword ptr [r14 + 0x48]
+0xc6ab13: jbe 0xc6ab6e
+0xc6ab19: mov rax, qword ptr [r15 + 0x87] ; TypeArguments: <void?>
+0xc6ab20: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc6ab25: mov r11, qword ptr [r14 + 0x80]
+0xc6ab2c: mov qword ptr [rsp + 0x10], r11
+0xc6ab31: mov r11, qword ptr [r15 + 0x301bf] ; [pool value not exported]
+0xc6ab38: mov qword ptr [rsp + 8], r11
+0xc6ab3d: mov r11, qword ptr [r15 + 0x301c7] ; String: [not exported]
+0xc6ab44: mov qword ptr [rsp], r11
+0xc6ab48: mov r10, qword ptr [r15 + 0x3f] ; [pool value not exported]
+0xc6ab4c: call 0x150c724 ; flutter$src$services$platform_channel_MethodChannel::invokeMethod_150c724
+0xc6ab51: mov rcx, rax
+0xc6ab54: mov qword ptr [rbp - 0x10], rcx
+0xc6ab58: call 0xa6d434 ; AwaitStub_a6d434
+0xc6ab5d: mov rsp, rbp
+0xc6ab60: pop rbp
+0xc6ab61: ret
+0xc6ab62: mov rax, qword ptr [r14 + 0x80]
+0xc6ab69: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc6ab6e: call qword ptr [r14 + 0x238]
+0xc6ab75: jmp 0xc6ab19
+0xc6ab77: int3
+
+# FlutterVpnWait.waitTimeout
+0xc49028: push rbp
+0xc49029: mov rbp, rsp
+0xc4902c: sub rsp, 0x10
+0xc49030: mov rax, qword ptr [r14 + 0x80]
+0xc49037: mov qword ptr [rbp - 8], rax
+0xc4903b: mov rsi, rdi
+0xc4903e: mov qword ptr [rbp - 0x10], rdi
+0xc49042: cmp rsp, qword ptr [r14 + 0x48]
+0xc49046: jbe 0xc49092
+0xc4904c: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc49053: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc49058: mov rsi, qword ptr [rbp - 0x10]
+0xc4905c: mov rdi, qword ptr [r14 + 0x80]
+0xc49063: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xc49067: call 0xa77f48 ; dart_async_Future::factory_ctor_delayed_a77f48
+0xc4906c: mov rcx, rax
+0xc4906f: mov qword ptr [rbp - 0x10], rcx
+0xc49073: call 0xa6d434 ; AwaitStub_a6d434
+0xc49078: mov rsp, rbp
+0xc4907b: pop rbp
+0xc4907c: ret
+0xc4907d: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xc49082: mov rcx, qword ptr [r15 + 0x301af] ; [pool value not exported]
+0xc49089: mov qword ptr [rax + 7], rcx
+0xc4908d: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc49092: call qword ptr [r14 + 0x238]
+0xc49099: jmp 0xc4904c
+0xc4909b: int3
+
+# FlutterVpnWait.wait
+0xc490a8: push rbp
+0xc490a9: mov rbp, rsp
+0xc490ac: sub rsp, 0x28
+0xc490b0: mov rax, qword ptr [r14 + 0x80]
+0xc490b7: mov qword ptr [rbp - 8], rax
+0xc490bb: mov rcx, rdi
+0xc490be: mov qword ptr [rbp - 0x10], rdi
+0xc490c2: mov qword ptr [rbp - 0x18], rsi
+0xc490c6: cmp rsp, qword ptr [r14 + 0x48]
+0xc490ca: jbe 0xc49114
+0xc490d0: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc490d7: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc490dc: mov r11, qword ptr [rbp - 0x10]
+0xc490e0: mov qword ptr [rsp + 8], r11
+0xc490e5: mov r11, qword ptr [rbp - 0x18]
+0xc490e9: mov qword ptr [rsp], r11
+0xc490ed: mov rax, qword ptr [rbp - 0x10]
+0xc490f1: mov r10, qword ptr [r15 + 0xcf] ; [pool value not exported]
+0xc490f8: mov rcx, qword ptr [rax + 0x37]
+0xc490fc: call rcx
+0xc490fe: mov rcx, rax
+0xc49101: mov qword ptr [rbp - 0x10], rcx
+0xc49105: call 0xa6d434 ; AwaitStub_a6d434
+0xc4910a: mov rsp, rbp
+0xc4910d: pop rbp
+0xc4910e: ret
+0xc4910f: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xc49114: call qword ptr [r14 + 0x238]
+0xc4911b: jmp 0xc490d0
+0xc4911d: int3
+0xc4911e: int3
+0xc4911f: int3
+
+# FlutterVpnWait.waitProcessExit
+0xc4ac50: push rbp
+0xc4ac51: mov rbp, rsp
+0xc4ac54: sub rsp, 0x20
+0xc4ac58: mov rax, qword ptr [r14 + 0x80]
+0xc4ac5f: mov qword ptr [rbp - 8], rax
+0xc4ac63: mov qword ptr [rbp - 0x10], rdi
+0xc4ac67: cmp rsp, qword ptr [r14 + 0x48]
+0xc4ac6b: jbe 0xc4ad02
+0xc4ac71: mov rax, qword ptr [r15 + 0x2fc57] ; TypeArguments: <VpnServiceWaitResult>
+0xc4ac78: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc4ac7d: mov rdi, qword ptr [rbp - 0x10]
+0xc4ac81: call 0xc4ad10 ; dart_io__ProcessImpl::get_exitCode_c4ad10
+0xc4ac86: mov rcx, rax
+0xc4ac89: mov qword ptr [rbp - 0x10], rcx
+0xc4ac8d: call 0xa6d434 ; AwaitStub_a6d434
+0xc4ac92: mov rsp, rbp
+0xc4ac95: pop rbp
+0xc4ac96: ret
+0xc4ac97: mov qword ptr [rbp - 0x10], rax
+0xc4ac9b: call 0xc4909c ; AllocateVpnServiceWaitResultStub_c4909c
+0xc4aca0: mov rdx, rax
+0xc4aca3: mov rax, qword ptr [r15 + 0x2fdb7] ; [pool value not exported]
+0xc4acaa: mov qword ptr [rbp - 0x18], rdx
+0xc4acae: mov qword ptr [rdx + 7], rax
+0xc4acb2: mov rax, qword ptr [rbp - 0x10]
+0xc4acb6: test al, 1
+0xc4acb8: mov ecx, 0x3c
+0xc4acbd: je 0xc4acc5
+0xc4acbf: mov ecx, dword ptr [rax - 1]
+0xc4acc2: shr ecx, 0xc
+0xc4acc5: mov qword ptr [rsp], rax
+0xc4acc9: mov r10, qword ptr [r15 + 0x1df] ; [pool value not exported]
+0xc4acd0: mov rax, qword ptr [r14 + 0x68]
+0xc4acd4: call qword ptr [rax + rcx*8 + 0x551f0]
+0xc4acdb: mov rcx, qword ptr [rbp - 0x18]
+0xc4acdf: mov qword ptr [rcx + 0x17], rax
+0xc4ace3: mov r11b, byte ptr [rcx - 1]
+0xc4ace7: shr r11d, 2
+0xc4aceb: and r11d, dword ptr [r14 + 0x50]
+0xc4acef: test byte ptr [rax - 1], r11b
+0xc4acf3: je 0xc4acfa
+0xc4acf5: call 0x1532e19
+0xc4acfa: mov rax, rcx
+0xc4acfd: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc4ad02: call qword ptr [r14 + 0x238]
+0xc4ad09: jmp 0xc4ac71
+0xc4ad0e: int3
+0xc4ad0f: int3

@@ -1,0 +1,219 @@
+{
+  "scope": "Static stop/state contract, Karing 1.2.25+2802; no runtime cleanup validation",
+  "inputSha256": "38c1b08f0f12c0934f3e25a2dd7c4f276c690be457a4b24377d1cea36c740882",
+  "instructionChecks": [
+    {
+      "address": "0xc48b78",
+      "instruction": "mov qword ptr [rax + 0x4290], rdx"
+    },
+    {
+      "address": "0xc48bef",
+      "instruction": "call 0xc490a8"
+    },
+    {
+      "address": "0xc48bff",
+      "instruction": "call 0xc49028"
+    },
+    {
+      "address": "0xc48c67",
+      "instruction": "call 0xc48e00"
+    },
+    {
+      "address": "0xc48c8c",
+      "instruction": "mov qword ptr [rcx + 0x4290], rdx"
+    },
+    {
+      "address": "0xc48d0b",
+      "instruction": "call 0xc48d9c"
+    },
+    {
+      "address": "0xc49221",
+      "instruction": "mov rax, qword ptr [rax + 0x4280]"
+    },
+    {
+      "address": "0xc49232",
+      "instruction": "cmp rax, 0"
+    },
+    {
+      "address": "0xc4923f",
+      "instruction": "mov rdi, qword ptr [r15 + 0x2fc7f]"
+    },
+    {
+      "address": "0xc4924d",
+      "instruction": "mov rbx, qword ptr [r15 + 0x2fc87]"
+    },
+    {
+      "address": "0xc49254",
+      "instruction": "call 0xc4af14"
+    },
+    {
+      "address": "0xc49275",
+      "instruction": "mov qword ptr [rax + 0x4268], rdx"
+    },
+    {
+      "address": "0xc49287",
+      "instruction": "call 0xc4ad68"
+    },
+    {
+      "address": "0xc492c1",
+      "instruction": "call 0xa79990"
+    },
+    {
+      "address": "0xc492e2",
+      "instruction": "call 0xc4ac50"
+    },
+    {
+      "address": "0xc492e7",
+      "instruction": "mov rdi, qword ptr [r15 + 0xafcf]"
+    },
+    {
+      "address": "0xc492f2",
+      "instruction": "call 0xc49028"
+    },
+    {
+      "address": "0xc4935a",
+      "instruction": "call 0xc48e00"
+    },
+    {
+      "address": "0xc49385",
+      "instruction": "call 0xc4ac08"
+    },
+    {
+      "address": "0xc49395",
+      "instruction": "mov qword ptr [rax + 0x4260], rdx"
+    },
+    {
+      "address": "0xc493e3",
+      "instruction": "call 0xc49450"
+    },
+    {
+      "address": "0xc49423",
+      "instruction": "call 0xc49450"
+    },
+    {
+      "address": "0xc49469",
+      "instruction": "call 0xc496a4"
+    },
+    {
+      "address": "0xc4951d",
+      "instruction": "mov rax, qword ptr [rbx + 0xf]"
+    },
+    {
+      "address": "0xc4955c",
+      "instruction": "mov rdx, qword ptr [rcx + 7]"
+    },
+    {
+      "address": "0xc49582",
+      "instruction": "call 0xc49614"
+    },
+    {
+      "address": "0xd86bf7",
+      "instruction": "call 0xc490a8"
+    },
+    {
+      "address": "0xd86c04",
+      "instruction": "call 0xc49028"
+    },
+    {
+      "address": "0xd86c6c",
+      "instruction": "call 0xc48e00"
+    },
+    {
+      "address": "0xd86281",
+      "instruction": "mov qword ptr [rax + 0x4260], rdx"
+    },
+    {
+      "address": "0xd86293",
+      "instruction": "mov qword ptr [rax + 0x4268], rdx"
+    },
+    {
+      "address": "0xd8629e",
+      "instruction": "mov rax, qword ptr [rax + 0x4290]"
+    },
+    {
+      "address": "0xd862ac",
+      "instruction": "jne 0xd8638a"
+    },
+    {
+      "address": "0xd862b6",
+      "instruction": "mov rax, qword ptr [rax + 0x4298]"
+    },
+    {
+      "address": "0xc48dc9",
+      "instruction": "mov rcx, qword ptr [rcx + 0x4260]"
+    },
+    {
+      "address": "0xc48dd7",
+      "instruction": "je 0xc48de9"
+    },
+    {
+      "address": "0xc48ddd",
+      "instruction": "mov rax, qword ptr [r15 + 0xd2ff]"
+    },
+    {
+      "address": "0xc48de9",
+      "instruction": "mov rax, qword ptr [r15 + 0xd317]"
+    },
+    {
+      "address": "0x10c1309",
+      "instruction": "cmp rax, qword ptr [r15 + 0xd317]"
+    },
+    {
+      "address": "0x10c1316",
+      "instruction": "call 0xc6ab78"
+    },
+    {
+      "address": "0x10c1339",
+      "instruction": "call 0xc6aa34"
+    },
+    {
+      "address": "0x10c13e4",
+      "instruction": "call 0xa77240"
+    },
+    {
+      "address": "0x10c13ed",
+      "instruction": "mov rax, qword ptr [rax + 0x3498]"
+    },
+    {
+      "address": "0x10c1523",
+      "instruction": "call rcx"
+    },
+    {
+      "address": "0xc6ab3d",
+      "instruction": "mov r11, qword ptr [r15 + 0x301c7]"
+    },
+    {
+      "address": "0xc6ab4c",
+      "instruction": "call 0x150c724"
+    },
+    {
+      "address": "0xc49067",
+      "instruction": "call 0xa77f48"
+    },
+    {
+      "address": "0xc490fc",
+      "instruction": "call rcx"
+    }
+  ],
+  "durationsMicroseconds": {
+    "outerStopRace": 8000000,
+    "httpRequestArgument": 200000,
+    "internalExitRace": 10000000
+  },
+  "behavior": {
+    "httpStop": "request stop if service HTTP port is nonzero",
+    "processFallback": "wait exit/timeout, killPid captured PID, clear handle, then enumerate/filter processes and attempt kill",
+    "scopeWarning": "name-based fallback is broader than own child; do not execute it on host",
+    "exitCallback": "clears process/started; suppresses callback when operation slot 0x4290 non-null",
+    "stateQuery": "branches on process reference, not a verified socket/traffic/network cleanup check",
+    "proxyCleanup": "state callback compares enum object at pp+0xd318; conditionally calls cleanSystemProxy, catches/logs failure, then forwards events"
+  },
+  "limitations": [
+    "Human-readable enum names not recovered from indices",
+    "Exact case semantics of dynamic name comparison not resolved",
+    "HTTP method/URL/auth and response consumption require separate verification",
+    "No confirmed wait after final kill or completed proxy restoration",
+    "No guarantees outer Future.any cancels losing operation",
+    "Other versions not established"
+  ]
+}

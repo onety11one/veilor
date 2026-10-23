@@ -1,0 +1,572 @@
+# HttpRequest.request
+0xc4af14: push rbp
+0xc4af15: mov rbp, rsp
+0xc4af18: sub rsp, 0xe8
+0xc4af1f: mov rax, qword ptr [r14 + 0x80]
+0xc4af26: mov qword ptr [rbp - 8], rax
+0xc4af2a: mov qword ptr [rbp - 0x98], rdi
+0xc4af31: xchg rdx, rdi
+0xc4af34: mov rcx, rbx
+0xc4af37: mov qword ptr [rbp - 0xa0], rsi
+0xc4af3e: mov qword ptr [rbp - 0xa8], rdi
+0xc4af45: mov qword ptr [rbp - 0xb0], rbx
+0xc4af4c: cmp rsp, qword ptr [r14 + 0x48]
+0xc4af50: jbe 0xc4b524
+0xc4af56: mov rax, qword ptr [r15 + 0x2fdc7] ; TypeArguments: <HttpResponseResult>
+0xc4af5d: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc4af62: mov rbx, qword ptr [r14 + 0x80]
+0xc4af69: mov r10d, 4
+0xc4af6f: call 0x153443c ; AllocateArrayStub_153443c
+0xc4af74: mov rcx, rax
+0xc4af77: mov rax, qword ptr [rbp - 0x98]
+0xc4af7e: mov qword ptr [rcx + 0x17], rax
+0xc4af82: mov r11, qword ptr [r15 + 0x1a1f] ; String: [non-JSON encoding; not exported]
+0xc4af89: mov qword ptr [rcx + 0x1f], r11
+0xc4af8d: mov qword ptr [rsp], rcx
+0xc4af91: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xc4af96: mov qword ptr [rbp - 0xb8], rax
+0xc4af9d: mov r10d, 1
+0xc4afa3: call 0x15334a4 ; AllocateContextStub_15334a4
+0xc4afa8: mov rcx, rax
+0xc4afab: mov rax, qword ptr [rbp - 0xb8]
+0xc4afb2: mov qword ptr [rbp - 0xc0], rcx
+0xc4afb9: mov qword ptr [rcx + 0x17], rax
+0xc4afbd: mov rdi, qword ptr [rbp - 0xa8]
+0xc4afc4: cmp rdi, qword ptr [r14 + 0x80]
+0xc4afcb: je 0xc4afef
+0xc4afd1: mov rdx, rcx
+0xc4afd4: mov rbx, qword ptr [r15 + 0x2fdcf] ; [pool value not exported]
+0xc4afdb: call 0x15337fc ; AllocateClosureStub_15337fc
+0xc4afe0: mov rdi, qword ptr [rbp - 0xa8]
+0xc4afe7: mov rsi, rax
+0xc4afea: call 0xe564d4 ; dart__compact_hash___Map&_HashVMBase&MapMixin&_HashBase&_OperatorEqualsAndHashCode&_LinkedHashMapMixin::forEach_e564d4
+0xc4afef: call 0xc6a6ac ; AllocateHttpResponseResultStub_c6a6ac
+0xc4aff4: mov rdi, qword ptr [r14 + 0x80]
+0xc4affb: mov qword ptr [rbp - 0xa8], rax
+0xc4b002: call 0xc68f40 ; dart__http_HttpClient::factory_ctor_c68f40
+0xc4b007: mov rcx, rax
+0xc4b00a: mov rax, qword ptr [r15 + 0x2fdd7] ; String: [not exported]
+0xc4b011: mov qword ptr [rbp - 0xb8], rcx
+0xc4b018: mov qword ptr [rcx + 0x87], rax
+0xc4b01f: mov rax, qword ptr [rbp - 0xb0]
+0xc4b026: mov qword ptr [rcx + 0x6f], rax
+0xc4b02a: mov r11b, byte ptr [rcx - 1]
+0xc4b02e: shr r11d, 2
+0xc4b032: and r11d, dword ptr [r14 + 0x50]
+0xc4b036: test byte ptr [rax - 1], r11b
+0xc4b03a: je 0xc4b041
+0xc4b03c: call 0x1532e19
+0xc4b041: mov rdi, rcx
+0xc4b044: mov rsi, qword ptr [r15 + 0xcfaf] ; [pool value not exported]
+0xc4b04b: call 0xc68c8c ; dart__http__HttpClient::idleTimeout_assign_c68c8c
+0xc4b050: mov rbx, qword ptr [r15 + 0x2fddf] ; [pool value not exported]
+0xc4b057: mov rdx, qword ptr [r14 + 0x80]
+0xc4b05e: call 0x15337fc ; AllocateClosureStub_15337fc
+0xc4b063: mov rcx, qword ptr [rbp - 0xb8]
+0xc4b06a: mov qword ptr [rcx + 0x4f], rax
+0xc4b06e: mov r11b, byte ptr [rcx - 1]
+0xc4b072: shr r11d, 2
+0xc4b076: and r11d, dword ptr [r14 + 0x50]
+0xc4b07a: test byte ptr [rax - 1], r11b
+0xc4b07e: je 0xc4b085
+0xc4b080: call 0x1532e19
+0xc4b085: mov rax, qword ptr [rbp - 0xc0]
+0xc4b08c: mov rdx, qword ptr [rax + 0x17]
+0xc4b090: mov rdi, rcx
+0xc4b093: mov rsi, qword ptr [rbp - 0xa0]
+0xc4b09a: call 0xc50d80 ; dart__http__HttpClient::open_c50d80
+0xc4b09f: mov rcx, rax
+0xc4b0a2: mov qword ptr [rbp - 0xb0], rcx
+0xc4b0a9: call 0xa6d434 ; AwaitStub_a6d434
+0xc4b0ae: mov rsp, rbp
+0xc4b0b1: pop rbp
+0xc4b0b2: ret
+0xc4b0b3: mov rdi, rax
+0xc4b0b6: mov qword ptr [rbp - 0xb0], rax
+0xc4b0bd: call 0xc50d18 ; vpn_service$http_request_HttpRequest::waitDone_c50d18
+0xc4b0c2: mov rcx, rax
+0xc4b0c5: mov rax, qword ptr [rbp - 0xb8]
+0xc4b0cc: mov qword ptr [rbp - 0xc8], rcx
+0xc4b0d3: mov rdi, qword ptr [rax + 0x6f]
+0xc4b0d7: cmp rdi, qword ptr [r14 + 0x80]
+0xc4b0de: je 0xc4b530
+0xc4b0e4: call 0xc50cac ; karing$app$utils$http_utils_HttpUtils::waitResponseTimeout_c50cac
+0xc4b0e9: mov rbx, qword ptr [r14 + 0x80]
+0xc4b0f0: mov r10d, 4
+0xc4b0f6: mov qword ptr [rbp - 0xd0], rax
+0xc4b0fd: call 0x153443c ; AllocateArrayStub_153443c
+0xc4b102: mov rcx, rax
+0xc4b105: mov rax, qword ptr [rbp - 0xc8]
+0xc4b10c: mov qword ptr [rbp - 0xd8], rcx
+0xc4b113: mov qword ptr [rcx + 0x17], rax
+0xc4b117: mov rax, qword ptr [rbp - 0xd0]
+0xc4b11e: mov qword ptr [rcx + 0x1f], rax
+0xc4b122: mov rdx, qword ptr [r15 + 0xb38f] ; TypeArguments: <Future<HttpClientResponse?>>
+0xc4b129: call 0x1533474 ; AllocateGrowableArrayStub_1533474
+0xc4b12e: mov rcx, rax
+0xc4b131: mov rax, qword ptr [rbp - 0xd8]
+0xc4b138: mov qword ptr [rcx + 0x17], rax
+0xc4b13c: mov qword ptr [rcx + 0xf], 4
+0xc4b144: mov r11, qword ptr [r15 + 0xb397] ; TypeArguments: <HttpClientResponse?>
+0xc4b14b: mov qword ptr [rsp + 8], r11
+0xc4b150: mov qword ptr [rsp], rcx
+0xc4b154: mov r10, qword ptr [r15 + 0x6ff] ; [pool value not exported]
+0xc4b15b: call 0xc48e00 ; dart_async_Future::any_c48e00
+0xc4b160: mov rcx, rax
+0xc4b163: mov qword ptr [rbp - 0xc8], rcx
+0xc4b16a: call 0xa6d434 ; AwaitStub_a6d434
+0xc4b16f: mov rsp, rbp
+0xc4b172: pop rbp
+0xc4b173: ret
+0xc4b174: mov qword ptr [rbp - 0xc8], rax
+0xc4b17b: cmp rax, qword ptr [r14 + 0x80]
+0xc4b182: jne 0xc4b205
+0xc4b188: mov rax, qword ptr [rbp - 0xa8]
+0xc4b18f: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xc4b194: mov rcx, rax
+0xc4b197: mov rax, qword ptr [r15 + 0x2fde7] ; String: [not exported]
+0xc4b19e: mov qword ptr [rbp - 0xb0], rcx
+0xc4b1a5: mov qword ptr [rcx + 7], rax
+0xc4b1a9: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xc4b1ae: mov rsi, rax
+0xc4b1b1: mov rdi, qword ptr [r14 + 0x80]
+0xc4b1b8: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xc4b1bd: mov rax, qword ptr [rbp - 0xb0]
+0xc4b1c4: mov rcx, qword ptr [rbp - 0xa8]
+0xc4b1cb: mov qword ptr [rcx + 7], rax
+0xc4b1cf: mov r11b, byte ptr [rcx - 1]
+0xc4b1d3: shr r11d, 2
+0xc4b1d7: and r11d, dword ptr [r14 + 0x50]
+0xc4b1db: test byte ptr [rax - 1], r11b
+0xc4b1df: je 0xc4b1e6
+0xc4b1e1: call 0x1532e19
+0xc4b1e6: mov rdi, qword ptr [rbp - 0xb8]
+0xc4b1ed: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xc4b1f4: call 0xc4bb40 ; dart__http__HttpClient::close_c4bb40
+0xc4b1f9: mov rax, qword ptr [rbp - 0xa8]
+0xc4b200: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc4b205: mov rcx, qword ptr [rax + 0xf]
+0xc4b209: mov rdx, qword ptr [rcx + 0x37]
+0xc4b20d: mov qword ptr [rbp - 0xb0], rdx
+0xc4b214: cmp rdx, qword ptr [r14 + 0x80]
+0xc4b21b: je 0xc4b535
+0xc4b221: cmp rdx, 0x190
+0xc4b228: je 0xc4b2f0
+0xc4b22e: mov rcx, qword ptr [rbp - 0xa8]
+0xc4b235: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xc4b23a: mov rbx, qword ptr [r14 + 0x80]
+0xc4b241: mov r10d, 4
+0xc4b247: mov qword ptr [rbp - 0xd0], rax
+0xc4b24e: call 0x153443c ; AllocateArrayStub_153443c
+0xc4b253: mov r11, qword ptr [r15 + 0x2fdef] ; String: [not exported]
+0xc4b25a: mov qword ptr [rax + 0x17], r11
+0xc4b25e: mov rcx, qword ptr [rbp - 0xb0]
+0xc4b265: mov qword ptr [rax + 0x1f], rcx
+0xc4b269: mov qword ptr [rsp], rax
+0xc4b26d: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xc4b272: mov rcx, qword ptr [rbp - 0xd0]
+0xc4b279: mov qword ptr [rcx + 7], rax
+0xc4b27d: mov r11b, byte ptr [rcx - 1]
+0xc4b281: shr r11d, 2
+0xc4b285: and r11d, dword ptr [r14 + 0x50]
+0xc4b289: test byte ptr [rax - 1], r11b
+0xc4b28d: je 0xc4b294
+0xc4b28f: call 0x1532e19
+0xc4b294: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xc4b299: mov rsi, rax
+0xc4b29c: mov rdi, qword ptr [r14 + 0x80]
+0xc4b2a3: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xc4b2a8: mov rax, qword ptr [rbp - 0xd0]
+0xc4b2af: mov rcx, qword ptr [rbp - 0xa8]
+0xc4b2b6: mov qword ptr [rcx + 7], rax
+0xc4b2ba: mov r11b, byte ptr [rcx - 1]
+0xc4b2be: shr r11d, 2
+0xc4b2c2: and r11d, dword ptr [r14 + 0x50]
+0xc4b2c6: test byte ptr [rax - 1], r11b
+0xc4b2ca: je 0xc4b2d1
+0xc4b2cc: call 0x1532e19
+0xc4b2d1: mov rdi, qword ptr [rbp - 0xb8]
+0xc4b2d8: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xc4b2df: call 0xc4bb40 ; dart__http__HttpClient::close_c4bb40
+0xc4b2e4: mov rax, qword ptr [rbp - 0xa8]
+0xc4b2eb: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc4b2f0: mov rsi, qword ptr [rbp - 0xc8]
+0xc4b2f7: mov rdi, qword ptr [r15 + 0x1cef] ; [pool value not exported]
+0xc4b2fe: call 0x10211b4 ; dart_convert_Utf8Decoder::bind_10211b4
+0xc4b303: mov rdi, rax
+0xc4b306: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xc4b30d: call 0xc4b7b8 ; dart_async_Stream::join_c4b7b8
+0xc4b312: mov rcx, rax
+0xc4b315: mov qword ptr [rbp - 0xb0], rcx
+0xc4b31c: call 0xa6d434 ; AwaitStub_a6d434
+0xc4b321: mov rsp, rbp
+0xc4b324: pop rbp
+0xc4b325: ret
+0xc4b326: mov rcx, qword ptr [rax + 7]
+0xc4b32a: test rcx, rcx
+0xc4b32d: jne 0xc4b370
+0xc4b333: mov rdi, qword ptr [r15 + 0x2fdc7] ; TypeArguments: <HttpResponseResult>
+0xc4b33a: mov rsi, qword ptr [r15 + 0x2fdf7] ; String: [not exported]
+0xc4b341: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xc4b345: call 0xa6b3b8 ; dart_async_Future::factory_ctor_error_a6b3b8
+0xc4b34a: mov qword ptr [rbp - 0xb0], rax
+0xc4b351: mov rdi, qword ptr [rbp - 0xb8]
+0xc4b358: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xc4b35f: call 0xc4bb40 ; dart__http__HttpClient::close_c4bb40
+0xc4b364: mov rax, qword ptr [rbp - 0xb0]
+0xc4b36b: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xc4b370: mov rcx, qword ptr [rbp - 0xa8]
+0xc4b377: mov qword ptr [rcx + 0xf], rax
+0xc4b37b: mov r11b, byte ptr [rcx - 1]
+0xc4b37f: shr r11d, 2
+0xc4b383: and r11d, dword ptr [r14 + 0x50]
+0xc4b387: test byte ptr [rax - 1], r11b
+0xc4b38b: je 0xc4b392
+0xc4b38d: call 0x1532e19
+0xc4b392: jmp 0xc4b4c6
+0xc4b397: lea rsp, [rbp - 0xe8]
+0xc4b39e: mov rbx, qword ptr [rbp - 0x98]
+0xc4b3a5: mov rcx, qword ptr [rbp - 0xa8]
+0xc4b3ac: mov qword ptr [rbp - 0xb0], rax
+0xc4b3b3: mov qword ptr [rbp - 0xc8], rdx
+0xc4b3ba: call 0xc50ca0 ; AllocateVpnServiceResultErrorStub_c50ca0
+0xc4b3bf: mov rbx, qword ptr [r14 + 0x80]
+0xc4b3c6: mov r10d, 8
+0xc4b3cc: mov qword ptr [rbp - 0xd0], rax
+0xc4b3d3: call 0x153443c ; AllocateArrayStub_153443c
+0xc4b3d8: mov qword ptr [rbp - 0xd8], rax
+0xc4b3df: mov r11, qword ptr [r15 + 0x2fdff] ; String: [not exported]
+0xc4b3e6: mov qword ptr [rax + 0x17], r11
+0xc4b3ea: mov rdx, qword ptr [rbp - 0x98]
+0xc4b3f1: mov qword ptr [rax + 0x1f], rdx
+0xc4b3f5: mov r11, qword ptr [r15 + 0x1037] ; String: [not exported]
+0xc4b3fc: mov qword ptr [rax + 0x27], r11
+0xc4b400: mov rbx, qword ptr [rbp - 0xb0]
+0xc4b407: test bl, 1
+0xc4b40a: mov ecx, 0x3c
+0xc4b40f: je 0xc4b417
+0xc4b411: mov ecx, dword ptr [rbx - 1]
+0xc4b414: shr ecx, 0xc
+0xc4b417: mov qword ptr [rsp], rbx
+0xc4b41b: mov r10, qword ptr [r15 + 0x1df] ; [pool value not exported]
+0xc4b422: mov rax, qword ptr [r14 + 0x68]
+0xc4b426: call qword ptr [rax + rcx*8 + 0x551f0]
+0xc4b42d: mov rdx, qword ptr [rbp - 0xd8]
+0xc4b434: lea r13, [rdx + 0x2f]
+0xc4b438: mov qword ptr [r13], rax
+0xc4b43c: test al, 1
+0xc4b43e: je 0xc4b457
+0xc4b440: mov r11b, byte ptr [rdx - 1]
+0xc4b444: shr r11d, 2
+0xc4b448: and r11d, dword ptr [r14 + 0x50]
+0xc4b44c: test byte ptr [rax - 1], r11b
+0xc4b450: je 0xc4b457
+0xc4b452: call 0x1532b7c ; ArrayWriteBarrierStub_1532b7c
+0xc4b457: mov r11, qword ptr [rbp - 0xd8]
+0xc4b45e: mov qword ptr [rsp], r11
+0xc4b462: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0xc4b467: mov rcx, qword ptr [rbp - 0xd0]
+0xc4b46e: mov qword ptr [rcx + 7], rax
+0xc4b472: mov r11b, byte ptr [rcx - 1]
+0xc4b476: shr r11d, 2
+0xc4b47a: and r11d, dword ptr [r14 + 0x50]
+0xc4b47e: test byte ptr [rax - 1], r11b
+0xc4b482: je 0xc4b489
+0xc4b484: call 0x1532e19
+0xc4b489: call 0xa522c4 ; dart_core_StackTrace::get_current_a522c4
+0xc4b48e: mov rsi, rax
+0xc4b491: mov rdi, qword ptr [r14 + 0x80]
+0xc4b498: call 0xc4c624 ; stack_trace$src$chain_Chain::factory_ctor_forTrace_c4c624
+0xc4b49d: mov rax, qword ptr [rbp - 0xd0]
+0xc4b4a4: mov rcx, qword ptr [rbp - 0xa8]
+0xc4b4ab: mov qword ptr [rcx + 7], rax
+0xc4b4af: mov r11b, byte ptr [rcx - 1]
+0xc4b4b3: shr r11d, 2
+0xc4b4b7: and r11d, dword ptr [r14 + 0x50]
+0xc4b4bb: test byte ptr [rax - 1], r11b
+0xc4b4bf: je 0xc4b4c6
+0xc4b4c1: call 0x1532e19
+0xc4b4c6: mov rdi, qword ptr [rbp - 0xb8]
+0xc4b4cd: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xc4b4d4: call 0xc4bb40 ; dart__http__HttpClient::close_c4bb40
+0xc4b4d9: mov rax, qword ptr [rbp - 0xa8]
+0xc4b4e0: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc4b4e5: lea rsp, [rbp - 0xe8]
+0xc4b4ec: mov rdi, qword ptr [rbp - 0xb8]
+0xc4b4f3: mov rbx, rdx
+0xc4b4f6: mov qword ptr [rbp - 0x98], rax
+0xc4b4fd: mov qword ptr [rbp - 0xa8], rdx
+0xc4b504: mov r10, qword ptr [r15 + 0x63f] ; [pool value not exported]
+0xc4b50b: call 0xc4bb40 ; dart__http__HttpClient::close_c4bb40
+0xc4b510: mov rax, qword ptr [rbp - 0x98]
+0xc4b517: mov rbx, qword ptr [rbp - 0xa8]
+0xc4b51e: call 0x1532b34 ; ReThrowStub_1532b34
+0xc4b523: int3
+0xc4b524: call qword ptr [r14 + 0x238]
+0xc4b52b: jmp 0xc4af56
+0xc4b530: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xc4b535: call 0x1534bb0 ; NullCastErrorSharedWithoutFPURegsStub_1534bb0
+0xc4b53a: int3
+0xc4b53b: int3
+
+# FlutterVpnServiceState.enumToString
+0x13b877c: push rbp
+0x13b877d: mov rbp, rsp
+0x13b8780: sub rsp, 0x10
+0x13b8784: mov qword ptr [rbp - 8], rdi
+0x13b8788: cmp rsp, qword ptr [r14 + 0x48]
+0x13b878c: jbe 0x13b87c9
+0x13b8792: mov rbx, qword ptr [r14 + 0x80]
+0x13b8799: mov r10d, 4
+0x13b879f: call 0x153443c ; AllocateArrayStub_153443c
+0x13b87a4: mov r11, qword ptr [r15 + 0x417af] ; String: [not exported]
+0x13b87ab: mov qword ptr [rax + 0x17], r11
+0x13b87af: mov rcx, qword ptr [rbp - 8]
+0x13b87b3: mov rdx, qword ptr [rcx + 0xf]
+0x13b87b7: mov qword ptr [rax + 0x1f], rdx
+0x13b87bb: mov qword ptr [rsp], rax
+0x13b87bf: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0x13b87c4: mov rsp, rbp
+0x13b87c7: pop rbp
+0x13b87c8: ret
+0x13b87c9: call qword ptr [r14 + 0x238]
+0x13b87d0: jmp 0x13b8792
+0x13b87d2: int3
+0x13b87d3: int3
+
+# VpnServiceWaitType.enumToString
+0x13b87d4: push rbp
+0x13b87d5: mov rbp, rsp
+0x13b87d8: sub rsp, 0x10
+0x13b87dc: mov qword ptr [rbp - 8], rdi
+0x13b87e0: cmp rsp, qword ptr [r14 + 0x48]
+0x13b87e4: jbe 0x13b8821
+0x13b87ea: mov rbx, qword ptr [r14 + 0x80]
+0x13b87f1: mov r10d, 4
+0x13b87f7: call 0x153443c ; AllocateArrayStub_153443c
+0x13b87fc: mov r11, qword ptr [r15 + 0x417a7] ; String: [not exported]
+0x13b8803: mov qword ptr [rax + 0x17], r11
+0x13b8807: mov rcx, qword ptr [rbp - 8]
+0x13b880b: mov rdx, qword ptr [rcx + 0xf]
+0x13b880f: mov qword ptr [rax + 0x1f], rdx
+0x13b8813: mov qword ptr [rsp], rax
+0x13b8817: call 0xa502e4 ; dart_core__StringBase::_interpolate_a502e4
+0x13b881c: mov rsp, rbp
+0x13b881f: pop rbp
+0x13b8820: ret
+0x13b8821: call qword ptr [r14 + 0x238]
+0x13b8828: jmp 0x13b87ea
+0x13b882a: int3
+0x13b882b: int3
+
+# HttpClient.open
+0xc50d80: push rbp
+0xc50d81: mov rbp, rsp
+0xc50d84: sub rsp, 0x50
+0xc50d88: mov rax, rdx
+0xc50d8b: mov qword ptr [rbp - 0x20], rdx
+0xc50d8f: mov rdx, rdi
+0xc50d92: mov rcx, rsi
+0xc50d95: mov qword ptr [rbp - 0x10], rdi
+0xc50d99: mov qword ptr [rbp - 0x18], rsi
+0xc50d9d: cmp rsp, qword ptr [r14 + 0x48]
+0xc50da1: jbe 0xc50ef6
+0xc50da7: mov rbx, qword ptr [rax + 7]
+0xc50dab: sar rbx, 1
+0xc50dae: mov rsi, rbx
+0xc50db1: sub rsi, 1
+0xc50db5: mov edi, dword ptr [rax - 1]
+0xc50db8: shr edi, 0xc
+0xc50dbb: add rdi, rdi
+0xc50dbe: mov r8, rbx
+0xc50dc1: xchg rsi, rbx
+0xc50dc4: mov qword ptr [rbp - 8], r8
+0xc50dc8: cmp rsp, qword ptr [r14 + 0x48]
+0xc50dcc: jbe 0xc50f02
+0xc50dd2: cmp rbx, 0
+0xc50dd6: jl 0xc50e22
+0xc50ddc: cmp rdi, 0xbc
+0xc50de3: jne 0xc50df4
+0xc50de9: movzx r9, byte ptr [rax + rbx + 0xf]
+0xc50def: jmp 0xc50dfa
+0xc50df4: movzx r9, word ptr [rax + rbx*2 + 0xf]
+0xc50dfa: cmp r9, 0x23
+0xc50dfe: jne 0xc50e0f
+0xc50e04: mov rsi, rbx
+0xc50e07: mov r8, rbx
+0xc50e0a: jmp 0xc50e1c
+0xc50e0f: cmp r9, 0x3f
+0xc50e13: jne 0xc50e1c
+0xc50e19: mov r8, rbx
+0xc50e1c: sub rbx, 1
+0xc50e20: jmp 0xc50dc4
+0xc50e22: cmp r8, rsi
+0xc50e25: jge 0xc50e81
+0xc50e2b: mov rbx, r8
+0xc50e2e: add rbx, 1
+0xc50e32: mov rdi, rsi
+0xc50e35: add rdi, rdi
+0xc50e38: mov qword ptr [rsp], rdi
+0xc50e3c: mov rdi, rax
+0xc50e3f: mov rsi, rbx
+0xc50e42: mov r10, qword ptr [r15 + 0x6bf] ; [pool value not exported]
+0xc50e49: call 0xa5b760 ; dart_core__StringBase::substring_a5b760
+0xc50e4e: mov rcx, rax
+0xc50e51: mov rax, qword ptr [rbp - 8]
+0xc50e55: mov qword ptr [rbp - 0x28], rcx
+0xc50e59: mov rdx, rax
+0xc50e5c: add rdx, rdx
+0xc50e5f: mov qword ptr [rsp], rdx
+0xc50e63: mov rdi, qword ptr [rbp - 0x20]
+0xc50e67: xor esi, esi
+0xc50e69: mov r10, qword ptr [r15 + 0x6bf] ; [pool value not exported]
+0xc50e70: call 0xa5b760 ; dart_core__StringBase::substring_a5b760
+0xc50e75: mov rsi, rax
+0xc50e78: mov rdx, qword ptr [rbp - 0x28]
+0xc50e7c: jmp 0xc50e8c
+0xc50e81: mov rsi, qword ptr [rbp - 0x20]
+0xc50e85: mov rdx, qword ptr [r14 + 0x80]
+0xc50e8c: mov rcx, qword ptr [rbp - 0x18]
+0xc50e90: mov rax, rcx
+0xc50e93: add rax, rax
+0xc50e96: jno 0xc50ea5
+0xc50e9c: call 0x15346c8 ; AllocateMintSharedWithoutFPURegsStub_15346c8
+0xc50ea1: mov qword ptr [rax + 7], rcx
+0xc50ea5: mov r11, qword ptr [r15 + 0x16ff] ; String: "http"
+0xc50eac: mov qword ptr [rsp + 0x20], r11
+0xc50eb1: mov r11, qword ptr [r15 + 0x30177] ; String: "127.0.0.1"
+0xc50eb8: mov qword ptr [rsp + 0x18], r11
+0xc50ebd: mov qword ptr [rsp + 0x10], rax
+0xc50ec2: mov qword ptr [rsp + 8], rsi
+0xc50ec7: mov qword ptr [rsp], rdx
+0xc50ecb: mov rdi, qword ptr [r14 + 0x80]
+0xc50ed2: mov r10, qword ptr [r15 + 0x3017f] ; [pool value not exported]
+0xc50ed9: call 0xa5a630 ; dart_core__Uri::factory_ctor_a5a630
+0xc50ede: mov rdi, qword ptr [rbp - 0x10]
+0xc50ee2: mov rdx, rax
+0xc50ee5: mov rsi, qword ptr [r15 + 0xb61f] ; String: "get"
+0xc50eec: call 0xc50f10 ; dart__http__HttpClient::_openUrl_c50f10
+0xc50ef1: mov rsp, rbp
+0xc50ef4: pop rbp
+0xc50ef5: ret
+0xc50ef6: call qword ptr [r14 + 0x238]
+0xc50efd: jmp 0xc50da7
+0xc50f02: call qword ptr [r14 + 0x238]
+0xc50f09: jmp 0xc50dd2
+0xc50f0e: int3
+0xc50f0f: int3
+
+# HttpRequest.waitDone
+0xc50d18: push rbp
+0xc50d19: mov rbp, rsp
+0xc50d1c: sub rsp, 0x58
+0xc50d20: mov rax, qword ptr [r14 + 0x80]
+0xc50d27: mov qword ptr [rbp - 8], rax
+0xc50d2b: mov qword ptr [rbp - 0x50], rdi
+0xc50d2f: cmp rsp, qword ptr [r14 + 0x48]
+0xc50d33: jbe 0xc50d74
+0xc50d39: mov rax, qword ptr [r15 + 0xb397] ; TypeArguments: <HttpClientResponse?>
+0xc50d40: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc50d45: mov rdi, qword ptr [rbp - 0x50]
+0xc50d49: call 0xdd707c ; dart__http__HttpClientRequest::close_dd707c
+0xc50d4e: mov rcx, rax
+0xc50d51: mov qword ptr [rbp - 0x58], rcx
+0xc50d55: call 0xa6d434 ; AwaitStub_a6d434
+0xc50d5a: mov rsp, rbp
+0xc50d5d: pop rbp
+0xc50d5e: ret
+0xc50d5f: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xc50d64: lea rsp, [rbp - 0x58]
+0xc50d68: mov rax, qword ptr [r14 + 0x80]
+0xc50d6f: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc50d74: call qword ptr [r14 + 0x238]
+0xc50d7b: jmp 0xc50d39
+0xc50d7d: int3
+0xc50d7e: int3
+0xc50d7f: int3
+
+# HttpUtils.waitResponseTimeout
+0xc50cac: push rbp
+0xc50cad: mov rbp, rsp
+0xc50cb0: sub rsp, 0x10
+0xc50cb4: mov rax, qword ptr [r14 + 0x80]
+0xc50cbb: mov qword ptr [rbp - 8], rax
+0xc50cbf: mov rsi, rdi
+0xc50cc2: mov qword ptr [rbp - 0x10], rdi
+0xc50cc6: cmp rsp, qword ptr [r14 + 0x48]
+0xc50cca: jbe 0xc50d0d
+0xc50cd0: mov rax, qword ptr [r15 + 0xb397] ; TypeArguments: <HttpClientResponse?>
+0xc50cd7: call 0xa6d678 ; InitAsyncStub_a6d678
+0xc50cdc: mov rsi, qword ptr [rbp - 0x10]
+0xc50ce0: mov rdi, qword ptr [r14 + 0x80]
+0xc50ce7: mov r10, qword ptr [r15 + 0x67] ; [pool value not exported]
+0xc50ceb: call 0xa77f48 ; dart_async_Future::factory_ctor_delayed_a77f48
+0xc50cf0: mov rcx, rax
+0xc50cf3: mov qword ptr [rbp - 0x10], rcx
+0xc50cf7: call 0xa6d434 ; AwaitStub_a6d434
+0xc50cfc: mov rsp, rbp
+0xc50cff: pop rbp
+0xc50d00: ret
+0xc50d01: mov rax, qword ptr [r14 + 0x80]
+0xc50d08: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xc50d0d: call qword ptr [r14 + 0x238]
+0xc50d14: jmp 0xc50cd0
+0xc50d16: int3
+0xc50d17: int3
+
+# MethodChannel.currentState
+0xca97a8: push rbp
+0xca97a9: mov rbp, rsp
+0xca97ac: sub rsp, 0x18
+0xca97b0: mov rax, qword ptr [r14 + 0x80]
+0xca97b7: mov qword ptr [rbp - 8], rax
+0xca97bb: mov qword ptr [rbp - 0x10], rdi
+0xca97bf: cmp rsp, qword ptr [r14 + 0x48]
+0xca97c3: jbe 0xca97f0
+0xca97c9: mov rax, qword ptr [r15 + 0xd30f] ; TypeArguments: <FlutterVpnServiceState>
+0xca97d0: call 0xa6d678 ; InitAsyncStub_a6d678
+0xca97d5: call 0xca97fc ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::get_currentState_ca97fc
+0xca97da: mov rcx, rax
+0xca97dd: mov qword ptr [rbp - 0x18], rcx
+0xca97e1: call 0xa6d434 ; AwaitStub_a6d434
+0xca97e6: mov rsp, rbp
+0xca97e9: pop rbp
+0xca97ea: ret
+0xca97eb: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xca97f0: call qword ptr [r14 + 0x238]
+0xca97f7: jmp 0xca97c9
+0xca97f9: int3
+0xca97fa: int3
+0xca97fb: int3
+
+# PC.currentState
+0xca97fc: push rbp
+0xca97fd: mov rbp, rsp
+0xca9800: sub rsp, 0x10
+0xca9804: mov rax, qword ptr [r14 + 0x80]
+0xca980b: mov qword ptr [rbp - 8], rax
+0xca980f: cmp rsp, qword ptr [r14 + 0x48]
+0xca9813: jbe 0xca985d
+0xca9819: mov rax, qword ptr [r15 + 0xd30f] ; TypeArguments: <FlutterVpnServiceState>
+0xca9820: call 0xa6d678 ; InitAsyncStub_a6d678
+0xca9825: mov rax, qword ptr [r14 + 0x70]
+0xca9829: mov rax, qword ptr [rax + 0x4290]
+0xca9830: cmp rax, qword ptr [r14 + 0x80]
+0xca9837: je 0xca9842
+0xca983d: jmp 0xa6d1fc ; ReturnAsyncNotFutureStub_a6d1fc
+0xca9842: call 0xc48d9c ; vpn_service$vpn_service_method_channel_pc_MethodChannelFlutterVpnServicePC::get__currentState_c48d9c
+0xca9847: mov rcx, rax
+0xca984a: mov qword ptr [rbp - 0x10], rcx
+0xca984e: call 0xa6d434 ; AwaitStub_a6d434
+0xca9853: mov rsp, rbp
+0xca9856: pop rbp
+0xca9857: ret
+0xca9858: jmp 0xa7fb44 ; ReturnAsyncStub_a7fb44
+0xca985d: call qword ptr [r14 + 0x238]
+0xca9864: jmp 0xca9819
+0xca9866: int3
+0xca9867: int3
+
+# HttpRequest.proxySelector
+0xc6a6e0: mov rax, qword ptr [r15 + 0xc3c7] ; String: "DIRECT"
+0xc6a6e7: ret
