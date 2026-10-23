@@ -121,10 +121,10 @@ void main() {
     expect(store.shortcut?.arguments, isEmpty);
   });
 
-  test('enabling replaces a missing OneXray shortcut target', () async {
+  test('enabling replaces a missing Veilor shortcut target', () async {
     final executable = Platform.resolvedExecutable;
     final store = _FakeWindowsLaunchAtLoginStore(
-      shortcut: _shortcut(r'C:\Removed\OneXray.exe'),
+      shortcut: _shortcut(r'C:\Removed\Veilor.exe'),
     );
     final adapter = WindowsExeLaunchAtLoginAdapter(
       executable: executable,
@@ -136,6 +136,21 @@ void main() {
     expect(result.enabled, isTrue);
     expect(store.shortcut?.target, executable);
   });
+
+  test(
+    'enabling preserves a missing original OneXray shortcut target',
+    () async {
+      final store = _FakeWindowsLaunchAtLoginStore(
+        shortcut: _shortcut(r'C:\Removed\OneXray.exe'),
+      );
+      final adapter = WindowsExeLaunchAtLoginAdapter(
+        executable: Platform.resolvedExecutable,
+        store: store,
+      );
+      expect((await adapter.setEnabled(true)).state.name, 'error');
+      expect(store.shortcut?.target, r'C:\Removed\OneXray.exe');
+    },
+  );
 
   for (final (action, enabled) in [
     ('query', null),

@@ -1,0 +1,6 @@
+   Compiling boring-sys v5.2.0 (https://github.com/YuanDevTeam/boring?branch=release#43c1c1d5)
+   Compiling boring v5.2.0 (https://github.com/YuanDevTeam/boring?branch=release#43c1c1d5)
+   Compiling tokio-boring v5.2.0 (https://github.com/YuanDevTeam/boring?branch=release#43c1c1d5)
+   Compiling vole v0.1.0 (C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\Vole)
+    Finished `release` profile [optimized] target(s) in 5m 23s
+C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\Vole\dist\windows\x64\uwp

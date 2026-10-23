@@ -26,10 +26,10 @@ final class NotificationService {
     );
     final WindowsInitializationSettings initializationSettingsWindows =
         WindowsInitializationSettings(
-          appName: 'OneXray',
-          appUserModelId: 'net.yuandev.onexray',
+          appName: 'Veilor',
+          appUserModelId: 'link.sigmagate.veilor',
           // Search online for GUID generators to make your own
-          guid: '835d7bbd-85bb-4c73-97f8-ce0740f151a7',
+          guid: 'd47bf030-6250-4fce-a732-6bb8607603fe',
         );
     final initializationSettings = InitializationSettings(
       android: initializationSettingsAndroid,

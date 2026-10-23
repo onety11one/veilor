@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-23",
+  "applicationBuildExit": 0,
+  "applicationBuildMode": "Windows x64 Debug",
+  "nativeVoleBuildExit": 0,
+  "nativeVoleMode": "ffi,windows-uwp",
+  "ffigenExit": 0,
+  "ffigenAnalyzeExit": 0,
+  "windowsMockTests": 33,
+  "windowsMockTestsExit": 0,
+  "visualStudioBuildTools": "18.11.1",
+  "windowsSdk": "10.0.26100.0",
+  "atlInstalled": true,
+  "nasm": "3.02",
+  "bundleRoot": "C:/Users/Onety/Documents/Codex/ox-build/wd/windows/x64/runner/Debug",
+  "runtimeFiles": [
+    {
+      "file": "libXray.dll",
+      "bytes": 31833600,
+      "sha256": "7aecb2910736076512c0adeb6f880fcbdf2240817138b07056f47f6e826f3745"
+    },
+    {
+      "file": "OneXrayCore.exe",
+      "bytes": 31508992,
+      "sha256": "82fc9a0d88b2af3c4c3d1c41c39dcef9a4f224f4b0cdf27fdf914401648afc67"
+    },
+    {
+      "file": "wintun.dll",
+      "bytes": 427552,
+      "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce"
+    },
+    {
+      "file": "vole.dll",
+      "bytes": 18445824,
+      "sha256": "7e0869c83e1835f2a5d84959fef121eada2a2a422be807200504bb148acf12aa"
+    },
+    {
+      "file": "vole-windows-vpn-host.exe",
+      "bytes": 239104,
+      "sha256": "029519b9d79f720c14451e46a65f5bb6115a9f1dc06c5d0619b4467b91ebdeb3"
+    },
+    {
+      "file": "vole-windows-session-host.exe",
+      "bytes": 18201088,
+      "sha256": "9d0d5c3ae718c4927e015d293a4a8a441b8c284b56ead5b3e880afd9eded756b"
+    }
+  ],
+  "applicationExeSha256": "cb3efc69d16304151f53f2925a486f7b04eeb1adb20c789c04e2297a87a4a56d",
+  "runtimeLaunch": "NOT RUN",
+  "vpnTraffic": "NOT RUN",
+  "uiDesign": "Original OneXray UI; Veilor ribbon not implemented",
+  "sourceCommit": "cd0a4631d525bb09eee9bf2c3de535e85796d3fd",
+  "releaseBuildExit": 0,
+  "releaseBundleRoot": "C:/Users/Onety/Documents/Codex/ox-build/wd/windows/x64/runner/Release",
+  "releaseExeSha256": "acce6b12b9de9808a342450f29184786c2dd25a933cc4a89cb896be6a0ac30b9",
+  "releaseRuntimeFiles": [
+    {
+      "file": "libXray.dll",
+      "bytes": 31833600,
+      "sha256": "7aecb2910736076512c0adeb6f880fcbdf2240817138b07056f47f6e826f3745"
+    },
+    {
+      "file": "OneXrayCore.exe",
+      "bytes": 31508992,
+      "sha256": "82fc9a0d88b2af3c4c3d1c41c39dcef9a4f224f4b0cdf27fdf914401648afc67"
+    },
+    {
+      "file": "wintun.dll",
+      "bytes": 427552,
+      "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce"
+    },
+    {
+      "file": "vole.dll",
+      "bytes": 18445824,
+      "sha256": "7e0869c83e1835f2a5d84959fef121eada2a2a422be807200504bb148acf12aa"
+    },
+    {
+      "file": "vole-windows-vpn-host.exe",
+      "bytes": 239104,
+      "sha256": "029519b9d79f720c14451e46a65f5bb6115a9f1dc06c5d0619b4467b91ebdeb3"
+    },
+    {
+      "file": "vole-windows-session-host.exe",
+      "bytes": 18201088,
+      "sha256": "9d0d5c3ae718c4927e015d293a4a8a441b8c284b56ead5b3e880afd9eded756b"
+    }
+  ],
+  "missingDirectImports": []
+}

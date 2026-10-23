@@ -12,7 +12,7 @@ import 'package:win32/win32.dart';
 class WindowsCoreProcess {
   final String _name;
 
-  WindowsCoreProcess() : _name = 'OneXrayCore.exe';
+  WindowsCoreProcess() : _name = 'VeilorCore.exe';
 
   @visibleForTesting
   WindowsCoreProcess.forTesting({required String processName})

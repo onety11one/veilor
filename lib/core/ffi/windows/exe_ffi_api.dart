@@ -38,7 +38,7 @@ class WindowsExeFfiApi extends WindowsFfiApi {
   }) : _process = process ?? WindowsCoreProcess(),
        _corePath =
            executable ??
-           p.join(p.dirname(Platform.resolvedExecutable), 'OneXrayCore.exe'),
+           p.join(p.dirname(Platform.resolvedExecutable), 'VeilorCore.exe'),
        _readRequest = readRequest ?? StartVpnRequestReader.readFromStartFile,
        _notify = notify ?? AppFlutterApi().vpnStatusChanged,
        _notifyError =
@@ -51,7 +51,7 @@ class WindowsExeFfiApi extends WindowsFfiApi {
 
   @override
   Future<void> ensureRuntime() =>
-      checkRuntimeFiles(const ['libXray.dll', 'OneXrayCore.exe', 'wintun.dll']);
+      checkRuntimeFiles(const ['libXray.dll', 'VeilorCore.exe', 'wintun.dll']);
 
   @override
   Future<void> observeVpnStatus() => _monitor.observe();

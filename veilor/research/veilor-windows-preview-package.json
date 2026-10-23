@@ -1,0 +1,15 @@
+{
+  "archive": "C:\\Users\\Onety\\Documents\\Codex\\2026-10-20\\rfr\\outputs\\Veilor-Windows-x64-Preview-2026-10-23.zip",
+  "bytes": 66127044,
+  "sha256": "fedd1910dc82eaf4cd86b9163ce1a2f07b70d32cc38bfc592a91de63dde79614",
+  "entries": 75,
+  "runtimeLaunched": false,
+  "vpnTested": false,
+  "manualValidation": {
+    "date": "2026-10-23",
+    "source": "user",
+    "result": "User confirmed the preview works after the requested launch and VPN check.",
+    "quote": "супер, всё работает!",
+    "scopeLimit": "No separate per-protocol, DNS, routing or coexistence acceptance recorded."
+  }
+}

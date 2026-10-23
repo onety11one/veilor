@@ -37,5 +37,26 @@ Future<void> main() async {
       ),
     ],
   );
-  await generator.generate();
+  // Portable LLVM installations are not searched by ffigen automatically.
+  final clangPath = Platform.environment['LIBCLANG_PATH'];
+  Uri? clangLibrary;
+  if (clangPath != null && clangPath.isNotEmpty) {
+    final fileName = Platform.isWindows
+        ? 'libclang.dll'
+        : Platform.isMacOS
+        ? 'libclang.dylib'
+        : 'libclang.so';
+    final requested = File(clangPath);
+    final library = requested.existsSync()
+        ? requested
+        : File('$clangPath${Platform.pathSeparator}$fileName');
+    if (!library.existsSync()) {
+      throw FileSystemException(
+        'LIBCLANG_PATH does not locate libclang',
+        clangPath,
+      );
+    }
+    clangLibrary = library.absolute.uri;
+  }
+  await generator.generate(libclangDylib: clangLibrary);
 }

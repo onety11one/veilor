@@ -1,0 +1,100 @@
+00:00 +0: loading C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart
+00:00 +0: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 stop waits for all matches and leaves a similar name alive
+00:00 +1: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 stop waits for all matches and leaves a similar name alive
+00:00 +2: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 stop waits for all matches and leaves a similar name alive
+00:00 +3: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 stop waits for all matches and leaves a similar name alive
+00:00 +4: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 stop waits for all matches and leaves a similar name alive
+00:00 +5: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/service/connect/compiler_test.dart: LAN sharing adds one mixed SOCKS inbound without changing selected routes
+00:00 +6: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +7: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +8: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +9: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +10: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +11: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +12: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +13: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +14: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +15: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +16: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +17: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 exit waits can be cancelled and observe a later natural exit
+00:00 +18: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/service/connect/compiler_test.dart: Raw runtime keeps user configuration alongside managed fields
+00:00 +19: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/service/connect/compiler_test.dart: Windows EXE/MSIX select the same managed inbound in normal and Raw
+00:00 +20: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +21: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +22: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +23: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +24: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +25: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +26: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +27: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +28: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +29: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +30: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +31: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +32: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +33: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +34: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +35: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 does not attach an exit wait to a different process name
+00:00 +36: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: disabling preserves a shortcut owned by another copy
+00:00 +37: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/service/connect/compiler_test.dart: Smart and Custom use IPIfNonMatch without a first-pass catch-all
+00:00 +38: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +39: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +40: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +41: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +42: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +43: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +44: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +45: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +46: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +47: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +47: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: query preserves an unreadable startup shortcut
+read startup shortcut failed: FormatException: invalid shortcut
+#0      _FakeWindowsLaunchAtLoginStore.readShortcut (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:223:7)
+#1      WindowsExeLaunchAtLoginAdapter._readShortcut (package:onexray/core/desktop_startup/windows_exe_adapter.dart:91:32)
+#2      WindowsExeLaunchAtLoginAdapter.query (package:onexray/core/desktop_startup/windows_exe_adapter.dart:50:37)
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:173:27)
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +48: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +49: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +49: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: enabling preserves an unreadable startup shortcut
+read startup shortcut failed: FormatException: invalid shortcut
+#0      _FakeWindowsLaunchAtLoginStore.readShortcut (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:223:7)
+#1      WindowsExeLaunchAtLoginAdapter._readShortcut (package:onexray/core/desktop_startup/windows_exe_adapter.dart:91:32)
+#2      WindowsExeLaunchAtLoginAdapter._enable (package:onexray/core/desktop_startup/windows_exe_adapter.dart:110:52)
+#3      WindowsExeLaunchAtLoginAdapter.setEnabled (package:onexray/core/desktop_startup/windows_exe_adapter.dart:77:22)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:174:27)
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +50: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +51: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +51: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: disabling preserves an unreadable startup shortcut
+read startup shortcut failed: FormatException: invalid shortcut
+#0      _FakeWindowsLaunchAtLoginStore.readShortcut (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:223:7)
+#1      WindowsExeLaunchAtLoginAdapter._readShortcut (package:onexray/core/desktop_startup/windows_exe_adapter.dart:91:32)
+#2      WindowsExeLaunchAtLoginAdapter._disable (package:onexray/core/desktop_startup/windows_exe_adapter.dart:124:52)
+#3      WindowsExeLaunchAtLoginAdapter.setEnabled (package:onexray/core/desktop_startup/windows_exe_adapter.dart:79:20)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:174:27)
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +52: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +53: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +54: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +55: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +56: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_core_process_test.dart: Win32 matches exact names across directories, not prefixes or argv
+00:00 +57: All tests passed!

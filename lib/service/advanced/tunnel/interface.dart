@@ -32,6 +32,7 @@ Future<List<NetworkInterface>> queryInterfaceList() async {
 Future<List<NetworkInterface>> queryXrayOutboundInterfaceList() async => [
   for (final row in await queryInterfaceList())
     if (row.name != 'OneXrayTun' &&
+        row.name != 'VeilorTun' &&
         !row.addresses.any(
           (address) =>
               address.address == PlatformPolicy.tunIpv4Address ||

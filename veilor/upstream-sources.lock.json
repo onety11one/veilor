@@ -45,7 +45,10 @@
     "rust": "1.99.1",
     "llvmMinGW": "20261020-ucrt-x86_64",
     "libclang": "18.1.1",
-    "wintunExpected": "0.14.1"
+    "wintunExpected": "0.14.1",
+    "nasm": "3.02",
+    "visualStudioBuildTools": "18.11.1",
+    "windowsSdk": "10.0.26100.0"
   },
   "scope": "Dependency revisions for the recorded Windows build attempt; not proof of full application build or runtime parity. Keep upstream LIBXRAY_REF=main unchanged."
 }

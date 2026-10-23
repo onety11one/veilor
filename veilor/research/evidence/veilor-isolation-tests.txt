@@ -1,0 +1,251 @@
+00:00 +0: loading C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart
+00:00 +0: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: the compile-time mode chooses one Windows implementation
+00:00 +1: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: MSIX environment failures never fall back to an unpackaged directory
+00:00 +2: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: EXE discovers a named Core without any saved PID record
+00:00 +3: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: EXE stops every named Core without a saved PID record
+00:00 +4: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: EXE query failures are unknown, not disconnected or safe to clean
+read Windows Core failed: Bad state: process enumeration denied
+#0      _Process.findPids (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:501:29)
+#1      CoreProcessMonitor.readPids (package:onexray/core/ffi/core_process_monitor.dart:46:37)
+#2      WindowsExeFfiApi._running (package:onexray/core/ffi/windows/exe_ffi_api.dart:62:52)
+#3      WindowsExeFfiApi.readVpnStatus (package:onexray/core/ffi/windows/exe_ffi_api.dart:67:29)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:101:32)
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+read Windows Core failed: Bad state: process enumeration denied
+#0      _Process.findPids (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:501:29)
+#1      CoreProcessMonitor.readPids (package:onexray/core/ffi/core_process_monitor.dart:46:37)
+#2      WindowsExeFfiApi._running (package:onexray/core/ffi/windows/exe_ffi_api.dart:62:52)
+#3      WindowsExeFfiApi.readVpnStatus (package:onexray/core/ffi/windows/exe_ffi_api.dart:67:29)
+#4      WindowsExeFfiApi.cleanupStaleCore (package:onexray/core/ffi/windows/exe_ffi_api.dart:81:26)
+#5      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:105:24)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +5: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: empty EXE status/stop need no Vole or package identity
+00:00 +6: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +7: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +8: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +9: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +10: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +11: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +12: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +13: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +14: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +15: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +16: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +17: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +18: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +19: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +20: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +21: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +21: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: query preserves an unreadable startup shortcut
+read startup shortcut failed: FormatException: invalid shortcut
+#0      _FakeWindowsLaunchAtLoginStore.readShortcut (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:208:7)
+#1      WindowsExeLaunchAtLoginAdapter._readShortcut (package:onexray/core/desktop_startup/windows_exe_adapter.dart:91:32)
+#2      WindowsExeLaunchAtLoginAdapter.query (package:onexray/core/desktop_startup/windows_exe_adapter.dart:50:37)
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:158:27)
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +22: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +22: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: enabling preserves an unreadable startup shortcut
+read startup shortcut failed: FormatException: invalid shortcut
+#0      _FakeWindowsLaunchAtLoginStore.readShortcut (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:208:7)
+#1      WindowsExeLaunchAtLoginAdapter._readShortcut (package:onexray/core/desktop_startup/windows_exe_adapter.dart:91:32)
+#2      WindowsExeLaunchAtLoginAdapter._enable (package:onexray/core/desktop_startup/windows_exe_adapter.dart:110:52)
+#3      WindowsExeLaunchAtLoginAdapter.setEnabled (package:onexray/core/desktop_startup/windows_exe_adapter.dart:77:22)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:159:27)
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +23: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:00 +23: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart: disabling preserves an unreadable startup shortcut
+read startup shortcut failed: FormatException: invalid shortcut
+#0      _FakeWindowsLaunchAtLoginStore.readShortcut (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:208:7)
+#1      WindowsExeLaunchAtLoginAdapter._readShortcut (package:onexray/core/desktop_startup/windows_exe_adapter.dart:91:32)
+#2      WindowsExeLaunchAtLoginAdapter._disable (package:onexray/core/desktop_startup/windows_exe_adapter.dart:124:52)
+#3      WindowsExeLaunchAtLoginAdapter.setEnabled (package:onexray/core/desktop_startup/windows_exe_adapter.dart:79:20)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/desktop_startup/windows_exe_adapter_test.dart:159:27)
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +24: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an unusable legacy PID file cannot block EXE lifecycle actions
+00:01 +25: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: failed old-Core stop prevents input replacement and a new start
+start Windows Core failed: Bad state: Stop failed
+#0      _Process.stopAll (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:511:7)
+#1      WindowsExeFfiApi._stop (package:onexray/core/ffi/windows/exe_ffi_api.dart:162:20)
+#2      WindowsExeFfiApi.startVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:99:13)
+<asynchronous suspension>
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:152:22)
+<asynchronous suspension>
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:01 +26: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: EXE replaces all existing named Cores before starting
+00:02 +27: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: EXE starts with current CLI arguments and replaces old inputs
+00:03 +28: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: UAC cancellation fails without leaving a running/connecting state
+start Windows Core failed: Bad state: UAC cancelled
+#0      _Process.start (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:529:20)
+#1      WindowsExeFfiApi.startVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:111:34)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:215:22)
+<asynchronous suspension>
+#3      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#4      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#5      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:03 +29: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: EXE returns the actual Core startup diagnostic
+start Windows Core failed: Bad state: failed to load geosite: category TEST-MISSING not found
+#0      WindowsExeFfiApi.startVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:122:9)
+<asynchronous suspension>
+#1      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:234:20)
+<asynchronous suspension>
+#2      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#3      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#4      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:04 +30: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: another named Core cannot mask the newly launched Core exiting
+start Windows Core failed: Bad state: Windows Core exited during start
+#0      WindowsExeFfiApi.startVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:122:9)
+<asynchronous suspension>
+#1      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:249:22)
+<asynchronous suspension>
+#2      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#3      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#4      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:05 +31: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a connecting transition does not hide a native query failure
+read Windows Core failed: Bad state: process query failed
+#0      _Process.findPids (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:501:29)
+#1      CoreProcessMonitor.readPids (package:onexray/core/ffi/core_process_monitor.dart:46:37)
+#2      WindowsExeFfiApi._running (package:onexray/core/ffi/windows/exe_ffi_api.dart:62:52)
+#3      WindowsExeFfiApi.readVpnStatus (package:onexray/core/ffi/windows/exe_ffi_api.dart:67:29)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:264:32)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+clean up failed Windows Core start: Bad state: process query failed
+start Windows Core failed: Bad state: process query failed
+#0      _Process.findPids (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:501:29)
+#1      CoreProcessMonitor.readPids (package:onexray/core/ffi/core_process_monitor.dart:46:37)
+#2      WindowsExeFfiApi.startVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:121:28)
+<asynchronous suspension>
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:267:15)
+<asynchronous suspension>
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:06 +32: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: stop failure keeps the actual running state available for retry
+stop Windows Core failed: Bad state: Stop failed
+#0      _Process.stopAll (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:511:7)
+#1      WindowsExeFfiApi._stop (package:onexray/core/ffi/windows/exe_ffi_api.dart:162:20)
+#2      WindowsExeFfiApi.stopVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:149:13)
+<asynchronous suspension>
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:278:15)
+<asynchronous suspension>
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:07 +33: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: partial stop failure never announces that all Cores disconnected
+stop Windows Core failed: Bad state: Stop failed
+#0      _Process.stopAll (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:511:7)
+#1      WindowsExeFfiApi._stop (package:onexray/core/ffi/windows/exe_ffi_api.dart:162:20)
+#2      WindowsExeFfiApi.stopVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:149:13)
+<asynchronous suspension>
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:292:22)
+<asynchronous suspension>
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:07 +34: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: process exit is disconnected without a saved PID record
+00:08 +35: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a failed exit wait reports an error and can be observed again
+00:08 +36: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: an old exit query cannot disconnect or cancel a new observation
+00:08 +37: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a failed re-query after exit reports an error, not disconnection
+read Windows Core failed: Bad state: post-exit query failed
+#0      _Process.findPids (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:501:29)
+#1      CoreProcessMonitor.readPids (package:onexray/core/ffi/core_process_monitor.dart:46:37)
+#2      WindowsExeFfiApi._running (package:onexray/core/ffi/windows/exe_ffi_api.dart:62:52)
+#3      WindowsExeFfiApi.readVpnStatus (package:onexray/core/ffi/windows/exe_ffi_api.dart:67:29)
+#4      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:363:25)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:08 +38: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a newer EXE read supersedes an exit query (error: false)
+00:08 +39: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a newer EXE read supersedes an exit query (error: true)
+00:08 +40: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a failed EXE stop invalidates pending queries without losing live watches
+stop Windows Core failed: Bad state: Stop failed
+#0      _Process.stopAll (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:511:7)
+#1      WindowsExeFfiApi._stop (package:onexray/core/ffi/windows/exe_ffi_api.dart:162:20)
+#2      WindowsExeFfiApi.stopVpn (package:onexray/core/ffi/windows/exe_ffi_api.dart:149:13)
+<asynchronous suspension>
+#3      main.<anonymous closure> (file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart:413:15)
+<asynchronous suspension>
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:08 +41: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: a restored EXE stays connected until the last named Core exits
+00:08 +42: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: restored EXE exits notify without another read; disposing cancels the wait
+00:09 +43: C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/test/core/ffi/windows_exe_test.dart: Windows arguments preserve spaces, quotes and trailing slashes
+00:09 +44: All tests passed!

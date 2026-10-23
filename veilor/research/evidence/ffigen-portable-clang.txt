@@ -1,0 +1,39 @@
+[INFO]   : Input Headers: [file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/c/include/libXray.h, file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/c/include/vole.h, file:///C:/Users/Onety/Documents/Codex/2026-10-20/rfr/work/onexray-audit/source/c/include/vole_windows_uwp.h]
+Running build hooks...Running build hooks...[WARNING]: No definition found for declaration -(Cursor) spelling: __crt_locale_data, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct __crt_locale_data, usr: c:@S@__crt_locale_data
+[WARNING]: No definition found for declaration -(Cursor) spelling: __crt_locale_data, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct __crt_locale_data, usr: c:@S@__crt_locale_data
+[WARNING]: No definition found for declaration -(Cursor) spelling: __crt_multibyte_data, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct __crt_multibyte_data, usr: c:@S@__crt_multibyte_data
+[WARNING]: No definition found for declaration -(Cursor) spelling: __crt_multibyte_data, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct __crt_multibyte_data, usr: c:@S@__crt_multibyte_data
+[WARNING]: Skipped Function 'wcstold', function has unsupported return type or parameter type.
+[WARNING]: Skipped Function '_wcstold_l', function has unsupported return type or parameter type.
+[WARNING]: Removed All Struct Members from _LONGDOUBLE(_LONGDOUBLE), struct member has an unsupported type.
+[WARNING]: Skipped Function 'strtold', function has unsupported return type or parameter type.
+[WARNING]: Skipped Function '_strtold_l', function has unsupported return type or parameter type.
+[WARNING]: Removed All Struct Members from _C_ldouble_complex(_C_ldouble_complex), struct member has an unsupported type.
+[WARNING]: Skipped Function 'cabsl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cacosl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cacoshl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cargl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'casinl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'casinhl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'catanl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'catanhl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'ccosl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'ccoshl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cexpl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cimagl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'clogl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'clog10l', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'conjl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cpowl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'cprojl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'creall', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'csinl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'csinhl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'csqrtl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'ctanl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'ctanhl', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function 'norml', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function '_LCbuild', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function '_LCmulcc', Incomplete struct pass/return by value not supported.
+[WARNING]: Skipped Function '_LCmulcr', Incomplete struct pass/return by value not supported.
+[INFO]   : Finished, Bindings generated in C:\Users\Onety\Documents\Codex\2026-10-20\rfr\work\onexray-audit\source\lib\core\ffi\generated_bindings.dart

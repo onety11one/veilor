@@ -1,0 +1,4 @@
+Building Windows application...
+Nuget.exe not found, trying to download or use cached version.
+Building Windows application...                                   108,7s
+√ Built ..\..\..\..\..\ox-build\wd\windows\x64\runner\Debug\OneXray.exe

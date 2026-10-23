@@ -1,4 +1,4 @@
-> **Veilor / OneXray — активная ветка `veilor/onexray`.** Начать с [передачи работы](veilor/HANDOFF.md), [Windows-сборки](veilor/BUILD-WINDOWS.md) и [утверждённого дизайна](veilor/DESIGN.md). Собственное приложение ещё не собрано полностью; ниже сохранён оригинальный README OneXray.
+> **Veilor / OneXray — активная ветка `veilor/onexray`.** Начать с [передачи работы](veilor/HANDOFF.md), [Windows-сборки](veilor/BUILD-WINDOWS.md) и [утверждённого дизайна](veilor/DESIGN.md). Windows Debug и Release собраны; пользователь подтвердил работу отдельной тестовой сборки Veilor и VPN. Дизайн «Лента» ещё не перенесён. Ниже сохранён оригинальный README OneXray.
 
 <p align="center">
   <img src="./assets/logo.png" width="96" alt="OneXray logo">

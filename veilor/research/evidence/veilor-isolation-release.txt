@@ -1,0 +1,4 @@
+Building Windows application...
+Nuget.exe not found, trying to download or use cached version.
+Building Windows application...                                   166,1s
+√ Built ..\..\..\..\..\ox-build\wv\windows\x64\runner\Release\Veilor.exe

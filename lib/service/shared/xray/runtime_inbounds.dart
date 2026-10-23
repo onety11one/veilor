@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:onexray/core/model/xray_json.dart';
 import 'package:onexray/service/connect/routing/options.dart';
 import 'package:onexray/core/network/constants.dart';
@@ -18,7 +20,7 @@ XrayInbound createTunInbound({
   listen: NetConstants.proxyHost,
   protocol: 'tun',
   settings: XrayInboundTunSettings(
-    name: 'OneXrayTun',
+    name: Platform.isWindows ? 'VeilorTun' : 'OneXrayTun',
     mtu: VpnConstants.tunMtu,
     gateway: gateway,
     dns: dns,

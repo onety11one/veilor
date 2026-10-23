@@ -103,7 +103,7 @@ final class WindowsExeLaunchAtLoginAdapter extends LaunchAtLoginAdapter {
   Future<LaunchAtLoginStatus> _enable() async {
     if (!File(_executable).existsSync()) {
       return const LaunchAtLoginStatus.error(
-        'The OneXray executable does not exist.',
+        'The Veilor executable does not exist.',
       );
     }
 
@@ -111,7 +111,7 @@ final class WindowsExeLaunchAtLoginAdapter extends LaunchAtLoginAdapter {
     if (failure != null) return failure;
     if (existingShortcut != null && !_canReplaceShortcut(existingShortcut)) {
       return const LaunchAtLoginStatus.error(
-        'The OneXray startup shortcut belongs to another executable.',
+        'The Veilor startup shortcut belongs to another executable.',
       );
     }
     if (!_isValidCurrentShortcut(existingShortcut)) {
@@ -190,14 +190,14 @@ final class WindowsExeLaunchAtLoginAdapter extends LaunchAtLoginAdapter {
   }
 
   static bool _isMissingOneXrayExecutable(String executable) {
-    return path.windows.basename(executable).toLowerCase() == 'onexray.exe' &&
+    return path.windows.basename(executable).toLowerCase() == 'veilor.exe' &&
         !File(executable).existsSync();
   }
 }
 
 final class Win32WindowsLaunchAtLoginStore
     implements WindowsLaunchAtLoginStore {
-  static const _shortcutName = 'OneXray.lnk';
+  static const _shortcutName = 'Veilor.lnk';
   static const _pathBufferLength = 32768;
   static const _shellLinkGetPathRaw = 0x4;
 
@@ -263,7 +263,7 @@ final class Win32WindowsLaunchAtLoginStore
         shellLink.setPath(arena.pcwstr(target));
         shellLink.setWorkingDirectory(arena.pcwstr(workingDirectory));
         shellLink.setArguments(arena.pcwstr(arguments));
-        shellLink.setDescription(arena.pcwstr('OneXray'));
+        shellLink.setDescription(arena.pcwstr('Veilor'));
         shellLink.setIconLocation(arena.pcwstr(target), 0);
         shellLink.setShowCmd(SW_SHOWNORMAL);
 
